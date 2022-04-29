@@ -8,9 +8,9 @@ import { AbstractConnector } from '@web3-react/abstract-connector';
 import invariant from 'tiny-invariant';
 
 const chainIdToNetwork: { [network: number]: string } = {
-  1: 'mainnet',
-  3: 'ropsten',
-  5: 'goerli',
+  2022: 'mainnet',
+  2020: 'devnet',
+  2019: 'testnet'
 };
 
 interface FortmaticConnectorArguments {

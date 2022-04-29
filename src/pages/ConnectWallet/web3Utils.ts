@@ -16,9 +16,9 @@ import {
 } from '../../utils/envVars';
 
 export enum NetworkChainId {
-  'Mainnet' = 1,
-  'Ropsten' = 3,
-  'Goerli' = 5,
+  'Mainnet' = 2022,
+  'Devnet' = 2020,
+  'Testnet' = 2019,
 }
 
 /*
@@ -28,13 +28,13 @@ export enum NetworkChainId {
 
 const supportedNetworks = [
   NetworkChainId.Mainnet,
-  NetworkChainId.Ropsten,
-  NetworkChainId.Goerli,
+  NetworkChainId.Devnet,
+  NetworkChainId.Testnet
+
 ];
 
 enum Testnet {
-  'Ropsten',
-  'Goerli',
+  'Testnet',
 }
 
 enum Mainnet {
@@ -43,15 +43,15 @@ enum Mainnet {
 
 export const NetworkNameToChainId: { [key: string]: NetworkChainId } = {
   Mainnet: NetworkChainId.Mainnet,
-  Ropsten: NetworkChainId.Ropsten,
-  Goerli: NetworkChainId.Goerli,
+  Devnet: NetworkChainId.Devnet,
+  Testnet: NetworkChainId.Testnet,
 };
 
 export const TARGET_NETWORK_CHAIN_ID = IS_MAINNET
   ? NetworkChainId.Mainnet
   : NetworkNameToChainId[EL_TESTNET_NAME];
 
-export const IS_GOERLI = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Goerli;
+export const IS_TESTNET = TARGET_NETWORK_CHAIN_ID === NetworkChainId.Testnet;
 
 export const AllowedNetworks = IS_MAINNET ? Mainnet : Testnet;
 
@@ -61,7 +61,7 @@ export const metamask: InjectedConnector = new MetamaskConnector({
 
 export const portis: PortisConnector = new PortisConnector({
   dAppId: PORTIS_DAPP_ID,
-  networks: supportedNetworks,
+  networks: [],
 });
 
 export const fortmatic: FortmaticConnector = new FortmaticConnector({
