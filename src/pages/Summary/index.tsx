@@ -53,7 +53,7 @@ const Container = styled.div`
 `;
 const NETWORK_ID = IS_MAINNET
   ? NetworkChainId.Mainnet
-  : NetworkChainId['Göerli'];
+  : NetworkChainId.Testnet;
 
 // Prop definitions
 interface OwnProps {}
