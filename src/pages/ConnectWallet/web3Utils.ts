@@ -15,11 +15,9 @@ import {
 } from '../../utils/envVars';
 
 export enum NetworkChainId {
-  'Mainnet' = 1,
-  'Ropsten' = 3,
-  'Rinkeby' = 4,
-  'Göerli' = 5,
-  'Kovan' = 42,
+  'Mainnet' = 2022,
+  'Devnet' = 2020,
+  'Testnet' = 2019,
 }
 
 /*
@@ -28,20 +26,22 @@ export enum NetworkChainId {
  */
 
 const supportedNetworks = [
-  NetworkChainId['Göerli'],
   NetworkChainId.Mainnet,
-  NetworkChainId.Rinkeby,
-  NetworkChainId.Ropsten,
-  NetworkChainId.Kovan,
+  NetworkChainId.Devnet,
+  NetworkChainId.Testnet
+
 ];
 
 enum Testnet {
-  'Göerli',
+  'Testnet',
 }
 
 enum Mainnet {
   'Mainnet',
 }
+
+// eslint-disable-next-line no-console
+console.log(supportedNetworks);
 
 export const AllowedNetworks = IS_MAINNET ? Mainnet : Testnet;
 
@@ -51,12 +51,12 @@ export const metamask: InjectedConnector = new MetamaskConnector({
 
 export const portis: PortisConnector = new PortisConnector({
   dAppId: PORTIS_DAPP_ID,
-  networks: supportedNetworks,
+  networks: [],
 });
 
 export const fortmatic: FortmaticConnector = new FortmaticConnector({
   apiKey: FORTMATIC_KEY as string,
-  chainId: IS_MAINNET ? NetworkChainId.Mainnet : NetworkChainId['Göerli'],
+  chainId: IS_MAINNET ? NetworkChainId.Mainnet : NetworkChainId.Testnet,
   rpcUrl: INFURA_URL,
 });
 
