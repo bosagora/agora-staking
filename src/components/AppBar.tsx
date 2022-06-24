@@ -216,10 +216,10 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           dropAlign={{ top: 'bottom', right: 'right' }}
           dropContent={
             <Box pad="small">
-              <DropdownLink to={routesEnum.lighthouse}>Lighthouse</DropdownLink>
-              <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink>
+              {/* <DropdownLink to={routesEnum.lighthouse}>Lighthouse</DropdownLink> */}
+              {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
               <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
-              <DropdownLink to={routesEnum.teku}>Teku</DropdownLink>
+              {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
             </Box>
           }
         />
@@ -329,12 +329,12 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                       <FormattedMessage defaultMessage="Consensus clients" />
                     </b>
                   </Text>
-                  <DropdownLink to={routesEnum.lighthouse}>
+                  {/* <DropdownLink to={routesEnum.lighthouse}>
                     Lighthouse
-                  </DropdownLink>
-                  <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink>
+                  </DropdownLink> */}
+                  {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
                   <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
-                  <DropdownLink to={routesEnum.teku}>Teku</DropdownLink>
+                  {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
                 </Box>
               </Card>
             }
