@@ -1,9 +1,10 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import styled from 'styled-components';
-import EthDiamondPlain from '../static/eth-diamond-plain.svg';
+import EthDiamondPlain from '../static/bosagora-normal-blue-1.png';
 import { Text } from '../components/Text';
 import { Link } from '../components/Link';
+import { colors } from '../styles/styledComponentsTheme';
 
 const RainbowBackground = styled.div`
   background-image: ${p =>
@@ -49,7 +50,7 @@ export const NotFoundPage = (): JSX.Element => {
         <LogoContainer>
           <EthLogo src={EthDiamondPlain} />
           <LogoText className="mt20" center size="large">
-            Ethereum Staking Launchpad
+            Agora Staking Launchpad
           </LogoText>
         </LogoContainer>
         <Text center className="mt20">
