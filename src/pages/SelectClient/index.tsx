@@ -79,50 +79,50 @@ const ethClients: {
       imgUrl: GethCircle,
       language: 'Go',
     },
-    {
-      clientId: ClientId.BESU,
-      name: 'Besu',
-      imgUrl: BesuCircle,
-      language: 'Java',
-    },
-    {
-      clientId: ClientId.NETHERMIND,
-      name: 'Nethermind',
-      imgUrl: NethermindCircle,
-      language: 'C#, .NET',
-    },
-    {
-      clientId: ClientId.ERIGON,
-      name: 'Erigon',
-      imgUrl: ErigonCircle,
-      language: 'Go',
-    },
+    // {
+    //   clientId: ClientId.BESU,
+    //   name: 'Besu',
+    //   imgUrl: BesuCircle,
+    //   language: 'Java',
+    // },
+    // {
+    //   clientId: ClientId.NETHERMIND,
+    //   name: 'Nethermind',
+    //   imgUrl: NethermindCircle,
+    //   language: 'C#, .NET',
+    // },
+    // {
+    //   clientId: ClientId.ERIGON,
+    //   name: 'Erigon',
+    //   imgUrl: ErigonCircle,
+    //   language: 'Go',
+    // },
   ]),
   consensus: _shuffle([
-    {
-      clientId: ClientId.TEKU,
-      name: 'Teku',
-      imgUrl: TekuCircle,
-      language: 'Java',
-    },
-    {
-      clientId: ClientId.LIGHTHOUSE,
-      name: 'Lighthouse',
-      imgUrl: LighthouseCircle,
-      language: 'Rust',
-    },
+    // {
+    //   clientId: ClientId.TEKU,
+    //   name: 'Teku',
+    //   imgUrl: TekuCircle,
+    //   language: 'Java',
+    // },
+    // {
+    //   clientId: ClientId.LIGHTHOUSE,
+    //   name: 'Lighthouse',
+    //   imgUrl: LighthouseCircle,
+    //   language: 'Rust',
+    // },
     {
       clientId: ClientId.PRYSM,
       name: 'Prysm',
       imgUrl: PrysmaticCircle,
       language: 'Go',
     },
-    {
-      clientId: ClientId.NIMBUS,
-      name: 'Nimbus',
-      imgUrl: NimbusCircle,
-      language: 'Nim',
-    },
+    // {
+    //   clientId: ClientId.NIMBUS,
+    //   name: 'Nimbus',
+    //   imgUrl: NimbusCircle,
+    //   language: 'Nim',
+    // },
   ]),
 };
 

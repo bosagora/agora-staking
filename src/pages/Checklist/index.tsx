@@ -181,30 +181,30 @@ interface Client {
 export const Checklist = () => {
   const { formatMessage } = useIntl();
   const clientInfo: Client[] = _shuffle([
-    {
-      header: 'Lighthouse',
-      text: formatMessage({
-        defaultMessage:
-          'Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security.',
-      }),
-      imgUrl: LighthouseBg,
-      url: routesEnum.lighthouse,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Lighthouse',
-      }),
-    },
-    {
-      header: 'Nimbus',
-      text: formatMessage({
-        defaultMessage:
-          'Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices.',
-      }),
-      imgUrl: NimbusBg,
-      url: routesEnum.nimbus,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Nimbus',
-      }),
-    },
+    // {
+    //   header: 'Lighthouse',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security.',
+    //   }),
+    //   imgUrl: LighthouseBg,
+    //   url: routesEnum.lighthouse,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Lighthouse',
+    //   }),
+    // },
+    // {
+    //   header: 'Nimbus',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices.',
+    //   }),
+    //   imgUrl: NimbusBg,
+    //   url: routesEnum.nimbus,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Nimbus',
+    //   }),
+    // },
     {
       header: 'Prysm',
       text: formatMessage({
@@ -217,18 +217,18 @@ export const Checklist = () => {
         defaultMessage: 'Configure Prysm',
       }),
     },
-    {
-      header: 'Teku',
-      text: formatMessage({
-        defaultMessage:
-          'PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements.',
-      }),
-      imgUrl: TekuBg,
-      url: routesEnum.teku,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Teku',
-      }),
-    },
+    // {
+    //   header: 'Teku',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements.',
+    //   }),
+    //   imgUrl: TekuBg,
+    //   url: routesEnum.teku,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Teku',
+    //   }),
+    // },
   ]);
 
   return (
