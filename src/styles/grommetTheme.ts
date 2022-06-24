@@ -33,7 +33,7 @@ export const grommetTheme = {
       yellowDark: yellow.dark,
     },
     font: {
-      family: 'Roboto',
+      family: 'Noto Sans',
     },
   },
   button: {
