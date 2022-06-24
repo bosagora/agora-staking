@@ -27,14 +27,14 @@ import {
 import { trimString } from '../utils/trimString';
 import useIntlNetworkName from '../hooks/useIntlNetworkName';
 import useMobileCheck from '../hooks/useMobileCheck';
+import { colors } from '../styles/styledComponentsTheme';
 
 const RainbowBackground = styled(Box)`
-  background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+  background-color: ${colors.blue.darkest}};
 `;
 
 const EthLogo = styled.img`
   height: 40px;
-  width: 40px;
 `;
 
 const NetworkText = styled.div`
@@ -43,6 +43,7 @@ const NetworkText = styled.div`
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  color: ${colors.white};
   display: flex;
   justify-content: center;
   width: 100%;
@@ -50,9 +51,10 @@ const NetworkText = styled.div`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-color: ${colors.yellow.darkest};
     transition: transform 0.1s;
     transform: scale(1.02);
+    color: ${colors.black};
   }
 `;
 
@@ -116,6 +118,7 @@ const BarLinkText = styled(Heading)`
   justify-content: center;
   flex-direction: column;
   font-weight: ${(p: { active?: boolean }) => (p.active ? 'bold' : 300)};
+  color: ${colors.white};
 `;
 
 const _AppBar = ({ location }: RouteComponentProps) => {
@@ -181,7 +184,10 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 margin="none"
                 className="bar-link-text no-padding"
               >
-                <Text>
+                <BarLinkText
+                  level={4}
+                  margin="none"
+                  className="bar-link-text no-padding">
                   <FormattedMessage
                     defaultMessage="Staking Launchpad {network}"
                     values={{
@@ -189,7 +195,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                     }}
                     description="{network} inserts the testnet name, only if on the testnet"
                   />
-                </Text>
+                </BarLinkText>
               </BarLinkText>
             </div>
           )}

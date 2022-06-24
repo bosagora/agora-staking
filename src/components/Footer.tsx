@@ -8,6 +8,8 @@ import { Link } from './Link';
 
 import { Button } from './Button';
 
+import { colors } from '../styles/styledComponentsTheme';
+
 const Rhino = styled.span`
   font-size: 20px;
 `;
@@ -15,11 +17,11 @@ const Rhino = styled.span`
 const RainbowBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
-  background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+  background-color: ${colors.blue.darkest};
 `;
 
 const FooterStyles = styled.div`
+  color: ${colors.white};
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -68,7 +70,7 @@ export const Footer = () => {
     <RainbowBackground>
       <FooterStyles>
         <div className="col">
-          <Heading level={4}>
+          <Heading level={4} color={colors.blue.light}>
             <FormattedMessage defaultMessage="Staking Launchpad" />
           </Heading>
           <Link to={routesEnum.acknowledgementPage}>

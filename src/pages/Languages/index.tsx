@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { Link } from '../../components/Link';
 import { PageTemplate } from '../../components/PageTemplate';
 import { supportedLanguages } from '../../intl';
+import { colors } from '../../styles/styledComponentsTheme';
 
 const LangContainer = styled.div`
   margin-top: 2rem;
@@ -24,7 +25,8 @@ const LangItem = styled(Link)`
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-color: ${colors.purple.darkest};
+    color: ${colors.white};
     transition: transform 0.1s;
     transform: scale(1.02);
   }

@@ -7,8 +7,10 @@ import { Link } from '../../../components/Link';
 import { Heading } from '../../../components/Heading';
 import { UpgradeCard } from './UpgradeCard';
 
+import { colors } from '../../../styles/styledComponentsTheme';
+
 const Container = styled.div`
-  background-color: ${p => p.theme.purple.light};
+  background-color: ${p => p.theme.blue.lightest};
   padding: ${(p: { isMobile: boolean }) => (p.isMobile ? '20px 0' : '150px 0')};
 `;
 const SubContainer = styled.div`

@@ -7,8 +7,7 @@ import { Link } from '../components/Link';
 import { colors } from '../styles/styledComponentsTheme';
 
 const RainbowBackground = styled.div`
-  background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+  background-color: ${colors.blue.lightest};
   min-height: 100vh;
 `;
 const LogoContainer = styled.div`
@@ -17,7 +16,7 @@ const LogoContainer = styled.div`
   justify-content: center;
 `;
 const EthLogo = styled.img`
-  height: 100px;
+  height: 134px;
 `;
 const LogoText = styled(Text)`
   font-weight: bold;

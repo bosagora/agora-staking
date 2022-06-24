@@ -14,7 +14,7 @@ import calculateStakingRewards from '../../../utils/calculateStakingRewards';
 // Styled Components
 
 const Container = styled.div`
-  background-color: ${p => p.theme.green.light};
+  background-color: ${p => p.theme.gray.lightest};
   position: relative;
   padding: ${(p: { isMobile: boolean }) => (p.isMobile ? '64px 0' : '124px 0')};
 `;
