@@ -3,9 +3,10 @@ import styled from 'styled-components';
 import { Heading } from '../../../components/Heading';
 import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
+import { colors } from '../../../styles/styledComponentsTheme';
 
 const Container = styled.div`
-  background-color: ${p => p.theme.purple.medium};
+  background-color: ${p => p.theme.blue.light};
   margin: 10px auto;
   padding: 10px 20px;
   border-radius: ${p => p.theme.borderRadius};
@@ -22,10 +23,10 @@ interface Props {
 export const UpgradeCard = ({ title, subTitle, link, linkUrl }: Props) => {
   return (
     <Container>
-      <Heading level="4" size="large" className="my10">
+      <Heading level="4" size="large" className="my10" color={colors.blue.darkest}>
         {title}
       </Heading>
-      <Text>{subTitle}</Text>
+      <Text color={colors.blue.dark}>{subTitle}</Text>
       <Link primary className="mt20" to={linkUrl}>
         {link}
       </Link>

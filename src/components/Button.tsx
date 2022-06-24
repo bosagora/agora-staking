@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button as GrommetButton, ButtonProps } from 'grommet';
+import { colors } from '../styles/styledComponentsTheme';
 
 interface CustomButtonProps {
   className?: string;
@@ -27,12 +28,13 @@ const StyledButton = styled(GrommetButton)`
   font-size: 18px;
   letter-spacing: 1.5px;
   background-color: ${p =>
-    p.primary ? p.theme.blue.dark : p.theme.gray.light};
+    p.primary ? p.theme.red.darkest : p.theme.gray.light};
   border: ${p => `1px solid ${p.theme.gray.medium}`};
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    color: ${colors.white};
+    background-color: ${colors.purple.darkest};
     transition: transform 0.1s;
     transform: scale(1.02);
   }
@@ -40,9 +42,12 @@ const StyledButton = styled(GrommetButton)`
   ${p =>
     // @ts-ignore
     p.rainbow &&
-    `background-image: linear-gradient(to right, ${p.theme.rainbow});
-     color: ${p.theme.blue.dark};
-     border: 1px solid ${p.theme.blue.dark};
+    `background-color: ${p.theme.green.darkest};
+     color: ${p.theme.white};
+     border: 1px solid ${p.theme.green.darkest};
+     &:hover {
+      background-color: ${p.theme.green.darkest};
+     }
    `}
 `;
 
