@@ -102,7 +102,7 @@ export const Footer = () => {
                       emoji: (
                         <Rhino>
                           <span role="img" aria-label="rhino">
-                            🦏
+                            🏛️
                           </span>
                         </Rhino>
                       ),
@@ -114,20 +114,23 @@ export const Footer = () => {
           </ButtonContainer>
         )}
         <div className="col extra-links">
-          <Heading level={4}>
+          <Heading level={4} color={colors.blue.light}>
             <FormattedMessage defaultMessage="More on staking" />
           </Heading>
-          <Link to="https://ethereum.org/en/upgrades/">
-            <FormattedMessage defaultMessage="The Ethereum upgrades" />
-          </Link>
           <Link to={routesEnum.phishingPage}>
             <FormattedMessage defaultMessage="Avoid phishing" />
           </Link>
-          <Link to="https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=842896204">
-            <FormattedMessage defaultMessage="Staking economics" />
+          <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_EN_2103_3.pdf">
+            <FormattedMessage defaultMessage="White Paper (EN)" />
           </Link>
-          <Link to="https://github.com/runtimeverification/deposit-contract-verification/blob/96434de/deposit-contract-verification.pdf">
-            <FormattedMessage defaultMessage="Formal verification report" />
+          <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_CH_2103_3.pdf">
+            <FormattedMessage defaultMessage="White Paper (CH)" />
+          </Link>
+          <Link to="https://t.me/bosagora_eng">
+            <FormattedMessage defaultMessage="Community" />
+          </Link>
+          <Link to="https://medium.com/bosagora">
+            <FormattedMessage defaultMessage="Blog" />
           </Link>
         </div>
       </FooterStyles>

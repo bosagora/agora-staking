@@ -29,7 +29,7 @@ import {
   TICKER_NAME,
 } from '../../utils/envVars';
 import { routesEnum } from '../../Routes';
-import LeslieTheRhinoPNG from '../../static/leslie-rhino.png';
+import LeslieTheRhinoPNG from '../../static/bosagora-alternative-blue-3.png';
 import { Button } from '../../components/Button';
 import { routeToCorrectWorkflowStep } from '../../utils/RouteToCorrectWorkflowStep';
 import {

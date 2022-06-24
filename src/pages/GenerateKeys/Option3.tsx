@@ -250,12 +250,12 @@ export const Option3 = ({
           inline
           primary
           isTextLink={false}
-          to="https://github.com/ethereum/staking-deposit-cli/archive/master.zip"
+          to="https://github.com/zeroone-boa/staking-deposit-cli/archive/agora.zip"
         >
           <Button
             className="my20"
             label={formatMessage({
-              defaultMessage: 'Download master branch source code',
+              defaultMessage: 'Download agora branch source code',
             })}
           />
         </Link>
@@ -263,7 +263,7 @@ export const Option3 = ({
       <Alert variant="info" className="my10">
         <Text>
           <FormattedMessage
-            defaultMessage="If you’re a git user, you can run {gitClone} to download the {master} branch."
+            defaultMessage="If you’re a git user, you can run {gitClone} to download the {agora} branch."
             values={{
               gitClone: (
                 <Code>
