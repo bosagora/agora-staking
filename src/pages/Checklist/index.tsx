@@ -240,51 +240,51 @@ export const Checklist = () => {
   };
 
   const clientInfo: Client[] = _shuffle([
-    {
-      header: 'Besu',
-      text: formatMessage({
-        defaultMessage:
-          'Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java.',
-      }),
-      imgUrl: BesuBg,
-      url: routesEnum.besu,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Besu',
-      }),
-      layer: layerEnum.execution,
-      discord: 'https://discord.gg/hyperledger',
-      ...defaultExecutionPorts,
-    },
-    {
-      header: 'Nethermind',
-      text: formatMessage({
-        defaultMessage:
-          'Nethermind is a robust client built on .NET core designed for performance, versatility and customizability.',
-      }),
-      imgUrl: NethermindBg,
-      url: routesEnum.nethermind,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Nethermind',
-      }),
-      layer: layerEnum.execution,
-      discord: 'https://discord.gg/PaCMRFdvWT',
-      ...defaultExecutionPorts,
-    },
-    {
-      header: 'Erigon',
-      text: formatMessage({
-        defaultMessage:
-          'Erigon is an execution client on the efficiency frontier, written in Go.',
-      }),
-      imgUrl: ErigonBg,
-      url: routesEnum.erigon,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Erigon',
-      }),
-      layer: layerEnum.execution,
-      discord: 'https://github.com/ledgerwatch/erigon#erigon-discord-server',
-      ...defaultExecutionPorts,
-    },
+    // {
+    //   header: 'Besu',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java.',
+    //   }),
+    //   imgUrl: BesuBg,
+    //   url: routesEnum.besu,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Besu',
+    //   }),
+    //   layer: layerEnum.execution,
+    //   discord: 'https://discord.gg/hyperledger',
+    //   ...defaultExecutionPorts,
+    // },
+    // {
+    //   header: 'Nethermind',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Nethermind is a robust client built on .NET core designed for performance, versatility and customizability.',
+    //   }),
+    //   imgUrl: NethermindBg,
+    //   url: routesEnum.nethermind,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Nethermind',
+    //   }),
+    //   layer: layerEnum.execution,
+    //   discord: 'https://discord.gg/PaCMRFdvWT',
+    //   ...defaultExecutionPorts,
+    // },
+    // {
+    //   header: 'Erigon',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Erigon is an execution client on the efficiency frontier, written in Go.',
+    //   }),
+    //   imgUrl: ErigonBg,
+    //   url: routesEnum.erigon,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Erigon',
+    //   }),
+    //   layer: layerEnum.execution,
+    //   discord: 'https://github.com/ledgerwatch/erigon#erigon-discord-server',
+    //   ...defaultExecutionPorts,
+    // },
     {
       header: 'Geth',
       text: formatMessage({
@@ -300,36 +300,36 @@ export const Checklist = () => {
       discord: 'https://discord.gg/nthXNEv',
       ...defaultExecutionPorts,
     },
-    {
-      header: 'Lighthouse',
-      text: formatMessage({
-        defaultMessage:
-          'Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security.',
-      }),
-      imgUrl: LighthouseBg,
-      url: routesEnum.lighthouse,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Lighthouse',
-      }),
-      layer: layerEnum.consensus,
-      discord: 'https://discord.gg/uC7TuaH',
-      ...defaultConsensusPorts,
-    },
-    {
-      header: 'Nimbus',
-      text: formatMessage({
-        defaultMessage:
-          'Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices.',
-      }),
-      imgUrl: NimbusBg,
-      url: routesEnum.nimbus,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Nimbus',
-      }),
-      layer: layerEnum.consensus,
-      discord: 'https://discord.gg/YbTCNat',
-      ...defaultConsensusPorts,
-    },
+    // {
+    //   header: 'Lighthouse',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security.',
+    //   }),
+    //   imgUrl: LighthouseBg,
+    //   url: routesEnum.lighthouse,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Lighthouse',
+    //   }),
+    //   layer: layerEnum.consensus,
+    //   discord: 'https://discord.gg/uC7TuaH',
+    //   ...defaultConsensusPorts,
+    // },
+    // {
+    //   header: 'Nimbus',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices.',
+    //   }),
+    //   imgUrl: NimbusBg,
+    //   url: routesEnum.nimbus,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Nimbus',
+    //   }),
+    //   layer: layerEnum.consensus,
+    //   discord: 'https://discord.gg/YbTCNat',
+    //   ...defaultConsensusPorts,
+    // },
     {
       header: 'Prysm',
       text: formatMessage({
@@ -346,21 +346,21 @@ export const Checklist = () => {
       defaultTcp: 13000,
       defaultUdp: 12000,
     },
-    {
-      header: 'Teku',
-      text: formatMessage({
-        defaultMessage:
-          'PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements.',
-      }),
-      imgUrl: TekuBg,
-      url: routesEnum.teku,
-      linkText: formatMessage({
-        defaultMessage: 'Configure Teku',
-      }),
-      layer: layerEnum.consensus,
-      discord: 'https://discord.gg/7hPv2T6',
-      ...defaultConsensusPorts,
-    },
+    // {
+    //   header: 'Teku',
+    //   text: formatMessage({
+    //     defaultMessage:
+    //       'PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements.',
+    //   }),
+    //   imgUrl: TekuBg,
+    //   url: routesEnum.teku,
+    //   linkText: formatMessage({
+    //     defaultMessage: 'Configure Teku',
+    //   }),
+    //   layer: layerEnum.consensus,
+    //   discord: 'https://discord.gg/7hPv2T6',
+    //   ...defaultConsensusPorts,
+    // },
   ]);
 
   return (

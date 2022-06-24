@@ -228,23 +228,23 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 <b>Execution clients</b>
               </Text>
               <Box pad="small">
-                <DropdownLink to={routesEnum.besu}>Besu</DropdownLink>
-                <DropdownLink to={routesEnum.erigon}>Erigon</DropdownLink>
+                {/* <DropdownLink to={routesEnum.besu}>Besu</DropdownLink> */}
+                {/* <DropdownLink to={routesEnum.erigon}>Erigon</DropdownLink> */}
                 <DropdownLink to={routesEnum.geth}>Geth</DropdownLink>
-                <DropdownLink to={routesEnum.nethermind}>
+                {/* <DropdownLink to={routesEnum.nethermind}>
                   Nethermind
-                </DropdownLink>
+                </DropdownLink> */}
               </Box>
               <Text className="my10">
                 <b>Consensus clients</b>
               </Text>
               <Box pad="small">
-                <DropdownLink to={routesEnum.lighthouse}>
+                {/* <DropdownLink to={routesEnum.lighthouse}>
                   Lighthouse
-                </DropdownLink>
-                <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink>
+                </DropdownLink> */}
+                {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
                 <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
-                <DropdownLink to={routesEnum.teku}>Teku</DropdownLink>
+                {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
               </Box>
             </Box>
           }
@@ -366,12 +366,12 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                       <FormattedMessage defaultMessage="Consensus clients" />
                     </b>
                   </Text>
-                  <DropdownLink to={routesEnum.lighthouse}>
+                  {/* <DropdownLink to={routesEnum.lighthouse}>
                     Lighthouse
-                  </DropdownLink>
-                  <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink>
+                  </DropdownLink> */}
+                  {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
                   <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
-                  <DropdownLink to={routesEnum.teku}>Teku</DropdownLink>
+                  {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
                 </Box>
               </Card>
             }
