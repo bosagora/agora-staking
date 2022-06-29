@@ -2,10 +2,10 @@ export interface CalculateStakingRewardsParams {
   slotTimeInSec?: number;
   slotsInEpoch?: number;
   baseRewardFactor?: number;
-  totalAtStake?: number; // ETH
+  totalAtStake?: number; // BOA
   averageNetworkPctOnline?: number;
   vaildatorUptime?: number;
-  validatorDeposit?: number; // ETH
+  validatorDeposit?: number; // BOA
   effectiveBalanceIncrement?: number; // gwei
   weightDenominator?: number;
   proposerWeight?: number;
@@ -15,11 +15,11 @@ const calculateStakingRewards = ({
   slotTimeInSec = 12,
   slotsInEpoch = 32,
   baseRewardFactor = 64,
-  totalAtStake = 1_000_000, // ETH
+  totalAtStake = 1_250_000_000, // BOA, ratio is kept (1_000_000/32)
   averageNetworkPctOnline = 0.95,
   vaildatorUptime = 0.99,
-  validatorDeposit = 32, // ETH
-  effectiveBalanceIncrement = 1_000_000_000, // gwei
+  validatorDeposit = 40_000, // BOA
+  effectiveBalanceIncrement = 1_000_000_000_000, // gwei
   weightDenominator = 64,
   proposerWeight = 8,
 }: CalculateStakingRewardsParams): number => {
