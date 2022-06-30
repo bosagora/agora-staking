@@ -9,6 +9,7 @@ export interface CalculateStakingRewardsParams {
   effectiveBalanceIncrement?: number; // gwei
   weightDenominator?: number;
   proposerWeight?: number;
+  epochNum?: number;
 }
 
 const calculateStakingRewards = ({
@@ -22,36 +23,21 @@ const calculateStakingRewards = ({
   effectiveBalanceIncrement = 1_000_000_000_000, // gwei
   weightDenominator = 64,
   proposerWeight = 8,
+  epochNum = 0,
 }: CalculateStakingRewardsParams): number => {
   // Calculate number of epochs per year
   const avgSecInYear = 31556908.8; // 60 * 60 * 24 * 365.242
   const epochPerYear = avgSecInYear / (slotTimeInSec * slotsInEpoch);
-  const baseRewardPerIncrement =
-    (effectiveBalanceIncrement * baseRewardFactor) /
-    (totalAtStake * 10e8) ** 0.5;
+  
+  // Agora specific calculations
+  const yearSinceGenesis = Math.floor(epochNum / epochPerYear);
+  const firstYearValRewards = 27 * (avgSecInYear / 5);
+  let yearlyReward = firstYearValRewards;
+  for (let y = yearSinceGenesis; y > 0; y--) {
+    yearlyReward = (yearlyReward * 9_369) / 10_000;
+  }
 
-  // Calculate base reward for full validator (in gwei)
-  const baseGweiRewardFullValidator =
-    ((validatorDeposit * 10e8) / effectiveBalanceIncrement) *
-    baseRewardPerIncrement;
-
-  // Calculate offline per-validator penalty per epoch (in gwei)
-  // Note: Inactivity penalty is not included in this simple calculation
-  const offlineEpochGweiPentalty =
-    baseGweiRewardFullValidator *
-    ((weightDenominator - proposerWeight) / weightDenominator);
-
-  // Calculate online per-validator reward per epoch (in gwei)
-  const onlineEpochGweiReward =
-    baseGweiRewardFullValidator * averageNetworkPctOnline;
-
-  // Calculate net yearly staking reward (in gwei)
-  const reward = onlineEpochGweiReward * vaildatorUptime;
-  const penalty = offlineEpochGweiPentalty * (1 - vaildatorUptime);
-  const netRewardPerYear = epochPerYear * (reward - penalty);
-
-  // Return net yearly staking reward percentage
-  return netRewardPerYear / 10e8 / validatorDeposit;
+  return yearlyReward / totalAtStake;
 };
 
 export default calculateStakingRewards;
