@@ -64,6 +64,7 @@ const ButtonContainer = styled.div`
 type PropData = {
   amountEth: number;
   totalValidators: number;
+  epochNum: number;
   status: number;
 };
 
@@ -75,7 +76,7 @@ export const NetworkStatus: React.FC<{
 }> = ({ state }): JSX.Element | null => {
   const { formatMessage } = useIntl();
   const [m, setM] = React.useState<boolean>((window as any).mobileCheck());
-  const { amountEth, totalValidators, status } = state;
+  const { amountEth, totalValidators, epochNum, status } = state;
 
   React.useEffect(() => {
     const resizeListener = () => {
@@ -85,7 +86,7 @@ export const NetworkStatus: React.FC<{
     return () => window.removeEventListener('resize', resizeListener);
   }, []);
 
-  const currentAPR = calculateStakingRewards({ totalAtStake: amountEth });
+  const currentAPR = calculateStakingRewards({ totalAtStake: amountEth, epochNum: epochNum });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const LoadingHandler: React.FC<{
