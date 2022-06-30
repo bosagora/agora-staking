@@ -7,6 +7,7 @@ type BeaconchainResponse = {
     data: {
       validatorscount: number;
       totalvalidatorbalance: number; // gwei
+      epoch: number;
     };
   };
 };
@@ -23,6 +24,7 @@ export const queryBeaconchain = async () => {
       body: {
         totalValidators: response.data.data.validatorscount,
         amountEth: ethBalance + ETH_DEPOSIT_OFFSET,
+        epochNum: response.data.data.epoch,
       },
     };
   } catch (error) {
@@ -32,6 +34,7 @@ export const queryBeaconchain = async () => {
       body: {
         totalValidators: 0,
         amountEth: 0,
+        epochNum: 0,
         msg: error.message,
       },
     };

@@ -12,6 +12,7 @@ export const LandingPage = (): JSX.Element => {
   const [state, setState] = useState({
     amountEth: 0,
     totalValidators: 0,
+    epochNum: 0,
     status: 0,
   });
 
@@ -21,6 +22,7 @@ export const LandingPage = (): JSX.Element => {
       setState({
         amountEth: response.body.amountEth,
         totalValidators: response.body.totalValidators,
+        epochNum: response.body.epochNum,
         status: response.statusCode,
       });
     })();
