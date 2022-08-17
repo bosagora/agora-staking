@@ -8,7 +8,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector';
 import invariant from 'tiny-invariant';
 
 const chainIdToNetwork: { [network: number]: string } = {
-  2022: 'mainnet',
+  2151: 'mainnet',
   2020: 'devnet',
   2019: 'testnet'
 };
