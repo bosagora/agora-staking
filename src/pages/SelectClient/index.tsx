@@ -8,13 +8,13 @@ import { routeToCorrectWorkflowStep } from '../../utils/RouteToCorrectWorkflowSt
 import SelectClientSection from './SelectClientSection';
 import SelectClientButtons from './SelectClientButtons';
 import { PrysmDetails } from '../Clients/Consensus/Prysm';
-import { LighthouseDetails } from '../Clients/Consensus/Lighthouse';
-import { TekuDetails } from '../Clients/Consensus/Teku';
-import { NimbusDetails } from '../Clients/Consensus/Nimbus';
+// import { LighthouseDetails } from '../Clients/Consensus/Lighthouse';
+// import { TekuDetails } from '../Clients/Consensus/Teku';
+// import { NimbusDetails } from '../Clients/Consensus/Nimbus';
 import { GethDetails } from '../Clients/Execution/Geth';
-import { BesuDetails } from '../Clients/Execution/Besu';
-import { NethermindDetails } from '../Clients/Execution/Nethermind';
-import { ErigonDetails } from '../Clients/Execution/Erigon';
+// import { BesuDetails } from '../Clients/Execution/Besu';
+// import { NethermindDetails } from '../Clients/Execution/Nethermind';
+// import { ErigonDetails } from '../Clients/Execution/Erigon';
 import PrysmaticCircle from '../../static/prysmatic-labs-circle.png';
 // import LighthouseCircle from '../../static/lighthouse-circle.png';
 // import NimbusCircle from '../../static/nimbus-circle.png';
@@ -51,14 +51,14 @@ interface DispatchProps {
 type Props = StateProps & DispatchProps & OwnProps;
 
 const clientDetails = {
-  [ClientId.TEKU]: <TekuDetails shortened />,
-  [ClientId.LIGHTHOUSE]: <LighthouseDetails shortened />,
+  // [ClientId.TEKU]: <TekuDetails shortened />,
+  // [ClientId.LIGHTHOUSE]: <LighthouseDetails shortened />,
   [ClientId.PRYSM]: <PrysmDetails shortened />,
-  [ClientId.NIMBUS]: <NimbusDetails shortened />,
+  // [ClientId.NIMBUS]: <NimbusDetails shortened />,
   [ClientId.GETH]: <GethDetails />,
-  [ClientId.BESU]: <BesuDetails />,
-  [ClientId.NETHERMIND]: <NethermindDetails />,
-  [ClientId.ERIGON]: <ErigonDetails />,
+  // [ClientId.BESU]: <BesuDetails />,
+  // [ClientId.NETHERMIND]: <NethermindDetails />,
+  // [ClientId.ERIGON]: <ErigonDetails />,
 };
 
 export type Client = {
