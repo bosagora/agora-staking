@@ -8,16 +8,16 @@ export type clientState = {
 };
 
 const executionClientIds = [
-  ClientId.BESU,
-  ClientId.NETHERMIND,
-  ClientId.ERIGON,
+  // ClientId.BESU,
+  // ClientId.NETHERMIND,
+  // ClientId.ERIGON,
   ClientId.GETH,
 ];
 
 const consensusClientIds = [
-  ClientId.LIGHTHOUSE,
-  ClientId.NIMBUS,
-  ClientId.TEKU,
+  // ClientId.LIGHTHOUSE,
+  // ClientId.NIMBUS,
+  // ClientId.TEKU,
   ClientId.PRYSM,
 ];
 
