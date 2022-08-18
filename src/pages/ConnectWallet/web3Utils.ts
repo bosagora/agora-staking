@@ -29,8 +29,7 @@ export enum NetworkChainId {
 const supportedNetworks = [
   NetworkChainId.Mainnet,
   NetworkChainId.Devnet,
-  NetworkChainId.Testnet
-
+  NetworkChainId.Testnet,
 ];
 
 enum Testnet {
