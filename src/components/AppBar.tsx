@@ -184,18 +184,13 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 margin="none"
                 className="bar-link-text no-padding"
               >
-                <BarLinkText
-                  level={4}
-                  margin="none"
-                  className="bar-link-text no-padding">
-                  <FormattedMessage
-                    defaultMessage="Staking Launchpad {network}"
-                    values={{
-                      network: IS_MAINNET ? '' : `(${NETWORK_NAME})`,
-                    }}
-                    description="{network} inserts the testnet name, only if on the testnet"
-                  />
-                </BarLinkText>
+                <FormattedMessage
+                  defaultMessage="Staking Launchpad {network}"
+                  values={{
+                    network: IS_MAINNET ? '' : `(${NETWORK_NAME})`,
+                  }}
+                  description="{network} inserts the testnet name, only if on the testnet"
+                />
               </BarLinkText>
             </div>
           )}
