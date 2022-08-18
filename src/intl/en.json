@@ -29,6 +29,9 @@
   "/5Hyyf": {
     "message": "Indonesian"
   },
+  "/7zBlZ": {
+    "message": "Download agora branch source code"
+  },
   "/E/Zm8": {
     "message": "Configure the Java Web"
   },
@@ -276,6 +279,9 @@
   "4AVfh5": {
     "message": "I've joined my consensus client's Discord server."
   },
+  "4CrCbD": {
+    "message": "Community"
+  },
   "4NvAhl": {
     "message": "Start by setting up your chosen hardware and operating system."
   },
@@ -293,6 +299,9 @@
   },
   "54J/qs": {
     "message": "What happens if I use BLS withdrawal and I lose my withdrawal key?"
+  },
+  "57BVTc": {
+    "message": "White Paper (CH)"
   },
   "58PXVy": {
     "message": "Why two keys instead of one?"
@@ -410,9 +419,6 @@
   "8FmuYF": {
     "message": "Install pip3"
   },
-  "8HxLGA": {
-    "message": "Configure Teku"
-  },
   "8JtiQS": {
     "message": "Does the contract address listed on the website match?"
   },
@@ -470,9 +476,6 @@
   },
   "9qMyhY": {
     "message": "Read options and subcommands documentation"
-  },
-  "9qpi9h": {
-    "message": "Configure Nethermind"
   },
   "9r8j5+": {
     "message": "Engine API"
@@ -600,9 +603,6 @@
   "BoEpk9": {
     "message": "Introduction"
   },
-  "C/gb74": {
-    "message": "Configure Lighthouse"
-  },
   "C3jBPI": {
     "message": "Execution Client"
   },
@@ -620,6 +620,9 @@
   },
   "CVDzDs": {
     "message": "You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 ETH)."
+  },
+  "CW9+vD": {
+    "message": "White Paper (EN)"
   },
   "CWKE9c": {
     "message": "Your wallet is on the wrong network. Switch to {executionLayerName}"
@@ -658,9 +661,6 @@
   },
   "DUnyVI": {
     "message": "Ideally your internet connection should be reliable and as close to 24/7 as possible without interruption."
-  },
-  "Dayq/y": {
-    "message": "Configure Erigon"
   },
   "DbnQg+": {
     "message": "Verify the contract address"
@@ -767,9 +767,6 @@
   },
   "G0aacl": {
     "message": "As a validator you are rewarded for proposing / attesting to blocks that are included in the chain."
-  },
-  "G5IMoZ": {
-    "message": "Download master branch source code"
   },
   "G8tAKU": {
     "message": "Choose client"
@@ -894,9 +891,6 @@
     "description": "{impact} shows 'impact of effective balance' and links to article on 'Effective Balance'",
     "message": "It depends. In addition to the {impact} there are two important scenarios to be aware of:"
   },
-  "J455S4": {
-    "message": "If you’re a git user, you can run {gitClone} to download the {master} branch."
-  },
   "J5Lzz1": {
     "message": "Chinese (traditional)"
   },
@@ -960,9 +954,6 @@
     "description": "{url} is link to GitHub CLI release, made bold for emphasis",
     "message": "Please make sure that you are downloading from the official StakeHouse GitHub account by verifying the url: {url}"
   },
-  "KbUOQp": {
-    "message": "Nethermind is a robust client built on .NET core designed for performance, versatility and customizability."
-  },
   "KcdQCZ": {
     "message": "CLI Syntax {engineJwtSecret}"
   },
@@ -977,9 +968,6 @@
   },
   "Kw+pTr": {
     "message": "The python3 install process may differ depending on your linux build."
-  },
-  "KwfNme": {
-    "message": "Configure Besu"
   },
   "KxUgHu": {
     "description": "{boldCaution} is states 'only stored on one validator machine', a bolded caution statement to users",
@@ -997,9 +985,6 @@
   },
   "L8jrV5": {
     "message": "reload your wallet"
-  },
-  "LHPZ+C": {
-    "message": "Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security."
   },
   "LVy+cS": {
     "message": "Check with client documentation to ensure the hardware you want to use is sufficient and supported."
@@ -1134,9 +1119,6 @@
   },
   "O3qkOm": {
     "message": "Sharding"
-  },
-  "OBmVqN": {
-    "message": "Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java."
   },
   "OIvXIO": {
     "message": "Complete remaining {remainingTxCount} deposits"
@@ -1662,9 +1644,6 @@
   "aEBE6s": {
     "message": "2. Prep nodes"
   },
-  "aS6dBe": {
-    "message": "Configure Nimbus"
-  },
   "aXT3iO": {
     "message": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
   },
@@ -1836,9 +1815,6 @@
   },
   "eOpZjd": {
     "message": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
-  },
-  "eX072N": {
-    "message": "Erigon is an execution client on the efficiency frontier, written in Go."
   },
   "eaU/aL": {
     "message": "To maximize security and efficiency of your node, use dedicated hardware to run your clients. This reduces risk of malware exposure and minimizes competition for computing resources, ensuring your node handles the network load and its validator responsibilities at all times."
@@ -2015,9 +1991,6 @@
   "ioj2Sj": {
     "message": "I've imported my keystore(s) into my validator client."
   },
-  "iqJ3LM": {
-    "message": "PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements."
-  },
   "irRdC0": {
     "message": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude after the merge and introduction of shard chains. Do your own research before depositing funds."
   },
@@ -2107,6 +2080,9 @@
   "krEziQ": {
     "message": "Get in touch"
   },
+  "ktxGO0": {
+    "message": "If you’re a git user, you can run {gitClone} to download the {agora} branch."
+  },
   "kuYpoI": {
     "message": "Current balance"
   },
@@ -2160,9 +2136,6 @@
   },
   "lVdzDK": {
     "message": "Upload the deposit data file you just generated. The {json} is located in your {validatorKeys} directory."
-  },
-  "lfHCV+": {
-    "message": "Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices."
   },
   "lfV1bj": {
     "message": "Importing from Launchpad documentation"
@@ -2442,9 +2415,6 @@
   "scfDDt": {
     "message": "Communication between the execution layer and consensus layer will occur using the {engineApi}. This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
   },
-  "sj/Zef": {
-    "message": "Download Key Gen GUI app"
-  },
   "smD5l/": {
     "message": "Consensus Layer Beacon Node (BN)"
   },
@@ -2488,8 +2458,8 @@
     "description": "{effectiveBalance} shows 'effective balance' in bold. {article}\n                    shows 'excellent post' and links to an article.",
     "message": "Note however that this scaling mechanism works in a non-obvious way. To understand the precise details of how it works requires understanding a concept called {effectiveBalance}. If you’re not yet familiar with this concept, we recommend you read through {article}"
   },
-  "txdGU9": {
-    "message": "The Ethereum upgrades"
+  "tv5FG3": {
+    "message": "Blog"
   },
   "tzMNF3": {
     "message": "Status"
@@ -2727,9 +2697,6 @@
   },
   "zGkAVo": {
     "message": "At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32."
-  },
-  "zJicsO": {
-    "message": "Staking economics"
   },
   "zbEBi9": {
     "description": "{mainnet} shows '--config mainnet' terminal command",
