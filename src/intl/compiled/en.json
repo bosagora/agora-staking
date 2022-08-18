@@ -59,6 +59,12 @@
       "value": "Indonesian"
     }
   ],
+  "/7zBlZ": [
+    {
+      "type": 0,
+      "value": "Download agora branch source code"
+    }
+  ],
   "/E/Zm8": [
     {
       "type": 0,
@@ -741,6 +747,12 @@
       "value": "I've joined my consensus client's Discord server."
     }
   ],
+  "4CrCbD": [
+    {
+      "type": 0,
+      "value": "Community"
+    }
+  ],
   "4NvAhl": [
     {
       "type": 0,
@@ -783,6 +795,12 @@
     {
       "type": 0,
       "value": "What happens if I use BLS withdrawal and I lose my withdrawal key?"
+    }
+  ],
+  "57BVTc": [
+    {
+      "type": 0,
+      "value": "White Paper (CH)"
     }
   ],
   "58PXVy": [
@@ -1101,12 +1119,6 @@
       "value": "Install pip3"
     }
   ],
-  "8HxLGA": [
-    {
-      "type": 0,
-      "value": "Configure Teku"
-    }
-  ],
   "8JtiQS": [
     {
       "type": 0,
@@ -1255,12 +1267,6 @@
     {
       "type": 0,
       "value": "Read options and subcommands documentation"
-    }
-  ],
-  "9qpi9h": [
-    {
-      "type": 0,
-      "value": "Configure Nethermind"
     }
   ],
   "9r8j5+": [
@@ -1629,12 +1635,6 @@
       "value": "Introduction"
     }
   ],
-  "C/gb74": [
-    {
-      "type": 0,
-      "value": "Configure Lighthouse"
-    }
-  ],
   "C3jBPI": [
     {
       "type": 0,
@@ -1669,6 +1669,12 @@
     {
       "type": 0,
       "value": "You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 ETH)."
+    }
+  ],
+  "CW9+vD": [
+    {
+      "type": 0,
+      "value": "White Paper (EN)"
     }
   ],
   "CWKE9c": [
@@ -1753,12 +1759,6 @@
     {
       "type": 0,
       "value": "Ideally your internet connection should be reliable and as close to 24/7 as possible without interruption."
-    }
-  ],
-  "Dayq/y": [
-    {
-      "type": 0,
-      "value": "Configure Erigon"
     }
   ],
   "DbnQg+": [
@@ -2027,12 +2027,6 @@
     {
       "type": 0,
       "value": "As a validator you are rewarded for proposing / attesting to blocks that are included in the chain."
-    }
-  ],
-  "G5IMoZ": [
-    {
-      "type": 0,
-      "value": "Download master branch source code"
     }
   ],
   "G8tAKU": [
@@ -2331,28 +2325,6 @@
       "value": " there are two important scenarios to be aware of:"
     }
   ],
-  "J455S4": [
-    {
-      "type": 0,
-      "value": "If you’re a git user, you can run "
-    },
-    {
-      "type": 1,
-      "value": "gitClone"
-    },
-    {
-      "type": 0,
-      "value": " to download the "
-    },
-    {
-      "type": 1,
-      "value": "master"
-    },
-    {
-      "type": 0,
-      "value": " branch."
-    }
-  ],
   "J5Lzz1": [
     {
       "type": 0,
@@ -2509,12 +2481,6 @@
       "value": "url"
     }
   ],
-  "KbUOQp": [
-    {
-      "type": 0,
-      "value": "Nethermind is a robust client built on .NET core designed for performance, versatility and customizability."
-    }
-  ],
   "KcdQCZ": [
     {
       "type": 0,
@@ -2547,12 +2513,6 @@
     {
       "type": 0,
       "value": "The python3 install process may differ depending on your linux build."
-    }
-  ],
-  "KwfNme": [
-    {
-      "type": 0,
-      "value": "Configure Besu"
     }
   ],
   "KxUgHu": [
@@ -2595,12 +2555,6 @@
     {
       "type": 0,
       "value": "reload your wallet"
-    }
-  ],
-  "LHPZ+C": [
-    {
-      "type": 0,
-      "value": "Lighthouse is a consensus client implementation, written in Rust with a heavy focus on speed and security."
     }
   ],
   "LVy+cS": [
@@ -2945,12 +2899,6 @@
     {
       "type": 0,
       "value": "Sharding"
-    }
-  ],
-  "OBmVqN": [
-    {
-      "type": 0,
-      "value": "Hyperledger Besu is an open-source Ethereum client developed under the Apache 2.0 license and written in Java."
     }
   ],
   "OIvXIO": [
@@ -4393,12 +4341,6 @@
       "value": "2. Prep nodes"
     }
   ],
-  "aS6dBe": [
-    {
-      "type": 0,
-      "value": "Configure Nimbus"
-    }
-  ],
   "aXT3iO": [
     {
       "type": 0,
@@ -4783,12 +4725,6 @@
     {
       "type": 0,
       "value": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
-    }
-  ],
-  "eX072N": [
-    {
-      "type": 0,
-      "value": "Erigon is an execution client on the efficiency frontier, written in Go."
     }
   ],
   "eaU/aL": [
@@ -5245,12 +5181,6 @@
       "value": "I've imported my keystore(s) into my validator client."
     }
   ],
-  "iqJ3LM": [
-    {
-      "type": 0,
-      "value": "PegaSys Teku is a Java-based Ethereum consensus client built to meet institutional needs and security requirements."
-    }
-  ],
   "irRdC0": [
     {
       "type": 0,
@@ -5457,6 +5387,28 @@
       "value": "Get in touch"
     }
   ],
+  "ktxGO0": [
+    {
+      "type": 0,
+      "value": "If you’re a git user, you can run "
+    },
+    {
+      "type": 1,
+      "value": "gitClone"
+    },
+    {
+      "type": 0,
+      "value": " to download the "
+    },
+    {
+      "type": 1,
+      "value": "agora"
+    },
+    {
+      "type": 0,
+      "value": " branch."
+    }
+  ],
   "kuYpoI": [
     {
       "type": 0,
@@ -5621,12 +5573,6 @@
     {
       "type": 0,
       "value": " directory."
-    }
-  ],
-  "lfHCV+": [
-    {
-      "type": 0,
-      "value": "Nimbus is a research project and a consensus client implementation for Ethereum designed to perform well on embedded systems and personal mobile devices."
     }
   ],
   "lfV1bj": [
@@ -6379,12 +6325,6 @@
       "value": ". This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
     }
   ],
-  "sj/Zef": [
-    {
-      "type": 0,
-      "value": "Download Key Gen GUI app"
-    }
-  ],
   "smD5l/": [
     {
       "type": 0,
@@ -6489,10 +6429,10 @@
       "value": "article"
     }
   ],
-  "txdGU9": [
+  "tv5FG3": [
     {
       "type": 0,
-      "value": "The Ethereum upgrades"
+      "value": "Blog"
     }
   ],
   "tzMNF3": [
@@ -7071,12 +7011,6 @@
     {
       "type": 0,
       "value": "At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32."
-    }
-  ],
-  "zJicsO": [
-    {
-      "type": 0,
-      "value": "Staking economics"
     }
   ],
   "zbEBi9": [
