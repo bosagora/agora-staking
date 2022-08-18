@@ -16,13 +16,13 @@ import { BesuDetails } from '../Clients/Execution/Besu';
 import { NethermindDetails } from '../Clients/Execution/Nethermind';
 import { ErigonDetails } from '../Clients/Execution/Erigon';
 import PrysmaticCircle from '../../static/prysmatic-labs-circle.png';
-import LighthouseCircle from '../../static/lighthouse-circle.png';
-import NimbusCircle from '../../static/nimbus-circle.png';
-import TekuCircle from '../../static/pegasys-teku-circle.png';
+// import LighthouseCircle from '../../static/lighthouse-circle.png';
+// import NimbusCircle from '../../static/nimbus-circle.png';
+// import TekuCircle from '../../static/pegasys-teku-circle.png';
 import GethCircle from '../../static/gethereum-mascot-circle.png';
-import BesuCircle from '../../static/hyperledger-besu-circle.png';
-import NethermindCircle from '../../static/nethermind-circle.png';
-import ErigonCircle from '../../static/erigon-circle.png';
+// import BesuCircle from '../../static/hyperledger-besu-circle.png';
+// import NethermindCircle from '../../static/nethermind-circle.png';
+// import ErigonCircle from '../../static/erigon-circle.png';
 
 import {
   DispatchWorkflowUpdateType,

@@ -86,7 +86,10 @@ export const NetworkStatus: React.FC<{
     return () => window.removeEventListener('resize', resizeListener);
   }, []);
 
-  const currentAPR = calculateStakingRewards({ totalAtStake: amountEth, epochNum: epochNum });
+  const currentAPR = calculateStakingRewards({
+    totalAtStake: amountEth,
+    epochNum: epochNum,
+  });
   const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
 
   const LoadingHandler: React.FC<{

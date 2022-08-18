@@ -19,12 +19,12 @@ import {
 } from '../../utils/envVars';
 import { ClientCard } from '../Congratulations/ClientCard';
 import PrysmaticBg from '../../static/prysmatic-bg.png';
-import LighthouseBg from '../../static/lighthouse-bg.png';
-import NimbusBg from '../../static/nimbus-bg.png';
-import TekuBg from '../../static/teku-bg.png';
-import BesuBg from '../../static/besu-bg.png';
-import NethermindBg from '../../static/nethermind-bg.png';
-import ErigonBg from '../../static/erigon-bg.png';
+// import LighthouseBg from '../../static/lighthouse-bg.png';
+// import NimbusBg from '../../static/nimbus-bg.png';
+// import TekuBg from '../../static/teku-bg.png';
+// import BesuBg from '../../static/besu-bg.png';
+// import NethermindBg from '../../static/nethermind-bg.png';
+// import ErigonBg from '../../static/erigon-bg.png';
 import GethBg from '../../static/geth-bg.png';
 import { routesEnum } from '../../Routes';
 import { Code } from '../../components/Code';
@@ -231,13 +231,13 @@ export const Checklist = () => {
     defaultUdp: 30303,
   };
 
-  const defaultConsensusPorts: {
-    defaultTcp: number;
-    defaultUdp: number;
-  } = {
-    defaultTcp: 9000,
-    defaultUdp: 9000,
-  };
+  // const defaultConsensusPorts: {
+  //   defaultTcp: number;
+  //   defaultUdp: number;
+  // } = {
+  //   defaultTcp: 9000,
+  //   defaultUdp: 9000,
+  // };
 
   const clientInfo: Client[] = _shuffle([
     // {

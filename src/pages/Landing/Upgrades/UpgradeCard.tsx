@@ -23,7 +23,12 @@ interface Props {
 export const UpgradeCard = ({ title, subTitle, link, linkUrl }: Props) => {
   return (
     <Container>
-      <Heading level="4" size="large" className="my10" color={colors.blue.darkest}>
+      <Heading
+        level="4"
+        size="large"
+        className="my10"
+        color={colors.blue.darkest}
+      >
         {title}
       </Heading>
       <Text color={colors.blue.dark}>{subTitle}</Text>
