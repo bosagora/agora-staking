@@ -1,6 +1,6 @@
 export const IS_MAINNET                 = Boolean(process.env.REACT_APP_IS_MAINNET !== 'false');  // If REACT_APP_IS_MAINNET is unset, set it to true by default
 export const TESTNET_LAUNCHPAD_NAME     = process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME || 'AgoraTest';
-export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME || 'AgoraTest';
+export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME || 'Localtestnet';
 
 // private vars (or derived from)
 export const PORTIS_DAPP_ID             = process.env.REACT_APP_PORTIS_DAPP_ID     || '';
@@ -11,9 +11,9 @@ export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet" : EL
 // public
 export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_LAUNCHPAD_NAME;
 export const TICKER_NAME                = IS_MAINNET ? 'BOA' : 'tBOA';
-export const ETHERSCAN_URL              = IS_MAINNET ? 'https://scan.bosagora.org/txs' : 'https://testnet-scan.bosagora.org/txs';
+export const ETHERSCAN_URL              = process.env.REACT_APP_ETHERSCAN_URL || 'https://scan.bosagora.org/txs';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://beaconscan.com/validator' : `https://beaconscan.com/${NETWORK_NAME.toLowerCase()}/validator`;
-export const BEACONCHAIN_URL            = `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
+export const BEACONCHAIN_URL            = process.env.REACT_APP_BEACONCHAIN_URL || `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
 export const FORTMATIC_KEY              = process.env.REACT_APP_FORTMATIC_KEY       || 'pk_test_D113D979E0D3508F';
 export const CONTRACT_ADDRESS           = process.env.REACT_APP_CONTRACT_ADDRESS    || '0x00000000219ab540356cBB839Cbe05303d7705Fa';
 export const MIN_DEPOSIT_CLI_VERSION    = process.env.REACT_APP_MIN_DEPOSIT_CLI_VERSION  || '1.0.0';
