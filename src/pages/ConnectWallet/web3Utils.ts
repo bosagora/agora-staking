@@ -19,6 +19,7 @@ export enum NetworkChainId {
   'Mainnet' = 2151,
   'Devnet' = 2020,
   'Testnet' = 2019,
+  'Localtestnet' = 3426,
 }
 
 /*
@@ -30,10 +31,12 @@ const supportedNetworks = [
   NetworkChainId.Mainnet,
   NetworkChainId.Devnet,
   NetworkChainId.Testnet,
+  NetworkChainId.Localtestnet,
 ];
 
 enum Testnet {
   'Testnet',
+  'Localtestnet',
 }
 
 enum Mainnet {
@@ -44,6 +47,7 @@ export const NetworkNameToChainId: { [key: string]: NetworkChainId } = {
   Mainnet: NetworkChainId.Mainnet,
   Devnet: NetworkChainId.Devnet,
   Testnet: NetworkChainId.Testnet,
+  Localtestnet: NetworkChainId.Localtestnet,
 };
 
 export const TARGET_NETWORK_CHAIN_ID = IS_MAINNET
