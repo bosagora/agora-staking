@@ -120,6 +120,10 @@ const _UploadValidatorPage = ({
       depositDataJson.signature ||
       depositDataJson.deposit_message_root ||
       depositDataJson.deposit_data_root ||
+      depositDataJson.voter ||
+      depositDataJson.voter_signature ||
+      depositDataJson.voter_message_root ||
+      depositDataJson.voter_data_root ||
       depositDataJson.fork_version
     );
   };

@@ -96,15 +96,28 @@ export const handleMultipleTransactions = async (
     signature,
     // eslint-disable-next-line
     deposit_data_root,
+    voter,
+    // eslint-disable-next-line
+    voter_signature,
+    // eslint-disable-next-line
+    voter_data_root,
   } = nextTransaction;
   updateTransactionStatus(pubkey, TransactionStatus.PENDING);
 
+  // eslint-disable-next-line
+  const voter_info = {
+    voter: prefix0X(voter.substring(24)),
+    signature: prefix0X(voter_signature),
+    data_root: prefix0X(voter_data_root),
+  };
+
   contract.methods
-    .deposit(
+    .deposit_with_voter(
       prefix0X(pubkey),
       prefix0X(withdrawal_credentials),
       prefix0X(signature),
-      prefix0X(deposit_data_root)
+      prefix0X(deposit_data_root),
+      voter_info
     )
     .send(transactionParameters)
     .on('transactionHash', (txHash: string): void => {

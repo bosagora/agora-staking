@@ -37,6 +37,7 @@ const supportedNetworks = [
 enum Testnet {
   'Testnet',
   'Localtestnet',
+  'Devnet',
 }
 
 enum Mainnet {

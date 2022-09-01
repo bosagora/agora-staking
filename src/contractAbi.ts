@@ -59,4 +59,26 @@ export const contractAbi: EFAbi[] = [
     payable: false,
     type: 'function',
   },
+  {
+    name: 'deposit_with_voter',
+    outputs: [],
+    inputs: [
+      { type: 'bytes', name: 'pubkey' },
+      { type: 'bytes', name: 'withdrawal_credentials' },
+      { type: 'bytes', name: 'signature' },
+      { type: 'bytes32', name: 'deposit_data_root' },
+      {
+        name: 'voter_info',
+        type: 'tuple',
+        components: [
+          { type: 'address', name: 'voter' },
+          { type: 'bytes', name: 'signature' },
+          { type: 'bytes32', name: 'data_root' },
+        ],
+        internalType: 'struct IAgoraDepositContract.VoterInfo',
+      },
+    ],
+    payable: true,
+    type: 'function',
+  },
 ];

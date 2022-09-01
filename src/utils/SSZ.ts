@@ -79,6 +79,75 @@ export const verifyDepositRoots = (
   return false;
 };
 
+const VoterMessage = new ContainerType({
+  fields: {
+    pubkey: new ByteVectorType({
+      length: 48,
+    }),
+    voter: new ByteVectorType({
+      length: 32,
+    }),
+    amount: new NumberUintType({
+      byteLength: 8,
+    }),
+  },
+});
+
+interface VoterMessage {
+  pubkey: ByteVector;
+  voter: ByteVector;
+  amount: Number;
+}
+
+const VoterData = new ContainerType({
+  fields: {
+    pubkey: new ByteVectorType({
+      length: 48,
+    }),
+    voter: new ByteVectorType({
+      length: 32,
+    }),
+    amount: new NumberUintType({
+      byteLength: 8,
+    }),
+    signature: new ByteVectorType({
+      length: 96,
+    }),
+  },
+});
+
+interface VoterData {
+  pubkey: ByteVector;
+  voter: ByteVector;
+  amount: Number;
+  signature: ByteVector;
+}
+
+export const verifyVoterRoots = (voterDatum: DepositKeyInterface): boolean => {
+  const voterMessage: VoterMessage = {
+    pubkey: bufferHex(voterDatum.pubkey),
+    voter: bufferHex(voterDatum.voter),
+    amount: Number(voterDatum.amount),
+  };
+  const voterData: VoterData = {
+    pubkey: bufferHex(voterDatum.pubkey),
+    voter: bufferHex(voterDatum.voter),
+    amount: Number(voterDatum.amount),
+    signature: bufferHex(voterDatum.voter_signature),
+  };
+  if (
+    bufferHex(voterDatum.voter_message_root).compare(
+      VoterMessage.hashTreeRoot(voterMessage)
+    ) === 0 &&
+    bufferHex(voterDatum.voter_data_root).compare(
+      VoterData.hashTreeRoot(voterData)
+    ) === 0
+  ) {
+    return true;
+  }
+  return false;
+};
+
 export const SigningData = new ContainerType({
   fields: {
     objectRoot: new ByteVectorType({

@@ -5,8 +5,11 @@ import _every from 'lodash/every';
 import { initBLS } from '@chainsafe/bls';
 import compareVersions from 'compare-versions';
 import axios from 'axios';
-import { verifySignature } from '../../utils/verifySignature';
-import { verifyDepositRoots } from '../../utils/SSZ';
+import {
+  verifySignature,
+  verifyVoterSignature,
+} from '../../utils/verifySignature';
+import { verifyDepositRoots, verifyVoterRoots } from '../../utils/SSZ';
 import {
   DepositKeyInterface,
   BeaconchainDepositInterface,
@@ -29,6 +32,10 @@ const validateFieldFormatting = (
     !depositDatum.signature ||
     !depositDatum.deposit_message_root ||
     !depositDatum.deposit_data_root ||
+    !depositDatum.voter ||
+    !depositDatum.voter_signature ||
+    !depositDatum.voter_message_root ||
+    !depositDatum.voter_data_root ||
     !depositDatum.fork_version ||
     !depositDatum.deposit_cli_version
   ) {
@@ -43,6 +50,10 @@ const validateFieldFormatting = (
     typeof depositDatum.signature !== 'string' ||
     typeof depositDatum.deposit_message_root !== 'string' ||
     typeof depositDatum.deposit_data_root !== 'string' ||
+    typeof depositDatum.voter !== 'string' ||
+    typeof depositDatum.voter_signature !== 'string' ||
+    typeof depositDatum.voter_message_root !== 'string' ||
+    typeof depositDatum.voter_data_root !== 'string' ||
     typeof depositDatum.fork_version !== 'string' ||
     typeof depositDatum.deposit_cli_version !== 'string'
   ) {
@@ -56,6 +67,10 @@ const validateFieldFormatting = (
     depositDatum.signature.length !== 192 ||
     depositDatum.deposit_message_root.length !== 64 ||
     depositDatum.deposit_data_root.length !== 64 ||
+    depositDatum.voter.length !== 64 ||
+    depositDatum.voter_signature.length !== 192 ||
+    depositDatum.voter_message_root.length !== 64 ||
+    depositDatum.voter_data_root.length !== 64 ||
     depositDatum.fork_version.length !== 8
   ) {
     return false;
@@ -98,7 +113,10 @@ export const validateDepositKey = async (
     if (!verifyDepositRoots(depositDatum)) {
       return false;
     }
-    return verifySignature(depositDatum);
+    if (!verifyVoterRoots(depositDatum)) {
+      return false;
+    }
+    return verifySignature(depositDatum) && verifyVoterSignature(depositDatum);
   });
   return _every(depositKeysStatuses);
 };
