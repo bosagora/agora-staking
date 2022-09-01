@@ -16,6 +16,10 @@ export interface DepositKeyInterface {
   signature: string;
   deposit_message_root: string;
   deposit_data_root: string;
+  voter: string;
+  voter_message_root: string;
+  voter_data_root: string;
+  voter_signature: string;
   fork_version: string;
   deposit_cli_version: string;
   transactionStatus: TransactionStatus;

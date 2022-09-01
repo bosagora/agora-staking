@@ -49,3 +49,15 @@ export const verifySignature = (depositDatum: DepositKeyInterface): boolean => {
   const signingRoot = computeSigningRoot(depositMessageBuffer, domain);
   return verify(pubkeyBuffer, signingRoot, signatureBuffer);
 };
+
+// Note: usage of this method requires awaiting the initBLS() method from "@chainsafe/bls";
+export const verifyVoterSignature = (
+  depositDatum: DepositKeyInterface
+): boolean => {
+  const pubkeyBuffer = bufferHex(depositDatum.pubkey);
+  const signatureBuffer = bufferHex(depositDatum.voter_signature);
+  const voterMessageBuffer = bufferHex(depositDatum.voter_message_root);
+  const domain = computeDomain(DOMAIN_DEPOSIT);
+  const signingRoot = computeSigningRoot(voterMessageBuffer, domain);
+  return verify(pubkeyBuffer, signingRoot, signatureBuffer);
+};
