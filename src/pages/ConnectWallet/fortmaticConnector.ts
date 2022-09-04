@@ -9,7 +9,7 @@ import invariant from 'tiny-invariant';
 
 const chainIdToNetwork: { [network: number]: string } = {
   2151: 'mainnet',
-  2020: 'devnet',
+  2155: 'devnet',
   2019: 'testnet',
   3426: 'localtestnet',
 };

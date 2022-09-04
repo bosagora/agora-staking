@@ -17,7 +17,7 @@ import {
 
 export enum NetworkChainId {
   'Mainnet' = 2151,
-  'Devnet' = 2020,
+  'Devnet' = 2155,
   'Testnet' = 2019,
   'Localtestnet' = 3426,
 }
