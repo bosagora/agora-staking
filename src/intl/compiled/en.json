@@ -1,8 +1,8 @@
 {
-  "+L0IkF": [
+  "+Krr4M": [
     {
       "type": 0,
-      "value": "Step 2: Generate deposit keys using the Ethereum Foundation deposit tool"
+      "value": "At the other end of the spectrum, if your balance is closer to 31 BOA, it’s probably not worth adding the extra BOA required to get back to 32."
     }
   ],
   "+UUcBt": [
@@ -27,6 +27,12 @@
     {
       "type": 0,
       "value": "I accept"
+    }
+  ],
+  "+ijXqp": [
+    {
+      "type": 0,
+      "value": "Become a validator and help secure the future of BOSAGORA"
     }
   ],
   "+mDtA4": [
@@ -133,20 +139,6 @@
       "value": " to them, instead of the official deposit contract. Make sure that the address you are sending the transaction to is the correct address."
     }
   ],
-  "/h0DGY": [
-    {
-      "type": 0,
-      "value": "Why the "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH maximum?"
-    }
-  ],
   "/jJLYy": [
     {
       "type": 0,
@@ -157,12 +149,6 @@
     {
       "type": 0,
       "value": "If at all possible, consider running another client at this time to help protect yourself and the network."
-    }
-  ],
-  "/tHxib": [
-    {
-      "type": 0,
-      "value": "Geth is one of the three original implementations of the Ethereum protocol, written in Go."
     }
   ],
   "/ub26/": [
@@ -289,6 +275,12 @@
       "value": ")"
     }
   ],
+  "0jIJRM": [
+    {
+      "type": 0,
+      "value": "BOSAGORA Foundation Blog"
+    }
+  ],
   "0lHkrT": [
     {
       "type": 0,
@@ -407,10 +399,18 @@
       "value": "Check deposit contract details"
     }
   ],
-  "1ingnQ": [
+  "1jCRnc": [
     {
       "type": 0,
-      "value": "More on Ethereum staking economics"
+      "value": "Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
     }
   ],
   "1p+pb5": [
@@ -443,6 +443,20 @@
     {
       "type": 0,
       "value": " file"
+    }
+  ],
+  "23k+Gv": [
+    {
+      "type": 0,
+      "value": "Does the site asking you for your "
+    },
+    {
+      "type": 1,
+      "value": "ethAmount"
+    },
+    {
+      "type": 0,
+      "value": " deposit have a URL you expect?"
     }
   ],
   "25suT4": [
@@ -511,12 +525,6 @@
     {
       "type": 0,
       "value": "Nimbus key management documentation"
-    }
-  ],
-  "2rflCq": [
-    {
-      "type": 0,
-      "value": "Client diversity is extremely important for the network health of Ethereum: A bug in a client with a share of over 33% can cause Ethereum to go offline. If the client has a supermajority (>66%), a bug could cause the chain to incorrectly split, potentially leading to slashing."
     }
   ],
   "2s0gAx": [
@@ -599,52 +607,6 @@
     {
       "type": 0,
       "value": "Testing on Goerli"
-    }
-  ],
-  "3ODqP9": [
-    {
-      "type": 0,
-      "value": "Depositing more than "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH, as each validator is limited to an "
-    },
-    {
-      "type": 1,
-      "value": "effectiveBalance"
-    },
-    {
-      "type": 0,
-      "value": " of "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": ". This means that staking is done in "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH increments, each with its own set of keys and balance."
     }
   ],
   "3PZq07": [
@@ -759,12 +721,6 @@
       "value": "Start by setting up your chosen hardware and operating system."
     }
   ],
-  "4QNsja": [
-    {
-      "type": 0,
-      "value": "Why a sliding scale? While we won’t get into the gory details here, the basic intution is that there needs to be a minimum number of validators (and hence a minimum amount of ETH staked) for the network to function properly. So, to incentivize more validators to join, it’s important that the interest rate remains high until this minimum number is reached."
-    }
-  ],
   "4VQUkR": [
     {
       "type": 0,
@@ -789,6 +745,12 @@
     {
       "type": 0,
       "value": "Copy"
+    }
+  ],
+  "4wGlGH": [
+    {
+      "type": 0,
+      "value": "Become a validator and help secure the future of BOSAGORA."
     }
   ],
   "54J/qs": [
@@ -879,6 +841,12 @@
       "value": " this is ~1.2-1.3 GB download and ~0.9-1 GB upload per hour, and is likely to increase."
     }
   ],
+  "5ayYNP": [
+    {
+      "type": 0,
+      "value": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 16 BOA, you will be automatically exited from the validator pool."
+    }
+  ],
   "5dG331": [
     {
       "type": 0,
@@ -919,12 +887,6 @@
     {
       "type": 0,
       "value": "average"
-    }
-  ],
-  "6CN01C": [
-    {
-      "type": 0,
-      "value": "After the Shanghai upgrade, your 16 ETH can then be withdrawn – with your withdrawal key – after a delay of around a day."
     }
   ],
   "6HBTTN": [
@@ -1089,6 +1051,30 @@
       "value": " blockchain explorers."
     }
   ],
+  "7n4y3s": [
+    {
+      "type": 1,
+      "value": "networkBold"
+    },
+    {
+      "type": 0,
+      "value": " is a younger public testnet that has already undergone its transition to proof-of-stake after undergoing a successful merge upgrade in March 2022. Kiln is open for anyone to interact with. Try sending some BOA, interacting with some contracts, or deploying your own."
+    }
+  ],
+  "7rdiGn": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "type": 1,
+      "value": "mainnet"
+    },
+    {
+      "type": 0,
+      "value": " to sync the AGORA mainnet."
+    }
+  ],
   "7sZfCF": [
     {
       "type": 0,
@@ -1201,20 +1187,6 @@
       "value": "For security, we recommend you disconnect from the internet to complete this step."
     }
   ],
-  "9DZdsc": [
-    {
-      "type": 0,
-      "value": "Is there any advantage to having more than "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH at stake?"
-    }
-  ],
   "9JktQX": [
     {
       "type": 0,
@@ -1231,6 +1203,20 @@
     {
       "type": 0,
       "value": "How are validators incentivized to stay active and honest?"
+    }
+  ],
+  "9dANSS": [
+    {
+      "type": 0,
+      "value": "A "
+    },
+    {
+      "type": 1,
+      "value": "validator"
+    },
+    {
+      "type": 0,
+      "value": " is a virtual entity that lives on the Beacon Chain, represented by a balance, public key, and other properties, and participates in consensus of the AGORA network."
     }
   ],
   "9k7tO9": [
@@ -1369,28 +1355,6 @@
       "value": "If you need help, check out the Python documentation."
     }
   ],
-  "AJD+66": [
-    {
-      "type": 0,
-      "value": "The Ethereum staking deposit contract requires a minimum of "
-    },
-    {
-      "type": 1,
-      "value": "minTopupValue"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to be sent at one time to be accepted."
-    }
-  ],
   "ALEY4e": [
     {
       "type": 1,
@@ -1407,6 +1371,12 @@
     {
       "type": 0,
       "value": " guide"
+    }
+  ],
+  "ARZ8E1": [
+    {
+      "type": 0,
+      "value": "More on AGORA staking economics"
     }
   ],
   "ARyG2Z": [
@@ -1453,26 +1423,22 @@
       "value": " to make sure you're prepared."
     }
   ],
-  "Ad61gz": [
+  "Aem9lr": [
     {
       "type": 0,
-      "value": "Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: "
-    },
-    {
-      "type": 1,
-      "value": "url"
-    }
-  ],
-  "Ad8+R5": [
-    {
-      "type": 0,
-      "value": "Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 Ethereum while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized."
+      "value": "Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client."
     }
   ],
   "AfH0eO": [
     {
       "type": 0,
       "value": "All stakers must operate an execution client with their consensus client starting at the Merge. Make sure you're prepared."
+    }
+  ],
+  "AfTSSO": [
+    {
+      "type": 0,
+      "value": "Validating in AGORA is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
     }
   ],
   "Affixg": [
@@ -1665,12 +1631,6 @@
       "value": "Proof of stake"
     }
   ],
-  "CVDzDs": [
-    {
-      "type": 0,
-      "value": "You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 ETH)."
-    }
-  ],
   "CW9+vD": [
     {
       "type": 0,
@@ -1685,26 +1645,6 @@
     {
       "type": 1,
       "value": "executionLayerName"
-    }
-  ],
-  "Cacfkx": [
-    {
-      "type": 0,
-      "value": "More on the Ethereum vision"
-    }
-  ],
-  "CdKEd/": [
-    {
-      "type": 0,
-      "value": "The minimum amount that can be slashed is 1 ETH, but "
-    },
-    {
-      "type": 1,
-      "value": "strongText"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "CeeJfw": [
@@ -1725,10 +1665,10 @@
       "value": "Current APR"
     }
   ],
-  "D4cQV/": [
+  "DBGq88": [
     {
       "type": 0,
-      "value": "How much ETH do I need to stake to become a validator?"
+      "value": "Phishing is a very real risk for AGORA validators and, unfortunately, many people will lose funds due to these attacks."
     }
   ],
   "DCaq7N": [
@@ -1771,28 +1711,6 @@
     {
       "type": 0,
       "value": "I've forwarded the necessary ports to the correct machine(s) from my router for both my EL and CL client (only open the ports that apply to your installations)."
-    }
-  ],
-  "DoCZT1": [
-    {
-      "type": 0,
-      "value": "Validator effective balance is currently maxed out. If desired, you may add "
-    },
-    {
-      "type": 1,
-      "value": "minTopupValue"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " (the minimum allowed by the deposit contract)"
     }
   ],
   "DsJ/Mk": [
@@ -1889,16 +1807,34 @@
       "value": "Staking Launchpad"
     }
   ],
+  "EeQXsK": [
+    {
+      "type": 0,
+      "value": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+    }
+  ],
+  "EhWnrS": [
+    {
+      "type": 0,
+      "value": "You should certainly top up if your balance is close to 16 BOA. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 BOA)."
+    }
+  ],
+  "Emi2Mf": [
+    {
+      "type": 0,
+      "value": "More on the BOSAGORA vision"
+    }
+  ],
   "FEbVwB": [
     {
       "type": 0,
       "value": "The key concept is the following:"
     }
   ],
-  "FFUr3c": [
+  "FLDi9r": [
     {
       "type": 0,
-      "value": "Ethereum had its genesis on July 30, 2015. It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+      "value": "The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing BOSAGORA one step closer to a more sustainable ecosystem."
     }
   ],
   "FM92S0": [
@@ -2083,6 +2019,12 @@
       "value": "Generate keys"
     }
   ],
+  "GdlAH7": [
+    {
+      "type": 0,
+      "value": "Step 2: Generate deposit keys using the BOSAGORA Foundation deposit tool"
+    }
+  ],
   "GelBd9": [
     {
       "type": 0,
@@ -2253,10 +2195,18 @@
       "value": "Sign transaction with your wallet"
     }
   ],
-  "IVyWYt": [
+  "IU/9Dz": [
     {
       "type": 0,
-      "value": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 ETH) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+      "value": "No. There is no advantage to having more than "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA staked."
     }
   ],
   "IZFEUg": [
@@ -2269,20 +2219,6 @@
     {
       "type": 0,
       "value": "Install virtualenv"
-    }
-  ],
-  "If09Ko": [
-    {
-      "type": 0,
-      "value": "As such, stakers must provide a "
-    },
-    {
-      "type": 1,
-      "value": "feeRecipient"
-    },
-    {
-      "type": 0,
-      "value": " address to their consensus client in order to receive these rewards. This is a normal Ethereum address that you're used to."
     }
   ],
   "IhDJWs": [
@@ -2349,6 +2285,12 @@
       "value": "This is a new change and becomes a requirement at time of the Merge, so be sure you're running both before the upgrade."
     }
   ],
+  "JD5p14": [
+    {
+      "type": 0,
+      "value": "We strongly recommend you go through the entire process on a testnet first to get comfortable before risking real BOA."
+    }
+  ],
   "JMcBLZ": [
     {
       "type": 0,
@@ -2369,16 +2311,38 @@
       "value": "4. Avoid phishing"
     }
   ],
+  "JUTUWX": [
+    {
+      "type": 0,
+      "value": "Generate deposit keys using the BOSAGORA Foundation deposit tool"
+    }
+  ],
   "Ja5vXW": [
     {
       "type": 0,
       "value": "Further reading"
     }
   ],
-  "JbVlOE": [
+  "JgALGl": [
     {
       "type": 0,
-      "value": "Dig deeper into Ethereum upgrades."
+      "value": "Do not deposit more than "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA for a single validator. It will not add to your rewards and will be locked until the planned "
+    },
+    {
+      "type": 1,
+      "value": "shanghai"
+    },
+    {
+      "type": 0,
+      "value": " update."
     }
   ],
   "JhUYU3": [
@@ -2479,6 +2443,12 @@
     {
       "type": 1,
       "value": "url"
+    }
+  ],
+  "KbtByh": [
+    {
+      "type": 0,
+      "value": "These fees are paid by whoever submitted the transaction and come in the form of BOA on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer."
     }
   ],
   "KcdQCZ": [
@@ -2595,10 +2565,18 @@
       "value": "Bulgarian"
     }
   ],
-  "LlClXS": [
+  "Lo9pOI": [
     {
       "type": 0,
-      "value": "Thank you for supporting the Ethereum network!"
+      "value": "Limiting the maximum stake to "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of BOA that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
     }
   ],
   "Ltd/hJ": [
@@ -2637,6 +2615,12 @@
     {
       "type": 0,
       "value": "Why do I need to run an execution client now?"
+    }
+  ],
+  "M36gac": [
+    {
+      "type": 0,
+      "value": "Geth is an execution client of the AGORA protocol, written in Go."
     }
   ],
   "M3GwXS": [
@@ -2701,34 +2685,16 @@
       "value": "The upgrades"
     }
   ],
-  "MZzOnU": [
-    {
-      "type": 0,
-      "value": "How is Ethereum scaling?"
-    }
-  ],
   "Mb3npQ": [
     {
       "type": 0,
       "value": "Using the terminal"
     }
   ],
-  "MbsAo3": [
-    {
-      "type": 0,
-      "value": "This launchpad will help you become a validator, so you can play an active part in Ethereum's future. Validators are key to the more secure, scalable, and sustainable Ethereum we're building together."
-    }
-  ],
   "Mc8nNE": [
     {
       "type": 0,
       "value": "Transaction failed"
-    }
-  ],
-  "Mlc7Vr": [
-    {
-      "type": 0,
-      "value": "The Ethereum upgrades will only be successful if validators understand the risks and responsibilities."
     }
   ],
   "Mm7FSl": [
@@ -2789,28 +2755,6 @@
       "value": "I've secured the root account."
     }
   ],
-  "NTHTCh": [
-    {
-      "type": 0,
-      "value": "Do not deposit more than "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH for a single validator. It will not add to your rewards and will be locked until the planned "
-    },
-    {
-      "type": 1,
-      "value": "shanghai"
-    },
-    {
-      "type": 0,
-      "value": " update."
-    }
-  ],
   "NTWnJC": [
     {
       "type": 0,
@@ -2849,16 +2793,16 @@
       "value": "Mainnet"
     }
   ],
-  "NatYUJ": [
-    {
-      "type": 0,
-      "value": "Learn more about the roles and responsibilities of Ethereum validators."
-    }
-  ],
   "Nb5DNK": [
     {
       "type": 0,
       "value": "Become a validator with Teku"
+    }
+  ],
+  "NiMVAO": [
+    {
+      "type": 0,
+      "value": "Dig deeper into AGORA upgrades."
     }
   ],
   "NwzcYT": [
@@ -2927,6 +2871,26 @@
       "value": "The Nethermind documentation explains how to download and install the client."
     }
   ],
+  "OXo7cj": [
+    {
+      "type": 0,
+      "value": "Are there recent "
+    },
+    {
+      "type": 1,
+      "value": "ethAmount"
+    },
+    {
+      "type": 0,
+      "value": " deposits?"
+    }
+  ],
+  "ObzVtj": [
+    {
+      "type": 0,
+      "value": "Ongoing thread of AGORA Merge info"
+    }
+  ],
   "OdYQYh": [
     {
       "type": 0,
@@ -2975,18 +2939,6 @@
       "value": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
     }
   ],
-  "P/Oh91": [
-    {
-      "type": 0,
-      "value": "Phishing is a very real risk for Ethereum validators and, unfortunately, many people will lose funds due to these attacks."
-    }
-  ],
-  "P0kiYS": [
-    {
-      "type": 0,
-      "value": "The Beacon Chain upgrade brings proof-of-stake consensus to Ethereum."
-    }
-  ],
   "P1QerV": [
     {
       "type": 0,
@@ -3025,12 +2977,6 @@
       "value": "Your network has changed"
     }
   ],
-  "Pd0hC/": [
-    {
-      "type": 0,
-      "value": "Ethereum Foundation Blog"
-    }
-  ],
   "PfoT0C": [
     {
       "type": 0,
@@ -3067,6 +3013,12 @@
       "value": "Turkish"
     }
   ],
+  "PvBRXX": [
+    {
+      "type": 0,
+      "value": "I have provided an AGORA address to my validator where I would like my fee rewards to be deposited."
+    }
+  ],
   "Px7wWb": [
     {
       "type": 0,
@@ -3083,6 +3035,20 @@
     {
       "type": 0,
       "value": "Now that transactions must be processed by validators, the validators that propose blocks including these transactions are eligible to receive the transaction fee tips. These are also known as priority fees, and are the unburnt portion of gas fees."
+    }
+  ],
+  "Q2n6Pd": [
+    {
+      "type": 0,
+      "value": "The minimum amount that can be slashed is 1 BOA, but "
+    },
+    {
+      "type": 1,
+      "value": "strongText"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "Q8P0rZ": [
@@ -3187,28 +3153,6 @@
       "value": "networkName"
     }
   ],
-  "QgOvR0": [
-    {
-      "type": 0,
-      "value": "Importantly, as a validator you'll need to post "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " as collateral—in other words, have some funds at stake. The only way to become a validator is to make a one-way "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " transaction to the deposit contract on the current Ethereum chain."
-    }
-  ],
   "QlsDcr": [
     {
       "type": 0,
@@ -3305,12 +3249,6 @@
       "value": "congratulations"
     }
   ],
-  "RaBZna": [
-    {
-      "type": 0,
-      "value": "If you go offline for a number of days under normal conditions you will lose an amount of ETH roughly equivalent to the amount of ETH you would have gained in that period. In other words, if you stood to earn ≈0.01 ETH, you would instead be penalised ≈0.01 ETH."
-    }
-  ],
   "Rg5ySE": [
     {
       "type": 0,
@@ -3325,20 +3263,6 @@
     {
       "type": 0,
       "value": " is open for anyone to interact with. Try sending some transactions, running a validator, or see if you can get slashed!"
-    }
-  ],
-  "RkSC5Q": [
-    {
-      "type": 0,
-      "value": "Reminder, the Merge upgrade will "
-    },
-    {
-      "type": 1,
-      "value": "not"
-    },
-    {
-      "type": 0,
-      "value": " implement withdrawing or transferring of staked ETH. This feature will be included in the Shanghai upgrade planned to follow the Merge."
     }
   ],
   "RqTB/U": [
@@ -3377,10 +3301,26 @@
       "value": "The Teku config file environment variable"
     }
   ],
-  "SEt7ZX": [
+  "SFZh7W": [
     {
       "type": 0,
-      "value": "Ongoing thread of Ethereum Merge info"
+      "value": "Validator effective balance is currently maxed out. If desired, you may add "
+    },
+    {
+      "type": 1,
+      "value": "minTopupValue"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " (the minimum allowed by the deposit contract)"
     }
   ],
   "SGzXoY": [
@@ -3399,12 +3339,6 @@
     {
       "type": 0,
       "value": "Avoid overly-complicated setups and be aware of trade offs. Being offline for brief periods of time will result in small inactivity penalities, but will be recouped easily after being online again for about the same amount of time. Complicated power backups can add to the expense of your setup, and redundant backup validators can lead to slashing."
-    }
-  ],
-  "SVLpih": [
-    {
-      "type": 0,
-      "value": "The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing Ethereum one step closer to a more sustainable ecosystem."
     }
   ],
   "SaR1pU": [
@@ -3497,10 +3431,22 @@
       "value": "initial and maximum"
     }
   ],
-  "THIzw6": [
+  "TA3UD1": [
     {
       "type": 0,
-      "value": "Validators and Ethereum"
+      "value": "Block rewards are calculated using a sliding scale based on the total amount of BOA staked on the network."
+    }
+  ],
+  "TIYxRB": [
+    {
+      "type": 0,
+      "value": "Learn more about the roles and responsibilities of AGORA validators."
+    }
+  ],
+  "TKWb8T": [
+    {
+      "type": 0,
+      "value": "The AGORA upgrades will only be successful if validators understand the risks and responsibilities."
     }
   ],
   "TMw9oz": [
@@ -3599,10 +3545,10 @@
       "value": " for more details"
     }
   ],
-  "UWv7yD": [
+  "UeIdTL": [
     {
       "type": 0,
-      "value": "Check the deposit contract on your favorite Ethereum block explorer:"
+      "value": "Thank you for supporting the AGORA network!"
     }
   ],
   "Utck3E": [
@@ -3775,12 +3721,6 @@
       "value": " until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
     }
   ],
-  "VSSmNp": [
-    {
-      "type": 0,
-      "value": "In other words: if the total amount of ETH staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
-    }
-  ],
   "VUuZsb": [
     {
       "type": 0,
@@ -3897,12 +3837,6 @@
     {
       "type": 0,
       "value": "Both layers required"
-    }
-  ],
-  "Wxmhku": [
-    {
-      "type": 0,
-      "value": "These fees are paid by whoever submitted the transaction and come in the form of ETH on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer."
     }
   ],
   "WxqnJn": [
@@ -4049,6 +3983,12 @@
     {
       "type": 1,
       "value": "executionLayerName"
+    }
+  ],
+  "Y24kZE": [
+    {
+      "type": 0,
+      "value": "Client diversity is extremely important for the network health of AGORA: A bug in a client with a share of over 33% can cause AGORA to go offline. If the client has a supermajority (>66%), a bug could cause the chain to incorrectly split, potentially leading to slashing."
     }
   ],
   "Y47aYU": [
@@ -4227,6 +4167,12 @@
       "value": "money bag"
     }
   ],
+  "Yzo00L": [
+    {
+      "type": 0,
+      "value": "Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 AGORA while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized."
+    }
+  ],
   "Z07LQm": [
     {
       "type": 0,
@@ -4365,20 +4311,6 @@
       "value": "Build deposit-cli from the Python source code"
     }
   ],
-  "b3J7Pw": [
-    {
-      "type": 0,
-      "value": "No. There is no advantage to having more than "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH staked."
-    }
-  ],
   "b4csjU": [
     {
       "type": 0,
@@ -4389,6 +4321,12 @@
     {
       "type": 0,
       "value": "More on client diversity"
+    }
+  ],
+  "bB1mmI": [
+    {
+      "type": 0,
+      "value": "Validators and AGORA"
     }
   ],
   "bNFkSo": [
@@ -4483,12 +4421,6 @@
       "value": "Check your favorite Beacon Chain block explorer:"
     }
   ],
-  "cPsIkp": [
-    {
-      "type": 0,
-      "value": "Become a validator and help secure the future of Ethereum."
-    }
-  ],
   "cRzxes": [
     {
       "type": 0,
@@ -4541,6 +4473,26 @@
     {
       "type": 0,
       "value": "What are withdrawal credentials?"
+    }
+  ],
+  "cqVKvf": [
+    {
+      "type": 0,
+      "value": "This launchpad will help you become a validator, so you can play an active part in BOSAGORA's future. Validators are key to the more secure, scalable, and sustainable AGORA we're building together."
+    }
+  ],
+  "ctYy1o": [
+    {
+      "type": 0,
+      "value": "Why the "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA maximum?"
     }
   ],
   "cwYSyN": [
@@ -4599,12 +4551,6 @@
     {
       "type": 0,
       "value": "Deposit"
-    }
-  ],
-  "dJMce5": [
-    {
-      "type": 0,
-      "value": "Prysm is a Go consensus client implementation of the Ethereum protocol with a focus on usability, security, and reliability."
     }
   ],
   "dM/KIM": [
@@ -4703,10 +4649,38 @@
       "value": " Staking Launchpad"
     }
   ],
+  "e5G66z": [
+    {
+      "type": 0,
+      "value": "Importantly, as a validator you'll need to post "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " as collateral—in other words, have some funds at stake. The only way to become a validator is to make a one-way "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " transaction to the deposit contract on the current AGORA chain."
+    }
+  ],
   "eF9RbC": [
     {
       "type": 0,
       "value": "You can think of the deposit contract as a transfer of funds between Ethereum accounts and Beacon Chain validators."
+    }
+  ],
+  "eFSpta": [
+    {
+      "type": 0,
+      "value": "How is AGORA scaling?"
     }
   ],
   "eKEL/g": [
@@ -4801,30 +4775,10 @@
       "value": "What happens if I lose my signing key?"
     }
   ],
-  "fBCdim": [
-    {
-      "type": 0,
-      "value": "Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
-    }
-  ],
   "fDY/uQ": [
     {
       "type": 0,
       "value": "Teku - The Merge"
-    }
-  ],
-  "fHLKXR": [
-    {
-      "type": 0,
-      "value": "The answer to this question very much depends on how much ETH you have at your disposal."
     }
   ],
   "fQ5yno": [
@@ -4907,10 +4861,10 @@
       "value": " to sync the Goerli testnet."
     }
   ],
-  "gQkd2y": [
+  "gUgcnN": [
     {
       "type": 0,
-      "value": "Generate deposit keys using the Ethereum Foundation deposit tool"
+      "value": "If you go offline for a number of days under normal conditions you will lose an amount of BOA roughly equivalent to the amount of BOA you would have gained in that period. In other words, if you stood to earn ≈0.01 BOA, you would instead be penalised ≈0.01 BOA."
     }
   ],
   "gVC0Wl": [
@@ -5019,6 +4973,28 @@
       "value": "Your stake"
     }
   ],
+  "hF3hlp": [
+    {
+      "type": 0,
+      "value": "The AGORA staking deposit contract requires a minimum of "
+    },
+    {
+      "type": 1,
+      "value": "minTopupValue"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to be sent at one time to be accepted."
+    }
+  ],
   "hFzE1M": [
     {
       "type": 0,
@@ -5031,16 +5007,30 @@
       "value": "Desktop only"
     }
   ],
-  "hICY9k": [
+  "hHqYrL": [
     {
       "type": 0,
-      "value": "I have provided an Ethereum address to my validator where I would like my fee rewards to be deposited."
+      "value": "Once you're comfortable, you'll go through generating your keys and depositing your BOA."
     }
   ],
   "hPCn9f": [
     {
       "type": 0,
       "value": "--JsonRpc.Enabled documentation"
+    }
+  ],
+  "hWwXK0": [
+    {
+      "type": 0,
+      "value": "Is there any advantage to having more than "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA at stake?"
     }
   ],
   "hXE+0W": [
@@ -5057,6 +5047,20 @@
     {
       "type": 0,
       "value": "In other words, you maximize your rewards by providing the greatest benefit to the network as a whole."
+    }
+  ],
+  "hdnk84": [
+    {
+      "type": 0,
+      "value": "Reminder, the Merge upgrade will "
+    },
+    {
+      "type": 1,
+      "value": "not"
+    },
+    {
+      "type": 0,
+      "value": " implement withdrawing or transferring of staked BOA. This feature will be included in the Shanghai upgrade planned to follow the Merge."
     }
   ],
   "hfXlpq": [
@@ -5077,20 +5081,6 @@
       "value": "More on effective balance"
     }
   ],
-  "hlxt3T": [
-    {
-      "type": 0,
-      "value": "Limiting the maximum stake to "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
-    }
-  ],
   "huEFUF": [
     {
       "type": 0,
@@ -5109,6 +5099,66 @@
     {
       "type": 0,
       "value": "node operator"
+    }
+  ],
+  "hyDRWp": [
+    {
+      "type": 0,
+      "value": "As such, stakers must provide a "
+    },
+    {
+      "type": 1,
+      "value": "feeRecipient"
+    },
+    {
+      "type": 0,
+      "value": " address to their consensus client in order to receive these rewards. This is a normal BOA address that you're used to."
+    }
+  ],
+  "hzCDL2": [
+    {
+      "type": 0,
+      "value": "Depositing more than "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA, as each validator is limited to an "
+    },
+    {
+      "type": 1,
+      "value": "effectiveBalance"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": ". This means that staking is done in "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA increments, each with its own set of keys and balance."
     }
   ],
   "hzLd+/": [
@@ -5369,10 +5419,10 @@
       "value": "Key list"
     }
   ],
-  "km7b1A": [
+  "kgYD5R": [
     {
       "type": 0,
-      "value": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 16 ETH, you will be automatically exited from the validator pool."
+      "value": "Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after Mainnet merges with the Beacon Chain."
     }
   ],
   "kn7kJd": [
@@ -5425,6 +5475,12 @@
     {
       "type": 0,
       "value": "You're on the testnet"
+    }
+  ],
+  "l2vMxn": [
+    {
+      "type": 0,
+      "value": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 BOA) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
     }
   ],
   "l3ztMu": [
@@ -5505,20 +5561,6 @@
     {
       "type": 0,
       "value": "."
-    }
-  ],
-  "lM/dEI": [
-    {
-      "type": 0,
-      "value": "Does the site asking you for your "
-    },
-    {
-      "type": 1,
-      "value": "ethAmount"
-    },
-    {
-      "type": 0,
-      "value": " deposit have a URL you expect?"
     }
   ],
   "lQzdpT": [
@@ -5635,36 +5677,34 @@
       "value": "File uploaded"
     }
   ],
+  "mA/8Vc": [
+    {
+      "type": 0,
+      "value": "The AGORA consensus-layer specification"
+    }
+  ],
+  "mAnceU": [
+    {
+      "type": 0,
+      "value": "After the Shanghai upgrade, your 16 BOA can then be withdrawn – with your withdrawal key – after a delay of around a day."
+    }
+  ],
   "mArJcj": [
     {
       "type": 0,
       "value": "Hard drive"
     }
   ],
-  "mUZnem": [
+  "mQaIii": [
     {
       "type": 0,
-      "value": "We strongly recommend you go through the entire process on a testnet first to get comfortable before risking real ETH."
+      "value": "In other words: if the total amount of BOA staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
     }
   ],
   "mZOXtM": [
     {
       "type": 0,
       "value": "Validators"
-    }
-  ],
-  "mc27Pv": [
-    {
-      "type": 0,
-      "value": "A "
-    },
-    {
-      "type": 1,
-      "value": "validator"
-    },
-    {
-      "type": 0,
-      "value": " is a virtual entity that lives on the Beacon Chain, represented by a balance, public key, and other properties, and participates in consensus of the Ethereum network."
     }
   ],
   "mcQpea": [
@@ -5741,12 +5781,6 @@
     {
       "type": 0,
       "value": " sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
-    }
-  ],
-  "ndhFef": [
-    {
-      "type": 0,
-      "value": "Once you're comfortable, you'll go through generating your keys and depositing your ETH."
     }
   ],
   "njAU72": [
@@ -5979,6 +6013,16 @@
       "value": "!"
     }
   ],
+  "pDK5lU": [
+    {
+      "type": 0,
+      "value": "Please make sure that you are downloading from the official BOSAGORA Foundation GitHub account by verifying the url: "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    }
+  ],
   "pHQwsN": [
     {
       "type": 0,
@@ -5995,6 +6039,12 @@
     {
       "type": 0,
       "value": "More on phishing"
+    }
+  ],
+  "phW8Eh": [
+    {
+      "type": 0,
+      "value": "How much BOA do I need to stake to become a validator?"
     }
   ],
   "pnxB8A": [
@@ -6023,16 +6073,6 @@
     {
       "type": 0,
       "value": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
-    }
-  ],
-  "pxfiWL": [
-    {
-      "type": 1,
-      "value": "networkBold"
-    },
-    {
-      "type": 0,
-      "value": " is a younger public testnet that has already undergone its transition to proof-of-stake after undergoing a successful merge upgrade in March 2022. Kiln is open for anyone to interact with. Try sending some ETH, interacting with some contracts, or deploying your own."
     }
   ],
   "pyWt01": [
@@ -6293,6 +6333,12 @@
       "value": "Teku can also be configured via a YAML file which is passed in via a few different ways."
     }
   ],
+  "sG1jz9": [
+    {
+      "type": 0,
+      "value": "Why a sliding scale? While we won’t get into the gory details here, the basic intution is that there needs to be a minimum number of validators (and hence a minimum amount of BOA staked) for the network to function properly. So, to incentivize more validators to join, it’s important that the interest rate remains high until this minimum number is reached."
+    }
+  ],
   "sMHQRT": [
     {
       "type": 0,
@@ -6325,6 +6371,12 @@
       "value": ". This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
     }
   ],
+  "sjy7/j": [
+    {
+      "type": 0,
+      "value": "The answer to this question very much depends on how much BOA you have at your disposal."
+    }
+  ],
   "smD5l/": [
     {
       "type": 0,
@@ -6355,6 +6407,12 @@
       "value": "I understand and agree to the terms-of-service and everything stated in the previous sections."
     }
   ],
+  "tCvslk": [
+    {
+      "type": 0,
+      "value": "Check the deposit contract on your favorite AGORA block explorer:"
+    }
+  ],
   "tJcyUM": [
     {
       "type": 0,
@@ -6365,12 +6423,6 @@
     {
       "type": 0,
       "value": "Learn more about the great renaming"
-    }
-  ],
-  "tbYkT4": [
-    {
-      "type": 0,
-      "value": "The Ethereum consensus-layer specification"
     }
   ],
   "teyxVk": [
@@ -6441,20 +6493,6 @@
       "value": "Status"
     }
   ],
-  "u/3saa": [
-    {
-      "type": 0,
-      "value": "Your wallet is on the wrong Ethereum network. To continue, connect to "
-    },
-    {
-      "type": 1,
-      "value": "executionLayerName"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "u28qA1": [
     {
       "type": 0,
@@ -6471,12 +6509,6 @@
     {
       "type": 0,
       "value": "Uptime"
-    }
-  ],
-  "uGKswV": [
-    {
-      "type": 0,
-      "value": "Post-merge, an Ethereum node will be comprised of both an execution client, and a consensus client."
     }
   ],
   "uJzGSb": [
@@ -6559,20 +6591,6 @@
       "value": "Authentication API"
     }
   ],
-  "up+5YH": [
-    {
-      "type": 0,
-      "value": "Are there recent "
-    },
-    {
-      "type": 1,
-      "value": "ethAmount"
-    },
-    {
-      "type": 0,
-      "value": " deposits?"
-    }
-  ],
   "vBJ79e": [
     {
       "type": 0,
@@ -6595,12 +6613,6 @@
     {
       "type": 0,
       "value": "Protect your funds using monitoring software, and learn how to handle different real world scenarios."
-    }
-  ],
-  "vIF140": [
-    {
-      "type": 0,
-      "value": "Become a validator and help secure the future of Ethereum"
     }
   ],
   "vJez0K": [
@@ -6651,16 +6663,24 @@
       "value": " as soon as possible. And join the EthStaker community for support and discussion with fellow validators."
     }
   ],
-  "vej0DE": [
-    {
-      "type": 0,
-      "value": "Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of Ethereum, after Mainnet (the Ethereum we use today) merges with the Beacon Chain."
-    }
-  ],
   "vg1dVR": [
     {
       "type": 0,
       "value": "With your signing key, you could attempt to quickly exit the validator and then transfer the funds – with the withdrawal key – before the thief."
+    }
+  ],
+  "vzJ0Od": [
+    {
+      "type": 0,
+      "value": "Your wallet is on the wrong AGORA network. To continue, connect to "
+    },
+    {
+      "type": 1,
+      "value": "executionLayerName"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "w6qYSU": [
@@ -6695,6 +6715,18 @@
     {
       "type": 0,
       "value": "Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to."
+    }
+  ],
+  "wRMvbz": [
+    {
+      "type": 0,
+      "value": "The Beacon Chain upgrade brings proof-of-stake consensus to AGORA."
+    }
+  ],
+  "waI5ap": [
+    {
+      "type": 0,
+      "value": "Prysm is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
     }
   ],
   "wawegX": [
@@ -6751,12 +6783,6 @@
       "value": "Testnet simulations"
     }
   ],
-  "x0tVK4": [
-    {
-      "type": 0,
-      "value": "Validating in Ethereum is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
-    }
-  ],
   "x4/9vY": [
     {
       "type": 0,
@@ -6789,12 +6815,6 @@
     {
       "type": 0,
       "value": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
-    }
-  ],
-  "xSvJIi": [
-    {
-      "type": 0,
-      "value": "Block rewards are calculated using a sliding scale based on the total amount of ETH staked on the network."
     }
   ],
   "xXKkhR": [
@@ -7005,26 +7025,6 @@
     {
       "type": 0,
       "value": "More on Lighthouse and Sigma Prime"
-    }
-  ],
-  "zGkAVo": [
-    {
-      "type": 0,
-      "value": "At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32."
-    }
-  ],
-  "zbEBi9": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "mainnet"
-    },
-    {
-      "type": 0,
-      "value": " to sync the Ethereum mainnet."
     }
   ],
   "zicXn7": [

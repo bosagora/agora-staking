@@ -205,7 +205,7 @@ const _Routes = () => {
   const title = formatMessage({ defaultMessage: 'Staking Launchpad' });
   const description = formatMessage({
     defaultMessage:
-      'Become a validator and help secure the future of Ethereum.',
+      'Become a validator and help secure the future of BOSAGORA.',
   });
   return (
     <>

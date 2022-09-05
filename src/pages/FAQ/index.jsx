@@ -52,7 +52,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="A {validator} is a virtual entity that lives on the Beacon Chain, represented by a balance, public key, and other properties, and participates in consensus of the Ethereum network."
+                defaultMessage="A {validator} is a virtual entity that lives on the Beacon Chain, represented by a balance, public key, and other properties, and participates in consensus of the AGORA network."
                 values={{
                   validator: (
                     <em>
@@ -99,13 +99,13 @@ export const FAQ = () => {
           </section>
           <section>
             <Heading level={4}>
-              <FormattedMessage defaultMessage="How much ETH do I need to stake to become a validator?" />
+              <FormattedMessage defaultMessage="How much BOA do I need to stake to become a validator?" />
             </Heading>
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Each key-pair associated with a validator requires locking {ethPerValidator} to be activated, which represents your initial balance as well as your {initialAndMaximum} voting power for any validator."
                 values={{
-                  ethPerValidator: <strong>{PRICE_PER_VALIDATOR} ETH</strong>,
+                  ethPerValidator: <strong>{PRICE_PER_VALIDATOR} BOA</strong>,
                   initialAndMaximum: (
                     <em>
                       <FormattedMessage defaultMessage="initial and maximum" />
@@ -118,7 +118,7 @@ export const FAQ = () => {
           <section>
             <Heading level={4}>
               <FormattedMessage
-                defaultMessage="Is there any advantage to having more than {pricePerValidator} ETH at stake?"
+                defaultMessage="Is there any advantage to having more than {pricePerValidator} BOA at stake?"
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -126,7 +126,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="No. There is no advantage to having more than {pricePerValidator} ETH staked."
+                defaultMessage="No. There is no advantage to having more than {pricePerValidator} BOA staked."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -134,7 +134,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Depositing more than {pricePerValidator} ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} ETH, as each validator is limited to an {effectiveBalance} of {pricePerValidator}. This means that staking is done in {pricePerValidator} ETH increments, each with its own set of keys and balance."
+                defaultMessage="Depositing more than {pricePerValidator} BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} BOA, as each validator is limited to an {effectiveBalance} of {pricePerValidator}. This means that staking is done in {pricePerValidator} BOA increments, each with its own set of keys and balance."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                   effectiveBalance: (
@@ -153,7 +153,7 @@ export const FAQ = () => {
           <section>
             <Heading level={4}>
               <FormattedMessage
-                defaultMessage="Why the {pricePerValidator} ETH maximum?"
+                defaultMessage="Why the {pricePerValidator} BOA maximum?"
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -161,7 +161,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Limiting the maximum stake to {pricePerValidator} ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
+                defaultMessage="Limiting the maximum stake to {pricePerValidator} BOA per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of BOA that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -177,7 +177,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Do not deposit more than {pricePerValidator} ETH for a single validator. It will not add to your rewards and will be locked until the planned {shanghai} update."
+                defaultMessage="Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {shanghai} update."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                   shanghai: (
@@ -233,10 +233,10 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="If you go offline for a number of days under normal conditions you will lose an amount of ETH
-                  roughly equivalent to the amount of ETH you would have gained in
-                  that period. In other words, if you stood to earn ≈0.01 ETH, you
-                  would instead be penalised ≈0.01 ETH."
+                defaultMessage="If you go offline for a number of days under normal conditions you will lose an amount of BOA
+                  roughly equivalent to the amount of BOA you would have gained in
+                  that period. In other words, if you stood to earn ≈0.01 BOA, you
+                  would instead be penalised ≈0.01 BOA."
               />
             </Text>
           </section>
@@ -246,22 +246,22 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="The answer to this question very much depends on how much ETH you
+                defaultMessage="The answer to this question very much depends on how much BOA you
                   have at your disposal."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="You should certainly top up if your balance is close to 16 ETH.
+                defaultMessage="You should certainly top up if your balance is close to 16 BOA.
                   This is to ensure you don’t get kicked out of the validator
                   set (which automatically happens if your balance falls below 16
-                  ETH)."
+                  BOA)."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="At the other end of the spectrum, if your balance is closer to 31
-                  ETH, it’s probably not worth adding the extra ETH required to get back to 32."
+                  BOA, it’s probably not worth adding the extra BOA required to get back to 32."
               />
             </Text>
           </section>
@@ -375,7 +375,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} ETH. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
+                defaultMessage="Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -575,12 +575,12 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Block rewards are calculated using a sliding scale based on the
-                  total amount of ETH staked on the network."
+                  total amount of BOA staked on the network."
               />
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="In other words: if the total amount of ETH staked is low, the
+                defaultMessage="In other words: if the total amount of BOA staked is low, the
                   reward (interest rate) is high, but as the total stake rises, the
                   reward (interest) paid out to each validator starts to fall."
               />
@@ -589,7 +589,7 @@ export const FAQ = () => {
               <FormattedMessage
                 defaultMessage="Why a sliding scale? While we won’t get into the gory details
                   here, the basic intution is that there needs to be a minimum
-                  number of validators (and hence a minimum amount of ETH staked)
+                  number of validators (and hence a minimum amount of BOA staked)
                   for the network to function properly. So, to incentivize more
                   validators to join, it’s important that the interest rate remains
                   high until this minimum number is reached."
@@ -672,7 +672,7 @@ export const FAQ = () => {
               <Text className="mt10">
                 <FormattedMessage
                   defaultMessage="Note that in the second (unlikely) scenario, you stand to
-                    progressively lose up to 50% (16 ETH) of your stake over 21
+                    progressively lose up to 50% (16 BOA) of your stake over 21
                     days. After 21 days you are ejected out of the validator pool.
                     This ensures that blocks start finalizing again at some point."
                 />
@@ -722,7 +722,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="The minimum amount that can be slashed is 1 ETH, but {strongText}."
+                defaultMessage="The minimum amount that can be slashed is 1 BOA, but {strongText}."
                 values={{
                   strongText: (
                     <strong>
@@ -824,7 +824,7 @@ export const FAQ = () => {
                       ethAddressWithdraw: (
                         <code>
                           {' '}
-                          {`--eth1_withdrawal_address <YOUR ETH ADDRESS>`}{' '}
+                          {`--eth1_withdrawal_address <YOUR BOA ADDRESS>`}{' '}
                         </code>
                       ),
                       boldWarning: (
@@ -869,7 +869,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Over time, your balance will decrease as you are
-                  punished for not participating in the consensus process. When your balance reaches 16 ETH, you will be
+                  punished for not participating in the consensus process. When your balance reaches 16 BOA, you will be
                   automatically exited from the validator pool."
               />
             </Text>
@@ -903,7 +903,7 @@ export const FAQ = () => {
             </BlockQuote>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="After the Shanghai upgrade, your 16 ETH can then be withdrawn – with your withdrawal key – after
+                defaultMessage="After the Shanghai upgrade, your 16 BOA can then be withdrawn – with your withdrawal key – after
                   a delay of around a day."
               />
             </Text>

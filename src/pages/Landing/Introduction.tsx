@@ -66,15 +66,15 @@ export const Introduction = (): JSX.Element => {
         <ContentContainer>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
             <Heading level={2} size="medium" color="blueDark" margin="none">
-              <FormattedMessage defaultMessage="Validators and Ethereum" />
+              <FormattedMessage defaultMessage="Validators and AGORA" />
             </Heading>
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInUp" animateOnce>
             <Text className="mt20">
               <FormattedMessage
                 defaultMessage="This launchpad will help you become a validator, so you can play
-                  an active part in Ethereum's future. Validators are key to the
-                  more secure, scalable, and sustainable Ethereum we're building
+                  an active part in BOSAGORA's future. Validators are key to the
+                  more secure, scalable, and sustainable AGORA we're building
                   together."
               />
             </Text>
@@ -82,13 +82,13 @@ export const Introduction = (): JSX.Element => {
               className="mt20 mb40"
               to="https://ethereum.org/en/upgrades/vision/"
             >
-              <FormattedMessage defaultMessage="More on the Ethereum vision" />
+              <FormattedMessage defaultMessage="More on the BOSAGORA vision" />
             </Link>
             <Text className="mt20">
               <FormattedMessage defaultMessage="By running a validator, you'll be responsible for securing the network and receive continuous payouts for actions that help the network reach consensus." />
             </Text>
             <Text className="mt20">
-              <FormattedMessage defaultMessage="Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of Ethereum, after Mainnet (the Ethereum we use today) merges with the Beacon Chain." />
+              <FormattedMessage defaultMessage="Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after Mainnet merges with the Beacon Chain." />
             </Text>
             <Link
               className="mt20"
@@ -104,7 +104,7 @@ export const Introduction = (): JSX.Element => {
             </Link>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="Validating in Ethereum is not the same as mining. The outcomes are
+                defaultMessage="Validating in AGORA is not the same as mining. The outcomes are
                   similar: the work you do will extend and secure the chain. But the
                   process is completely different because they use different
                   consensus mechanisms."

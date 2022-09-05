@@ -58,7 +58,7 @@ export const Upgrades = (): JSX.Element => {
     {
       title: formatMessage({ defaultMessage: 'The upgrades' }),
       subTitle: formatMessage({
-        defaultMessage: 'Dig deeper into Ethereum upgrades.',
+        defaultMessage: 'Dig deeper into AGORA upgrades.',
       }),
       linkUrl: 'https://ethereum.org/en/upgrades/',
       link: formatMessage({ defaultMessage: 'How does this all happen?' }),
@@ -79,7 +79,7 @@ export const Upgrades = (): JSX.Element => {
       title: formatMessage({ defaultMessage: 'Validators FAQ' }),
       subTitle: formatMessage({
         defaultMessage:
-          'Learn more about the roles and responsibilities of Ethereum validators.',
+          'Learn more about the roles and responsibilities of AGORA validators.',
       }),
       linkUrl: '/faq',
       link: formatMessage({ defaultMessage: 'More on validators' }),
@@ -93,7 +93,7 @@ export const Upgrades = (): JSX.Element => {
           <div className="px20">
             <ScrollAnimation animateIn="fadeIn" animateOnce>
               <StyledHeading margin="none" className="mt20" isMobile={m}>
-                <FormattedMessage defaultMessage="How is Ethereum scaling?" />
+                <FormattedMessage defaultMessage="How is AGORA scaling?" />
               </StyledHeading>
             </ScrollAnimation>
             <ScrollAnimation animateIn="fadeInUp" animateOnce>
@@ -149,7 +149,7 @@ export const Upgrades = (): JSX.Element => {
                 <FormattedMessage defaultMessage="Sharding" />
               </UpgradeTitle>
               <Text className="mt20">
-                <FormattedMessage defaultMessage="Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 Ethereum while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized." />
+                <FormattedMessage defaultMessage="Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 AGORA while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized." />
               </Text>
               <Link
                 className="mt20 mb40"
