@@ -184,7 +184,6 @@ const ChecklistAlert = styled.div`
 
 const Leslie = styled.img.attrs({ src: LeslieTheRhinoPNG })`
   width: 200px;
-  transform: scale(-1.2, 1.2);
   margin: 3rem 0 5rem 4rem;
 `;
 
