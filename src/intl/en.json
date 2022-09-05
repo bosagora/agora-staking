@@ -87,6 +87,9 @@
   "00d8uq": {
     "message": "Once set up, your validator won't become active straight away. Use this time to complete the checklist and get some extra practice on a testnet."
   },
+  "00pBfe": {
+    "message": "BOSAGORA community"
+  },
   "03xT/J": {
     "message": "The idea behind this is to minimize the losses from honest mistakes, but strongly disincentivize coordinated attacks."
   },
@@ -581,9 +584,6 @@
   },
   "BPpnlJ": {
     "message": "Download MetaMask"
-  },
-  "BUFaRV": {
-    "message": "EthStaker community"
   },
   "BXoiVG": {
     "message": "Additional reminders"

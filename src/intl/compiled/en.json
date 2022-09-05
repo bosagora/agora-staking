@@ -233,6 +233,12 @@
       "value": "Once set up, your validator won't become active straight away. Use this time to complete the checklist and get some extra practice on a testnet."
     }
   ],
+  "00pBfe": [
+    {
+      "type": 0,
+      "value": "BOSAGORA community"
+    }
+  ],
   "03xT/J": [
     {
       "type": 0,
@@ -1591,12 +1597,6 @@
     {
       "type": 0,
       "value": "Download MetaMask"
-    }
-  ],
-  "BUFaRV": [
-    {
-      "type": 0,
-      "value": "EthStaker community"
     }
   ],
   "BXoiVG": [

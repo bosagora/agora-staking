@@ -519,13 +519,13 @@ const _CongratulationsPage = ({
                   </Link>
                   <Link
                     isTextLink={false}
-                    to="https://invite.gg/ethstaker"
+                    to="https://t.me/bosagora_eng"
                     className="mt20"
                   >
                     <Button
                       fullWidth
                       label={formatMessage({
-                        defaultMessage: 'EthStaker community',
+                        defaultMessage: 'BOSAGORA community',
                       })}
                     />
                   </Link>
