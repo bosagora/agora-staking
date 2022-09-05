@@ -491,7 +491,7 @@ const _CongratulationsPage = ({
             <div>
               <div className="flex">
                 <Heading level={3} size="medium" color="white" margin="none">
-                  <FormattedMessage defaultMessage="Thank you for supporting the Ethereum network!" />
+                  <FormattedMessage defaultMessage="Thank you for supporting the AGORA network!" />
                 </Heading>
                 <Text color="white" className="mt10">
                   <FormattedMessage

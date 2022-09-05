@@ -67,7 +67,7 @@ export const Option1 = ({
             style={{ wordBreak: 'break-word' }}
           >
             <FormattedMessage
-              defaultMessage="Please make sure that you are downloading from the official Ethereum
+              defaultMessage="Please make sure that you are downloading from the official BOSAGORA
               Foundation GitHub account by verifying the url: {url}"
               values={{
                 url: (
@@ -85,7 +85,7 @@ export const Option1 = ({
       <GithubScreenshot />
 
       <Text weight={500} className="mt20">
-        <FormattedMessage defaultMessage="Step 2: Generate deposit keys using the Ethereum Foundation deposit tool" />
+        <FormattedMessage defaultMessage="Step 2: Generate deposit keys using the BOSAGORA Foundation deposit tool" />
       </Text>
       <Alert className="my20" variant="info">
         <FormattedMessage defaultMessage="For security, we recommend you disconnect from the internet to complete this step." />

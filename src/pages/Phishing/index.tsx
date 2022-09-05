@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { PageTemplate } from '../../components/PageTemplate';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
 import { Link } from '../../components/Link';
-import { FormattedMessage, useIntl } from 'react-intl';
 import { PRICE_PER_VALIDATOR } from '../../utils/envVars';
 
 const SectionTitle = styled(Heading)`
@@ -19,7 +19,7 @@ export const Phishing = () => {
     <PageTemplate title={formatMessage({ defaultMessage: 'Avoid phishing' })}>
       <Text className="mt10">
         <FormattedMessage
-          defaultMessage="Phishing is a very real risk for Ethereum validators and, unfortunately,
+          defaultMessage="Phishing is a very real risk for AGORA validators and, unfortunately,
         many people will lose funds due to these attacks."
         />
       </Text>
@@ -34,9 +34,9 @@ export const Phishing = () => {
                 defaultMessage="Does the site asking you for your {ethAmount} deposit have a URL you
                 expect?"
                 values={{
-                  ethAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                  ethAmount: `${PRICE_PER_VALIDATOR} BOA`,
                 }}
-                description="{ethAmount} will generally refer to 32 ETH"
+                description="{ethAmount} will generally refer to 40000 BOA"
               />
             </Text>
           </li>
@@ -81,7 +81,7 @@ export const Phishing = () => {
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check the deposit contract on your favorite Ethereum block explorer:" />
+              <FormattedMessage defaultMessage="Check the deposit contract on your favorite AGORA block explorer:" />
             </Text>
             <ul>
               <li>
@@ -89,9 +89,9 @@ export const Phishing = () => {
                   <FormattedMessage
                     defaultMessage="Are there recent {ethAmount} deposits?"
                     values={{
-                      ethAmount: `${PRICE_PER_VALIDATOR} ETH`,
+                      ethAmount: `${PRICE_PER_VALIDATOR} BOA`,
                     }}
-                    description="Asks users to check deposit contract address against a block explorer and confirm 32 ETH deposits are present"
+                    description="Asks users to check deposit contract address against a block explorer and confirm 40000 BOA deposits are present"
                   />
                 </Text>
               </li>

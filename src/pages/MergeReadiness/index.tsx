@@ -194,7 +194,7 @@ export const MergeReadiness = () => {
       <div id="top" />
       <Subtitle>
         <Text className="mt20">
-          <FormattedMessage defaultMessage="The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing Ethereum one step closer to a more sustainable ecosystem." />
+          <FormattedMessage defaultMessage="The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing BOSAGORA one step closer to a more sustainable ecosystem." />
         </Text>
         <Text className="mt20">
           <FormattedMessage defaultMessage="Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to." />
@@ -231,7 +231,7 @@ export const MergeReadiness = () => {
             {sections[0].title}
           </Heading>
           <Text className="mt10">
-            <FormattedMessage defaultMessage="Post-merge, an Ethereum node will be comprised of both an execution client, and a consensus client." />
+            <FormattedMessage defaultMessage="Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client." />
           </Text>
         </SectionHeader>
         <section className={sections[0].pending ? 'pending' : ''}>
@@ -253,18 +253,18 @@ export const MergeReadiness = () => {
             <FormattedMessage defaultMessage="Stakers running their own execution layer is necessary for the decentralization of the network." />
           </Text>
           <CheckBox
-            label={
+            label={(
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I am running my own execution client." />
               </Text>
-            }
+            )}
           />
           <CheckBox
-            label={
+            label={(
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I am running my own consensus client." />
               </Text>
-            }
+            )}
           />
         </section>
         <SectionHeader id={sections[1].id}>
@@ -398,7 +398,7 @@ export const MergeReadiness = () => {
             </li>
           </ul>
           <CheckBox
-            label={
+            label={(
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I have set up a shared JWT secret and made it available to {both} my execution client, and my consensus client (beacon node)"
@@ -411,7 +411,7 @@ export const MergeReadiness = () => {
                   }}
                 />
               </Text>
-            }
+            )}
             disabled={sections[1].pending}
           />
         </section>
@@ -431,12 +431,12 @@ export const MergeReadiness = () => {
             <FormattedMessage defaultMessage="Now that transactions must be processed by validators, the validators that propose blocks including these transactions are eligible to receive the transaction fee tips. These are also known as priority fees, and are the unburnt portion of gas fees." />
           </Text>
           <Text className="mt20">
-            <FormattedMessage defaultMessage="These fees are paid by whoever submitted the transaction and come in the form of ETH on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer." />
+            <FormattedMessage defaultMessage="These fees are paid by whoever submitted the transaction and come in the form of BOA on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer." />
           </Text>
           <Alert variant="warning" className="my30">
             <Text>
               <FormattedMessage
-                defaultMessage="As such, stakers must provide a {feeRecipient} address to their consensus client in order to receive these rewards. This is a normal Ethereum address that you're used to."
+                defaultMessage="As such, stakers must provide a {feeRecipient} address to their consensus client in order to receive these rewards. This is a normal BOA address that you're used to."
                 values={{
                   feeRecipient: (
                     <strong>
@@ -491,19 +491,19 @@ export const MergeReadiness = () => {
             </li>
           </ul>
           <CheckBox
-            label={
+            label={(
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I understand that I will earn the unburnt transaction fees (tips/priority fees) when I propose a block, and this is accounted for on the execution layer, not my validator balance." />
               </Text>
-            }
+            )}
             disabled={sections[2].pending}
           />
           <CheckBox
-            label={
+            label={(
               <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I have provided an Ethereum address to my validator where I would like my fee rewards to be deposited." />
+                <FormattedMessage defaultMessage="I have provided an AGORA address to my validator where I would like my fee rewards to be deposited." />
               </Text>
-            }
+            )}
             disabled={sections[2].pending}
           />
         </section>
@@ -519,8 +519,8 @@ export const MergeReadiness = () => {
               defaultMessage="Public testnet progress is underway. When everything is safe and ready, the core developer teams will make this known, so stay tuned to the {blogLink} or other client team communication channels for the latest information."
               values={{
                 blogLink: (
-                  <Link inline primary to="https://blog.ethereum.org">
-                    <FormattedMessage defaultMessage="Ethereum Foundation Blog" />
+                  <Link inline primary to="https://medium.com/bosagora">
+                    <FormattedMessage defaultMessage="BOSAGORA Foundation Blog" />
                   </Link>
                 ),
               }}
@@ -645,7 +645,7 @@ export const MergeReadiness = () => {
           </ul>
           <Text className="mt20">
             <FormattedMessage
-              defaultMessage="{networkBold} is a younger public testnet that has already undergone its transition to proof-of-stake after undergoing a successful merge upgrade in March 2022. Kiln is open for anyone to interact with. Try sending some ETH, interacting with some contracts, or deploying your own."
+              defaultMessage="{networkBold} is a younger public testnet that has already undergone its transition to proof-of-stake after undergoing a successful merge upgrade in March 2022. Kiln is open for anyone to interact with. Try sending some BOA, interacting with some contracts, or deploying your own."
               values={{ networkBold: <strong>Kiln</strong> }}
             />
           </Text>
@@ -796,7 +796,7 @@ export const MergeReadiness = () => {
           </Heading>
           <Text className="mt20">
             <FormattedMessage
-              defaultMessage="Reminder, the Merge upgrade will {not} implement withdrawing or transferring of staked ETH. This feature will be included in the Shanghai upgrade planned to follow the Merge."
+              defaultMessage="Reminder, the Merge upgrade will {not} implement withdrawing or transferring of staked BOA. This feature will be included in the Shanghai upgrade planned to follow the Merge."
               values={{
                 not: (
                   <em>
@@ -853,7 +853,7 @@ export const MergeReadiness = () => {
                 inline
                 to="https://twitter.com/trent_vanepps/status/1508478499325202435"
               >
-                <FormattedMessage defaultMessage="Ongoing thread of Ethereum Merge info" />
+                <FormattedMessage defaultMessage="Ongoing thread of AGORA Merge info" />
               </Link>
               {' - '}
               <em>trent.eth</em>

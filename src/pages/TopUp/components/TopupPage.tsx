@@ -203,7 +203,7 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
           defaultMessage:
             'Validator effective balance is currently maxed out. If desired, you may add {minTopupValue} {TICKER_NAME} (the minimum allowed by the deposit contract)',
           description:
-            '{minTopupValue} is a number, and {TICKER_NAME} is either ETH or GöETH depending on network',
+            '{minTopupValue} is a number, and {TICKER_NAME} is either BOA depending on network',
         },
         { TICKER_NAME, minTopupValue }
       );
@@ -230,7 +230,7 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
     if (value < minTopupValue)
       return formatMessage(
         {
-          defaultMessage: `The Ethereum staking deposit contract requires a minimum of {minTopupValue} {TICKER_NAME} to be sent at one time to be accepted.`,
+          defaultMessage: `The AGORA staking deposit contract requires a minimum of {minTopupValue} {TICKER_NAME} to be sent at one time to be accepted.`,
         },
         { minTopupValue, TICKER_NAME }
       );
@@ -301,11 +301,11 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
           <CheckBox
             checked={termA}
             onChange={() => setTermA(!termA)}
-            label={
+            label={(
               <Text className="checkbox-label ml10">
                 <FormattedMessage defaultMessage="I am certain that the validator I am topping up is my validator." />
               </Text>
-            }
+            )}
           />
         </div>
         <div style={{ display: showAlert ? 'block' : 'none' }}>

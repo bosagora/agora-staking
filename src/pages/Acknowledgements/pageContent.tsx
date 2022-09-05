@@ -22,7 +22,7 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="The Beacon Chain upgrade brings proof-of-stake consensus to Ethereum." />
+          <FormattedMessage defaultMessage="The Beacon Chain upgrade brings proof-of-stake consensus to AGORA." />
         </Text>
         <Text size="medium" className="my10">
           <FormattedMessage
@@ -36,7 +36,7 @@ export const pageContent = {
             defaultMessage="Importantly, as a validator you'll need to post {TICKER_NAME} as
               collateral—in other words, have some funds at stake. The only way to become a
               validator is to make a one-way {TICKER_NAME} transaction to the deposit contract
-              on the current Ethereum chain."
+              on the current AGORA chain."
             values={{ TICKER_NAME }}
           />
         </Text>
@@ -113,7 +113,7 @@ export const pageContent = {
           primary
           inline
         >
-          <FormattedMessage defaultMessage="More on Ethereum staking economics" />
+          <FormattedMessage defaultMessage="More on AGORA staking economics" />
         </Link>
       </>
     ),
@@ -136,7 +136,7 @@ export const pageContent = {
           className="my10"
           primary
         >
-          <FormattedMessage defaultMessage="The Ethereum consensus-layer specification" />
+          <FormattedMessage defaultMessage="The AGORA consensus-layer specification" />
         </Link>
         <Link shouldOpenNewTab={true} to="/faq" className="my10" primary>
           <FormattedMessage defaultMessage="More on slashing risks" />
