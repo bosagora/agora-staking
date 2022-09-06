@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { AppBar } from '../../components/AppBar';
-import { MergeNotification } from '../../components/MergeNotification';
 import { Hero } from './Hero';
 import { NetworkStatus } from './NetworkStatus';
 import { Introduction } from './Introduction';
@@ -31,7 +30,6 @@ export const LandingPage = (): JSX.Element => {
   return (
     <>
       <AppBar />
-      <MergeNotification />
       <Hero />
       <NetworkStatus {...{ state }} />
       <Introduction />
