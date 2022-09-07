@@ -253,18 +253,18 @@ export const MergeReadiness = () => {
             <FormattedMessage defaultMessage="Stakers running their own execution layer is necessary for the decentralization of the network." />
           </Text>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I am running my own execution client." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I am running my own consensus client." />
               </Text>
-            )}
+            }
           />
         </section>
         <SectionHeader id={sections[1].id}>
@@ -398,7 +398,7 @@ export const MergeReadiness = () => {
             </li>
           </ul>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I have set up a shared JWT secret and made it available to {both} my execution client, and my consensus client (beacon node)"
@@ -411,7 +411,7 @@ export const MergeReadiness = () => {
                   }}
                 />
               </Text>
-            )}
+            }
             disabled={sections[1].pending}
           />
         </section>
@@ -491,19 +491,19 @@ export const MergeReadiness = () => {
             </li>
           </ul>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I understand that I will earn the unburnt transaction fees (tips/priority fees) when I propose a block, and this is accounted for on the execution layer, not my validator balance." />
               </Text>
-            )}
+            }
             disabled={sections[2].pending}
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I have provided an AGORA address to my validator where I would like my fee rewards to be deposited." />
               </Text>
-            )}
+            }
             disabled={sections[2].pending}
           />
         </section>

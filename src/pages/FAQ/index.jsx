@@ -260,8 +260,8 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="At the other end of the spectrum, if your balance is closer to 31
-                  BOA, it’s probably not worth adding the extra BOA required to get back to 32."
+                defaultMessage="At the other end of the spectrum, if your balance is closer to 38000
+                  BOA, it’s probably not worth adding the extra BOA required to get back to 40000."
               />
             </Text>
           </section>
