@@ -301,11 +301,11 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
           <CheckBox
             checked={termA}
             onChange={() => setTermA(!termA)}
-            label={(
+            label={
               <Text className="checkbox-label ml10">
                 <FormattedMessage defaultMessage="I am certain that the validator I am topping up is my validator." />
               </Text>
-            )}
+            }
           />
         </div>
         <div style={{ display: showAlert ? 'block' : 'none' }}>

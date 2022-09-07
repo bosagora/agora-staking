@@ -1,10 +1,4 @@
 {
-  "+Krr4M": [
-    {
-      "type": 0,
-      "value": "At the other end of the spectrum, if your balance is closer to 31 BOA, it’s probably not worth adding the extra BOA required to get back to 32."
-    }
-  ],
   "+UUcBt": [
     {
       "type": 0,
@@ -1645,6 +1639,12 @@
     {
       "type": 1,
       "value": "executionLayerName"
+    }
+  ],
+  "CWb/o2": [
+    {
+      "type": 0,
+      "value": "At the other end of the spectrum, if your balance is closer to 38000 BOA, it’s probably not worth adding the extra BOA required to get back to 40000."
     }
   ],
   "CeeJfw": [

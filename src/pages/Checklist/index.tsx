@@ -632,25 +632,25 @@ export const Checklist = () => {
           </Heading>
 
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've secured the root account." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've set up a firewall." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've forwarded the necessary ports to the correct machine(s) from my router for both my EL and CL client (only open the ports that apply to your installations)." />
               </Text>
-            )}
+            }
           />
           <ClientLayerContainer>
             <PortTable>
@@ -801,11 +801,11 @@ export const Checklist = () => {
             </li>
           </ul>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label" style={{ display: 'inherit' }}>
                 <FormattedMessage defaultMessage="I've verified my server time matches the wall clock." />
               </Text>
-            )}
+            }
           />
           <ul className="sub-checklist-item">
             <li className="py5">
@@ -866,7 +866,7 @@ export const Checklist = () => {
             </Text>
           </Alert>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've installed and synced my {network} execution client (do not wait on this as it can take several days)."
@@ -879,17 +879,17 @@ export const Checklist = () => {
                   }}
                 />
               </Text>
-            )}
+            }
           />
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Recommended" />
           </Heading>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've joined my execution client's Discord server." />
               </Text>
-            )}
+            }
           />
           <Text className="ml20">
             {clientInfo
@@ -947,7 +947,7 @@ export const Checklist = () => {
             </Text>
           </Alert>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've installed the {latestRelease} of my consensus client."
@@ -963,17 +963,17 @@ export const Checklist = () => {
                   description="{latestReleased} = 'latest stable software release', being styled in bold"
                 />
               </Text>
-            )}
+            }
           />
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Recommended" />
           </Heading>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've joined my consensus client's Discord server." />
               </Text>
-            )}
+            }
           />
           <Text className="ml20">
             {clientInfo
@@ -999,11 +999,11 @@ export const Checklist = () => {
             <FormattedMessage defaultMessage="Required" />
           </Heading>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I'm able to connect my consensus client to my execution client via HTTP API(s)." />
               </Text>
-            )}
+            }
           />
           <ul className="sub-checklist-item">
             <li className="py5">
@@ -1018,14 +1018,14 @@ export const Checklist = () => {
             </li>
           </ul>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've synced my beacon node on {consensusLayerName}."
                   values={{ consensusLayerName }}
                 />
               </Text>
-            )}
+            }
           />
           <ul className="sub-checklist-item">
             <li className="py5">
@@ -1043,14 +1043,14 @@ export const Checklist = () => {
             <FormattedMessage defaultMessage="Required" />
           </Heading>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've imported my keystore(s) into my validator client." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've ensured my keystore(s) is/are {boldCaution}."
@@ -1067,14 +1067,14 @@ export const Checklist = () => {
                   description="{boldCaution} is states 'only stored on one validator machine', a bolded caution statement to users"
                 />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've started running my validator client." />
               </Text>
-            )}
+            }
           />
         </section>
         <SectionHeader id="section-three">
@@ -1142,7 +1142,7 @@ export const Checklist = () => {
             />
           </Text>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've set up my {prometheus} service."
@@ -1156,10 +1156,10 @@ export const Checklist = () => {
                   description="{prometheus} is 'Prometheus' service, with link to its homepage (do not translate name)"
                 />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've set up my {grafana} service."
@@ -1173,17 +1173,17 @@ export const Checklist = () => {
                   description="{grafana} is 'Grafana' service, with link to its homepage (do not translate name)"
                 />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've imported the dashboard config to my Grafana server
                     and double checked that my node is alive."
                 />
               </Text>
-            )}
+            }
           />
         </section>
         <section>
@@ -1197,35 +1197,35 @@ export const Checklist = () => {
             />
           </Text>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage
                   defaultMessage="I've simulated how to manually stop and restart my Beacon Node (BN)
                     and Validator Client (VC) gracefully."
                 />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've simulated power loss (server and internet) and automatic resumption." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've simulated how to safely migrate from one consensus client to another." />
               </Text>
-            )}
+            }
           />
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've simulated how to safely migrate from one execution client to another." />
               </Text>
-            )}
+            }
           />
         </section>
         <section>
@@ -1277,11 +1277,11 @@ export const Checklist = () => {
             />
           </Text>
           <CheckBox
-            label={(
+            label={
               <Text className="checkbox-label">
                 <FormattedMessage defaultMessage="I've set my graffiti flag." />
               </Text>
-            )}
+            }
           />
         </section>
         <RainbowHeader>

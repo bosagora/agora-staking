@@ -1,7 +1,4 @@
 {
-  "+Krr4M": {
-    "message": "At the other end of the spectrum, if your balance is closer to 31 BOA, it’s probably not worth adding the extra BOA required to get back to 32."
-  },
   "+UUcBt": {
     "message": "Choose a language"
   },
@@ -627,6 +624,9 @@
   },
   "CWKE9c": {
     "message": "Your wallet is on the wrong network. Switch to {executionLayerName}"
+  },
+  "CWb/o2": {
+    "message": "At the other end of the spectrum, if your balance is closer to 38000 BOA, it’s probably not worth adding the extra BOA required to get back to 40000."
   },
   "CeeJfw": {
     "message": "I've set up a firewall."
