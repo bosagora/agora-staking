@@ -2088,9 +2088,6 @@
   "kn7kJd": {
     "message": "More on consensus mechanisms"
   },
-  "krEziQ": {
-    "message": "Get in touch"
-  },
   "ktxGO0": {
     "message": "If you’re a git user, you can run {gitClone} to download the {agora} branch."
   },
@@ -2290,9 +2287,6 @@
   },
   "p556q3": {
     "message": "Copied"
-  },
-  "pA+UVF": {
-    "message": "If you'd like to see the launchpad in another language, or if you can help translate, {getInTouch}!"
   },
   "pDK5lU": {
     "description": "{url} is link to GitHub CLI release, made bold for emphasis",

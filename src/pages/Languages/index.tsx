@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { useIntl } from 'react-intl';
 import styled from 'styled-components';
 import { Link } from '../../components/Link';
 import { PageTemplate } from '../../components/PageTemplate';
@@ -180,18 +180,6 @@ export const Languages = () => {
           );
         })}
       </LangContainer>
-      <p>
-        <FormattedMessage
-          defaultMessage="If you'd like to see the launchpad in another language, or if you can help translate, {getInTouch}!"
-          values={{
-            getInTouch: (
-              <Link inline to="https://discord.gg/bTCfS8C">
-                {formatMessage({ defaultMessage: 'Get in touch' })}
-              </Link>
-            ),
-          }}
-        />
-      </p>
     </PageTemplate>
   );
 };
