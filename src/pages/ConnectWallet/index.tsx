@@ -445,26 +445,6 @@ const _ConnectWalletPage = ({
                 title="Metamask"
                 error={walletProvider === metamask ? error : undefined}
               />
-
-              <WalletButton
-                invalid={PORTIS_DAPP_ID === ''}
-                selectedWallet={selectedWallet}
-                setSelectedWallet={setSelectedWallet}
-                logoSource={portisLogo}
-                walletProvider={portis}
-                title="Portis"
-                error={walletProvider === portis ? error : undefined}
-              />
-
-              <WalletButton
-                invalid={!ENABLE_RPC_FEATURES}
-                selectedWallet={selectedWallet}
-                setSelectedWallet={setSelectedWallet}
-                logoSource={fortmaticLogo}
-                walletProvider={fortmatic}
-                title="Fortmatic"
-                error={walletProvider === fortmatic ? error : undefined}
-              />
               <MetamaskHardwareButton />
             </WalletButtonSubContainer>
           </Animated>
