@@ -1,5 +1,5 @@
 export const IS_MAINNET                 = Boolean(process.env.REACT_APP_IS_MAINNET !== 'false');  // If REACT_APP_IS_MAINNET is unset, set it to true by default
-export const TESTNET_LAUNCHPAD_NAME     = process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME || 'AgoraTest';
+export const TESTNET_LAUNCHPAD_NAME     = process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME || 'Devnet';
 export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME || 'Localtestnet';
 
 // private vars (or derived from)
@@ -21,9 +21,9 @@ export const LIGHTHOUSE_INSTALLATION_URL = process.env.REACT_APP_LIGHTHOUSE_INST
 export const NIMBUS_INSTALLATION_URL    = process.env.REACT_APP_NIMBUS_INSTALLATION_URL  || 'https://nimbus.guide/intro.html';
 export const PRYSM_INSTALLATION_URL     = process.env.REACT_APP_PRYSM_INSTALLATION_URL   || 'https://docs.prylabs.network/docs/install/install-with-script';
 export const TEKU_INSTALLATION_URL      = process.env.REACT_APP_TEKU_INSTALLATION_URL    || 'https://docs.teku.pegasys.tech/en/latest/HowTo/Get-Started/Build-From-Source/';
-export const MAINNET_LAUNCHPAD_URL      = 'https://launchpad.ethereum.org/'
-export const TESTNET_LAUNCHPAD_URL      = `https://${TESTNET_LAUNCHPAD_NAME.toLowerCase()}.launchpad.ethereum.org/`
-export const FAUCET_URL                 = process.env.REACT_APP_FAUCET_URL || 'https://faucet.goerli.mudit.blog'
+export const MAINNET_LAUNCHPAD_URL      = 'http://staking-launchpad.bosagora.org/';
+export const TESTNET_LAUNCHPAD_URL      = 'https://staking-launchpad.bosagora.info/';
+export const FAUCET_URL                 = process.env.REACT_APP_FAUCET_URL || 'https://faucet.goerli.mudit.blog';
 export const TUTORIAL_URL               = process.env.REACT_APP_TUTORIAL_URL || null;
 
 if(process.env.REACT_APP_ETH_REQUIREMENT && Number.isNaN(Number(process.env.REACT_APP_ETH_REQUIREMENT))) {
