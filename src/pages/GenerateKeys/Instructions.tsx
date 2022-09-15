@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { keysTool } from './index';
 import { Paper } from '../../components/Paper';
 import { TextSelectionBox } from '../../components/TextSelectionBox';
@@ -6,7 +7,6 @@ import { Option1 } from './Option1';
 import { Option2 } from './Option2';
 import { Option3 } from './Option3';
 import { Heading } from '../../components/Heading';
-import { FormattedMessage, useIntl } from 'react-intl';
 
 interface Props {
   validatorCount: number | string;
@@ -35,13 +35,13 @@ export const Instructions = ({
         >
           {formatMessage({ defaultMessage: 'Download CLI app' })}
         </TextSelectionBox>
-        {/* <TextSelectionBox
+        <TextSelectionBox
           isActive={chosenTool === keysTool.GUI}
           onClick={() => setChosenTool(keysTool.GUI)}
           style={{ marginRight: '20px' }}
         >
           {formatMessage({ defaultMessage: 'Download Key Gen GUI app' })}
-        </TextSelectionBox> */}
+        </TextSelectionBox>
         <TextSelectionBox
           isActive={chosenTool === keysTool.CLISOURCE}
           onClick={() => setChosenTool(keysTool.CLISOURCE)}

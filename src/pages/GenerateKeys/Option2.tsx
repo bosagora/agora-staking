@@ -26,14 +26,14 @@ export const Option2 = ({ os }: { os: string }) => {
   return (
     <div className="mt30">
       <Heading level={2} size="small" color="blueMedium" className="mb20">
-        <FormattedMessage defaultMessage="Download Wagyu Key Gen app" />
+        <FormattedMessage defaultMessage="Download Agora Key Gen app" />
       </Heading>
       <Text weight={500}>
-        <FormattedMessage defaultMessage="Step 1: Download the Wagyu Key Gen app for your operating system" />
+        <FormattedMessage defaultMessage="Step 1: Download the Agora Key Gen app for your operating system" />
       </Text>
       <Link
         isTextLink={false}
-        to="https://github.com/stake-house/wagyu-key-gen/releases"
+        to="https://github.com/zeroone-boa/agora-key-gen/releases"
         className="my40"
       >
         <Button
@@ -41,14 +41,6 @@ export const Option2 = ({ os }: { os: string }) => {
           rainbow
           label={formatMessage({ defaultMessage: 'Download from GitHub' })}
         />
-      </Link>
-
-      <Link
-        shouldOpenNewTab={true}
-        to="https://github.com/stake-house/wagyu-key-gen/files/7693548/Wagyu.Key.Gen.Audit.Report.pdf"
-        className="my10"
-      >
-        <FormattedMessage defaultMessage="View Wagyu Key Gen audit by HashCloak" />
       </Link>
 
       <Alert variant="warning" className="my40">
@@ -61,12 +53,12 @@ export const Option2 = ({ os }: { os: string }) => {
             style={{ wordBreak: 'break-word' }}
           >
             <FormattedMessage
-              defaultMessage="Please make sure that you are downloading from the official StakeHouse
+              defaultMessage="Please make sure that you are downloading from the official BOSAGORA
               GitHub account by verifying the url: {url}"
               values={{
                 url: (
                   <strong>
-                    https://github.com/stake-house/wagyu-key-gen/releases
+                    https://github.com/zeroone-boa/agora-key-gen/releases
                   </strong>
                 ),
               }}
@@ -79,7 +71,7 @@ export const Option2 = ({ os }: { os: string }) => {
       <GithubScreenshot />
 
       <Text weight={500} className="mt20">
-        <FormattedMessage defaultMessage="Step 2: Generate deposit keys using the Wagyu Key Gen app" />
+        <FormattedMessage defaultMessage="Step 2: Generate deposit keys using the Agora Key Gen app" />
       </Text>
       <Alert className="my20" variant="info">
         <FormattedMessage defaultMessage="For security, we recommend you disconnect from the internet to complete this step." />
@@ -107,7 +99,7 @@ export const Option2 = ({ os }: { os: string }) => {
               <FormattedMessage defaultMessage="Execute the file you just downloaded." />
             </li>
             <li>
-              <FormattedMessage defaultMessage="Run the Wagyu Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Wagyu Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open." />
+              <FormattedMessage defaultMessage="Run the Agora Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Agora Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open." />
             </li>
           </>
         )}

@@ -255,6 +255,9 @@
   "3SOKyg": {
     "message": "These terminology updates only change naming conventions; this does not alter Ethereum's goals or roadmap."
   },
+  "3T01pE": {
+    "message": "Step 2: Generate deposit keys using the Agora Key Gen app"
+  },
   "3URRZK": {
     "message": "Geth on Goerli documentation"
   },
@@ -424,6 +427,10 @@
   "8FmuYF": {
     "message": "Install pip3"
   },
+  "8Gmjpx": {
+    "description": "{url} is link to GitHub CLI release, made bold for emphasis",
+    "message": "Please make sure that you are downloading from the official BOSAGORA GitHub account by verifying the url: {url}"
+  },
   "8JtiQS": {
     "message": "Does the contract address listed on the website match?"
   },
@@ -445,9 +452,6 @@
   },
   "8wd0q5": {
     "message": "An Ethereum client designed to be enterprise-friendly for both public and private, permissioned network use cases."
-  },
-  "8yom7x": {
-    "message": "Run the Wagyu Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Wagyu Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
   },
   "9+Ddtu": {
     "message": "Next"
@@ -712,6 +716,9 @@
   "Emi2Mf": {
     "message": "More on the BOSAGORA vision"
   },
+  "FCzZGS": {
+    "message": "Run the Agora Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Agora Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
+  },
   "FEbVwB": {
     "message": "The key concept is the following:"
   },
@@ -954,10 +961,6 @@
   },
   "KN7zKn": {
     "message": "Error"
-  },
-  "KWWsDo": {
-    "description": "{url} is link to GitHub CLI release, made bold for emphasis",
-    "message": "Please make sure that you are downloading from the official StakeHouse GitHub account by verifying the url: {url}"
   },
   "KbtByh": {
     "message": "These fees are paid by whoever submitted the transaction and come in the form of BOA on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer."
@@ -1673,9 +1676,6 @@
   "bUk/lm": {
     "message": "Besu installation documentation"
   },
-  "bUn2/Z": {
-    "message": "Download Wagyu Key Gen app"
-  },
   "bVtlF7": {
     "message": "Be sure to account for enough space on your drive until you run maintenance on your node."
   },
@@ -1747,9 +1747,6 @@
   },
   "cyR7Kh": {
     "message": "Back"
-  },
-  "d4g3yx": {
-    "message": "Step 2: Generate deposit keys using the Wagyu Key Gen app"
   },
   "d5KEM8": {
     "message": "You must sign a transaction for every deposit you want to make."
@@ -2058,9 +2055,6 @@
   "jzGCBy": {
     "message": "The {network} faucets have been abused, and are limited, but the folks at EthStaker will do their best to help you out"
   },
-  "k43c+l": {
-    "message": "View Wagyu Key Gen audit by HashCloak"
-  },
   "kFS5Sd": {
     "message": "Deposit contract formally verified"
   },
@@ -2170,6 +2164,9 @@
   },
   "mArJcj": {
     "message": "Hard drive"
+  },
+  "mPcHAH": {
+    "message": "Download Agora Key Gen app"
   },
   "mQaIii": {
     "message": "In other words: if the total amount of BOA staked is low, the reward (interest rate) is high, but as the total stake rises, the reward (interest) paid out to each validator starts to fall."
@@ -2426,6 +2423,9 @@
   "scfDDt": {
     "message": "Communication between the execution layer and consensus layer will occur using the {engineApi}. This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
   },
+  "sj/Zef": {
+    "message": "Download Key Gen GUI app"
+  },
   "sjy7/j": {
     "message": "The answer to this question very much depends on how much BOA you have at your disposal."
   },
@@ -2532,9 +2532,6 @@
   "vJez0K": {
     "message": "Proceed with caution. Our on-chain data source is down and we are unable to flag any double deposits."
   },
-  "vV6ua0": {
-    "message": "Step 1: Download the Wagyu Key Gen app for your operating system"
-  },
   "vY2wig": {
     "message": "Loading error"
   },
@@ -2593,6 +2590,9 @@
   },
   "wqUcy/": {
     "message": "Early adopter risks"
+  },
+  "wtAH5p": {
+    "message": "Step 1: Download the Agora Key Gen app for your operating system"
   },
   "wtTeex": {
     "message": "Are there spelling mistakes?"

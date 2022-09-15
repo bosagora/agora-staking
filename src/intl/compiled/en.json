@@ -639,6 +639,12 @@
       "value": "These terminology updates only change naming conventions; this does not alter Ethereum's goals or roadmap."
     }
   ],
+  "3T01pE": [
+    {
+      "type": 0,
+      "value": "Step 2: Generate deposit keys using the Agora Key Gen app"
+    }
+  ],
   "3URRZK": [
     {
       "type": 0,
@@ -1105,6 +1111,16 @@
       "value": "Install pip3"
     }
   ],
+  "8Gmjpx": [
+    {
+      "type": 0,
+      "value": "Please make sure that you are downloading from the official BOSAGORA GitHub account by verifying the url: "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    }
+  ],
   "8JtiQS": [
     {
       "type": 0,
@@ -1161,12 +1177,6 @@
     {
       "type": 0,
       "value": "An Ethereum client designed to be enterprise-friendly for both public and private, permissioned network use cases."
-    }
-  ],
-  "8yom7x": [
-    {
-      "type": 0,
-      "value": "Run the Wagyu Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Wagyu Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
     }
   ],
   "9+Ddtu": [
@@ -1825,6 +1835,12 @@
       "value": "More on the BOSAGORA vision"
     }
   ],
+  "FCzZGS": [
+    {
+      "type": 0,
+      "value": "Run the Agora Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Agora Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
+    }
+  ],
   "FEbVwB": [
     {
       "type": 0,
@@ -2433,16 +2449,6 @@
     {
       "type": 0,
       "value": "Error"
-    }
-  ],
-  "KWWsDo": [
-    {
-      "type": 0,
-      "value": "Please make sure that you are downloading from the official StakeHouse GitHub account by verifying the url: "
-    },
-    {
-      "type": 1,
-      "value": "url"
     }
   ],
   "KbtByh": [
@@ -4347,12 +4353,6 @@
       "value": "Besu installation documentation"
     }
   ],
-  "bUn2/Z": [
-    {
-      "type": 0,
-      "value": "Download Wagyu Key Gen app"
-    }
-  ],
   "bVtlF7": [
     {
       "type": 0,
@@ -4511,12 +4511,6 @@
     {
       "type": 0,
       "value": "Back"
-    }
-  ],
-  "d4g3yx": [
-    {
-      "type": 0,
-      "value": "Step 2: Generate deposit keys using the Wagyu Key Gen app"
     }
   ],
   "d5KEM8": [
@@ -5371,12 +5365,6 @@
       "value": " faucets have been abused, and are limited, but the folks at EthStaker will do their best to help you out"
     }
   ],
-  "k43c+l": [
-    {
-      "type": 0,
-      "value": "View Wagyu Key Gen audit by HashCloak"
-    }
-  ],
   "kFS5Sd": [
     {
       "type": 0,
@@ -5687,6 +5675,12 @@
     {
       "type": 0,
       "value": "Hard drive"
+    }
+  ],
+  "mPcHAH": [
+    {
+      "type": 0,
+      "value": "Download Agora Key Gen app"
     }
   ],
   "mQaIii": [
@@ -6351,6 +6345,12 @@
       "value": ". This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
     }
   ],
+  "sj/Zef": [
+    {
+      "type": 0,
+      "value": "Download Key Gen GUI app"
+    }
+  ],
   "sjy7/j": [
     {
       "type": 0,
@@ -6601,12 +6601,6 @@
       "value": "Proceed with caution. Our on-chain data source is down and we are unable to flag any double deposits."
     }
   ],
-  "vV6ua0": [
-    {
-      "type": 0,
-      "value": "Step 1: Download the Wagyu Key Gen app for your operating system"
-    }
-  ],
   "vY2wig": [
     {
       "type": 0,
@@ -6743,6 +6737,12 @@
     {
       "type": 0,
       "value": "Early adopter risks"
+    }
+  ],
+  "wtAH5p": [
+    {
+      "type": 0,
+      "value": "Step 1: Download the Agora Key Gen app for your operating system"
     }
   ],
   "wtTeex": [
