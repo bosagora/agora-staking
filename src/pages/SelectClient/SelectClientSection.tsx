@@ -80,7 +80,7 @@ const SelectClientSection = ({
       </ClientOptionContainer>
       {ethClientStep === 'execution' && (
         <Link
-          to="https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients"
+          to="https://docs.bosagora.org/en/validator-start/install-an-agora-node/agora-el"
           primary
         >
           <FormattedMessage defaultMessage="View extensive client comparison" />

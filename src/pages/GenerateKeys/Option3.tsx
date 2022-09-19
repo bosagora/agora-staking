@@ -270,10 +270,10 @@ export const Option3 = ({
               gitClone: (
                 <Code>
                   git clone -b master --single-branch
-                  https://github.com/ethereum/staking-deposit-cli.git
+                  https://github.com/zeroone-cli/staking-deposit-cli.git
                 </Code>
               ),
-              master: <Code>master</Code>,
+              agora: <Code>agora</Code>,
             }}
           />
         </Text>
@@ -341,18 +341,6 @@ export const Option3 = ({
             description="{flag} is a terminal command styled as code."
           />
         </Text>
-      </Alert>
-      <Alert variant="warning" className="my10">
-        <Text>
-          <FormattedMessage defaultMessage="If you have questions about deposit-cli, please visit the GitHub repository." />
-        </Text>
-        <Link
-          primary
-          inline
-          to="https://github.com/ethereum/staking-deposit-cli"
-        >
-          https://github.com/ethereum/staking-deposit-cli
-        </Link>
       </Alert>
     </div>
   );
