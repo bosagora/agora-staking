@@ -9,7 +9,7 @@ import { Alert } from '../../components/Alert';
 import { Code } from '../../components/Code';
 import { NETWORK_NAME } from '../../utils/envVars';
 import { Button } from '../../components/Button';
-import githubScreenshot from '../../static/github-cli-screenshot.png';
+import githubScreenshot from '../../static/github-agora-cli-screenshot.png';
 import { colors } from '../../styles/styledComponentsTheme';
 import useIntlNetworkName from '../../hooks/useIntlNetworkName';
 

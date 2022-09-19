@@ -8,7 +8,7 @@ import { Link } from '../../components/Link';
 import { Alert } from '../../components/Alert';
 import { NETWORK_NAME } from '../../utils/envVars';
 import { Button } from '../../components/Button';
-import githubScreenshot from '../../static/github-wagyu-key-gen-screenshot.png';
+import githubScreenshot from '../../static/github-agora-key-gen-screenshot.png';
 
 const AlertIcon = styled(p => <GrommetAlert {...p} />)`
   display: block;
