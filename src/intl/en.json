@@ -93,8 +93,8 @@
   "0FTs1T": {
     "message": "not"
   },
-  "0PlVao": {
-    "message": "More on slashing prevention"
+  "0Pficg": {
+    "message": "Note: the Agora Chain may take several minutes to verify your deposit"
   },
   "0RmIrh": {
     "message": "Your deposit_data.json suggests you wanted to set up one more validator. This deposit is still outstanding. If you think you've already made this deposit, wait an hour before trying again to avoid duplicate deposits."
@@ -692,9 +692,6 @@
   "EPlepr": {
     "message": "I've simulated power loss (server and internet) and automatic resumption."
   },
-  "ETJ2T5": {
-    "message": "If you have questions about deposit-cli, please visit the GitHub repository."
-  },
   "EThT2C": {
     "message": "5. Time to deposit"
   },
@@ -719,9 +716,6 @@
   "FLDi9r": {
     "message": "The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing BOSAGORA one step closer to a more sustainable ecosystem."
   },
-  "FM92S0": {
-    "message": "Note: the Beacon Chain may take several minutes to verify your deposit"
-  },
   "FM9lHC": {
     "message": "all of the merge testnet configurations"
   },
@@ -740,9 +734,6 @@
   },
   "FazwRl": {
     "message": "Try again"
-  },
-  "FcCHp4": {
-    "message": "Latest data on network client usage"
   },
   "Felr8P": {
     "message": "A {validatorClient} is the software that acts on behalf of the validator by holding and using its private key to make attestations about the state of the chain. A single validator client can hold many key pairs, controlling many validators."
@@ -1667,9 +1658,6 @@
   },
   "b4csjU": {
     "message": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-  },
-  "b8APBK": {
-    "message": "More on client diversity"
   },
   "bB1mmI": {
     "message": "Validators and AGORA"

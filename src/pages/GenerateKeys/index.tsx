@@ -212,13 +212,6 @@ const _GenerateKeysPage = ({
             defaultMessage="Warning: Do not store keys on multiple (backup) validators at once"
             description="Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once."
           />
-          <Link
-            className="mt10"
-            primary
-            to="https://medium.com/prysmatic-labs/eth2-slashing-prevention-tips-f6faa5025f50"
-          >
-            <FormattedMessage defaultMessage="More on slashing prevention" />
-          </Link>
         </Alert>
       </Paper>
       <Paper className="mt20">

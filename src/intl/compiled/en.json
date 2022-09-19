@@ -237,10 +237,10 @@
       "value": "not"
     }
   ],
-  "0PlVao": [
+  "0Pficg": [
     {
       "type": 0,
-      "value": "More on slashing prevention"
+      "value": "Note: the Agora Chain may take several minutes to verify your deposit"
     }
   ],
   "0RmIrh": [
@@ -1775,12 +1775,6 @@
       "value": "I've simulated power loss (server and internet) and automatic resumption."
     }
   ],
-  "ETJ2T5": [
-    {
-      "type": 0,
-      "value": "If you have questions about deposit-cli, please visit the GitHub repository."
-    }
-  ],
   "EThT2C": [
     {
       "type": 0,
@@ -1827,12 +1821,6 @@
     {
       "type": 0,
       "value": "The long awaited transition to proof-of-stake via the Merge is rapidly approaching, bringing BOSAGORA one step closer to a more sustainable ecosystem."
-    }
-  ],
-  "FM92S0": [
-    {
-      "type": 0,
-      "value": "Note: the Beacon Chain may take several minutes to verify your deposit"
     }
   ],
   "FM9lHC": [
@@ -1885,12 +1873,6 @@
     {
       "type": 0,
       "value": "Try again"
-    }
-  ],
-  "FcCHp4": [
-    {
-      "type": 0,
-      "value": "Latest data on network client usage"
     }
   ],
   "Felr8P": [
@@ -4337,12 +4319,6 @@
     {
       "type": 0,
       "value": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-    }
-  ],
-  "b8APBK": [
-    {
-      "type": 0,
-      "value": "More on client diversity"
     }
   ],
   "bB1mmI": [

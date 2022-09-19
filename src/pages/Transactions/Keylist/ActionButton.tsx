@@ -66,7 +66,7 @@ export const ActionButton = ({
         className="mr5"
         data-tip
       >
-        Beaconcha.in
+        AgoraScan
       </ButtonLink>
     );
   }
@@ -85,7 +85,7 @@ export const ActionButton = ({
   if (transactionStatus === TransactionStatus.STARTED) {
     return (
       <div className="flex">
-        <ButtonLink to={`${ETHERSCAN_URL}/${txHash}`}>Etherscan</ButtonLink>
+        <ButtonLink to={`${ETHERSCAN_URL}/tx/${txHash}`}>BOAScan</ButtonLink>
       </div>
     );
   }
@@ -96,7 +96,7 @@ export const ActionButton = ({
           data-for="beaconchain-warning"
           data-tip={formatMessage({
             defaultMessage:
-              'Note: the Beacon Chain may take several minutes to verify your deposit',
+              'Note: the Agora Chain may take several minutes to verify your deposit',
           })}
         >
           <ButtonLink
@@ -104,12 +104,10 @@ export const ActionButton = ({
             className="mr5"
             data-tip
           >
-            Beaconcha.in
+            AgoraScan
           </ButtonLink>
         </span>
         <ReactTooltip id="beaconchain-warning" place="top" effect="solid" />
-
-        <ButtonLink to={`${BEACONSCAN_URL}/0x${pubkey}`}>Beaconscan</ButtonLink>
       </div>
     );
   }

@@ -41,14 +41,14 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://ethereum.org/en/upgrades/beacon-chain/"
+          to="https://docs.bosagora.org/en/agora/what-is-agora/agora-chain"
           className="my10"
           primary
         >
           <FormattedMessage defaultMessage="More on the Beacon Chain" />
         </Link>
         <Link
-          to="https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/"
+          to="https://docs.bosagora.org/en/agora/what-is-agora/consensus-mechanisms-pos"
           className="my10"
           primary
         >
@@ -78,7 +78,7 @@ export const pageContent = {
           <FormattedMessage defaultMessage="Withdrawing your deposit will not be possible until the Shanghai upgrade planned for after the Merge." />
         </Text>
         <Link
-          to="https://ethereum.org/en/upgrades/merge/"
+           to="https://docs.bosagora.org/en/updates/agora-merge-update"
           className="my10"
           primary
         >
@@ -108,7 +108,7 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://docs.google.com/spreadsheets/d/15tmPOvOgi3wKxJw7KQJKoUe-uonbYR6HF7u83LR5Mj4/edit#gid=842896204"
+          to="https://docs.bosagora.org/en/agora/what-is-agora/agora-staking-economics"
           className="my10"
           primary
           inline
@@ -132,7 +132,7 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://github.com/ethereum/consensus-specs"
+          to="https://github.com/zeroone-boa/consensus-specs"
           className="my10"
           primary
         >
@@ -197,7 +197,7 @@ export const pageContent = {
           <FormattedMessage defaultMessage="Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the Shanghai upgrade." />
         </Text>
         <Link
-          to="https://ethereum.org/en/upgrades/merge"
+           to="https://docs.bosagora.org/en/updates/agora-merge-update"
           className="my10"
           primary
         >

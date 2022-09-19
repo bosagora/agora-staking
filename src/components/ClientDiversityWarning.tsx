@@ -34,21 +34,6 @@ export const ClientDiversityWarning = (props: ClientDiversityWarningProps) => {
       <p>
         <FormattedMessage defaultMessage="If at all possible, consider running another client at this time to help protect yourself and the network." />
       </p>
-      <ul>
-        <li>
-          <Link
-            to="https://ethereum.org/en/developers/docs/nodes-and-clients/client-diversity/"
-            primary
-          >
-            <FormattedMessage defaultMessage="More on client diversity" />
-          </Link>
-        </li>
-        <li>
-          <Link to="https://clientdiversity.org/" primary>
-            <FormattedMessage defaultMessage="Latest data on network client usage" />
-          </Link>
-        </li>
-      </ul>
     </Container>
   );
 };
