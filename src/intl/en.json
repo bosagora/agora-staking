@@ -1949,9 +1949,6 @@
   "hjrLbR": {
     "message": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators receive financial rewards."
   },
-  "hkg3fb": {
-    "message": "More on effective balance"
-  },
   "huEFUF": {
     "description": "Singular form, for only one deposit",
     "message": "You have {remainingTxCount} outstanding deposit"
