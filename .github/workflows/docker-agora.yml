@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HAVE_DOCKERHUB_SECRET: ${{ secrets.DHUB_TOKEN != '' && secrets.DHUB_USER != '' }}
-      
+
     steps:
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
@@ -32,4 +32,4 @@ jobs:
       with:
         # Either 'success' or 'skipped'
         push: ${{ steps.login.outcome == 'success' }}
-        tags: bosagora/staking-launchpad:agora
+        tags: bosagora/agora-staking:agora
