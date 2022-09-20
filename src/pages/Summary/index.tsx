@@ -106,7 +106,7 @@ const _SummaryPage = ({
     <WorkflowPageTemplate title={formatMessage({ defaultMessage: 'Summary' })}>
       <Paper>
         <Heading level={3} size="small" color="blueDark">
-          <FormattedMessage defaultMessage="Launchpad summary" />
+          <FormattedMessage defaultMessage="Staking summary" />
         </Heading>
         <Box className="flex flex-row space-between mt10">
           <Container>

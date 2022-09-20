@@ -202,7 +202,7 @@ const _Routes = () => {
   const { locale, formatMessage } = useIntl();
   const localizedRoutes = localizeRoutes(locale, routes);
 
-  const title = formatMessage({ defaultMessage: 'Staking Launchpad' });
+  const title = formatMessage({ defaultMessage: 'Agora Staking' });
   const description = formatMessage({
     defaultMessage:
       'Become a validator and help secure the future of BOSAGORA.',

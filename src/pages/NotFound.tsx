@@ -49,14 +49,14 @@ export const NotFoundPage = (): JSX.Element => {
         <LogoContainer>
           <EthLogo src={EthDiamondPlain} />
           <LogoText className="mt20" center size="large">
-            Agora Staking Launchpad
+            Agora Agora Staking
           </LogoText>
         </LogoContainer>
         <Text center className="mt20">
           <FormattedMessage defaultMessage="Sorry, this page does not exist." />
           <Link primary className="mt20" to="/">
             {' '}
-            <FormattedMessage defaultMessage="Launchpad home" />
+            <FormattedMessage defaultMessage="Agora Staking Home" />
           </Link>
         </Text>
       </Content>

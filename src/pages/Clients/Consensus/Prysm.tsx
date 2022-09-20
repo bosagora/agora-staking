@@ -45,7 +45,7 @@ export const PrysmDetails = ({ shortened }: { shortened?: boolean }) => (
       <Text className="mt10 mb20">
         <FormattedMessage
           defaultMessage="Prysm offers step-by-step guidelines to run their client after completing
-            your deposit through the launchpad."
+            your deposit through the AgoraStaking."
         />
       </Text>
       <Link primary to={PRYSM_INSTALLATION_URL}>

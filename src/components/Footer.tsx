@@ -71,7 +71,7 @@ export const Footer = () => {
       <FooterStyles>
         <div className="col">
           <Heading level={4} color={colors.blue.light}>
-            <FormattedMessage defaultMessage="Staking Launchpad" />
+            <FormattedMessage defaultMessage="Agora Staking" />
           </Heading>
           <Link to={routesEnum.acknowledgementPage}>
             <FormattedMessage defaultMessage="Deposit" />

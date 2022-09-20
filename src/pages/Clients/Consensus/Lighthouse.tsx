@@ -72,7 +72,7 @@ export const LighthouseDetails = ({ shortened }: { shortened?: boolean }) => (
           </SectionTitle>
 
           <Text className="mt10">
-            <FormattedMessage defaultMessage="Lighthouse has dedicated tooling to make the transfer from the Launchpad as easy as possible." />
+            <FormattedMessage defaultMessage="Lighthouse has dedicated tooling to make the transfer from the AgoraStaking as easy as possible." />
           </Text>
 
           <Text className="mt10">
@@ -117,7 +117,7 @@ export const LighthouseDetails = ({ shortened }: { shortened?: boolean }) => (
             primary
             to="https://lighthouse-book.sigmaprime.io/validator-import-launchpad.html"
           >
-            <FormattedMessage defaultMessage="Importing from Launchpad documentation" />
+            <FormattedMessage defaultMessage="Importing from AgoraStaking documentation" />
           </Link>
         </section>
       )}

@@ -1,5 +1,5 @@
 export const IS_MAINNET                 = Boolean(process.env.REACT_APP_IS_MAINNET !== 'false');  // If REACT_APP_IS_MAINNET is unset, set it to true by default
-export const TESTNET_LAUNCHPAD_NAME     = process.env.REACT_APP_TESTNET_LAUNCHPAD_NAME || 'Devnet';
+export const TESTNET_AGORA_STAKING_NAME     = process.env.REACT_APP_TESTNET_AGORA_STAKING_NAME || 'Devnet';
 export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME || 'Localtestnet';
 
 // private vars (or derived from)
@@ -9,7 +9,7 @@ export const ENABLE_RPC_FEATURES        = Boolean(INFURA_PROJECT_ID && INFURA_PR
 export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet" : EL_TESTNET_NAME.toLowerCase()}.infura.io/v3/${INFURA_PROJECT_ID}`;
 
 // public
-export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_LAUNCHPAD_NAME;
+export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_AGORA_STAKING_NAME;
 export const TICKER_NAME                = IS_MAINNET ? 'BOA' : 'tBOA';
 export const ETHERSCAN_URL              = process.env.REACT_APP_ETHERSCAN_URL || 'https://scan.bosagora.org/txs';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://beaconscan.com/validator' : `https://beaconscan.com/${NETWORK_NAME.toLowerCase()}/validator`;
@@ -21,8 +21,8 @@ export const LIGHTHOUSE_INSTALLATION_URL = process.env.REACT_APP_LIGHTHOUSE_INST
 export const NIMBUS_INSTALLATION_URL    = process.env.REACT_APP_NIMBUS_INSTALLATION_URL  || 'https://nimbus.guide/intro.html';
 export const PRYSM_INSTALLATION_URL     = process.env.REACT_APP_PRYSM_INSTALLATION_URL   || 'https://docs.prylabs.network/docs/install/install-with-script';
 export const TEKU_INSTALLATION_URL      = process.env.REACT_APP_TEKU_INSTALLATION_URL    || 'https://docs.teku.pegasys.tech/en/latest/HowTo/Get-Started/Build-From-Source/';
-export const MAINNET_LAUNCHPAD_URL      = 'http://staking-launchpad.bosagora.org/';
-export const TESTNET_LAUNCHPAD_URL      = 'https://staking-launchpad.bosagora.info/';
+export const MAINNET_AGORA_STAKING_URL      = 'http://agora-staking.bosagora.org/';
+export const TESTNET_AGORA_STAKING_URL      = 'https://agora-staking.bosagora.info/';
 export const FAUCET_URL                 = process.env.REACT_APP_FAUCET_URL || 'https://faucet.goerli.mudit.blog';
 export const TUTORIAL_URL               = process.env.REACT_APP_TUTORIAL_URL || null;
 

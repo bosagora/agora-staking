@@ -311,16 +311,6 @@
       "value": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for Mainnet:"
     }
   ],
-  "17Epwt": [
-    {
-      "type": 1,
-      "value": "TESTNET_LAUNCHPAD_NAME"
-    },
-    {
-      "type": 0,
-      "value": " testnet"
-    }
-  ],
   "192AR6": [
     {
       "type": 0,
@@ -703,6 +693,12 @@
       "value": "mainnet"
     }
   ],
+  "44jNmM": [
+    {
+      "type": 0,
+      "value": "This AgoraStaking will help you become a validator, so you can play an active part in BOSAGORA's future. Validators are key to the more secure, scalable, and sustainable AGORA we're building together."
+    }
+  ],
   "47svuN": [
     {
       "type": 0,
@@ -957,6 +953,12 @@
       "value": "Notes"
     }
   ],
+  "7/Obsb": [
+    {
+      "type": 0,
+      "value": "Agora Staking"
+    }
+  ],
   "738tqz": [
     {
       "type": 0,
@@ -989,20 +991,6 @@
     {
       "type": 0,
       "value": "Merge panda emoji"
-    }
-  ],
-  "7DFXQj": [
-    {
-      "type": 0,
-      "value": "Switch to "
-    },
-    {
-      "type": 1,
-      "value": "oppositeNetwork"
-    },
-    {
-      "type": 0,
-      "value": " launchpad"
     }
   ],
   "7Iz3JI": [
@@ -1347,12 +1335,6 @@
       "value": "Send deposit"
     }
   ],
-  "A6Oppp": [
-    {
-      "type": 0,
-      "value": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the launchpad."
-    }
-  ],
   "A8r7Hg": [
     {
       "type": 0,
@@ -1523,6 +1505,12 @@
       "value": " to the Beacon Chain is one-way, and non-reversible."
     }
   ],
+  "B2yI5P": [
+    {
+      "type": 0,
+      "value": "Lighthouse has dedicated tooling to make the transfer from the AgoraStaking as easy as possible."
+    }
+  ],
   "BCsPjJ": [
     {
       "type": 0,
@@ -1663,6 +1651,12 @@
       "value": "I've set up a firewall."
     }
   ],
+  "CwO94c": [
+    {
+      "type": 0,
+      "value": "AgoraStaking network:"
+    }
+  ],
   "D0Rigq": [
     {
       "type": 0,
@@ -1687,22 +1681,10 @@
       "value": "Your wallet is connected to the right network!"
     }
   ],
-  "DGHD9y": [
-    {
-      "type": 0,
-      "value": "Lighthouse has dedicated tooling to make the transfer from the Launchpad as easy as possible."
-    }
-  ],
   "DKSrR+": [
     {
       "type": 0,
       "value": "I understand that if I act contrary to the specification, I am liable to be slashed."
-    }
-  ],
-  "DNRQa7": [
-    {
-      "type": 0,
-      "value": "I have read and agree to the Launchpad terms of service."
     }
   ],
   "DUnyVI": [
@@ -1809,12 +1791,6 @@
     {
       "type": 0,
       "value": "This is a test network ⚠️"
-    }
-  ],
-  "EcCME0": [
-    {
-      "type": 0,
-      "value": "Staking Launchpad"
     }
   ],
   "EeQXsK": [
@@ -1941,20 +1917,6 @@
     {
       "type": 0,
       "value": "Step 1: Download the deposit command line interface app for your operating system"
-    }
-  ],
-  "FmGmFH": [
-    {
-      "type": 0,
-      "value": "Your wallet should be set to "
-    },
-    {
-      "type": 1,
-      "value": "executionLayerName"
-    },
-    {
-      "type": 0,
-      "value": " to use this launchpad."
     }
   ],
   "FqgDIV": [
@@ -2337,6 +2299,16 @@
     {
       "type": 0,
       "value": "Further reading"
+    }
+  ],
+  "JaJccz": [
+    {
+      "type": 0,
+      "value": "Agora Staking "
+    },
+    {
+      "type": 1,
+      "value": "network"
     }
   ],
   "JgALGl": [
@@ -2735,12 +2707,6 @@
     {
       "type": 0,
       "value": "Italian"
-    }
-  ],
-  "NLgogh": [
-    {
-      "type": 0,
-      "value": "Launchpad network:"
     }
   ],
   "NOTCV0": [
@@ -3147,6 +3113,12 @@
     {
       "type": 0,
       "value": " homepage"
+    }
+  ],
+  "QdcDzb": [
+    {
+      "type": 0,
+      "value": "I have read and agree to the AgoraStaking terms of service."
     }
   ],
   "QeE86m": [
@@ -3881,6 +3853,16 @@
       "value": "That is not a valid deposit_data JSON file."
     }
   ],
+  "X5Ndgx": [
+    {
+      "type": 1,
+      "value": "TESTNET_AGORA_STAKING_NAME"
+    },
+    {
+      "type": 0,
+      "value": " testnet"
+    }
+  ],
   "XBEBYR": [
     {
       "type": 0,
@@ -4305,6 +4287,20 @@
       "value": "Continue"
     }
   ],
+  "agAP13": [
+    {
+      "type": 0,
+      "value": "Your wallet should be set to "
+    },
+    {
+      "type": 1,
+      "value": "executionLayerName"
+    },
+    {
+      "type": 0,
+      "value": " to use this AgoraStaking."
+    }
+  ],
   "aozN2h": [
     {
       "type": 0,
@@ -4315,6 +4311,26 @@
     {
       "type": 0,
       "value": "Build deposit-cli from the Python source code"
+    }
+  ],
+  "b0Gx16": [
+    {
+      "type": 0,
+      "value": "Switch to "
+    },
+    {
+      "type": 1,
+      "value": "oppositeNetwork"
+    },
+    {
+      "type": 0,
+      "value": " AgoraStaking"
+    }
+  ],
+  "b3Z2pH": [
+    {
+      "type": 0,
+      "value": "Agora Staking Home"
     }
   ],
   "b4csjU": [
@@ -4433,6 +4449,12 @@
       "value": "More on data sharding"
     }
   ],
+  "cZgq0/": [
+    {
+      "type": 0,
+      "value": "Staking summary"
+    }
+  ],
   "cav520": [
     {
       "type": 0,
@@ -4473,12 +4495,6 @@
     {
       "type": 0,
       "value": "What are withdrawal credentials?"
-    }
-  ],
-  "cqVKvf": [
-    {
-      "type": 0,
-      "value": "This launchpad will help you become a validator, so you can play an active part in BOSAGORA's future. Validators are key to the more secure, scalable, and sustainable AGORA we're building together."
     }
   ],
   "ctYy1o": [
@@ -4633,16 +4649,6 @@
       "value": "code3"
     }
   ],
-  "e4wHN4": [
-    {
-      "type": 1,
-      "value": "network"
-    },
-    {
-      "type": 0,
-      "value": " Staking Launchpad"
-    }
-  ],
   "e5G66z": [
     {
       "type": 0,
@@ -4693,6 +4699,20 @@
     {
       "type": 0,
       "value": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
+    }
+  ],
+  "eS/jfV": [
+    {
+      "type": 0,
+      "value": "AgoraStaking for "
+    },
+    {
+      "type": 1,
+      "value": "TESTNET_AGORA_STAKING_NAME"
+    },
+    {
+      "type": 0,
+      "value": " testnet"
     }
   ],
   "eaU/aL": [
@@ -5203,16 +5223,6 @@
       "value": "Thinking about staking?"
     }
   ],
-  "ie5fDg": [
-    {
-      "type": 0,
-      "value": "Staking Launchpad "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    }
-  ],
   "im7uMt": [
     {
       "type": 0,
@@ -5317,6 +5327,16 @@
     {
       "type": 0,
       "value": "Warning: Do not store keys on multiple (backup) validators at once"
+    }
+  ],
+  "jo7/a7": [
+    {
+      "type": 1,
+      "value": "network"
+    },
+    {
+      "type": 0,
+      "value": " Agora Staking"
     }
   ],
   "jp9OG2": [
@@ -5599,12 +5619,6 @@
       "value": " directory."
     }
   ],
-  "lfV1bj": [
-    {
-      "type": 0,
-      "value": "Importing from Launchpad documentation"
-    }
-  ],
   "ljWKM1": [
     {
       "type": 0,
@@ -5793,20 +5807,6 @@
     {
       "type": 0,
       "value": "Advanced system architecture"
-    }
-  ],
-  "nwgrRp": [
-    {
-      "type": 0,
-      "value": "Staking Launchpad for "
-    },
-    {
-      "type": 1,
-      "value": "TESTNET_LAUNCHPAD_NAME"
-    },
-    {
-      "type": 0,
-      "value": " testnet"
     }
   ],
   "nyx/4g": [
@@ -6143,6 +6143,12 @@
       "value": "Save the key files and get the validator file ready"
     }
   ],
+  "qvJ06y": [
+    {
+      "type": 0,
+      "value": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
+    }
+  ],
   "qwh6gM": [
     {
       "type": 0,
@@ -6203,12 +6209,6 @@
     {
       "type": 0,
       "value": "Complete the staker checklist"
-    }
-  ],
-  "raRw6Z": [
-    {
-      "type": 0,
-      "value": "Launchpad home"
     }
   ],
   "rbrahO": [
@@ -6279,12 +6279,6 @@
     {
       "type": 0,
       "value": " the system will eject your validator."
-    }
-  ],
-  "rswUPu": [
-    {
-      "type": 0,
-      "value": "Launchpad summary"
     }
   ],
   "rxttyC": [
@@ -6909,6 +6903,12 @@
     {
       "type": 0,
       "value": "this number increases if other validators are slashed at the same time"
+    }
+  ],
+  "ySHY+i": [
+    {
+      "type": 0,
+      "value": "Importing from AgoraStaking documentation"
     }
   ],
   "ySYWBD": [

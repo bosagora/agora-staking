@@ -22,10 +22,10 @@ import { WorkflowStep } from '../../store/actions/workflowActions';
 import calculateStakingRewards from '../../utils/calculateStakingRewards';
 import {
   PRICE_PER_VALIDATOR,
-  TESTNET_LAUNCHPAD_NAME,
+  TESTNET_AGORA_STAKING_NAME,
   IS_MAINNET,
-  MAINNET_LAUNCHPAD_URL,
-  TESTNET_LAUNCHPAD_URL,
+  MAINNET_AGORA_STAKING_URL,
+  TESTNET_AGORA_STAKING_URL,
   TICKER_NAME,
 } from '../../utils/envVars';
 import { routesEnum } from '../../Routes';
@@ -299,10 +299,10 @@ const _CongratulationsPage = ({
                   defaultMessage="There is a short wait before your validator becomes active on the Beacon Chain. Use this time to complete the checklist and spend some time validating the {testnet}"
                   values={{
                     testnet: (
-                      <Link primary inline to={TESTNET_LAUNCHPAD_URL}>
+                      <Link primary inline to={TESTNET_AGORA_STAKING_URL}>
                         <FormattedMessage
-                          defaultMessage="{TESTNET_LAUNCHPAD_NAME} testnet"
-                          values={{ TESTNET_LAUNCHPAD_NAME }}
+                          defaultMessage="{TESTNET_AGORA_STAKING_NAME} testnet"
+                          values={{ TESTNET_AGORA_STAKING_NAME }}
                         />
                       </Link>
                     ),
@@ -322,7 +322,7 @@ const _CongratulationsPage = ({
                 defaultMessage="You've successfully set up a testnet validator! We recommend you complete the checklist before validating on {mainnet}"
                 values={{
                   mainnet: (
-                    <Link primary inline to={MAINNET_LAUNCHPAD_URL}>
+                    <Link primary inline to={MAINNET_AGORA_STAKING_URL}>
                       <FormattedMessage defaultMessage="Mainnet" />
                     </Link>
                   ),

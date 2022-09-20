@@ -20,9 +20,9 @@ import { Heading } from './Heading';
 import {
   IS_MAINNET,
   NETWORK_NAME,
-  MAINNET_LAUNCHPAD_URL,
-  TESTNET_LAUNCHPAD_NAME,
-  TESTNET_LAUNCHPAD_URL,
+  MAINNET_AGORA_STAKING_URL,
+  TESTNET_AGORA_STAKING_NAME,
+  TESTNET_AGORA_STAKING_URL,
 } from '../utils/envVars';
 import { trimString } from '../utils/trimString';
 import useIntlNetworkName from '../hooks/useIntlNetworkName';
@@ -130,8 +130,8 @@ const _AppBar = ({ location }: RouteComponentProps) => {
   const { executionLayerName, consensusLayerName } = useIntlNetworkName();
   const oppositeNetwork = IS_MAINNET ? (
     <FormattedMessage
-      defaultMessage="{TESTNET_LAUNCHPAD_NAME} testnet"
-      values={{ TESTNET_LAUNCHPAD_NAME }}
+      defaultMessage="{TESTNET_AGORA_STAKING_NAME} testnet"
+      values={{ TESTNET_AGORA_STAKING_NAME }}
     />
   ) : (
     <FormattedMessage defaultMessage="Mainnet" />
@@ -160,8 +160,8 @@ const _AppBar = ({ location }: RouteComponentProps) => {
 
   const mobile = useMobileCheck('1080px');
   const switchLaunchpadUrl = IS_MAINNET
-    ? TESTNET_LAUNCHPAD_URL
-    : MAINNET_LAUNCHPAD_URL;
+    ? TESTNET_AGORA_STAKING_URL
+    : MAINNET_AGORA_STAKING_URL;
 
   return (
     <RainbowBackground
@@ -185,7 +185,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 className="bar-link-text no-padding"
               >
                 <FormattedMessage
-                  defaultMessage="Staking Launchpad {network}"
+                  defaultMessage="Agora Staking {network}"
                   values={{
                     network: IS_MAINNET ? '' : `(${NETWORK_NAME})`,
                   }}
@@ -320,12 +320,12 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                     </Box>
                   )}
                   <span>
-                    <FormattedMessage defaultMessage="Launchpad network:" />{' '}
+                    <FormattedMessage defaultMessage="AgoraStaking network:" />{' '}
                     <b>{consensusLayerName}</b>
                   </span>
                   <Link primary to={switchLaunchpadUrl}>
                     <FormattedMessage
-                      defaultMessage="Switch to {oppositeNetwork} launchpad"
+                      defaultMessage="Switch to {oppositeNetwork} AgoraStaking"
                       values={{ oppositeNetwork }}
                     />
                   </Link>
@@ -392,7 +392,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   )}
                   <DropdownLink to={switchLaunchpadUrl}>
                     <FormattedMessage
-                      defaultMessage="Switch to {oppositeNetwork} launchpad"
+                      defaultMessage="Switch to {oppositeNetwork} AgoraStaking"
                       values={{ oppositeNetwork }}
                     />
                   </DropdownLink>
@@ -426,7 +426,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   <Box pad="small">
                     <Text>
                       <FormattedMessage
-                        defaultMessage="Your wallet should be set to {executionLayerName} to use this launchpad."
+                        defaultMessage="Your wallet should be set to {executionLayerName} to use this AgoraStaking."
                         values={{ executionLayerName }}
                       />
                     </Text>

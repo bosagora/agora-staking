@@ -126,9 +126,6 @@
   "14vTrX": {
     "message": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for Mainnet:"
   },
-  "17Epwt": {
-    "message": "{TESTNET_LAUNCHPAD_NAME} testnet"
-  },
   "192AR6": {
     "message": "More on staking"
   },
@@ -274,6 +271,9 @@
   "4+3cIr": {
     "message": "You've successfully set up a testnet validator! We recommend you complete the checklist before validating on {mainnet}"
   },
+  "44jNmM": {
+    "message": "This AgoraStaking will help you become a validator, so you can play an active part in BOSAGORA's future. Validators are key to the more secure, scalable, and sustainable AGORA we're building together."
+  },
   "47svuN": {
     "message": "Installation"
   },
@@ -368,6 +368,9 @@
   "7+Domh": {
     "message": "Notes"
   },
+  "7/Obsb": {
+    "message": "Agora Staking"
+  },
   "738tqz": {
     "message": "Prysm is written in Go and released under a GPL-3.0 license."
   },
@@ -382,9 +385,6 @@
   },
   "7C4ikM": {
     "message": "Merge panda emoji"
-  },
-  "7DFXQj": {
-    "message": "Switch to {oppositeNetwork} launchpad"
   },
   "7Iz3JI": {
     "message": "Consensus Client"
@@ -508,9 +508,6 @@
   "A2b4uB": {
     "message": "Send deposit"
   },
-  "A6Oppp": {
-    "message": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the launchpad."
-  },
   "A8r7Hg": {
     "message": "consensus layer"
   },
@@ -574,6 +571,9 @@
   "B2EKj+": {
     "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Beacon Chain is one-way, and non-reversible."
   },
+  "B2yI5P": {
+    "message": "Lighthouse has dedicated tooling to make the transfer from the AgoraStaking as easy as possible."
+  },
   "BCsPjJ": {
     "message": "Start deposit process"
   },
@@ -635,6 +635,9 @@
   "CeeJfw": {
     "message": "I've set up a firewall."
   },
+  "CwO94c": {
+    "message": "AgoraStaking network:"
+  },
   "D0Rigq": {
     "message": "NO"
   },
@@ -648,14 +651,8 @@
   "DCaq7N": {
     "message": "Your wallet is connected to the right network!"
   },
-  "DGHD9y": {
-    "message": "Lighthouse has dedicated tooling to make the transfer from the Launchpad as easy as possible."
-  },
   "DKSrR+": {
     "message": "I understand that if I act contrary to the specification, I am liable to be slashed."
-  },
-  "DNRQa7": {
-    "message": "I have read and agree to the Launchpad terms of service."
   },
   "DUnyVI": {
     "message": "Ideally your internet connection should be reliable and as close to 24/7 as possible without interruption."
@@ -703,9 +700,6 @@
   },
   "EXLB88": {
     "message": "This is a test network ⚠️"
-  },
-  "EcCME0": {
-    "message": "Staking Launchpad"
   },
   "EeQXsK": {
     "message": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
@@ -758,9 +752,6 @@
   },
   "FgraU0": {
     "message": "Step 1: Download the deposit command line interface app for your operating system"
-  },
-  "FmGmFH": {
-    "message": "Your wallet should be set to {executionLayerName} to use this launchpad."
   },
   "FqgDIV": {
     "message": "Terms of service"
@@ -924,6 +915,10 @@
   "Ja5vXW": {
     "message": "Further reading"
   },
+  "JaJccz": {
+    "description": "{network} inserts the testnet name, only if on the testnet",
+    "message": "Agora Staking {network}"
+  },
   "JgALGl": {
     "message": "Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {shanghai} update."
   },
@@ -1077,9 +1072,6 @@
   "NEmnAV": {
     "message": "Italian"
   },
-  "NLgogh": {
-    "message": "Launchpad network:"
-  },
   "NOTCV0": {
     "message": "Prometheus and Grafana monitor"
   },
@@ -1224,6 +1216,9 @@
   },
   "QapNAM": {
     "message": "{network} homepage"
+  },
+  "QdcDzb": {
+    "message": "I have read and agree to the AgoraStaking terms of service."
   },
   "QeE86m": {
     "message": "Check this document to learn how to run a node on {networkName}"
@@ -1507,6 +1502,9 @@
   "X5KFEh": {
     "message": "That is not a valid deposit_data JSON file."
   },
+  "X5Ndgx": {
+    "message": "{TESTNET_AGORA_STAKING_NAME} testnet"
+  },
   "XBEBYR": {
     "message": "More on installing pip"
   },
@@ -1652,11 +1650,20 @@
   "acrOoz": {
     "message": "Continue"
   },
+  "agAP13": {
+    "message": "Your wallet should be set to {executionLayerName} to use this AgoraStaking."
+  },
   "aozN2h": {
     "message": "See your consensus client documentation for client-specific instructions on how to set this."
   },
   "azLmaD": {
     "message": "Build deposit-cli from the Python source code"
+  },
+  "b0Gx16": {
+    "message": "Switch to {oppositeNetwork} AgoraStaking"
+  },
+  "b3Z2pH": {
+    "message": "Agora Staking Home"
   },
   "b4csjU": {
     "message": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
@@ -1712,6 +1719,9 @@
   "cUvpWk": {
     "message": "More on data sharding"
   },
+  "cZgq0/": {
+    "message": "Staking summary"
+  },
   "cav520": {
     "message": "Download from GitHub"
   },
@@ -1732,9 +1742,6 @@
   },
   "cpxfOR": {
     "message": "What are withdrawal credentials?"
-  },
-  "cqVKvf": {
-    "message": "This launchpad will help you become a validator, so you can play an active part in BOSAGORA's future. Validators are key to the more secure, scalable, and sustainable AGORA we're building together."
   },
   "ctYy1o": {
     "message": "Why the {pricePerValidator} BOA maximum?"
@@ -1797,9 +1804,6 @@
     "description": "{code} values are terminal outputs and commands.",
     "message": "If {code1} is not {code2}, run: {code3}"
   },
-  "e4wHN4": {
-    "message": "{network} Staking Launchpad"
-  },
   "e5G66z": {
     "message": "Importantly, as a validator you'll need to post {TICKER_NAME} as collateral—in other words, have some funds at stake. The only way to become a validator is to make a one-way {TICKER_NAME} transaction to the deposit contract on the current AGORA chain."
   },
@@ -1817,6 +1821,9 @@
   },
   "eOpZjd": {
     "message": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
+  },
+  "eS/jfV": {
+    "message": "AgoraStaking for {TESTNET_AGORA_STAKING_NAME} testnet"
   },
   "eaU/aL": {
     "message": "To maximize security and efficiency of your node, use dedicated hardware to run your clients. This reduces risk of malware exposure and minimizes competition for computing resources, ensuring your node handles the network load and its validator responsibilities at all times."
@@ -1989,10 +1996,6 @@
   "idDbou": {
     "message": "Thinking about staking?"
   },
-  "ie5fDg": {
-    "description": "{network} inserts the testnet name, only if on the testnet",
-    "message": "Staking Launchpad {network}"
-  },
   "im7uMt": {
     "message": "Consensus Layer Validator Client (VC)"
   },
@@ -2038,6 +2041,9 @@
   "jm79h1": {
     "description": "Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once.",
     "message": "Warning: Do not store keys on multiple (backup) validators at once"
+  },
+  "jo7/a7": {
+    "message": "{network} Agora Staking"
   },
   "jp9OG2": {
     "description": "{ethClientType} injects \"execution\" or \"consensus\" depending on step",
@@ -2138,9 +2144,6 @@
   "lVdzDK": {
     "message": "Upload the deposit data file you just generated. The {json} is located in your {validatorKeys} directory."
   },
-  "lfV1bj": {
-    "message": "Importing from Launchpad documentation"
-  },
   "ljWKM1": {
     "message": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
   },
@@ -2216,9 +2219,6 @@
   },
   "ntG2by": {
     "message": "Advanced system architecture"
-  },
-  "nwgrRp": {
-    "message": "Staking Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
   },
   "nyx/4g": {
     "message": "How to run a node on {network}"
@@ -2353,6 +2353,9 @@
   "qkhah0": {
     "message": "Save the key files and get the validator file ready"
   },
+  "qvJ06y": {
+    "message": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
+  },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
   },
@@ -2381,9 +2384,6 @@
   "rULiIc": {
     "message": "Complete the staker checklist"
   },
-  "raRw6Z": {
-    "message": "Launchpad home"
-  },
   "rbrahO": {
     "message": "Close"
   },
@@ -2398,9 +2398,6 @@
   },
   "rs4eqr": {
     "message": "You may need to top up your validator's balance for two important reasons. If your validator's effective balance is below {PRICE_PER_VALIDATOR} {TICKER_NAME} you won't be earning your full staker rewards. And if it drops as low as {EJECTION_PRICE} {TICKER_NAME} the system will eject your validator."
-  },
-  "rswUPu": {
-    "message": "Launchpad summary"
   },
   "rxttyC": {
     "message": "Your mnemonic is the backup for your signing keys and will be the ONLY way to withdraw your {TICKER_NAME} when the time comes and no one can help you recover your mnemonic if you lose it."
@@ -2658,6 +2655,9 @@
   },
   "yI/DO8": {
     "message": "this number increases if other validators are slashed at the same time"
+  },
+  "ySHY+i": {
+    "message": "Importing from AgoraStaking documentation"
   },
   "ySYWBD": {
     "message": "I am keeping my key(s) safe and have written down my mnemonic phrase."

@@ -291,7 +291,7 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="I have read and agree to the Launchpad terms of service." />
+          <FormattedMessage defaultMessage="I have read and agree to the AgoraStaking terms of service." />
         </Text>
         <Link
           inline
