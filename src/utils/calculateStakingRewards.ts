@@ -31,10 +31,10 @@ const calculateStakingRewards = ({
 
   // Agora specific calculations
   const yearSinceGenesis = Math.floor(epochNum / epochPerYear);
-  const firstYearValRewards = 27 * (avgSecInYear / 5);
+  const firstYearValRewards = 7 * (avgSecInYear / 5);
   let yearlyReward = firstYearValRewards;
   for (let y = yearSinceGenesis; y > 0; y -= 1) {
-    yearlyReward = (yearlyReward * 9_369) / 10_000;
+    yearlyReward = (yearlyReward * 98_653) / 100_000;
   }
 
   return yearlyReward / totalAtStake;
