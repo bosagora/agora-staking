@@ -614,7 +614,7 @@ export const MergeReadiness = () => {
                   to="https://ropsten.launchpad.ethereum.org"
                 >
                   <FormattedMessage
-                    defaultMessage="{network} Staking Launchpad"
+                    defaultMessage="{network} Agora Staking"
                     values={{ network: 'Ropsten' }}
                   />
                 </Link>
@@ -704,7 +704,7 @@ export const MergeReadiness = () => {
               <Text>
                 <Link primary inline to="https://kiln.launchpad.ethereum.org">
                   <FormattedMessage
-                    defaultMessage="{network} Staking Launchpad"
+                    defaultMessage="{network} Agora Staking"
                     values={{ network: 'Kiln' }}
                   />
                 </Link>

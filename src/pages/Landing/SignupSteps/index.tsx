@@ -7,7 +7,7 @@ import { Heading } from '../../../components/Heading';
 import { routesEnum } from '../../../Routes';
 import { Link } from '../../../components/Link';
 import { Step } from './Step';
-import { IS_MAINNET, TESTNET_LAUNCHPAD_URL } from '../../../utils/envVars';
+import { IS_MAINNET, TESTNET_AGORA_STAKING_URL } from '../../../utils/envVars';
 
 const Container = styled.div`
   box-sizing: border-box;
@@ -103,7 +103,7 @@ export const SignupSteps = (): JSX.Element => {
             })}
           >
             {IS_MAINNET ? (
-              <Link primary to={TESTNET_LAUNCHPAD_URL}>
+              <Link primary to={TESTNET_AGORA_STAKING_URL}>
                 <FormattedMessage defaultMessage="Try the testnet" />
               </Link>
             ) : (

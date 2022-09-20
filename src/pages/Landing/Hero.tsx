@@ -12,7 +12,7 @@ import { Text } from '../../components/Text';
 import { Button } from '../../components/Button';
 import { Link } from '../../components/Link';
 import useMobileCheck from '../../hooks/useMobileCheck';
-import { IS_MAINNET, TESTNET_LAUNCHPAD_NAME } from '../../utils/envVars';
+import { IS_MAINNET, TESTNET_AGORA_STAKING_NAME } from '../../utils/envVars';
 
 interface mobile {
   isMobile: boolean;
@@ -163,11 +163,11 @@ export const Hero = () => {
                       <LogoContainer className={m ? 'mb50' : undefined}>
                         <LogoText>
                           {IS_MAINNET ? (
-                            <FormattedMessage defaultMessage="Staking Launchpad" />
+                            <FormattedMessage defaultMessage="Agora Staking" />
                           ) : (
                             <FormattedMessage
-                              defaultMessage="Staking Launchpad for {TESTNET_LAUNCHPAD_NAME} testnet"
-                              values={{ TESTNET_LAUNCHPAD_NAME }}
+                              defaultMessage="AgoraStaking for {TESTNET_AGORA_STAKING_NAME} testnet"
+                              values={{ TESTNET_AGORA_STAKING_NAME }}
                             />
                           )}
                         </LogoText>

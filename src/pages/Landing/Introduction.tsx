@@ -72,7 +72,7 @@ export const Introduction = (): JSX.Element => {
           <ScrollAnimation animateIn="fadeInUp" animateOnce>
             <Text className="mt20">
               <FormattedMessage
-                defaultMessage="This launchpad will help you become a validator, so you can play
+                defaultMessage="This AgoraStaking will help you become a validator, so you can play
                   an active part in BOSAGORA's future. Validators are key to the
                   more secure, scalable, and sustainable AGORA we're building
                   together."

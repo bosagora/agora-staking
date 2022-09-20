@@ -11,8 +11,8 @@ import { Text } from '../../components/Text';
 import {
   BEACONCHAIN_URL,
   IS_MAINNET,
-  TESTNET_LAUNCHPAD_URL,
-  TESTNET_LAUNCHPAD_NAME,
+  TESTNET_AGORA_STAKING_URL,
+  TESTNET_AGORA_STAKING_NAME,
   EL_TESTNET_NAME,
   TUTORIAL_URL,
   NETWORK_NAME,
@@ -825,8 +825,8 @@ export const Checklist = () => {
           <Text className="mt20">
             <FormattedMessage defaultMessage="We strongly recommended you complete these steps on the current testnet before Mainnet." />
             {'  '}
-            <Link inline primary to={TESTNET_LAUNCHPAD_URL}>
-              {TESTNET_LAUNCHPAD_NAME}
+            <Link inline primary to={TESTNET_AGORA_STAKING_URL}>
+              {TESTNET_AGORA_STAKING_NAME}
             </Link>
           </Text>
         </Alert>
