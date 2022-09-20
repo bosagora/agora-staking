@@ -4,7 +4,6 @@ import { Hero } from './Hero';
 import { NetworkStatus } from './NetworkStatus';
 import { Introduction } from './Introduction';
 import { SignupSteps } from './SignupSteps';
-import { Upgrades } from './Upgrades';
 import { queryBeaconchain } from '../../utils/queryBeaconchain';
 
 export const LandingPage = (): JSX.Element => {
@@ -34,7 +33,7 @@ export const LandingPage = (): JSX.Element => {
       <NetworkStatus {...{ state }} />
       <Introduction />
       <SignupSteps />
-      <Upgrades />
+      {/* <Upgrades /> */}
     </>
   );
 };
