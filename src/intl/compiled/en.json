@@ -723,6 +723,16 @@
       "value": "Start by setting up your chosen hardware and operating system."
     }
   ],
+  "4Su3su": [
+    {
+      "type": 0,
+      "value": "Cross check the deposit contract address against other websites – for example: Medium, and GitHub. There's also a list of trusted sources on "
+    },
+    {
+      "type": 1,
+      "value": "bosagoraorg"
+    }
+  ],
   "4VQUkR": [
     {
       "type": 0,
@@ -2765,6 +2775,12 @@
       "value": "Teku needs to be pointed at files containing keystores and their associated passwords at startup. There are 3 methods for doing so."
     }
   ],
+  "NzRx8o": [
+    {
+      "type": 0,
+      "value": "Check the deposit contract on your favorite AGORA block explorer (BOAScan, AgoraScan) :"
+    }
+  ],
   "O+3LJ1": [
     {
       "type": 0,
@@ -4405,12 +4421,6 @@
     {
       "type": 0,
       "value": "The Geth documentation explains how to download and install the client."
-    }
-  ],
-  "cJX99/": [
-    {
-      "type": 0,
-      "value": "Check your favorite Beacon Chain block explorer:"
     }
   ],
   "cRzxes": [
@@ -6345,16 +6355,16 @@
       "value": "What is the deposit contract?"
     }
   ],
+  "syvhc3": [
+    {
+      "type": 0,
+      "value": "Check the AgoraScan block explorer:"
+    }
+  ],
   "szN3Fl": [
     {
       "type": 0,
       "value": "I understand and agree to the terms-of-service and everything stated in the previous sections."
-    }
-  ],
-  "tCvslk": [
-    {
-      "type": 0,
-      "value": "Check the deposit contract on your favorite AGORA block explorer:"
     }
   ],
   "tJcyUM": [
@@ -6731,16 +6741,6 @@
     {
       "type": 0,
       "value": "We strongly recommended you complete these steps on the current testnet before Mainnet."
-    }
-  ],
-  "xDyl3T": [
-    {
-      "type": 0,
-      "value": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub. There's also a list of trusted sources on "
-    },
-    {
-      "type": 1,
-      "value": "ethereumorg"
     }
   ],
   "xH5GKj": [

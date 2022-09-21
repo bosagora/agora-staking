@@ -286,6 +286,10 @@
   "4NvAhl": {
     "message": "Start by setting up your chosen hardware and operating system."
   },
+  "4Su3su": {
+    "description": "{bosagoraorg} is a link to deposit contract page on bosagora",
+    "message": "Cross check the deposit contract address against other websites – for example: Medium, and GitHub. There's also a list of trusted sources on {bosagoraorg}"
+  },
   "4VQUkR": {
     "message": "For more information, see the {shanghaiPlanning}."
   },
@@ -1096,6 +1100,9 @@
   "NwzcYT": {
     "message": "Teku needs to be pointed at files containing keystores and their associated passwords at startup. There are 3 methods for doing so."
   },
+  "NzRx8o": {
+    "message": "Check the deposit contract on your favorite AGORA block explorer (BOAScan, AgoraScan) :"
+  },
   "O+3LJ1": {
     "message": "This validator's balance is at the effective maximum: {PRICE_PER_VALIDATOR} {TICKER_NAME}."
   },
@@ -1697,9 +1704,6 @@
   },
   "cHUoV9": {
     "message": "The Geth documentation explains how to download and install the client."
-  },
-  "cJX99/": {
-    "message": "Check your favorite Beacon Chain block explorer:"
   },
   "cRzxes": {
     "message": "Current APR"
@@ -2423,11 +2427,11 @@
   "sy35J+": {
     "message": "What is the deposit contract?"
   },
+  "syvhc3": {
+    "message": "Check the AgoraScan block explorer:"
+  },
   "szN3Fl": {
     "message": "I understand and agree to the terms-of-service and everything stated in the previous sections."
-  },
-  "tCvslk": {
-    "message": "Check the deposit contract on your favorite AGORA block explorer:"
   },
   "tJcyUM": {
     "message": "Your deposit_data.json suggests you wanted to set up more validators. These deposits are still outstanding. If you think you've already made these deposits, wait an hour before trying again to avoid duplicate deposits."
@@ -2587,10 +2591,6 @@
   },
   "x4/9vY": {
     "message": "We strongly recommended you complete these steps on the current testnet before Mainnet."
-  },
-  "xDyl3T": {
-    "description": "{ethereumorg} is a link to deposit contract page on ethereum.org",
-    "message": "Cross check the deposit contract address against other websites – for example: Reddit, Twitter, and GitHub. There's also a list of trusted sources on {ethereumorg}"
   },
   "xH5GKj": {
     "message": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
