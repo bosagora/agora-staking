@@ -78,27 +78,21 @@ export const Introduction = (): JSX.Element => {
                   together."
               />
             </Text>
-            <Link
-              className="mt20 mb40"
-              to="https://ethereum.org/en/upgrades/vision/"
-            >
-              <FormattedMessage defaultMessage="More on the BOSAGORA vision" />
-            </Link>
             <Text className="mt20">
               <FormattedMessage defaultMessage="By running a validator, you'll be responsible for securing the network and receive continuous payouts for actions that help the network reach consensus." />
             </Text>
             <Text className="mt20">
-              <FormattedMessage defaultMessage="Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after Mainnet merges with the Beacon Chain." />
+              <FormattedMessage defaultMessage="Today, you'll secure the Agora Chain, the first main scaling. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after BizNet merges with the Agora Chain." />
             </Text>
             <Link
               className="mt20"
-              to="https://ethereum.org/en/upgrades/beacon-chain/"
+              to="https://docs.bosagora.org/en/agora/what-is-agora/agora-chain/"
             >
-              <FormattedMessage defaultMessage="More on the Beacon Chain" />
+              <FormattedMessage defaultMessage="More on the Agora Chain" />
             </Link>
             <Link
               className="mt20 mb40"
-              to="https://ethereum.org/en/upgrades/merge/"
+              to="https://docs.bosagora.org/en/updates/agora-merge-update/"
             >
               <FormattedMessage defaultMessage="More on the Merge" />
             </Link>
@@ -112,7 +106,7 @@ export const Introduction = (): JSX.Element => {
             </Text>
             <Link
               className="mt20 mb40"
-              to="https://ethereum.org/en/developers/docs/consensus-mechanisms/"
+              to="https://docs.bosagora.org/en/agora/what-is-agora/consensus-mechanisms-pos/"
             >
               <FormattedMessage defaultMessage="More on consensus mechanisms" />
             </Link>

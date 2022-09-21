@@ -704,9 +704,6 @@
   "EhWnrS": {
     "message": "You should certainly top up if your balance is close to 16 BOA. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 BOA)."
   },
-  "Emi2Mf": {
-    "message": "More on the BOSAGORA vision"
-  },
   "FCzZGS": {
     "message": "Run the Agora Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Agora Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
   },
@@ -815,6 +812,9 @@
   },
   "H5+NAX": {
     "message": "Balance"
+  },
+  "H6w+Vp": {
+    "message": "More on the Agora Chain"
   },
   "HMgrdg": {
     "message": "Configure your execution client"
@@ -2067,9 +2067,6 @@
   "kd/f4u": {
     "message": "Key list"
   },
-  "kgYD5R": {
-    "message": "Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after Mainnet merges with the Beacon Chain."
-  },
   "kn7kJd": {
     "message": "More on consensus mechanisms"
   },
@@ -2192,6 +2189,9 @@
   },
   "nZTFTz": {
     "message": "I understand that there is no advantage to depositing more than once per validator. Any extra {TICKER_NAME} sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
+  },
+  "ncpL2s": {
+    "message": "Today, you'll secure the Agora Chain, the first main scaling. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after BizNet merges with the Agora Chain."
   },
   "njAU72": {
     "message": "French"
