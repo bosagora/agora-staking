@@ -7,7 +7,7 @@ import { Menu, Language, FormDown } from 'grommet-icons';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
 import EthDiamond from '../static/bosagora-alternative-white-1.png';
-import { web3ReactInterface } from '../pages/ConnectWallet';
+import { web3ReactInterface } from '../pages';
 import {
   AllowedNetworks,
   NetworkChainId,
@@ -211,13 +211,13 @@ const _AppBar = ({ location }: RouteComponentProps) => {
         </Link>
         <ValidatorDropdown
           className="secondary-link"
-          label={
+          label={(
             <BarLinkText level={4} margin="none" active={isDropdownPage}>
               <FormattedMessage defaultMessage="Clients" />
             </BarLinkText>
-          }
+          )}
           dropAlign={{ top: 'bottom', right: 'right' }}
-          dropContent={
+          dropContent={(
             <Box pad="medium">
               <Text className="my10">
                 <b>Execution clients</b>
@@ -242,7 +242,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
               </Box>
             </Box>
-          }
+          )}
         />
         <Link to={routesEnum.checklistPage} className="mx10 secondary-link">
           <BarLinkText
@@ -274,7 +274,8 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             <FormattedMessage defaultMessage="Top Up" />
           </BarLinkText>
         </Link>
-        <Link to={routesEnum.mergeReadiness} className="mx10 secondary-link">
+        {/* TODO : Hide the merge menu so we can see it when we need it. */}
+        {/* <Link to={routesEnum.mergeReadiness} className="mx10 secondary-link">
           <BarLinkText
             level={4}
             margin="none"
@@ -283,7 +284,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
           >
             <FormattedMessage defaultMessage="The Merge" />
           </BarLinkText>
-        </Link>
+        </Link> */}
       </NavBarLinks>
       <NavLinksRight>
         {!mobile && (
@@ -308,7 +309,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             className="secondary-link"
             label={<Menu color="black" />}
             dropAlign={{ top: 'bottom', right: 'right' }}
-            dropContent={
+            dropContent={(
               <Card>
                 <NetworkInfo>
                   {walletConnected && (
@@ -369,20 +370,20 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
                 </Box>
               </Card>
-            }
+            )}
           />
         )}
         {!mobile && (
           <ValidatorDropdown
             className="secondary-link"
-            label={
+            label={(
               <NetworkText>
                 {NETWORK_NAME}
                 <FormDown />
               </NetworkText>
-            }
+            )}
             dropAlign={{ top: 'bottom', right: 'right' }}
-            dropContent={
+            dropContent={(
               <Card>
                 <Box pad="small" className="mt0">
                   {!IS_MAINNET && (
@@ -398,7 +399,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   </DropdownLink>
                 </Box>
               </Card>
-            }
+            )}
           />
         )}
         {!mobile && walletConnected && (
@@ -408,13 +409,13 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 className="secondary-link"
                 label={<Dot success={networkAllowed} error={!networkAllowed} />}
                 dropAlign={{ top: 'bottom', right: 'right' }}
-                dropContent={
+                dropContent={(
                   <Box pad="small">
                     <Text>
                       <FormattedMessage defaultMessage="Your wallet is connected to the right network!" />
                     </Text>
                   </Box>
-                }
+                )}
               />
             )}
             {!networkAllowed && (
@@ -422,7 +423,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 className="secondary-link"
                 label={<Dot error={!networkAllowed} />}
                 dropAlign={{ top: 'bottom', right: 'right' }}
-                dropContent={
+                dropContent={(
                   <Box pad="small">
                     <Text>
                       <FormattedMessage
@@ -431,7 +432,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                       />
                     </Text>
                   </Box>
-                }
+                )}
               />
             )}
             <Text size="small" className="ml10" color="blueDark">
