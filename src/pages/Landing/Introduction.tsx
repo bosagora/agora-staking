@@ -2,8 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FormattedMessage } from 'react-intl';
-import EthDiamondPlain from '../../static/eth-diamond-plain.svg';
-import EthRound from '../../static/eth-round-landing.svg';
+import boaLogo from '../../static/BOA-logo.svg';
 import { Text } from '../../components/Text';
 import { Heading } from '../../components/Heading';
 import { Link } from '../../components/Link';
@@ -39,13 +38,14 @@ const ContentContainer = styled.div`
       content: ' ';
       display: block;
       position: absolute;
-      right: 60px;
-      top: 35px;
-      width: 250px;
-      height: 400px;
+      left: 50%;
+      top: 144px;
+      width: 300px;
+      height: 300px;
+      transform: translate(-50%, 0%);
       z-index: 1;
       opacity: 0.15;
-      background-image: url(${EthDiamondPlain});
+      background-image: url(${boaLogo});
       background-repeat: no-repeat;
       background-position: 50% 0;
       -ms-background-size: cover;
@@ -60,9 +60,11 @@ export const Introduction = (): JSX.Element => {
   return (
     <Container>
       <SubContainer className="py100 flex">
-        <ImgContainer>
-          <img src={EthRound} alt="" />
-        </ImgContainer>
+        <ScrollAnimation animateIn="fadeIn" animateOnce>
+          <ImgContainer>
+            <img src={boaLogo} alt="" />
+          </ImgContainer>
+        </ScrollAnimation>
         <ContentContainer>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
             <Heading level={2} size="medium" color="blueDark" margin="none">

@@ -109,7 +109,7 @@ export const NetworkStatus: React.FC<{
       <ScrollAnimation delay={750} animateIn="fadeIn" animateOnce>
         <Content isMobile={m}>
           <Heading level={2} size="medium" color="blueDark" className="mb40">
-            <FormattedMessage defaultMessage="The Beacon Chain" />
+            <FormattedMessage defaultMessage="The Agora Chain" />
           </Heading>
           <CardContainer>
             <Card>
