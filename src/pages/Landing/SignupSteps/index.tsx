@@ -80,7 +80,7 @@ export const SignupSteps = (): JSX.Element => {
             title={formatMessage({ defaultMessage: '2. Prep nodes' })}
             content={formatMessage({
               defaultMessage:
-                "You'll need to run an execution client (formerly 'Eth1') as well as a consensus client (formerly 'Eth2') to become a validator. Take a look at the checklist to prepare yourself and your equipment.",
+                "You'll need to run an execution client (Agora-el) as well as a consensus client (Agora-cl) to become a validator. Take a look at the checklist to prepare yourself and your equipment.",
             })}
           >
             <Link to={routesEnum.checklistPage} primary>

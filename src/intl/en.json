@@ -2174,9 +2174,6 @@
   "mr1BWl": {
     "message": "Risks and acknowledgements:"
   },
-  "nBhisA": {
-    "message": "You'll need to run an execution client (formerly 'Eth1') as well as a consensus client (formerly 'Eth2') to become a validator. Take a look at the checklist to prepare yourself and your equipment."
-  },
   "nHk8Et": {
     "message": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Beacon Chain."
   },
@@ -2613,6 +2610,9 @@
   },
   "xbet2w": {
     "message": "Install python3.7+"
+  },
+  "xlgruU": {
+    "message": "You'll need to run an execution client (Agora-el) as well as a consensus client (Agora-cl) to become a validator. Take a look at the checklist to prepare yourself and your equipment."
   },
   "xm3Ivd": {
     "message": "This JSON file isn't for the right network. Upload a file generated for your current network: {consensusLayerName}."
