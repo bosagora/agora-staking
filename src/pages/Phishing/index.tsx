@@ -63,25 +63,25 @@ export const Phishing = () => {
           <li>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Cross check the deposit contract address against other websites – for example: Reddit,
-                Twitter, and GitHub. There's also a list of trusted sources on {ethereumorg}"
+                defaultMessage="Cross check the deposit contract address against other websites – for example: Medium,
+                and GitHub. There's also a list of trusted sources on {bosagoraorg}"
                 values={{
-                  ethereumorg: (
+                  bosagoraorg: (
                     <Link
                       inline
-                      to="https://ethereum.org/en/staking/deposit-contract/"
+                      to="https://docs.bosagora.org/en/validator-start/becoming-a-validator/staking-deposit-contract/"
                     >
-                      ethereum.org
+                      docs.bosagora.org
                     </Link>
                   ),
                 }}
-                description="{ethereumorg} is a link to deposit contract page on ethereum.org"
+                description="{bosagoraorg} is a link to deposit contract page on bosagora"
               />
             </Text>
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check the deposit contract on your favorite AGORA block explorer:" />
+              <FormattedMessage defaultMessage="Check the deposit contract on your favorite AGORA block explorer (BOAScan, AgoraScan) :" />
             </Text>
             <ul>
               <li>
@@ -114,7 +114,7 @@ export const Phishing = () => {
           </li>
           <li>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="Check your favorite Beacon Chain block explorer:" />
+              <FormattedMessage defaultMessage="Check the AgoraScan block explorer:" />
             </Text>
             <ul>
               <li>
