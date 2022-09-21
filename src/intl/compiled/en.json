@@ -1805,12 +1805,6 @@
       "value": "You should certainly top up if your balance is close to 16 BOA. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 BOA)."
     }
   ],
-  "Emi2Mf": [
-    {
-      "type": 0,
-      "value": "More on the BOSAGORA vision"
-    }
-  ],
   "FCzZGS": [
     {
       "type": 0,
@@ -2073,6 +2067,12 @@
     {
       "type": 0,
       "value": "Balance"
+    }
+  ],
+  "H6w+Vp": [
+    {
+      "type": 0,
+      "value": "More on the Agora Chain"
     }
   ],
   "HMgrdg": [
@@ -5421,12 +5421,6 @@
       "value": "Key list"
     }
   ],
-  "kgYD5R": [
-    {
-      "type": 0,
-      "value": "Today, you'll secure the Beacon Chain, the first main scaling upgrade. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after Mainnet merges with the Beacon Chain."
-    }
-  ],
   "kn7kJd": [
     {
       "type": 0,
@@ -5777,6 +5771,12 @@
     {
       "type": 0,
       "value": " sent in a duplicate deposit will not be counted in my effective validator balance and I will not be able to withdraw it."
+    }
+  ],
+  "ncpL2s": [
+    {
+      "type": 0,
+      "value": "Today, you'll secure the Agora Chain, the first main scaling. It's a separate chain that uses a proof-of-stake consensus mechanism. Very soon you'll help secure all of BOSAGORA, after BizNet merges with the Agora Chain."
     }
   ],
   "njAU72": [
