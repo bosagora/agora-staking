@@ -22,7 +22,7 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="The Beacon Chain upgrade brings proof-of-stake consensus to AGORA." />
+          <FormattedMessage defaultMessage="The Agora Chain update brings proof-of-stake consensus to AGORA" />
         </Text>
         <Text size="medium" className="my10">
           <FormattedMessage
@@ -45,7 +45,7 @@ export const pageContent = {
           className="my10"
           primary
         >
-          <FormattedMessage defaultMessage="More on the Beacon Chain" />
+          <FormattedMessage defaultMessage="More on the Agora Chain" />
         </Link>
         <Link
           to="https://docs.bosagora.org/en/agora/what-is-agora/consensus-mechanisms-pos"
@@ -66,7 +66,7 @@ export const pageContent = {
       <>
         <Text size="medium" className="my10">
           <FormattedMessage
-            defaultMessage="To become a validator on the Beacon Chain, you need to deposit
+            defaultMessage="To become a validator on the Agora Chain, you need to deposit
               {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
             values={{ PRICE_PER_VALIDATOR, TICKER_NAME }}
           />
@@ -75,10 +75,10 @@ export const pageContent = {
           <FormattedMessage defaultMessage="This is a non-reversible transaction." />
         </Text>
         <Text size="medium" className="my20">
-          <FormattedMessage defaultMessage="Withdrawing your deposit will not be possible until the Shanghai upgrade planned for after the Merge." />
+          <FormattedMessage defaultMessage="Withdrawing your deposit will not be possible until the update planned for after the Merge." />
         </Text>
         <Link
-           to="https://docs.bosagora.org/en/updates/agora-merge-update"
+          to="https://docs.bosagora.org/en/updates/agora-merge-update"
           className="my10"
           primary
         >
@@ -138,7 +138,7 @@ export const pageContent = {
         >
           <FormattedMessage defaultMessage="The AGORA consensus-layer specification" />
         </Link>
-        <Link shouldOpenNewTab={true} to="/faq" className="my10" primary>
+        <Link shouldOpenNewTab to="/faq" className="my10" primary>
           <FormattedMessage defaultMessage="More on slashing risks" />
         </Link>
       </>
@@ -163,7 +163,7 @@ export const pageContent = {
           />
         </Text>
         <Text size="medium" className="mt20">
-          <FormattedMessage defaultMessage="We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the Shanghai upgrade planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic." />
+          <FormattedMessage defaultMessage="We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the update planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic." />
         </Text>
         <Text size="medium" className="mt20">
           <FormattedMessage
@@ -194,10 +194,10 @@ export const pageContent = {
     content: (
       <>
         <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the Shanghai upgrade." />
+          <FormattedMessage defaultMessage="Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update." />
         </Text>
         <Link
-           to="https://docs.bosagora.org/en/updates/agora-merge-update"
+          to="https://docs.bosagora.org/en/updates/agora-merge-update"
           className="my10"
           primary
         >

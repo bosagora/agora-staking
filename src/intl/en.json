@@ -1073,6 +1073,9 @@
   "NPmm0q": {
     "message": "You must be on a desktop device to use this app."
   },
+  "NRz4Mk": {
+    "message": "The Agora Chain update brings proof-of-stake consensus to AGORA"
+  },
   "NSK+Li": {
     "message": "I've secured the root account."
   },
@@ -1182,6 +1185,9 @@
   },
   "Q2CQuF": {
     "message": "Now that transactions must be processed by validators, the validators that propose blocks including these transactions are eligible to receive the transaction fee tips. These are also known as priority fees, and are the unburnt portion of gas fees."
+  },
+  "Q2paZN": {
+    "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the update planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   },
   "Q8P0rZ": {
     "message": "Validators have a maximum effective balance of {PRICE_PER_VALIDATOR} {TICKER_NAME}. You only need to top up {maxTopupValue} {TICKER_NAME} to max out your effective balance."
@@ -1431,14 +1437,8 @@
   "W3t7Ob": {
     "message": "Japanese"
   },
-  "W6w5Wb": {
-    "message": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the Shanghai upgrade."
-  },
   "W8nHSd": {
     "message": "FAQ"
-  },
-  "WFVzvu": {
-    "message": "{warning} Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than {eth} will NOT be counted in your effective balance on the Beacon Chain. You also won't be able to withdraw it until the Beacon Chain merges with mainnet."
   },
   "WJA1/H": {
     "message": "Remember"
@@ -1617,6 +1617,9 @@
   "aEBE6s": {
     "message": "2. Prep nodes"
   },
+  "aGg8f+": {
+    "message": "To become a validator on the Agora Chain, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
+  },
   "aXT3iO": {
     "message": "Nimbus is Apache 2 licensed and written in Nim, a language with Python-like syntax that compiles to C."
   },
@@ -1715,9 +1718,6 @@
   },
   "cwYSyN": {
     "message": "Task 3"
-  },
-  "cyNFM3": {
-    "message": "Withdrawing your deposit will not be possible until the Shanghai upgrade planned for after the Merge."
   },
   "cyR7Kh": {
     "message": "Back"
@@ -2204,9 +2204,6 @@
   "obp8vV": {
     "message": "Documentation on running Besu"
   },
-  "ogbG7r": {
-    "message": "To become a validator on the Beacon Chain, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
-  },
   "ohspQX": {
     "message": "Responsibilities"
   },
@@ -2281,6 +2278,9 @@
   },
   "q2XW/k": {
     "message": "If your withdrawal key is stolen, the thief can transfer your validator’s balance, but only once the validator has exited."
+  },
+  "q2cHso": {
+    "message": "{warning} Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than {eth} will NOT be counted in your effective balance on the Agora Chain. You also won't be able to withdraw it until the Agora Chain merges with mainnet."
   },
   "qDvaNm": {
     "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds."
@@ -2389,6 +2389,9 @@
   "smD5l/": {
     "message": "Consensus Layer Beacon Node (BN)"
   },
+  "snDnHn": {
+    "message": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update."
+  },
   "soCLV+": {
     "message": "Checklist"
   },
@@ -2456,6 +2459,9 @@
   "ubKWX8": {
     "message": "Generate key pairs"
   },
+  "uh4rL0": {
+    "message": "Withdrawing your deposit will not be possible until the update planned for after the Merge."
+  },
   "uhapiE": {
     "message": "Ensure your bandwidth can't be throttled and isn't capped so your node stays in sync and will be ready to validate when called."
   },
@@ -2517,9 +2523,6 @@
   },
   "wPR6Js": {
     "message": "Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to."
-  },
-  "wRMvbz": {
-    "message": "The Beacon Chain upgrade brings proof-of-stake consensus to AGORA."
   },
   "waI5ap": {
     "message": "Prysm is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
@@ -2648,8 +2651,5 @@
   },
   "zicXn7": {
     "message": "Node security"
-  },
-  "zkT9Jx": {
-    "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the Shanghai upgrade planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
   }
 }

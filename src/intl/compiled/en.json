@@ -2713,6 +2713,12 @@
       "value": "You must be on a desktop device to use this app."
     }
   ],
+  "NRz4Mk": [
+    {
+      "type": 0,
+      "value": "The Agora Chain update brings proof-of-stake consensus to AGORA"
+    }
+  ],
   "NSK+Li": [
     {
       "type": 0,
@@ -2983,6 +2989,12 @@
     {
       "type": 0,
       "value": "Now that transactions must be processed by validators, the validators that propose blocks including these transactions are eligible to receive the transaction fee tips. These are also known as priority fees, and are the unburnt portion of gas fees."
+    }
+  ],
+  "Q2paZN": [
+    {
+      "type": 0,
+      "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the update planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
     }
   ],
   "Q8P0rZ": [
@@ -3675,34 +3687,10 @@
       "value": "Japanese"
     }
   ],
-  "W6w5Wb": [
-    {
-      "type": 0,
-      "value": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the Shanghai upgrade."
-    }
-  ],
   "W8nHSd": [
     {
       "type": 0,
       "value": "FAQ"
-    }
-  ],
-  "WFVzvu": [
-    {
-      "type": 1,
-      "value": "warning"
-    },
-    {
-      "type": 0,
-      "value": " Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than "
-    },
-    {
-      "type": 1,
-      "value": "eth"
-    },
-    {
-      "type": 0,
-      "value": " will NOT be counted in your effective balance on the Beacon Chain. You also won't be able to withdraw it until the Beacon Chain merges with mainnet."
     }
   ],
   "WJA1/H": [
@@ -4195,6 +4183,28 @@
       "value": "2. Prep nodes"
     }
   ],
+  "aGg8f+": [
+    {
+      "type": 0,
+      "value": "To become a validator on the Agora Chain, you need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " per validator that you wish to run."
+    }
+  ],
   "aXT3iO": [
     {
       "type": 0,
@@ -4423,12 +4433,6 @@
     {
       "type": 0,
       "value": "Task 3"
-    }
-  ],
-  "cyNFM3": [
-    {
-      "type": 0,
-      "value": "Withdrawing your deposit will not be possible until the Shanghai upgrade planned for after the Merge."
     }
   ],
   "cyR7Kh": [
@@ -5747,28 +5751,6 @@
       "value": "Documentation on running Besu"
     }
   ],
-  "ogbG7r": [
-    {
-      "type": 0,
-      "value": "To become a validator on the Beacon Chain, you need to deposit "
-    },
-    {
-      "type": 1,
-      "value": "PRICE_PER_VALIDATOR"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " per validator that you wish to run."
-    }
-  ],
   "ohspQX": [
     {
       "type": 0,
@@ -5935,6 +5917,24 @@
     {
       "type": 0,
       "value": "If your withdrawal key is stolen, the thief can transfer your validator’s balance, but only once the validator has exited."
+    }
+  ],
+  "q2cHso": [
+    {
+      "type": 1,
+      "value": "warning"
+    },
+    {
+      "type": 0,
+      "value": " Duplicate deposits with the same keyfile public key will be considered as a double deposit. Any extra balance more than "
+    },
+    {
+      "type": 1,
+      "value": "eth"
+    },
+    {
+      "type": 0,
+      "value": " will NOT be counted in your effective balance on the Agora Chain. You also won't be able to withdraw it until the Agora Chain merges with mainnet."
     }
   ],
   "qDvaNm": [
@@ -6235,6 +6235,12 @@
       "value": "Consensus Layer Beacon Node (BN)"
     }
   ],
+  "snDnHn": [
+    {
+      "type": 0,
+      "value": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update."
+    }
+  ],
   "soCLV+": [
     {
       "type": 0,
@@ -6389,6 +6395,12 @@
     {
       "type": 0,
       "value": "Generate key pairs"
+    }
+  ],
+  "uh4rL0": [
+    {
+      "type": 0,
+      "value": "Withdrawing your deposit will not be possible until the update planned for after the Merge."
     }
   ],
   "uhapiE": [
@@ -6565,12 +6577,6 @@
     {
       "type": 0,
       "value": "Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to."
-    }
-  ],
-  "wRMvbz": [
-    {
-      "type": 0,
-      "value": "The Beacon Chain upgrade brings proof-of-stake consensus to AGORA."
     }
   ],
   "waI5ap": [
@@ -6867,12 +6873,6 @@
     {
       "type": 0,
       "value": "Node security"
-    }
-  ],
-  "zkT9Jx": [
-    {
-      "type": 0,
-      "value": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the Shanghai upgrade planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
     }
   ]
 }
