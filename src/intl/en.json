@@ -11,6 +11,9 @@
   "+fnRDB": {
     "message": "I accept"
   },
+  "+ftVFn": {
+    "message": "After the Merge, your validator will also be responsible for processing transactions, and thus be entitled to unburnt gas fees associated with those transactions in blocks your validator proposes. These fees are accounted for on the execution layer, not the consensus layer, and thus require a traditional BOA address to be provided to your client."
+  },
   "+ijXqp": {
     "message": "Become a validator and help secure the future of BOSAGORA"
   },
@@ -93,6 +96,9 @@
   "0FTs1T": {
     "message": "not"
   },
+  "0GpntE": {
+    "message": "After the update, your 20000 BOA can then be withdrawn – with your withdrawal key – after a delay of around a day."
+  },
   "0Pficg": {
     "message": "Note: the Agora Chain may take several minutes to verify your deposit"
   },
@@ -165,9 +171,6 @@
   "1fytak": {
     "message": "Check deposit contract details"
   },
-  "1jCRnc": {
-    "message": "Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
-  },
   "1p+pb5": {
     "message": "fee recipient"
   },
@@ -194,9 +197,6 @@
   },
   "2CYEJa": {
     "message": "Troubleshooting"
-  },
-  "2HVWJL": {
-    "message": "execution layer"
   },
   "2Hk0nB": {
     "message": "Follow the instructions presented to you in the application to generate your keys."
@@ -248,9 +248,6 @@
   },
   "3QmqFf": {
     "message": "Top-up transaction"
-  },
-  "3SOKyg": {
-    "message": "These terminology updates only change naming conventions; this does not alter Ethereum's goals or roadmap."
   },
   "3T01pE": {
     "message": "Step 2: Generate deposit keys using the Agora Key Gen app"
@@ -326,14 +323,14 @@
   "5HJLBU": {
     "message": "Teku installation documentation"
   },
+  "5Hxw8J": {
+    "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator"
+  },
   "5UH1sh": {
     "message": "Romanian"
   },
   "5Vrs8S": {
     "message": "You need enough upload bandwidth too. As of {date} this is ~1.2-1.3 GB download and ~0.9-1 GB upload per hour, and is likely to increase."
-  },
-  "5ayYNP": {
-    "message": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 16 BOA, you will be automatically exited from the validator pool."
   },
   "5dG331": {
     "message": "Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at {pricePerValidator}. It is possible to drop below this with poor node performance, but it is not possible to raise above it."
@@ -502,18 +499,12 @@
   "9vwGlT": {
     "message": "I've synced my beacon node on {consensusLayerName}."
   },
-  "9xeLhs": {
-    "message": "Ethereum address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'Eth1' address) after the post-merge cleanup upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
-  },
   "9ySJSP": {
     "description": "{ethClientType} is either \"execution\" or \"consensus\", depending on which step user is on",
     "message": "Choose your {ethClientType} client and set up a node"
   },
   "A2b4uB": {
     "message": "Send deposit"
-  },
-  "A8r7Hg": {
-    "message": "consensus layer"
   },
   "AC669U": {
     "message": "If you need help, check out the Python documentation."
@@ -645,6 +636,9 @@
   "D0Rigq": {
     "message": "NO"
   },
+  "D1Oox4": {
+    "message": "Depositing more than {pricePerValidator} BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} BOA, as each validator is limited to an effective Balance of {pricePerValidator}. This means that staking is done in {pricePerValidator} BOA increments, each with its own set of keys and balance."
+  },
   "D33f/7": {
     "description": "APR refers to Annual Percentage Rate",
     "message": "Current APR"
@@ -705,9 +699,6 @@
   "EeQXsK": {
     "message": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
   },
-  "EhWnrS": {
-    "message": "You should certainly top up if your balance is close to 16 BOA. This is to ensure you don’t get kicked out of the validator set (which automatically happens if your balance falls below 16 BOA)."
-  },
   "FCzZGS": {
     "message": "Run the Agora Key Gen app from withing Applications by right clicking and clicking Open. You will get a warning stating macOS cannot verify the developer of “Agora Key Gen.app”. Are you sure you want to open it?. Click Open and the app will open."
   },
@@ -762,9 +753,6 @@
   },
   "G9nGbv": {
     "message": "The Agora Chain"
-  },
-  "GBXzeJ": {
-    "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator can be anywhere between 2 and 20%."
   },
   "GDaRAW": {
     "message": "Make sure you aren't being phished"
@@ -917,11 +905,11 @@
     "description": "{network} inserts the testnet name, only if on the testnet",
     "message": "Agora Staking {network}"
   },
-  "JgALGl": {
-    "message": "Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {shanghai} update."
-  },
   "JhUYU3": {
     "message": "Download CLI app"
+  },
+  "Jj3XGN": {
+    "message": "Your balance is updated periodically by the Agora network rules as you carry (or fail to carry) out your responsibilities."
   },
   "JqVeL+": {
     "message": "Resource usage can vary significantly between clients. Research the different clients if you're working with resource constraints."
@@ -954,6 +942,9 @@
   },
   "KN7zKn": {
     "message": "Error"
+  },
+  "KQpNJg": {
+    "message": "Over time, your balance will decrease as you are punished for not participating in the consensus process. When your balance reaches 20000 BOA, you will be automatically exited from the validator pool."
   },
   "KbtByh": {
     "message": "These fees are paid by whoever submitted the transaction and come in the form of BOA on the execution layer (Mainnet). These rewards are not accounted for in your validator balance which is maintained on the consensus layer."
@@ -1025,6 +1016,12 @@
   "M3GwXS": {
     "message": "You'll only get your full rewards if your validator is online and up to date. This is your responsibility. If your validator goes offline you'll be penalized. The penalties for being offline are roughly equal to the rewards for actively participating."
   },
+  "MCDuJG": {
+    "message": "You should certainly top up if your balance is close to 20000 BOA. This is to ensure you don’t get kicked out of the validator set."
+  },
+  "MGBKAP": {
+    "message": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (20000 BOA) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+  },
   "MIsmjW": {
     "message": "Connect new wallet"
   },
@@ -1055,14 +1052,14 @@
   "Mc8nNE": {
     "message": "Transaction failed"
   },
-  "Mm7FSl": {
-    "message": "The terms 'Eth1' and 'Eth2' are being deprecated in preparation for the merge."
-  },
   "MmZjeu": {
     "message": "Top-up details"
   },
   "MoIew2": {
     "message": "Step-by-step guide for how to spin up a node and validator on merge testnets"
+  },
+  "MwQZW9": {
+    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and BOA address withdrawal."
   },
   "N0rwnt": {
     "message": "{depositFileName} isn't a valid deposit_data JSON file. Try again."
@@ -1149,10 +1146,6 @@
   "P+nziG": {
     "message": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
   },
-  "P1QerV": {
-    "description": "{discord} and {reddit} are links to EthStaker forums on Discord and Reddit respectively",
-    "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
-  },
   "P91KmA": {
     "message": "Become a validator {emoji}"
   },
@@ -1189,10 +1182,6 @@
   },
   "Q2CQuF": {
     "message": "Now that transactions must be processed by validators, the validators that propose blocks including these transactions are eligible to receive the transaction fee tips. These are also known as priority fees, and are the unburnt portion of gas fees."
-  },
-  "Q2n6Pd": {
-    "description": "{strongText} is a warning, bolded for emphasis",
-    "message": "The minimum amount that can be slashed is 1 BOA, but {strongText}."
   },
   "Q8P0rZ": {
     "message": "Validators have a maximum effective balance of {PRICE_PER_VALIDATOR} {TICKER_NAME}. You only need to top up {maxTopupValue} {TICKER_NAME} to max out your effective balance."
@@ -1233,8 +1222,8 @@
   "Qs/oj3": {
     "message": "You may have an {TICKER_NAME} deposit that was accepted but is being validated on chain. It will be available here when beaconcha.in has confirmed 2048 blocks."
   },
-  "QtNVQP": {
-    "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the Shanghai upgrade planned to follow the Merge (which means your funds will remain inaccessible until then)."
+  "Qxb/P6": {
+    "message": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "R58ea3": {
     "description": "{executionLayer} is a link labeled 'execution client'. {consensusLayer} is a link labeled 'consensus client'",
@@ -1359,9 +1348,6 @@
   "TfNuWP": {
     "message": "virtualenv would help you to create an isolated Python environment for deposit-cli tool."
   },
-  "TfVy1O": {
-    "message": "View the Merge Readiness Checklist"
-  },
   "ToUcj8": {
     "message": "Merge Readiness: In addition to an execution client, after the Merge node operators must also run an {alternateClient} to remain active."
   },
@@ -1373,9 +1359,6 @@
   },
   "U0yY/A": {
     "message": "View extensive client comparison"
-  },
-  "U7AOxj": {
-    "message": "greater than 50%"
   },
   "UHbYCa": {
     "message": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
@@ -1405,13 +1388,6 @@
   },
   "V0cb8p": {
     "message": "If you do not have a testnet folder it is likely you have not built and run Nimbus correctly. Run the make commands again."
-  },
-  "V0mmZE": {
-    "message": "After the Merge, your validator will also be responsible for processing transactions, and thus be entitled to unburnt gas fees associated with those transactions in blocks your validator proposes. These fees are accounted for on the execution layer, not the consensus layer, and thus require a traditional Ethereum address to be provided to your client."
-  },
-  "V19Udt": {
-    "description": "{executionLayer} is a link labeled 'execution layer'. {consensusLayer} is a link labeled 'consensus layer'",
-    "message": "Ethereum will consist of the {executionLayer} (handles transactions and execution, formerly 'Eth1'), and the {consensusLayer} (handles proof-of-stake Beacon Chain, formerly 'Eth2' or 'Ethereum 2.0')."
   },
   "V5J3Uf": {
     "message": "I have set up a shared JWT secret and made it available to {both} my execution client, and my consensus client (beacon node)"
@@ -1448,6 +1424,9 @@
   },
   "W10U1b": {
     "message": "Teku is Apache 2 licensed and written in Java, a language notable for its maturity and ubiquity."
+  },
+  "W1nRMy": {
+    "message": "Overall, we'd expect your validator to be net profitable as long as your uptime is greater than 50%."
   },
   "W3t7Ob": {
     "message": "Japanese"
@@ -1493,9 +1472,6 @@
   },
   "X/fKmY": {
     "message": "Has the block explorer named the contract?"
-  },
-  "X3NiFM": {
-    "message": "proof-of-custody game"
   },
   "X3rOq5": {
     "message": "At time of the Merge, Infura and Alchemy will no longer be viable options to outsource execution layer responsibilities."
@@ -1601,10 +1577,6 @@
   },
   "Z07LQm": {
     "message": "Couldn't upload {depositFileName} due to an error. Open an issue in GitHub so we can investigate."
-  },
-  "Z1aGQe": {
-    "description": "{greater than 50%} shows 'greater than 50%' and is a link to validator incentives article",
-    "message": "Overall, we'd expect your validator to be net profitable as long as your uptime is {greaterThan50Percent}."
   },
   "ZBtnGs": {
     "message": "I have reviewed the checklist."
@@ -1753,9 +1725,6 @@
   "d5KEM8": {
     "message": "You must sign a transaction for every deposit you want to make."
   },
-  "d75Ebj": {
-    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and Ethereum address withdrawal."
-  },
   "dGWdPu": {
     "message": "All stakers must operate an execution client as well as a consensus client starting at the Merge. Make sure you're prepared."
   },
@@ -1801,9 +1770,6 @@
   },
   "e5G66z": {
     "message": "Importantly, as a validator you'll need to post {TICKER_NAME} as collateral—in other words, have some funds at stake. The only way to become a validator is to make a one-way {TICKER_NAME} transaction to the deposit contract on the current AGORA chain."
-  },
-  "eF9RbC": {
-    "message": "You can think of the deposit contract as a transfer of funds between Ethereum accounts and Beacon Chain validators."
   },
   "eFSpta": {
     "message": "How is AGORA scaling?"
@@ -1929,6 +1895,9 @@
   "hHqYrL": {
     "message": "Once you're comfortable, you'll go through generating your keys and depositing your BOA."
   },
+  "hNov4T": {
+    "message": "You can think of the deposit contract as a transfer of funds between BOA accounts and Agora Chain validators."
+  },
   "hPCn9f": {
     "message": "--JsonRpc.Enabled documentation"
   },
@@ -1960,9 +1929,6 @@
   },
   "hyDRWp": {
     "message": "As such, stakers must provide a {feeRecipient} address to their consensus client in order to receive these rewards. This is a normal BOA address that you're used to."
-  },
-  "hzCDL2": {
-    "message": "Depositing more than {pricePerValidator} BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} BOA, as each validator is limited to an {effectiveBalance} of {pricePerValidator}. This means that staking is done in {pricePerValidator} BOA increments, each with its own set of keys and balance."
   },
   "hzLd+/": {
     "message": "I understand that it is important to keep my validator online and updated."
@@ -2002,6 +1968,9 @@
   },
   "iv88b5": {
     "message": "Send all {totalTxCount} deposits"
+  },
+  "iykiWw": {
+    "message": "Once the transition to proof-of-stake is complete via the Merge, validators will be responsible for processing transactions and signing off on their validity. This data will {not} be available from popular third-party sources after the Merge and will result in your validator being offline."
   },
   "j8GPOH": {
     "message": "Formerly known as Artemis, Teku is a consensus client built to meet institutional needs and security requirements. PegaSys is an arm of ConsenSys, dedicated to building enterprise-ready clients and tools for interacting with the core Ethereum platform."
@@ -2089,8 +2058,8 @@
   "l/uCcX": {
     "message": "You're on the testnet"
   },
-  "l2vMxn": {
-    "message": "Note that in the second (unlikely) scenario, you stand to progressively lose up to 50% (16 BOA) of your stake over 21 days. After 21 days you are ejected out of the validator pool. This ensures that blocks start finalizing again at some point."
+  "l357wH": {
+    "message": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
   },
   "l3ztMu": {
     "message": "As of {date}, you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
@@ -2112,6 +2081,10 @@
   },
   "lHiz+K": {
     "message": "Nimbus is a client implementation for both execution and consensus layers that strives to be as lightweight as possible in terms of resources used. This allows it to perform well on embedded systems, resource-restricted devices -- including Raspberry Pis -- and multi-purpose servers."
+  },
+  "lKRtPg": {
+    "description": "{telegram} is link to BOSagora forums",
+    "message": "If you have questions, BOSagora community is a good place to get help! You can find support on {telegram}."
   },
   "lLOZMD": {
     "description": "{apt} and {yum} are both package manager names styled as code",
@@ -2150,9 +2123,6 @@
   },
   "mA/8Vc": {
     "message": "The AGORA consensus-layer specification"
-  },
-  "mAnceU": {
-    "message": "After the Shanghai upgrade, your 16 BOA can then be withdrawn – with your withdrawal key – after a delay of around a day."
   },
   "mArJcj": {
     "message": "Hard drive"
@@ -2312,9 +2282,6 @@
   "q2XW/k": {
     "message": "If your withdrawal key is stolen, the thief can transfer your validator’s balance, but only once the validator has exited."
   },
-  "qB6aU6": {
-    "message": "What happened to 'Eth2?'"
-  },
   "qDvaNm": {
     "message": "I understand that keys are my responsibility and that my mnemonic (seed) will be the {onlyWay} to withdraw my funds."
   },
@@ -2382,6 +2349,10 @@
   "rgjQYI": {
     "message": "Merge Readiness: In addition to a consensus client, after the Merge node operators must also run an {alternateClient} to remain active."
   },
+  "rl0W4r": {
+    "description": "{strongText} is a warning, bolded for emphasis",
+    "message": "The minimum amount that can be slashed is 625 BOA, but {strongText}."
+  },
   "rnDgcN": {
     "message": "No, you cannot change your withdrawal credentials in top-ups."
   },
@@ -2435,9 +2406,6 @@
   },
   "tJcyUM": {
     "message": "Your deposit_data.json suggests you wanted to set up more validators. These deposits are still outstanding. If you think you've already made these deposits, wait an hour before trying again to avoid duplicate deposits."
-  },
-  "tMHEEe": {
-    "message": "Learn more about the great renaming"
   },
   "teyxVk": {
     "message": "What should the address be?"
@@ -2497,20 +2465,17 @@
   "ukfwum": {
     "message": "Become a validator with Nimbus"
   },
-  "ulgIVs": {
-    "message": "After the merge, there will no longer be two distinct Ethereum networks; there will only be Ethereum."
-  },
   "uoKhQB": {
     "message": "Authentication API"
   },
   "vBJ79e": {
     "message": "I've simulated how to safely migrate from one execution client to another."
   },
-  "vBOf5K": {
-    "message": "Your balance is updated periodically by the Ethereum network rules as you carry (or fail to carry) out your responsibilities."
-  },
   "vCHTnu": {
     "message": "Withdrawal credentials"
+  },
+  "vCuVyl": {
+    "message": "Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {postMerge} update."
   },
   "vEJDo8": {
     "message": "Protect your funds using monitoring software, and learn how to handle different real world scenarios."
@@ -2598,6 +2563,9 @@
   "xP6BKs": {
     "message": "staker checklist"
   },
+  "xQFECD": {
+    "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)."
+  },
   "xQrU13": {
     "message": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
   },
@@ -2668,9 +2636,6 @@
   "yoGtkz": {
     "message": "Make sure that your node has more than 20 peers."
   },
-  "z/ToMo": {
-    "message": "Once the transition to proof-of-stake is complete via the Merge, validators will be responsible for processing transactions and signing off on their validity. This data will {not} be available from popular third-party sources after the Merge and will result in your validator being offline. When data sharding is implemented, validators will also be at risk of slashing under the {pocGame}."
-  },
   "z63I56": {
     "message": "validator"
   },
@@ -2686,8 +2651,5 @@
   },
   "zkT9Jx": {
     "message": "We'll help you create a signing key for every validator you want to run. Because there are no withdrawals until the Shanghai upgrade planned to follow the Merge, you will not create your withdrawal keys now. When it is possible to withdraw your funds, you can derive your withdrawal keys from your mnemonic."
-  },
-  "zqOrZZ": {
-    "message": "Look over the Merge Readiness Checklist"
   }
 }
