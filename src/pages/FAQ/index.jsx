@@ -134,18 +134,9 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Depositing more than {pricePerValidator} BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} BOA, as each validator is limited to an {effectiveBalance} of {pricePerValidator}. This means that staking is done in {pricePerValidator} BOA increments, each with its own set of keys and balance."
+                defaultMessage="Depositing more than {pricePerValidator} BOA to a single set of keys does not increase rewards potential, nor does accumulating rewards above {pricePerValidator} BOA, as each validator is limited to an effective Balance of {pricePerValidator}. This means that staking is done in {pricePerValidator} BOA increments, each with its own set of keys and balance."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
-                  effectiveBalance: (
-                    <Link
-                      primary
-                      inline
-                      to="https://www.attestant.io/posts/understanding-validator-effective-balance/"
-                    >
-                      effective balance
-                    </Link>
-                  ),
                 }}
               />
             </Text>
@@ -177,16 +168,16 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {shanghai} update."
+                defaultMessage="Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {postMerge} update."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
-                  shanghai: (
+                  postMerge: (
                     <Link
                       inline
                       primary
-                      to="https://github.com/ethereum/pm/issues/450"
+                      to="https://docs.bosagora.org/en/updates/agora-post-merge-updates"
                     >
-                      Shanghai
+                      post merge
                     </Link>
                   ),
                 }}
@@ -199,8 +190,8 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="You can think of the deposit contract as a transfer of funds between Ethereum accounts and
-                  Beacon Chain validators."
+                defaultMessage="You can think of the deposit contract as a transfer of funds between BOA accounts and
+                  Agora Chain validators."
               />
             </Text>
             <Text className="mt10">
@@ -252,10 +243,8 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="You should certainly top up if your balance is close to 16 BOA.
-                  This is to ensure you don’t get kicked out of the validator
-                  set (which automatically happens if your balance falls below 16
-                  BOA)."
+                defaultMessage="You should certainly top up if your balance is close to 20000 BOA.
+                  This is to ensure you don’t get kicked out of the validator set."
               />
             </Text>
             <Text className="mt10">
@@ -285,64 +274,13 @@ export const FAQ = () => {
               />
             </Text>
             <Text className="mt10">
-              <FormattedMessage defaultMessage="There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the Shanghai upgrade planned to follow the Merge (which means your funds will remain inaccessible until then)." />
+              <FormattedMessage defaultMessage="There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)." />
               <Link
                 className="mt20"
-                to="https://ethereum.org/en/upgrades/merge/"
+                to="https://docs.bosagora.org/en/updates/agora-merge-update"
                 primary
               >
                 <FormattedMessage defaultMessage="More on the Merge" />
-              </Link>
-            </Text>
-          </section>
-          <section>
-            <Heading level={4}>
-              <FormattedMessage defaultMessage="What happened to 'Eth2?'" />
-            </Heading>
-            <Text className="mt10">
-              <FormattedMessage defaultMessage="The terms 'Eth1' and 'Eth2' are being deprecated in preparation for the merge." />
-            </Text>
-            <Text className="mt10">
-              <FormattedMessage defaultMessage="After the merge, there will no longer be two distinct Ethereum networks; there will only be Ethereum." />
-            </Text>
-            <Text className="mt10">
-              <FormattedMessage
-                defaultMessage="Ethereum will consist of the {executionLayer} (handles transactions and execution, formerly 'Eth1'), and the
-                  {consensusLayer} (handles proof-of-stake Beacon Chain, formerly 'Eth2' or 'Ethereum 2.0')."
-                values={{
-                  executionLayer: (
-                    <Link
-                      to="https://ethereum.org/en/glossary/#execution-layer"
-                      primary
-                      inline
-                    >
-                      <FormattedMessage defaultMessage="execution layer" />
-                    </Link>
-                  ),
-                  consensusLayer: (
-                    <Link
-                      to="https://ethereum.org/en/glossary/#consensus-layer"
-                      primary
-                      inline
-                    >
-                      <FormattedMessage defaultMessage="consensus layer" />
-                    </Link>
-                  ),
-                }}
-                description="{executionLayer} is a link labeled 'execution layer'. {consensusLayer} is a link labeled 'consensus layer'"
-              />
-            </Text>
-            <Text className="mt10">
-              <FormattedMessage
-                defaultMessage="These terminology updates only change naming conventions; this does not alter
-                  Ethereum's goals or roadmap."
-              />
-              <Link
-                className="mt20"
-                to="https://blog.ethereum.org/2022/01/24/the-great-eth2-renaming/"
-                primary
-              >
-                <FormattedMessage defaultMessage="Learn more about the great renaming" />
               </Link>
             </Text>
           </section>
@@ -365,9 +303,9 @@ export const FAQ = () => {
                 <FormattedMessage defaultMessage="This is a new change and becomes a requirement at time of the Merge, so be sure you're running both before the upgrade." />
               </Text>
             </BlockQuote>
-            <Link primary to="/merge-readiness">
+            {/* <Link primary to="/merge-readiness">
               <FormattedMessage defaultMessage="View the Merge Readiness Checklist" />
-            </Link>
+            </Link> */}
           </section>
           <section>
             <Heading level={4}>
@@ -375,7 +313,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Previously a Beacon Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
+                defaultMessage="An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -383,21 +321,12 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Once the transition to proof-of-stake is complete via the Merge, validators will be responsible for processing transactions and signing off on their validity. This data will {not} be available from popular third-party sources after the Merge and will result in your validator being offline. When data sharding is implemented, validators will also be at risk of slashing under the {pocGame}."
+                defaultMessage="Once the transition to proof-of-stake is complete via the Merge, validators will be responsible for processing transactions and signing off on their validity. This data will {not} be available from popular third-party sources after the Merge and will result in your validator being offline."
                 values={{
                   not: (
                     <em>
                       <FormattedMessage defaultMessage="not" />
                     </em>
-                  ),
-                  pocGame: (
-                    <Link
-                      inline
-                      primary
-                      to="https://dankradfeist.de/ethereum/2021/09/30/proofs-of-custody.html"
-                    >
-                      <FormattedMessage defaultMessage="proof-of-custody game" />
-                    </Link>
                   ),
                 }}
               />
@@ -456,7 +385,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Your balance is updated periodically by the Ethereum network rules
+                defaultMessage="Your balance is updated periodically by the Agora network rules
                   as you carry (or fail to carry) out your responsibilities."
               />
             </Text>
@@ -469,14 +398,14 @@ export const FAQ = () => {
             </Text>
             <BlockQuote>
               <Text className="mt20 mb20">
-                <FormattedMessage defaultMessage="After the Merge, your validator will also be responsible for processing transactions, and thus be entitled to unburnt gas fees associated with those transactions in blocks your validator proposes. These fees are accounted for on the execution layer, not the consensus layer, and thus require a traditional Ethereum address to be provided to your client." />
+                <FormattedMessage defaultMessage="After the Merge, your validator will also be responsible for processing transactions, and thus be entitled to unburnt gas fees associated with those transactions in blocks your validator proposes. These fees are accounted for on the execution layer, not the consensus layer, and thus require a traditional BOA address to be provided to your client." />
               </Text>
             </BlockQuote>
-            <Text className="mt10">
+            {/* <Text className="mt10">
               <Link primary to="/merge-readiness">
                 <FormattedMessage defaultMessage="Look over the Merge Readiness Checklist" />
               </Link>
-            </Text>
+            </Text> */}
           </section>
           <section>
             <Heading level={4}>
@@ -524,8 +453,7 @@ export const FAQ = () => {
                 defaultMessage="Arguably the most impactful factor on rewards earned for
                   validating transactions is the total amount of stake in the
                   network. In other words, the total amount of validators. Depending
-                  on this figure the max annual return rate for a validator can be
-                  anywhere between 2 and 20%."
+                  on this figure the max annual return rate for a validator"
               />
             </Text>
             <Text className="mt10">
@@ -672,7 +600,7 @@ export const FAQ = () => {
               <Text className="mt10">
                 <FormattedMessage
                   defaultMessage="Note that in the second (unlikely) scenario, you stand to
-                    progressively lose up to 50% (16 BOA) of your stake over 21
+                    progressively lose up to 50% (20000 BOA) of your stake over 21
                     days. After 21 days you are ejected out of the validator pool.
                     This ensures that blocks start finalizing again at some point."
                 />
@@ -686,19 +614,7 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Overall, we'd expect your validator to be net profitable as long as
-                  your uptime is {greaterThan50Percent}."
-                values={{
-                  greaterThan50Percent: (
-                    <Link
-                      to="https://blog.ethereum.org/2020/01/13/validated-staking-on-eth2-1-incentives/"
-                      primary
-                      inline
-                    >
-                      {formatMessage({ defaultMessage: 'greater than 50%' })}
-                    </Link>
-                  ),
-                }}
-                description="{greater than 50%} shows 'greater than 50%' and is a link to validator incentives article"
+                  your uptime is greater than 50%."
               />
             </Text>
             <Text className="mt10">
@@ -722,7 +638,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="The minimum amount that can be slashed is 1 BOA, but {strongText}."
+                defaultMessage="The minimum amount that can be slashed is 625 BOA, but {strongText}."
                 values={{
                   strongText: (
                     <strong>
@@ -776,13 +692,13 @@ export const FAQ = () => {
               <FormattedMessage
                 defaultMessage="{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the
                   destination of valid withdrawals. Currently, there are two types of
-                  withdrawals: BLS withdrawal and Ethereum address withdrawal."
+                  withdrawals: BLS withdrawal and BOA address withdrawal."
                 values={{
                   withdrawalCredentials: (
                     <Link
                       primary
                       inline
-                      to="https://github.com/ethereum/consensus-specs/blob/master/specs/phase0/validator.md#withdrawal-credentials"
+                      to="https://github.com/zeroone-boa/consensus-specs/blob/dev/specs/phase0/validator.md#withdrawal-credentials"
                     >
                       <FormattedMessage defaultMessage="Withdrawal Credentials" />
                     </Link>
@@ -819,7 +735,9 @@ export const FAQ = () => {
               <li>
                 <Text className="mt10">
                   <FormattedMessage
-                    defaultMessage="Ethereum address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'Eth1' address) after the post-merge cleanup upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
+                    defaultMessage="BOA address withdrawal: If you want to withdraw to your Mainnet
+                    wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade,
+                    you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
                     values={{
                       ethAddressWithdraw: (
                         <code>
@@ -869,8 +787,8 @@ export const FAQ = () => {
             <Text className="mt10">
               <FormattedMessage
                 defaultMessage="Over time, your balance will decrease as you are
-                  punished for not participating in the consensus process. When your balance reaches 16 BOA, you will be
-                  automatically exited from the validator pool."
+                  punished for not participating in the consensus process. When your balance reaches 20000 BOA,
+                  you will be automatically exited from the validator pool."
               />
             </Text>
             <BlockQuote>
@@ -903,7 +821,7 @@ export const FAQ = () => {
             </BlockQuote>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="After the Shanghai upgrade, your 16 BOA can then be withdrawn – with your withdrawal key – after
+                defaultMessage="After the update, your 20000 BOA can then be withdrawn – with your withdrawal key – after
                   a delay of around a day."
               />
             </Text>
@@ -984,21 +902,16 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="If you have questions, EthStaker community is a good place to get
-                  help! You can find support on {discord} or {reddit}."
+                defaultMessage="If you have questions, BOSagora community is a good place to get
+                  help! You can find support on {telegram}."
                 values={{
-                  discord: (
-                    <Link primary inline to="https://discord.io/ethstaker">
-                      Discord
-                    </Link>
-                  ),
-                  reddit: (
-                    <Link primary inline to="https://reddit.com/r/ethstaker">
-                      Reddit
+                  telegram: (
+                    <Link primary inline to="https://t.me/bosagora_eng">
+                      Telegram
                     </Link>
                   ),
                 }}
-                description="{discord} and {reddit} are links to EthStaker forums on Discord and Reddit respectively"
+                description="{telegram} is link to BOSagora forums"
               />
             </Text>
           </section>
