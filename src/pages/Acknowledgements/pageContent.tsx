@@ -89,7 +89,7 @@ export const pageContent = {
     acknowledgementText: (
       <FormattedMessage
         defaultMessage="I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME}
-          to become a validator, and that the transfer of {TICKER_NAME} to the Beacon Chain is
+          to become a validator, and that the transfer of {TICKER_NAME} to the Agora chain is
           one-way, and non-reversible."
         values={{ PRICE_PER_VALIDATOR, TICKER_NAME }}
       />

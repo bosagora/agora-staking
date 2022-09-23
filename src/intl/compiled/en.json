@@ -887,12 +887,6 @@
       "value": "average"
     }
   ],
-  "6HBTTN": [
-    {
-      "type": 0,
-      "value": "Proof-of-stake (PoS) and the Beacon Chain"
-    }
-  ],
   "6S95Bo": [
     {
       "type": 0,
@@ -1017,28 +1011,6 @@
     {
       "type": 0,
       "value": "Slashed?"
-    }
-  ],
-  "7d3Nzd": [
-    {
-      "type": 0,
-      "value": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using "
-    },
-    {
-      "type": 1,
-      "value": "beaconchain"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "beaconscan"
-    },
-    {
-      "type": 0,
-      "value": " blockchain explorers."
     }
   ],
   "7n4y3s": [
@@ -1441,42 +1413,6 @@
       "value": "TestingTheMerge"
     }
   ],
-  "AzjyIx": [
-    {
-      "type": 0,
-      "value": "Since the genesis of the Beacon Chain, many validators running their own consensus client have opted to use third-party services for their execution layer connection. This has been acceptable since the only thing being listened to has been the staking deposit contract."
-    }
-  ],
-  "B2EKj+": [
-    {
-      "type": 0,
-      "value": "I understand that I need to deposit "
-    },
-    {
-      "type": 1,
-      "value": "PRICE_PER_VALIDATOR"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to become a validator, and that the transfer of "
-    },
-    {
-      "type": 1,
-      "value": "TICKER_NAME"
-    },
-    {
-      "type": 0,
-      "value": " to the Beacon Chain is one-way, and non-reversible."
-    }
-  ],
   "B2yI5P": [
     {
       "type": 0,
@@ -1593,6 +1529,24 @@
     {
       "type": 0,
       "value": "Proof of stake"
+    }
+  ],
+  "CPEpOi": [
+    {
+      "type": 1,
+      "value": "networkBold"
+    },
+    {
+      "type": 0,
+      "value": " was the first longstanding public testnet to undergo The Merge, which occurred on June 8, 2022. Historically a proof-of-work testnet, "
+    },
+    {
+      "type": 1,
+      "value": "network"
+    },
+    {
+      "type": 0,
+      "value": " has now transitioned to proof-of-stake by merging its historical execution layer with a new Agora chain."
     }
   ],
   "CW9+vD": [
@@ -1801,6 +1755,36 @@
     {
       "type": 0,
       "value": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
+    }
+  ],
+  "EkWLTJ": [
+    {
+      "type": 0,
+      "value": "I understand that I need to deposit "
+    },
+    {
+      "type": 1,
+      "value": "PRICE_PER_VALIDATOR"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to become a validator, and that the transfer of "
+    },
+    {
+      "type": 1,
+      "value": "TICKER_NAME"
+    },
+    {
+      "type": 0,
+      "value": " to the Agora chain is one-way, and non-reversible."
     }
   ],
   "FCzZGS": [
@@ -2019,24 +2003,6 @@
       "value": "Total amount required"
     }
   ],
-  "H/LXxz": [
-    {
-      "type": 1,
-      "value": "networkBold"
-    },
-    {
-      "type": 0,
-      "value": " was the first longstanding public testnet to undergo The Merge, which occurred on June 8, 2022. Historically a proof-of-work testnet, "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    },
-    {
-      "type": 0,
-      "value": " has now transitioned to proof-of-stake by merging its historical execution layer with a new beacon chain."
-    }
-  ],
   "H0lQfu": [
     {
       "type": 0,
@@ -2117,16 +2083,6 @@
     {
       "type": 0,
       "value": "Configure Geth"
-    }
-  ],
-  "I212vY": [
-    {
-      "type": 0,
-      "value": "There is a short wait before your validator becomes active on the Beacon Chain. Use this time to complete the checklist and spend some time validating the "
-    },
-    {
-      "type": 1,
-      "value": "testnet"
     }
   ],
   "I3JhPS": [
@@ -2699,6 +2655,38 @@
     {
       "type": 0,
       "value": "Italian"
+    }
+  ],
+  "NH+Bze": [
+    {
+      "type": 0,
+      "value": "There is a short wait before your validator becomes active on the Agora chain. Use this time to complete the checklist and spend some time validating the "
+    },
+    {
+      "type": 1,
+      "value": "testnet"
+    }
+  ],
+  "NIvD8W": [
+    {
+      "type": 0,
+      "value": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using "
+    },
+    {
+      "type": 1,
+      "value": "beaconchain"
+    },
+    {
+      "type": 0,
+      "value": " or "
+    },
+    {
+      "type": 1,
+      "value": "beaconscan"
+    },
+    {
+      "type": 0,
+      "value": " blockchain explorers."
     }
   ],
   "NOTCV0": [
@@ -3381,6 +3369,12 @@
     {
       "type": 1,
       "value": "homebrew"
+    }
+  ],
+  "Svnahr": [
+    {
+      "type": 0,
+      "value": "Proof-of-stake (PoS) and the Agora chain"
     }
   ],
   "Szwbym": [
@@ -4783,12 +4777,6 @@
       "value": "It uses the assisted password in your secrets folder."
     }
   ],
-  "gfLdAQ": [
-    {
-      "type": 0,
-      "value": "More on the Beacon Chain"
-    }
-  ],
   "gjBiyj": [
     {
       "type": 0,
@@ -5607,12 +5595,6 @@
       "value": "Risks and acknowledgements:"
     }
   ],
-  "nHk8Et": [
-    {
-      "type": 0,
-      "value": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Beacon Chain."
-    }
-  ],
   "nIb6XF": [
     {
       "type": 0,
@@ -5675,6 +5657,12 @@
     {
       "type": 0,
       "value": "I've simulated how to safely migrate from one consensus client to another."
+    }
+  ],
+  "nqSZkx": [
+    {
+      "type": 0,
+      "value": "More on the Agora chain"
     }
   ],
   "ntG2by": [
@@ -6613,6 +6601,18 @@
     {
       "type": 0,
       "value": "Run the following command:"
+    }
+  ],
+  "wnEdmn": [
+    {
+      "type": 0,
+      "value": "Since the genesis of the Agora chain, many validators running their own consensus client have opted to use third-party services for their execution layer connection. This has been acceptable since the only thing being listened to has been the staking deposit contract."
+    }
+  ],
+  "woEgl/": [
+    {
+      "type": 0,
+      "value": "PoS is a more secure, decentralized, and environmentally-friendly consensus mechanism than the proof-of-work (PoW) that secures Ethereum today. It rewards validators for building the chain, but slashes their deposits if they try to attack it, incentivising healthy behaviour. This upgrade is already live in the form of the Agora chain."
     }
   ],
   "wqUcy/": [

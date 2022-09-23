@@ -296,7 +296,7 @@ const _CongratulationsPage = ({
             {IS_MAINNET && (
               <>
                 <FormattedMessage
-                  defaultMessage="There is a short wait before your validator becomes active on the Beacon Chain. Use this time to complete the checklist and spend some time validating the {testnet}"
+                  defaultMessage="There is a short wait before your validator becomes active on the Agora chain. Use this time to complete the checklist and spend some time validating the {testnet}"
                   values={{
                     testnet: (
                       <Link primary inline to={TESTNET_AGORA_STAKING_URL}>
