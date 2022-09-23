@@ -236,7 +236,7 @@ export const MergeReadiness = () => {
         </SectionHeader>
         <section className={sections[0].pending ? 'pending' : ''}>
           <Text className="mt20">
-            <FormattedMessage defaultMessage="Since the genesis of the Beacon Chain, many validators running their own consensus client have opted to use third-party services for their execution layer connection. This has been acceptable since the only thing being listened to has been the staking deposit contract." />
+            <FormattedMessage defaultMessage="Since the genesis of the Agora chain, many validators running their own consensus client have opted to use third-party services for their execution layer connection. This has been acceptable since the only thing being listened to has been the staking deposit contract." />
           </Text>
           <Text className="mt20">
             <FormattedMessage defaultMessage="With the Merge, the burden of processing transactions will fall on validators, as proof-of-work is deprecated. To sign off on the validity of these transactions, a validator must have trusted access to the events of the execution layer. Trust only your own node." />
@@ -545,7 +545,7 @@ export const MergeReadiness = () => {
           </Text>
           <Text className="mt20">
             <FormattedMessage
-              defaultMessage="{networkBold} was the first longstanding public testnet to undergo The Merge, which occurred on June 8, 2022. Historically a proof-of-work testnet, {network} has now transitioned to proof-of-stake by merging its historical execution layer with a new beacon chain."
+              defaultMessage="{networkBold} was the first longstanding public testnet to undergo The Merge, which occurred on June 8, 2022. Historically a proof-of-work testnet, {network} has now transitioned to proof-of-stake by merging its historical execution layer with a new Agora chain."
               values={{
                 networkBold: <strong>Ropsten</strong>,
                 network: 'Ropsten',

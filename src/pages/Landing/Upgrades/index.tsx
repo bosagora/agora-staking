@@ -104,7 +104,7 @@ export const Upgrades = (): JSX.Element => {
                 />
               </Text>
               <UpgradeTitle className="mt20">
-                <FormattedMessage defaultMessage="Proof-of-stake (PoS) and the Beacon Chain" />
+                <FormattedMessage defaultMessage="Proof-of-stake (PoS) and the Agora chain" />
               </UpgradeTitle>
               <Text className="mt20">
                 <FormattedMessage
@@ -112,14 +112,14 @@ export const Upgrades = (): JSX.Element => {
                     secures Ethereum today. It rewards validators for
                     building the chain, but slashes their deposits if they try to
                     attack it, incentivising healthy behaviour. This upgrade is
-                    already live in the form of the Beacon Chain."
+                    already live in the form of the Agora chain."
                 />
               </Text>
               <Link
                 className="mt20 mb40"
                 to="https://ethereum.org/en/upgrades/beacon-chain/"
               >
-                <FormattedMessage defaultMessage="More on the Beacon Chain" />
+                <FormattedMessage defaultMessage="More on the Agora chain" />
               </Link>
               <UpgradeTitle className="mt20">
                 <FormattedMessage defaultMessage="The Merge" />
