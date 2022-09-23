@@ -372,20 +372,15 @@ export const Checklist = () => {
         <FormattedMessage defaultMessage="This checklist will help you understand the role of a validator and prepare you for the role." />
         <Text className="mt10">
           <FormattedMessage
-            defaultMessage="Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
+            defaultMessage="Visit BOSagora {community} at any time during your setup for some friendly help!"
             values={{
-              discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
-                  Discord
-                </Link>
-              ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
+              community: (
+                <Link primary inline to="https://t.me/bosagora_eng">
+                  Community
                 </Link>
               ),
             }}
-            description="{variables} are social media platform links to Discord and Reddit (do not translate names)"
+            description="{variables} are social media platform links to Telegram (do not translate names)"
           />
         </Text>
       </Subtitle>
