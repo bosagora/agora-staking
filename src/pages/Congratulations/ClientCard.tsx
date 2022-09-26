@@ -9,7 +9,7 @@ const Container = styled.div`
     -1px 2px 2px rgba(222, 222, 222, 0.5);
   max-width: 250px;
   border-radius: 5px;
-
+  border: solid 1px rgb(238, 238, 238);
   .sub-container {
     display: flex;
     flex-direction: column;
@@ -19,11 +19,11 @@ const Container = styled.div`
   }
 `;
 
-const HeroImg = styled.img`
-  width: 100%;
-  max-height: 125px;
-  border-radius: 5px 5px 0 0;
-`;
+// const HeroImg = styled.img`
+//   width: 100%;
+//   max-height: 125px;
+//   border-radius: 5px 5px 0 0;
+// `;
 
 interface Props {
   imgUrl: any;
@@ -35,7 +35,7 @@ interface Props {
 }
 
 export const ClientCard = ({
-  imgUrl,
+  // imgUrl,
   header,
   text,
   className,
@@ -45,7 +45,7 @@ export const ClientCard = ({
   return (
     <Link to={url}>
       <Container className={className}>
-        <HeroImg src={imgUrl} alt="" />
+        {/*<HeroImg src={imgUrl} alt="" />*/}
         <div className="sub-container">
           <div>
             <Text size="large">{header}</Text>

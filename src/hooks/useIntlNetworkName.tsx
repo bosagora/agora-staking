@@ -14,13 +14,13 @@ const useIntlNetworkName = (): {
   const executionLayerName: string = IS_MAINNET
     ? mainnet
     : formatMessage(
-        { defaultMessage: '{EL_TESTNET_NAME} testnet' },
+        { defaultMessage: '{EL_TESTNET_NAME}' },
         { EL_TESTNET_NAME }
       );
   const consensusLayerName: string = IS_MAINNET
     ? mainnet
     : formatMessage(
-        { defaultMessage: '{TESTNET_AGORA_STAKING_NAME} testnet' },
+        { defaultMessage: '{TESTNET_AGORA_STAKING_NAME}' },
         { TESTNET_AGORA_STAKING_NAME }
       );
   return { executionLayerName, consensusLayerName };

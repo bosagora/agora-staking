@@ -1,5 +1,5 @@
 export const IS_MAINNET                 = Boolean(process.env.REACT_APP_IS_MAINNET !== 'false');  // If REACT_APP_IS_MAINNET is unset, set it to true by default
-export const TESTNET_AGORA_STAKING_NAME     = process.env.REACT_APP_TESTNET_AGORA_STAKING_NAME || 'Devnet';
+export const TESTNET_AGORA_STAKING_NAME     = process.env.REACT_APP_TESTNET_AGORA_STAKING_NAME || 'Testnet';
 export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME || 'Localtestnet';
 
 // private vars (or derived from)

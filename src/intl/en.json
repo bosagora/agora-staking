@@ -47,9 +47,6 @@
   "/SbhtD": {
     "message": "You can also use {homebrew} to install pip3. For the most-up-to-date instructions on installing pip3, and for a direct download link, reference the {docs}"
   },
-  "/U09hN": {
-    "message": "To avoid exposing your validator identity to the network, you can use a trustworthy VPN to help reduce the risk of revealing your IP address."
-  },
   "/VVB8t": {
     "message": "Review this section before deciding to proceed with validator setup."
   },
@@ -198,6 +195,9 @@
   "2CYEJa": {
     "message": "Troubleshooting"
   },
+  "2D0TLt": {
+    "message": "I've synced my Agora node on {consensusLayerName}."
+  },
   "2Hk0nB": {
     "message": "Follow the instructions presented to you in the application to generate your keys."
   },
@@ -274,9 +274,6 @@
   "47svuN": {
     "message": "Installation"
   },
-  "4AVfh5": {
-    "message": "I've joined my consensus client's Discord server."
-  },
   "4CrCbD": {
     "message": "Community"
   },
@@ -329,18 +326,14 @@
   "5UH1sh": {
     "message": "Romanian"
   },
-  "5Vrs8S": {
-    "message": "You need enough upload bandwidth too. As of {date} this is ~1.2-1.3 GB download and ~0.9-1 GB upload per hour, and is likely to increase."
-  },
   "5dG331": {
     "message": "Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at {pricePerValidator}. It is possible to drop below this with poor node performance, but it is not possible to raise above it."
   },
-  "5t8oYl": {
-    "description": "{variables} are social media platform links to Discord and Reddit (do not translate names)",
-    "message": "Visit EthStaker on {discord} or {reddit} at any time during your setup for some friendly help!"
-  },
   "63gLLu": {
     "message": "average"
+  },
+  "6O7cDy": {
+    "message": "To avoid exposing your validator identity to the network, you can use a trustworthy VPN to help reduce the risk of revealing your IP address"
   },
   "6S95Bo": {
     "message": "Avoid phishing"
@@ -383,6 +376,10 @@
   },
   "7C4ikM": {
     "message": "Merge panda emoji"
+  },
+  "7FcGxU": {
+    "description": "{executionLayer} is a link labeled 'execution client'. {consensusLayer} is a link labeled 'consensus client'",
+    "message": "You need to run an {executionClient} as well as your {consensusClient}."
   },
   "7Iz3JI": {
     "message": "Consensus Client"
@@ -489,9 +486,6 @@
   "9vLu6E": {
     "message": "{note} This step should be performed on {testnetsOnly} until the Mainnet TTD (terminal total difficulty) has been announced and clients have released an update. Info is presented for preparation in the meantime."
   },
-  "9vwGlT": {
-    "message": "I've synced my beacon node on {consensusLayerName}."
-  },
   "9ySJSP": {
     "description": "{ethClientType} is either \"execution\" or \"consensus\", depending on which step user is on",
     "message": "Choose your {ethClientType} client and set up a node"
@@ -528,9 +522,6 @@
   },
   "Aem9lr": {
     "message": "Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client."
-  },
-  "AfH0eO": {
-    "message": "All stakers must operate an execution client with their consensus client starting at the Merge. Make sure you're prepared."
   },
   "AfTSSO": {
     "message": "Validating in AGORA is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
@@ -639,6 +630,9 @@
   "DCaq7N": {
     "message": "Your wallet is connected to the right network!"
   },
+  "DIn56y": {
+    "message": "{TESTNET_AGORA_STAKING_NAME}"
+  },
   "DKSrR+": {
     "message": "I understand that if I act contrary to the specification, I am liable to be slashed."
   },
@@ -664,8 +658,15 @@
     "description": "this is used as a command line flag",
     "message": "chain"
   },
+  "E1Q9gA": {
+    "message": "Moreover, you can set your Validator Client and Agora-cl node on separate machines and IPs so that even if your agora node is vulnerable, your keystore is stored on a different machine."
+  },
   "E8t6ru": {
     "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
+  },
+  "ED0ii7": {
+    "description": "{variables} are client names, each linking to documentation (do not translate names)",
+    "message": "The clients support Prometheus and Grafana to help you visualize important real-time metrics about your validator. You can find client-specific instructions here: {agoracl}"
   },
   "EFjTSf": {
     "message": "Minor penalties are given for inadvertant actions (or inactions) that hinder consensus."
@@ -685,9 +686,6 @@
   },
   "EXLB88": {
     "message": "This is a test network ⚠️"
-  },
-  "EeQXsK": {
-    "message": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
   },
   "EkWLTJ": {
     "message": "I understand that I need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} to become a validator, and that the transfer of {TICKER_NAME} to the Agora chain is one-way, and non-reversible."
@@ -759,6 +757,9 @@
   "GOc7cL": {
     "message": "How badly will I be penalized for being offline?"
   },
+  "GU3/cm": {
+    "message": "Agora-cl is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
+  },
   "GUDhpC": {
     "message": "Section 1"
   },
@@ -789,9 +790,6 @@
   "H+kIpp": {
     "message": "Total amount required"
   },
-  "H0lQfu": {
-    "message": "Merge Readiness Checklist"
-  },
   "H4W8nj": {
     "message": "Authenticate Engine API"
   },
@@ -819,9 +817,6 @@
   },
   "HqRNN8": {
     "message": "Support"
-  },
-  "I0BXSi": {
-    "message": "Configure Geth"
   },
   "I3JhPS": {
     "message": "Network"
@@ -910,6 +905,10 @@
   "JtAiN/": {
     "message": "What is your current operating system?"
   },
+  "K3r9Y7": {
+    "description": "{variables} social media platform links to community (do not translate names)",
+    "message": "If you have questions, BOSagora community is a good place to get help! You can find support on {community}."
+  },
   "K6+jQ3": {
     "message": "Geth installation documentation"
   },
@@ -997,9 +996,6 @@
   "LwEHRm": {
     "message": "Why do I need to run an execution client now?"
   },
-  "M36gac": {
-    "message": "Geth is an execution client of the AGORA protocol, written in Go."
-  },
   "M3GwXS": {
     "message": "You'll only get your full rewards if your validator is online and up to date. This is your responsibility. If your validator goes offline you'll be penalized. The penalties for being offline are roughly equal to the rewards for actively participating."
   },
@@ -1056,10 +1052,6 @@
   },
   "NH+Bze": {
     "message": "There is a short wait before your validator becomes active on the Agora chain. Use this time to complete the checklist and spend some time validating the {testnet}"
-  },
-  "NIvD8W": {
-    "description": "{variables} are Agora chain block explorers, with links to each (do not translate names)",
-    "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {beaconchain} or {beaconscan} blockchain explorers."
   },
   "NOTCV0": {
     "message": "Prometheus and Grafana monitor"
@@ -1225,9 +1217,8 @@
   "Qxb/P6": {
     "message": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
-  "R58ea3": {
-    "description": "{executionLayer} is a link labeled 'execution client'. {consensusLayer} is a link labeled 'consensus client'",
-    "message": "You need to run an {executionClient} as well as your {consensusClient} (formerly 'Eth2')."
+  "R7JSpN": {
+    "message": "Make sure that your node has more than 10 peers."
   },
   "R8eePn": {
     "message": "If you're slashed you're prevented from participating in the protocol further and are forcibly exited."
@@ -1404,9 +1395,6 @@
   "VIMMdE": {
     "message": "Do not submit any transaction with a {depositData} file that you did not create yourself, or that you do not own the mnemonic phrase for."
   },
-  "VKfWR3": {
-    "message": "Recommended"
-  },
   "VLDKor": {
     "message": "{PRICE_PER_VALIDATOR} {TICKER_NAME} is the maximum effective validator balance. This means you won't earn more rewards if your validator's balance goes above {PRICE_PER_VALIDATOR}. However you will earn less if it dips below {PRICE_PER_VALIDATOR}."
   },
@@ -1497,10 +1485,6 @@
   "XmddSV": {
     "message": "Build from source"
   },
-  "XqbweH": {
-    "description": "{variables} are client names, each linking to documentation (do not translate names)",
-    "message": "The clients support Prometheus and Grafana to help you visualize important real-time metrics about your validator. You can find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
-  },
   "Y07Hwy": {
     "message": "Connect {wallet} to {executionLayerName}"
   },
@@ -1550,9 +1534,6 @@
   "Yd6MEN": {
     "message": "Execution clients"
   },
-  "Yep32z": {
-    "message": "{EL_TESTNET_NAME} testnet"
-  },
   "Yganfl": {
     "message": "Type the following lines into the terminal window:"
   },
@@ -1568,6 +1549,9 @@
   },
   "Yu78N6": {
     "message": "money bag"
+  },
+  "YyRW79": {
+    "message": "Configure Agora-el"
   },
   "Yzo00L": {
     "message": "Sharding will change the requirement that full nodes carry the entire history of the chain, and instead will distribute this load amongst the network while still ensuring data availability. This will significantly expand the capacity of layer 1 AGORA while maintaining the ability to operate a full node on consumer hardware, keeping the network decentralized."
@@ -1792,11 +1776,18 @@
   "eq0/34": {
     "message": "The Merge"
   },
+  "erV2R2": {
+    "description": "{variables} are social media platform links to Telegram (do not translate names)",
+    "message": "Visit BOSagora {community} at any time during your setup for some friendly help!"
+  },
   "erZJkZ": {
     "message": "When launching Teku, keystores and passwords can be provided in different ways."
   },
   "esDvdR": {
     "message": "Validator balance is over {PRICE_PER_VALIDATOR}, but effective balance is low ({effectiveBalance}). Adding {minTopupValue} {TICKER_NAME} (the minimum allowed by the deposit contract) will max out your effective balance."
+  },
+  "evQ5L9": {
+    "message": "I've simulated how to manually stop and restart my Agora-cl Node and Validator Client gracefully."
   },
   "eyK2E3": {
     "message": "Complete checklist"
@@ -1827,9 +1818,6 @@
   },
   "frIMm4": {
     "message": "Syncing your execution client may take a few days in the worst-case scenario."
-  },
-  "g/DxI7": {
-    "message": "Moreover, you can set your Validator Client (VC) and Beacon Node (BN) on separate machines and IPs so that even if your beacon node is vulnerable, your keystore is stored on a different machine."
   },
   "g0zIUd": {
     "message": "cannot withdraw"
@@ -1938,9 +1926,6 @@
   },
   "iPRnRG": {
     "message": "With transfers disabled for now, you won't be able to voluntarily exit and then restart later. This means you need to be in it for the long haul."
-  },
-  "iX90gu": {
-    "message": "I've joined my execution client's Discord server."
   },
   "iZuIgB": {
     "message": "Decompress the file you just downloaded"
@@ -2055,9 +2040,6 @@
   "l357wH": {
     "message": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
   },
-  "l3ztMu": {
-    "message": "As of {date}, you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
-  },
   "l4nLft": {
     "message": "I know how to check that I am sending my {TICKER_NAME} into the correct deposit contract and will do so."
   },
@@ -2142,6 +2124,9 @@
   "mr1BWl": {
     "message": "Risks and acknowledgements:"
   },
+  "n1UDeZ": {
+    "message": "Configure Agora-cl"
+  },
   "nIb6XF": {
     "description": "{slashings} shows 'slashings' in bold for emphasis",
     "message": "And major penalities – or {slashings} – are given for malicious actions."
@@ -2176,12 +2161,11 @@
   "nyx/4g": {
     "message": "How to run a node on {network}"
   },
-  "nz27+c": {
-    "description": "{variables} social media platform links to Discord and Reddit (do not translate names)",
-    "message": "If you have questions, EthStaker community is a good place to get help! You can find support on {discord} or {reddit}."
-  },
   "o9QvTP": {
     "message": "Before you start"
+  },
+  "oAH54o": {
+    "message": "Consensus Layer Agora Node"
   },
   "oF4os+": {
     "message": "Currently Prysm is used by >33% of the network."
@@ -2261,9 +2245,6 @@
     "description": "{expected} shows 'This is the expected scenario' and is bolded for emphasis",
     "message": "Being offline while a supermajority (2/3) of validators is still online leads to relatively small penalties as there are still enough validators online for the chain to finalize. {expected}"
   },
-  "ptWiT7": {
-    "message": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
-  },
   "pyWt01": {
     "message": "Deposit summary"
   },
@@ -2312,14 +2293,14 @@
   "qx+3RQ": {
     "message": "JWT"
   },
-  "r2BH1M": {
-    "message": "Configure Prysm"
-  },
   "r2j8jL": {
     "message": "validator client"
   },
   "r4JsKB": {
     "message": "Transaction successful"
+  },
+  "r8Gjf/": {
+    "message": "{EL_TESTNET_NAME}"
   },
   "rD3ot9": {
     "message": "Phishing guide"
@@ -2374,14 +2355,15 @@
   "scfDDt": {
     "message": "Communication between the execution layer and consensus layer will occur using the {engineApi}. This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
   },
+  "sdBcvh": {
+    "description": "{variables} are Agora Chain block explorers, with links to each (do not translate names)",
+    "message": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using {agorascan} blockchain explorers."
+  },
   "sj/Zef": {
     "message": "Download Key Gen GUI app"
   },
   "sjy7/j": {
     "message": "The answer to this question very much depends on how much BOA you have at your disposal."
-  },
-  "smD5l/": {
-    "message": "Consensus Layer Beacon Node (BN)"
   },
   "snDnHn": {
     "message": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update."
@@ -2446,6 +2428,9 @@
   },
   "uPECbE": {
     "message": "Validator checklist"
+  },
+  "uTToBb": {
+    "message": "Agora-el is an execution client of the AGORA protocol, written in Go."
   },
   "uUy3NQ": {
     "message": "I understand that I will earn the unburnt transaction fees (tips/priority fees) when I propose a block, and this is accounted for on the execution layer, not my validator balance."
@@ -2517,9 +2502,6 @@
   },
   "wPR6Js": {
     "message": "Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to."
-  },
-  "waI5ap": {
-    "message": "Prysm is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
   },
   "wawegX": {
     "message": "fishing rod"
@@ -2635,9 +2617,6 @@
   },
   "ynB6C+": {
     "message": "I'm able to connect my consensus client to my execution client via HTTP API(s)."
-  },
-  "yoGtkz": {
-    "message": "Make sure that your node has more than 20 peers."
   },
   "z63I56": {
     "message": "validator"

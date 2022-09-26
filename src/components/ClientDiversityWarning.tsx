@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import { FormattedMessage } from 'react-intl';
 // Component imports
 import { Text } from './Text';
-import { Link } from './Link';
 
 const Container = styled(Text as any)`
   background: #ffdeb32e;
