@@ -2,14 +2,13 @@ import React from 'react';
 import styled from 'styled-components';
 import _shuffle from 'lodash/shuffle';
 import { CheckBox } from 'grommet';
-import { FormattedDate, FormattedMessage, useIntl } from 'react-intl';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { FormNext } from 'grommet-icons';
 import { Link } from '../../components/Link';
 import { PageTemplate } from '../../components/PageTemplate';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
 import {
-  BEACONCHAIN_URL,
   IS_MAINNET,
   TESTNET_AGORA_STAKING_URL,
   TESTNET_AGORA_STAKING_NAME,
@@ -18,14 +17,14 @@ import {
   NETWORK_NAME,
 } from '../../utils/envVars';
 import { ClientCard } from '../Congratulations/ClientCard';
-import PrysmaticBg from '../../static/prysmatic-bg.png';
+// import PrysmaticBg from '../../static/prysmatic-bg.png';
 // import LighthouseBg from '../../static/lighthouse-bg.png';
 // import NimbusBg from '../../static/nimbus-bg.png';
 // import TekuBg from '../../static/teku-bg.png';
 // import BesuBg from '../../static/besu-bg.png';
 // import NethermindBg from '../../static/nethermind-bg.png';
 // import ErigonBg from '../../static/erigon-bg.png';
-import GethBg from '../../static/geth-bg.png';
+// import GethBg from '../../static/geth-bg.png';
 import { routesEnum } from '../../Routes';
 import { Code } from '../../components/Code';
 import { Alert } from '../../components/Alert';
@@ -286,15 +285,15 @@ export const Checklist = () => {
     //   ...defaultExecutionPorts,
     // },
     {
-      header: 'Geth',
+      header: 'Agora-el',
       text: formatMessage({
         defaultMessage:
-          'Geth is an execution client of the AGORA protocol, written in Go.',
+          'Agora-el is an execution client of the AGORA protocol, written in Go.',
       }),
-      imgUrl: GethBg,
+      imgUrl: undefined,
       url: routesEnum.geth,
       linkText: formatMessage({
-        defaultMessage: 'Configure Geth',
+        defaultMessage: 'Configure Agora-el',
       }),
       layer: layerEnum.execution,
       discord: 'https://discord.gg/nthXNEv',
@@ -331,15 +330,15 @@ export const Checklist = () => {
     //   ...defaultConsensusPorts,
     // },
     {
-      header: 'Prysm',
+      header: 'Agora-cl',
       text: formatMessage({
         defaultMessage:
-          'Prysm is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability.',
+          'Agora-cl is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability.',
       }),
-      imgUrl: PrysmaticBg,
+      imgUrl: undefined,
       url: routesEnum.prysm,
       linkText: formatMessage({
-        defaultMessage: 'Configure Prysm',
+        defaultMessage: 'Configure Agora-cl',
       }),
       layer: layerEnum.consensus,
       discord: 'https://discord.gg/z9efH7e',
@@ -455,59 +454,20 @@ export const Checklist = () => {
               <Text>
                 <FormattedMessage
                   defaultMessage="You need to run an {executionClient} as well as your
-                  {consensusClient} (formerly 'Eth2')."
+                  {consensusClient}."
                   values={{
                     executionClient: (
-                      <Link
-                        to="https://ethereum.org/en/glossary/#execution-client"
-                        inline
-                      >
+                      <Link to="https://github.com/zeroone-boa/agora-el" inline>
                         <FormattedMessage defaultMessage="execution client" />
                       </Link>
                     ),
                     consensusClient: (
-                      <Link
-                        to="https://ethereum.org/en/glossary/#consensus-client"
-                        inline
-                      >
+                      <Link to="https://github.com/zeroone-boa/agora-cl" inline>
                         <FormattedMessage defaultMessage="consensus client" />
                       </Link>
                     ),
                   }}
                   description="{executionLayer} is a link labeled 'execution client'. {consensusLayer} is a link labeled 'consensus client'"
-                />
-              </Text>
-            </li>
-            <li className="py5">
-              <Text>
-                <FormattedMessage
-                  defaultMessage="As of {date}, you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
-                  values={{
-                    date: (
-                      <FormattedDate
-                        value={new Date(2022, 4)}
-                        year="numeric"
-                        month="long"
-                      />
-                    ),
-                  }}
-                />
-              </Text>
-            </li>
-            <li className="py5">
-              <Text>
-                <FormattedMessage
-                  defaultMessage="It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
-                  values={{
-                    date: (
-                      <FormattedDate
-                        value={new Date(Date.UTC(2015, 6, 30, 3, 26, 13))}
-                        year="numeric"
-                        month="long"
-                        day="2-digit"
-                      />
-                    ),
-                  }}
                 />
               </Text>
             </li>
@@ -553,22 +513,6 @@ export const Checklist = () => {
             <li className="py5">
               <Text>
                 <FormattedMessage defaultMessage="Ensure your bandwidth can't be throttled and isn't capped so your node stays in sync and will be ready to validate when called." />
-              </Text>
-            </li>
-            <li className="py5">
-              <Text>
-                <FormattedMessage
-                  defaultMessage="You need enough upload bandwidth too. As of {date} this is ~1.2-1.3 GB download and ~0.9-1 GB upload per hour, and is likely to increase."
-                  values={{
-                    date: (
-                      <FormattedDate
-                        value={new Date(2022, 4)}
-                        year="numeric"
-                        month="long"
-                      />
-                    ),
-                  }}
-                />
               </Text>
             </li>
           </ul>
@@ -847,19 +791,6 @@ export const Checklist = () => {
                 />
               ))}
           </ClientContainer>
-          <Alert variant="warning" className="mt30 mb20">
-            <Heading level={4}>
-              <FormattedMessage defaultMessage="Remember" />
-            </Heading>
-            <Text className="mt20">
-              <FormattedMessage defaultMessage="All stakers must operate an execution client with their consensus client starting at the Merge. Make sure you're prepared." />
-              <Link primary to="/merge-readiness" className="mt10">
-                {formatMessage({
-                  defaultMessage: 'Merge Readiness Checklist',
-                })}
-              </Link>
-            </Text>
-          </Alert>
           <CheckBox
             label={
               <Text className="checkbox-label">
@@ -876,31 +807,6 @@ export const Checklist = () => {
               </Text>
             }
           />
-          <Heading level={4} className="mt10">
-            <FormattedMessage defaultMessage="Recommended" />
-          </Heading>
-          <CheckBox
-            label={
-              <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've joined my execution client's Discord server." />
-              </Text>
-            }
-          />
-          <Text className="ml20">
-            {clientInfo
-              .filter(
-                ({ discord, layer }) =>
-                  !!discord && layer === layerEnum.execution
-              )
-              .map(({ header, discord }, idx) => (
-                <span key={header}>
-                  {idx !== 0 && ' | '}
-                  <Link primary inline to={discord!}>
-                    {header}
-                  </Link>
-                </span>
-              ))}
-          </Text>
         </section>
         <section>
           <Heading level={3} id="cl-client">
@@ -960,35 +866,10 @@ export const Checklist = () => {
               </Text>
             }
           />
-          <Heading level={4} className="mt10">
-            <FormattedMessage defaultMessage="Recommended" />
-          </Heading>
-          <CheckBox
-            label={
-              <Text className="checkbox-label">
-                <FormattedMessage defaultMessage="I've joined my consensus client's Discord server." />
-              </Text>
-            }
-          />
-          <Text className="ml20">
-            {clientInfo
-              .filter(
-                ({ discord, layer }) =>
-                  !!discord && layer === layerEnum.consensus
-              )
-              .map(({ header, discord }, idx) => (
-                <span key={header}>
-                  {idx !== 0 && ' | '}
-                  <Link primary inline to={discord!}>
-                    {header}
-                  </Link>
-                </span>
-              ))}
-          </Text>
         </section>
         <section>
           <Heading level={3}>
-            <FormattedMessage defaultMessage="Consensus Layer Beacon Node (BN)" />
+            <FormattedMessage defaultMessage="Consensus Layer Agora Node" />
           </Heading>
           <Heading level={4} className="mt10">
             <FormattedMessage defaultMessage="Required" />
@@ -1016,7 +897,7 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've synced my beacon node on {consensusLayerName}."
+                  defaultMessage="I've synced my Agora node on {consensusLayerName}."
                   values={{ consensusLayerName }}
                 />
               </Text>
@@ -1025,7 +906,7 @@ export const Checklist = () => {
           <ul className="sub-checklist-item">
             <li className="py5">
               <Text>
-                <FormattedMessage defaultMessage="Make sure that your node has more than 20 peers." />
+                <FormattedMessage defaultMessage="Make sure that your node has more than 10 peers." />
               </Text>
             </li>
           </ul>
@@ -1094,42 +975,15 @@ export const Checklist = () => {
             <FormattedMessage
               defaultMessage="The clients support Prometheus and Grafana to help you
                 visualize important real-time metrics about your validator. You can
-                find client-specific instructions here: {lighthouse} | {nimbus} | {prysm} | {teku}"
+                find client-specific instructions here: {agoracl}"
               values={{
-                lighthouse: (
-                  <Link
-                    primary
-                    inline
-                    to="https://github.com/sigp/lighthouse-metrics"
-                  >
-                    Lighthouse
-                  </Link>
-                ),
-                nimbus: (
-                  <Link
-                    primary
-                    inline
-                    to="https://nimbus.guide/metrics-pretty-pictures.html"
-                  >
-                    Nimbus
-                  </Link>
-                ),
-                prysm: (
+                agoracl: (
                   <Link
                     primary
                     inline
                     to="https://docs.prylabs.network/docs/prysm-usage/monitoring/grafana-dashboard/"
                   >
-                    Prysm
-                  </Link>
-                ),
-                teku: (
-                  <Link
-                    primary
-                    inline
-                    to="https://docs.teku.consensys.net/en/latest/HowTo/Monitor/Metrics/"
-                  >
-                    Teku
+                    agora-cl
                   </Link>
                 ),
               }}
@@ -1195,8 +1049,8 @@ export const Checklist = () => {
             label={
               <Text className="checkbox-label">
                 <FormattedMessage
-                  defaultMessage="I've simulated how to manually stop and restart my Beacon Node (BN)
-                    and Validator Client (VC) gracefully."
+                  defaultMessage="I've simulated how to manually stop and restart my Agora-cl Node
+                    and Validator Client gracefully."
                 />
               </Text>
             }
@@ -1232,16 +1086,16 @@ export const Checklist = () => {
               <Text>
                 <FormattedMessage
                   defaultMessage="To avoid exposing your validator identity to the network, you can use
-                    a trustworthy VPN to help reduce the risk of revealing your IP address."
+                   a trustworthy VPN to help reduce the risk of revealing your IP address"
                 />
               </Text>
             </li>
             <li className="py5">
               <Text>
                 <FormattedMessage
-                  defaultMessage="Moreover, you can set your Validator Client (VC) and Beacon Node (BN)
-                    on separate machines and IPs so that even if your beacon node is vulnerable, your
-                    keystore is stored on a different machine."
+                  defaultMessage="Moreover, you can set your Validator Client and Agora-cl node on separate
+                   machines and IPs so that even if your agora node is vulnerable, your keystore is stored
+                   on a different machine."
                 />
               </Text>
             </li>
@@ -1255,20 +1109,15 @@ export const Checklist = () => {
             <FormattedMessage
               defaultMessage="You can use your validator client's graffiti flag to add a personal
                 touch to your proposed blocks (some text of your choice). You will be able to see
-                it using {beaconchain} or {beaconscan} blockchain explorers."
+                it using {agorascan} blockchain explorers."
               values={{
-                beaconchain: (
-                  <Link primary inline to={BEACONCHAIN_URL}>
-                    Beaconcha.in
-                  </Link>
-                ),
-                beaconscan: (
-                  <Link primary inline to="https://beaconscan.com/">
-                    BeaconScan
+                agorascan: (
+                  <Link primary inline to="https://agorascan.io/">
+                    Agorascan
                   </Link>
                 ),
               }}
-              description="{variables} are Agora chain block explorers, with links to each (do not translate names)"
+              description="{variables} are Agora Chain block explorers, with links to each (do not translate names)"
             />
           </Text>
           <CheckBox
@@ -1281,21 +1130,16 @@ export const Checklist = () => {
         </section>
         <RainbowHeader>
           <FormattedMessage
-            defaultMessage="If you have questions, EthStaker community is a good place to get help!
-                You can find support on {discord} or {reddit}."
+            defaultMessage="If you have questions, BOSagora community is a good place to get help!
+                You can find support on {community}."
             values={{
-              discord: (
-                <Link primary inline to="https://invite.gg/ethstaker">
-                  Discord
-                </Link>
-              ),
-              reddit: (
-                <Link primary inline to="https://reddit.com/r/ethstaker">
-                  Reddit
+              community: (
+                <Link primary inline to="https://t.me/bosagora_eng">
+                  Community
                 </Link>
               ),
             }}
-            description="{variables} social media platform links to Discord and Reddit (do not translate names)"
+            description="{variables} social media platform links to community (do not translate names)"
           />
         </RainbowHeader>
       </ChecklistPageStyles>

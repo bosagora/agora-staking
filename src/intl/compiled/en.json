@@ -107,12 +107,6 @@
       "value": "docs"
     }
   ],
-  "/U09hN": [
-    {
-      "type": 0,
-      "value": "To avoid exposing your validator identity to the network, you can use a trustworthy VPN to help reduce the risk of revealing your IP address."
-    }
-  ],
   "/VVB8t": [
     {
       "type": 0,
@@ -481,6 +475,20 @@
       "value": "Troubleshooting"
     }
   ],
+  "2D0TLt": [
+    {
+      "type": 0,
+      "value": "I've synced my Agora node on "
+    },
+    {
+      "type": 1,
+      "value": "consensusLayerName"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "2Hk0nB": [
     {
       "type": 0,
@@ -691,12 +699,6 @@
       "value": "Installation"
     }
   ],
-  "4AVfh5": [
-    {
-      "type": 0,
-      "value": "I've joined my consensus client's Discord server."
-    }
-  ],
   "4CrCbD": [
     {
       "type": 0,
@@ -831,20 +833,6 @@
       "value": "Romanian"
     }
   ],
-  "5Vrs8S": [
-    {
-      "type": 0,
-      "value": "You need enough upload bandwidth too. As of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": " this is ~1.2-1.3 GB download and ~0.9-1 GB upload per hour, and is likely to increase."
-    }
-  ],
   "5dG331": [
     {
       "type": 0,
@@ -859,32 +847,16 @@
       "value": ". It is possible to drop below this with poor node performance, but it is not possible to raise above it."
     }
   ],
-  "5t8oYl": [
-    {
-      "type": 0,
-      "value": "Visit EthStaker on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": " at any time during your setup for some friendly help!"
-    }
-  ],
   "63gLLu": [
     {
       "type": 0,
       "value": "average"
+    }
+  ],
+  "6O7cDy": [
+    {
+      "type": 0,
+      "value": "To avoid exposing your validator identity to the network, you can use a trustworthy VPN to help reduce the risk of revealing your IP address"
     }
   ],
   "6S95Bo": [
@@ -981,6 +953,28 @@
     {
       "type": 0,
       "value": "Merge panda emoji"
+    }
+  ],
+  "7FcGxU": [
+    {
+      "type": 0,
+      "value": "You need to run an "
+    },
+    {
+      "type": 1,
+      "value": "executionClient"
+    },
+    {
+      "type": 0,
+      "value": " as well as your "
+    },
+    {
+      "type": 1,
+      "value": "consensusClient"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "7Iz3JI": [
@@ -1251,20 +1245,6 @@
       "value": " until the Mainnet TTD (terminal total difficulty) has been announced and clients have released an update. Info is presented for preparation in the meantime."
     }
   ],
-  "9vwGlT": [
-    {
-      "type": 0,
-      "value": "I've synced my beacon node on "
-    },
-    {
-      "type": 1,
-      "value": "consensusLayerName"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "9ySJSP": [
     {
       "type": 0,
@@ -1363,12 +1343,6 @@
     {
       "type": 0,
       "value": "Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client."
-    }
-  ],
-  "AfH0eO": [
-    {
-      "type": 0,
-      "value": "All stakers must operate an execution client with their consensus client starting at the Merge. Make sure you're prepared."
     }
   ],
   "AfTSSO": [
@@ -1645,6 +1619,12 @@
       "value": "Your wallet is connected to the right network!"
     }
   ],
+  "DIn56y": [
+    {
+      "type": 1,
+      "value": "TESTNET_AGORA_STAKING_NAME"
+    }
+  ],
   "DKSrR+": [
     {
       "type": 0,
@@ -1701,10 +1681,26 @@
       "value": "chain"
     }
   ],
+  "E1Q9gA": [
+    {
+      "type": 0,
+      "value": "Moreover, you can set your Validator Client and Agora-cl node on separate machines and IPs so that even if your agora node is vulnerable, your keystore is stored on a different machine."
+    }
+  ],
   "E8t6ru": [
     {
       "type": 0,
       "value": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
+    }
+  ],
+  "ED0ii7": [
+    {
+      "type": 0,
+      "value": "The clients support Prometheus and Grafana to help you visualize important real-time metrics about your validator. You can find client-specific instructions here: "
+    },
+    {
+      "type": 1,
+      "value": "agoracl"
     }
   ],
   "EFjTSf": [
@@ -1749,12 +1745,6 @@
     {
       "type": 0,
       "value": "This is a test network ⚠️"
-    }
-  ],
-  "EeQXsK": [
-    {
-      "type": 0,
-      "value": "It is growing in size over time, and the introduction of sharding will also increase storage, memory, and bandwidth requirements."
     }
   ],
   "EkWLTJ": [
@@ -1943,6 +1933,12 @@
       "value": "How badly will I be penalized for being offline?"
     }
   ],
+  "GU3/cm": [
+    {
+      "type": 0,
+      "value": "Agora-cl is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
+    }
+  ],
   "GUDhpC": [
     {
       "type": 0,
@@ -2001,12 +1997,6 @@
     {
       "type": 0,
       "value": "Total amount required"
-    }
-  ],
-  "H0lQfu": [
-    {
-      "type": 0,
-      "value": "Merge Readiness Checklist"
     }
   ],
   "H4W8nj": [
@@ -2077,12 +2067,6 @@
     {
       "type": 0,
       "value": "Support"
-    }
-  ],
-  "I0BXSi": [
-    {
-      "type": 0,
-      "value": "Configure Geth"
     }
   ],
   "I3JhPS": [
@@ -2287,6 +2271,20 @@
     {
       "type": 0,
       "value": "What is your current operating system?"
+    }
+  ],
+  "K3r9Y7": [
+    {
+      "type": 0,
+      "value": "If you have questions, BOSagora community is a good place to get help! You can find support on "
+    },
+    {
+      "type": 1,
+      "value": "community"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "K6+jQ3": [
@@ -2527,12 +2525,6 @@
       "value": "Why do I need to run an execution client now?"
     }
   ],
-  "M36gac": [
-    {
-      "type": 0,
-      "value": "Geth is an execution client of the AGORA protocol, written in Go."
-    }
-  ],
   "M3GwXS": [
     {
       "type": 0,
@@ -2665,28 +2657,6 @@
     {
       "type": 1,
       "value": "testnet"
-    }
-  ],
-  "NIvD8W": [
-    {
-      "type": 0,
-      "value": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using "
-    },
-    {
-      "type": 1,
-      "value": "beaconchain"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "beaconscan"
-    },
-    {
-      "type": 0,
-      "value": " blockchain explorers."
     }
   ],
   "NOTCV0": [
@@ -3137,26 +3107,10 @@
       "value": "boldWarning"
     }
   ],
-  "R58ea3": [
+  "R7JSpN": [
     {
       "type": 0,
-      "value": "You need to run an "
-    },
-    {
-      "type": 1,
-      "value": "executionClient"
-    },
-    {
-      "type": 0,
-      "value": " as well as your "
-    },
-    {
-      "type": 1,
-      "value": "consensusClient"
-    },
-    {
-      "type": 0,
-      "value": " (formerly 'Eth2')."
+      "value": "Make sure that your node has more than 10 peers."
     }
   ],
   "R8eePn": [
@@ -3577,12 +3531,6 @@
       "value": " file that you did not create yourself, or that you do not own the mnemonic phrase for."
     }
   ],
-  "VKfWR3": [
-    {
-      "type": 0,
-      "value": "Recommended"
-    }
-  ],
   "VLDKor": [
     {
       "type": 1,
@@ -3837,40 +3785,6 @@
       "value": "Build from source"
     }
   ],
-  "XqbweH": [
-    {
-      "type": 0,
-      "value": "The clients support Prometheus and Grafana to help you visualize important real-time metrics about your validator. You can find client-specific instructions here: "
-    },
-    {
-      "type": 1,
-      "value": "lighthouse"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "nimbus"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "prysm"
-    },
-    {
-      "type": 0,
-      "value": " | "
-    },
-    {
-      "type": 1,
-      "value": "teku"
-    }
-  ],
   "Y07Hwy": [
     {
       "type": 0,
@@ -4023,16 +3937,6 @@
       "value": "Execution clients"
     }
   ],
-  "Yep32z": [
-    {
-      "type": 1,
-      "value": "EL_TESTNET_NAME"
-    },
-    {
-      "type": 0,
-      "value": " testnet"
-    }
-  ],
   "Yganfl": [
     {
       "type": 0,
@@ -4069,6 +3973,12 @@
     {
       "type": 0,
       "value": "money bag"
+    }
+  ],
+  "YyRW79": [
+    {
+      "type": 0,
+      "value": "Configure Agora-el"
     }
   ],
   "Yzo00L": [
@@ -4623,6 +4533,20 @@
       "value": "The Merge"
     }
   ],
+  "erV2R2": [
+    {
+      "type": 0,
+      "value": "Visit BOSagora "
+    },
+    {
+      "type": 1,
+      "value": "community"
+    },
+    {
+      "type": 0,
+      "value": " at any time during your setup for some friendly help!"
+    }
+  ],
   "erZJkZ": [
     {
       "type": 0,
@@ -4665,6 +4589,12 @@
     {
       "type": 0,
       "value": " (the minimum allowed by the deposit contract) will max out your effective balance."
+    }
+  ],
+  "evQ5L9": [
+    {
+      "type": 0,
+      "value": "I've simulated how to manually stop and restart my Agora-cl Node and Validator Client gracefully."
     }
   ],
   "eyK2E3": [
@@ -4725,12 +4655,6 @@
     {
       "type": 0,
       "value": "Syncing your execution client may take a few days in the worst-case scenario."
-    }
-  ],
-  "g/DxI7": [
-    {
-      "type": 0,
-      "value": "Moreover, you can set your Validator Client (VC) and Beacon Node (BN) on separate machines and IPs so that even if your beacon node is vulnerable, your keystore is stored on a different machine."
     }
   ],
   "g0zIUd": [
@@ -5043,12 +4967,6 @@
       "value": "With transfers disabled for now, you won't be able to voluntarily exit and then restart later. This means you need to be in it for the long haul."
     }
   ],
-  "iX90gu": [
-    {
-      "type": 0,
-      "value": "I've joined my execution client's Discord server."
-    }
-  ],
   "iZuIgB": [
     {
       "type": 0,
@@ -5339,20 +5257,6 @@
       "value": " BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
     }
   ],
-  "l3ztMu": [
-    {
-      "type": 0,
-      "value": "As of "
-    },
-    {
-      "type": 1,
-      "value": "date"
-    },
-    {
-      "type": 0,
-      "value": ", you'll need ~1TB for the Mainnet execution chain data alone (growing at >1GB/day)."
-    }
-  ],
   "l4nLft": [
     {
       "type": 0,
@@ -5595,6 +5499,12 @@
       "value": "Risks and acknowledgements:"
     }
   ],
+  "n1UDeZ": [
+    {
+      "type": 0,
+      "value": "Configure Agora-cl"
+    }
+  ],
   "nIb6XF": [
     {
       "type": 0,
@@ -5681,32 +5591,16 @@
       "value": "network"
     }
   ],
-  "nz27+c": [
-    {
-      "type": 0,
-      "value": "If you have questions, EthStaker community is a good place to get help! You can find support on "
-    },
-    {
-      "type": 1,
-      "value": "discord"
-    },
-    {
-      "type": 0,
-      "value": " or "
-    },
-    {
-      "type": 1,
-      "value": "reddit"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "o9QvTP": [
     {
       "type": 0,
       "value": "Before you start"
+    }
+  ],
+  "oAH54o": [
+    {
+      "type": 0,
+      "value": "Consensus Layer Agora Node"
     }
   ],
   "oF4os+": [
@@ -5883,12 +5777,6 @@
       "value": "expected"
     }
   ],
-  "ptWiT7": [
-    {
-      "type": 0,
-      "value": "I've simulated how to manually stop and restart my Beacon Node (BN) and Validator Client (VC) gracefully."
-    }
-  ],
   "pyWt01": [
     {
       "type": 0,
@@ -6013,12 +5901,6 @@
       "value": "JWT"
     }
   ],
-  "r2BH1M": [
-    {
-      "type": 0,
-      "value": "Configure Prysm"
-    }
-  ],
   "r2j8jL": [
     {
       "type": 0,
@@ -6029,6 +5911,12 @@
     {
       "type": 0,
       "value": "Transaction successful"
+    }
+  ],
+  "r8Gjf/": [
+    {
+      "type": 1,
+      "value": "EL_TESTNET_NAME"
     }
   ],
   "rD3ot9": [
@@ -6205,6 +6093,20 @@
       "value": ". This is a new set of JSON RPC methods that can be used to communicate between the two client layers."
     }
   ],
+  "sdBcvh": [
+    {
+      "type": 0,
+      "value": "You can use your validator client's graffiti flag to add a personal touch to your proposed blocks (some text of your choice). You will be able to see it using "
+    },
+    {
+      "type": 1,
+      "value": "agorascan"
+    },
+    {
+      "type": 0,
+      "value": " blockchain explorers."
+    }
+  ],
   "sj/Zef": [
     {
       "type": 0,
@@ -6215,12 +6117,6 @@
     {
       "type": 0,
       "value": "The answer to this question very much depends on how much BOA you have at your disposal."
-    }
-  ],
-  "smD5l/": [
-    {
-      "type": 0,
-      "value": "Consensus Layer Beacon Node (BN)"
     }
   ],
   "snDnHn": [
@@ -6371,6 +6267,12 @@
     {
       "type": 0,
       "value": "Validator checklist"
+    }
+  ],
+  "uTToBb": [
+    {
+      "type": 0,
+      "value": "Agora-el is an execution client of the AGORA protocol, written in Go."
     }
   ],
   "uUy3NQ": [
@@ -6565,12 +6467,6 @@
     {
       "type": 0,
       "value": "Before the switch, there are a couple things solo stakers and validator services need to be aware of, and a few tasks you may need to attend to."
-    }
-  ],
-  "waI5ap": [
-    {
-      "type": 0,
-      "value": "Prysm is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
     }
   ],
   "wawegX": [
@@ -6835,12 +6731,6 @@
     {
       "type": 0,
       "value": "I'm able to connect my consensus client to my execution client via HTTP API(s)."
-    }
-  ],
-  "yoGtkz": [
-    {
-      "type": 0,
-      "value": "Make sure that your node has more than 20 peers."
     }
   ],
   "z63I56": [

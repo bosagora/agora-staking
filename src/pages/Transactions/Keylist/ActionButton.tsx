@@ -2,18 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import { FormNextLink } from 'grommet-icons';
 import { FormattedMessage, useIntl } from 'react-intl';
+import ReactTooltip from 'react-tooltip';
 import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
 import {
   DepositStatus,
   TransactionStatus,
 } from '../../../store/actions/depositFileActions';
-import {
-  BEACONCHAIN_URL,
-  BEACONSCAN_URL,
-  ETHERSCAN_URL,
-} from '../../../utils/envVars';
-import ReactTooltip from 'react-tooltip';
+import { BEACONCHAIN_URL, ETHERSCAN_URL } from '../../../utils/envVars';
 
 const Container = styled.div`
   display: flex;
