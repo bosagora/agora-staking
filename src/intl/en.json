@@ -189,9 +189,6 @@
     "description": "The {semicolon} and {colon} variables refer to the keyboard characters ';' and ':'.",
     "message": "The path separator is operating system dependent, and should be {semicolon} in Windows rather than {colon}."
   },
-  "2AHkym": {
-    "message": "There was an error loading your validator information from Beaconcha.in"
-  },
   "2CYEJa": {
     "message": "Troubleshooting"
   },
@@ -886,6 +883,9 @@
   "JaJccz": {
     "description": "{network} inserts the testnet name, only if on the testnet",
     "message": "Agora Staking {network}"
+  },
+  "JamLbI": {
+    "message": "There was an error loading your validator information from agorascan.io"
   },
   "JhUYU3": {
     "message": "Download CLI app"

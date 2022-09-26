@@ -198,7 +198,7 @@ const _TopUpPage: React.FC<Props> = () => {
           <div style={{ display: 'flex', justifyContent: 'center' }}>
             <AlertIcon color="redLight" />
             <Text className="ml10">
-              <FormattedMessage defaultMessage="There was an error loading your validator information from Beaconcha.in" />
+              <FormattedMessage defaultMessage="There was an error loading your validator information from agorascan.io" />
             </Text>
           </div>
           <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -215,7 +215,7 @@ const _TopUpPage: React.FC<Props> = () => {
                     <Link
                       inline
                       primary
-                      to="https://github.com/ethereum/staking-launchpad/issues/new"
+                      to="https://github.com/zeroone-boa/agora-staking/issues"
                     >
                       GitHub
                     </Link>

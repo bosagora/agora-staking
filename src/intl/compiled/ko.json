@@ -459,12 +459,6 @@
       "value": "입니다."
     }
   ],
-  "2AHkym": [
-    {
-      "type": 0,
-      "value": "Beaconcha.in에서 귀하의 검증자 정보를 로드하는 중에 오류가 발생했습니다."
-    }
-  ],
   "2CYEJa": [
     {
       "type": 0,
@@ -2207,6 +2201,12 @@
     {
       "type": 1,
       "value": "network"
+    }
+  ],
+  "JamLbI": [
+    {
+      "type": 0,
+      "value": "agorascan.io에서 귀하의 검증자 정보를 로드하는 중에 오류가 발생했습니다."
     }
   ],
   "JhUYU3": [

@@ -463,12 +463,6 @@
       "value": "."
     }
   ],
-  "2AHkym": [
-    {
-      "type": 0,
-      "value": "There was an error loading your validator information from Beaconcha.in"
-    }
-  ],
   "2CYEJa": [
     {
       "type": 0,
@@ -2235,6 +2229,12 @@
     {
       "type": 1,
       "value": "network"
+    }
+  ],
+  "JamLbI": [
+    {
+      "type": 0,
+      "value": "There was an error loading your validator information from agorascan.io"
     }
   ],
   "JhUYU3": [
