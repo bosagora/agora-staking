@@ -815,12 +815,6 @@
       "value": "Teku installation documentation"
     }
   ],
-  "5Hxw8J": [
-    {
-      "type": 0,
-      "value": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator"
-    }
-  ],
   "5UH1sh": [
     {
       "type": 0,
@@ -4515,6 +4509,12 @@
       "value": " testnet"
     }
   ],
+  "eUhTs+": [
+    {
+      "type": 0,
+      "value": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator."
+    }
+  ],
   "eaU/aL": [
     {
       "type": 0,
@@ -5243,20 +5243,6 @@
       "value": "You're on the testnet"
     }
   ],
-  "l357wH": [
-    {
-      "type": 0,
-      "value": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
-    }
-  ],
   "l4nLft": [
     {
       "type": 0,
@@ -5503,6 +5489,20 @@
     {
       "type": 0,
       "value": "Configure Agora-cl"
+    }
+  ],
+  "nHCqbh": [
+    {
+      "type": 0,
+      "value": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA."
     }
   ],
   "nIb6XF": [
