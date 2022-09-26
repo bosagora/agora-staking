@@ -317,9 +317,6 @@
   "5HJLBU": {
     "message": "Teku installation documentation"
   },
-  "5Hxw8J": {
-    "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator"
-  },
   "5UH1sh": {
     "message": "Romanian"
   },
@@ -1767,6 +1764,9 @@
   "eS/jfV": {
     "message": "AgoraStaking for {TESTNET_AGORA_STAKING_NAME} testnet"
   },
+  "eUhTs+": {
+    "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator."
+  },
   "eaU/aL": {
     "message": "To maximize security and efficiency of your node, use dedicated hardware to run your clients. This reduces risk of malware exposure and minimizes competition for computing resources, ensuring your node handles the network load and its validator responsibilities at all times."
   },
@@ -2037,9 +2037,6 @@
   "l/uCcX": {
     "message": "You're on the testnet"
   },
-  "l357wH": {
-    "message": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
-  },
   "l4nLft": {
     "message": "I know how to check that I am sending my {TICKER_NAME} into the correct deposit contract and will do so."
   },
@@ -2126,6 +2123,9 @@
   },
   "n1UDeZ": {
     "message": "Configure Agora-cl"
+  },
+  "nHCqbh": {
+    "message": "An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA."
   },
   "nIb6XF": {
     "description": "{slashings} shows 'slashings' in bold for emphasis",

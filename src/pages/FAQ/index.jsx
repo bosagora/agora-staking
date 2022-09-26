@@ -313,7 +313,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA. This information was easily served by and obtained from third-party providers such as Infura or Alchemy."
+                defaultMessage="An Agora Node (consensus layer) only had to watch the staking deposit contract on the execution layer in order to know which validator accounts had deposited {pricePerValidator} BOA."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                 }}
@@ -453,7 +453,7 @@ export const FAQ = () => {
                 defaultMessage="Arguably the most impactful factor on rewards earned for
                   validating transactions is the total amount of stake in the
                   network. In other words, the total amount of validators. Depending
-                  on this figure the max annual return rate for a validator"
+                  on this figure the max annual return rate for a validator."
               />
             </Text>
             <Text className="mt10">
