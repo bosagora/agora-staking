@@ -23,6 +23,7 @@ import GethCircle from '../../static/gethereum-mascot-circle.png';
 // import BesuCircle from '../../static/hyperledger-besu-circle.png';
 // import NethermindCircle from '../../static/nethermind-circle.png';
 // import ErigonCircle from '../../static/erigon-circle.png';
+import boaLogo from '../../static/BOA-logo.svg';
 
 import {
   DispatchWorkflowUpdateType,
@@ -75,8 +76,8 @@ const ethClients: {
   execution: _shuffle([
     {
       clientId: ClientId.GETH,
-      name: 'Geth',
-      imgUrl: GethCircle,
+      name: 'Agora-el',
+      imgUrl: boaLogo,
       language: 'Go',
     },
     // {
@@ -113,8 +114,8 @@ const ethClients: {
     // },
     {
       clientId: ClientId.PRYSM,
-      name: 'Prysm',
-      imgUrl: PrysmaticCircle,
+      name: 'Agora-cl',
+      imgUrl: boaLogo,
       language: 'Go',
     },
     // {

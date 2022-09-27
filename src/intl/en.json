@@ -216,9 +216,6 @@
   "32rBNK": {
     "message": "Terms of Service"
   },
-  "36j2ls": {
-    "message": "To process incoming validator deposits from the execution layer (formerly 'Eth1' chain), you'll need to run an execution client as well as your consensus client (formerly 'Eth2'). You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralized as possible."
-  },
   "38VH2G": {
     "message": "Install deposit-cli tool"
   },
@@ -248,9 +245,6 @@
   },
   "3T01pE": {
     "message": "Step 2: Generate deposit keys using the Agora Key Gen app"
-  },
-  "3URRZK": {
-    "message": "Geth on Goerli documentation"
   },
   "3tR/V9": {
     "message": "Section 2 - During setup"
@@ -356,9 +350,6 @@
   "7/Obsb": {
     "message": "Agora Staking"
   },
-  "738tqz": {
-    "message": "Prysm is written in Go and released under a GPL-3.0 license."
-  },
   "74QdCu": {
     "message": "Transaction started"
   },
@@ -402,6 +393,9 @@
   },
   "7tRtDE": {
     "message": "Every epoch, the network measures the actions of each validator and issues your rewards or penalties appropriately."
+  },
+  "7xTA79": {
+    "message": "Agora-cl is written in Go and released under a GPL-3.0 license."
   },
   "80eWKU": {
     "message": "True balance"
@@ -840,9 +834,6 @@
     "description": "Plural form, for multiple remaining deposits",
     "message": "You have {remainingTxCount} outstanding deposits"
   },
-  "Il9tBQ": {
-    "message": "Geth is written in Go, fully open source and licensed under the GNU LGPL v3."
-  },
   "IugT5/": {
     "message": "cannot transfer"
   },
@@ -905,9 +896,6 @@
   "K3r9Y7": {
     "description": "{variables} social media platform links to community (do not translate names)",
     "message": "If you have questions, BOSagora community is a good place to get help! You can find support on {community}."
-  },
-  "K6+jQ3": {
-    "message": "Geth installation documentation"
   },
   "KBSbmP": {
     "description": "{reloadYourWallet} is a link labeled 'reload your wallet'",
@@ -993,6 +981,9 @@
   "LwEHRm": {
     "message": "Why do I need to run an execution client now?"
   },
+  "M3DAg1": {
+    "message": "Agora-cl offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
+  },
   "M3GwXS": {
     "message": "You'll only get your full rewards if your validator is online and up to date. This is your responsibility. If your validator goes offline you'll be penalized. The penalties for being offline are roughly equal to the rewards for actively participating."
   },
@@ -1064,9 +1055,6 @@
   },
   "NTWnJC": {
     "message": "Download command line app"
-  },
-  "NVljH4": {
-    "message": "More on Prysmatic Labs"
   },
   "NYFKzu": {
     "message": "Staking checklist"
@@ -1201,6 +1189,9 @@
   },
   "QeE86m": {
     "message": "Check this document to learn how to run a node on {networkName}"
+  },
+  "Qjvd0m": {
+    "message": "One of the original implementations of the Agora protocol."
   },
   "QlsDcr": {
     "message": "Action"
@@ -1348,9 +1339,6 @@
   "U/NPbq": {
     "message": "German"
   },
-  "U0yY/A": {
-    "message": "View extensive client comparison"
-  },
   "UHbYCa": {
     "message": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
   },
@@ -1370,9 +1358,6 @@
   "Uy8THS": {
     "description": "{strongText} shows 'This scenario is very extreme and unlikely to happen' and is bolded for emphasis",
     "message": "Being offline at the same time as more than 1/3 of the total number of validators leads to harsher penalties, since blocks do not finalize anymore. {strongText}"
-  },
-  "UygdAl": {
-    "message": "One of the three original implementations of the Ethereum protocol."
   },
   "UykRIk": {
     "message": "Becoming a validator is a big responsibility with important preparation steps. Only start the deposit process when you're ready."
@@ -1586,9 +1571,6 @@
   "ZzTcj5": {
     "message": "Download python3 and follow the installation instructions."
   },
-  "a+xjjV": {
-    "message": "Become a validator with Prysm"
-  },
   "aDomwX": {
     "message": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
   },
@@ -1658,8 +1640,8 @@
   "by+LIm": {
     "message": "What is a validator client?"
   },
-  "cHUoV9": {
-    "message": "The Geth documentation explains how to download and install the client."
+  "cLPrEZ": {
+    "message": "The Agora-cl documentation explains how to download and install the client."
   },
   "cRzxes": {
     "message": "Current APR"
@@ -1684,9 +1666,6 @@
   },
   "clxIWO": {
     "message": "How much will I be penalized for acting maliciously?"
-  },
-  "cnQKC2": {
-    "message": "Currently Geth is used by >66% of the network."
   },
   "cpxfOR": {
     "message": "What are withdrawal credentials?"
@@ -1810,6 +1789,9 @@
   "fbiteI": {
     "message": "only stored on one validator machine"
   },
+  "fjTYbp": {
+    "message": "Agora-cl installation documentation"
+  },
   "fnMHGO": {
     "message": "Waiting for wallet confirmation"
   },
@@ -1827,9 +1809,6 @@
   },
   "gIauNz": {
     "message": "You should see that you have one keystore per validator. This keystore contains your signing key, encrypted with your password. You can use your mnemonic to generate your withdrawal key when you wish to withdraw."
-  },
-  "gN9D/h": {
-    "message": "Use {goerli} to sync the Goerli testnet."
   },
   "gUgcnN": {
     "message": "If you go offline for a number of days under normal conditions you will lose an amount of BOA roughly equivalent to the amount of BOA you would have gained in that period. In other words, if you stood to earn ≈0.01 BOA, you would instead be penalised ≈0.01 BOA."
@@ -1971,9 +1950,6 @@
   },
   "jg9gEs": {
     "message": "Make sure you do the following to get your execution client working properly."
-  },
-  "jjLubH": {
-    "message": "Prysm installation documentation"
   },
   "jlx7pU": {
     "message": "Documentation on running Geth"
@@ -2167,9 +2143,6 @@
   "oAH54o": {
     "message": "Consensus Layer Agora Node"
   },
-  "oF4os+": {
-    "message": "Currently Prysm is used by >33% of the network."
-  },
   "oLxfO1": {
     "message": "Now that the keys are imported, all that is left to do (assuming your beacon node is already running) is to run the validator client."
   },
@@ -2193,6 +2166,9 @@
   },
   "on8WXn": {
     "message": "I've imported the dashboard config to my Grafana server and double checked that my node is alive."
+  },
+  "ooZJCj": {
+    "message": "To process incoming validator deposits from the execution layer (BizNet chain), you'll need to run an execution client as well as your consensus client (Agora chain). We recommend running your own client to keep the network as decentralized as possible."
   },
   "orM+1T": {
     "message": "Teku will also load validators from keystores (and passwords) from the paths found in the validator keys environment variable."
@@ -2283,9 +2259,6 @@
   },
   "qkhah0": {
     "message": "Save the key files and get the validator file ready"
-  },
-  "qvJ06y": {
-    "message": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
   },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
@@ -2397,6 +2370,9 @@
   },
   "tp1IPS": {
     "message": "Configure the fee recipient"
+  },
+  "tqd7mr": {
+    "message": "Agora-cl is written in Go, fully open source and licensed under the GNU LGPL v3."
   },
   "tsfX5f": {
     "message": "Confirm deposit"
@@ -2544,6 +2520,9 @@
   },
   "xH5GKj": {
     "message": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
+  },
+  "xNHl4F": {
+    "message": "Become a validator with Agora-cl"
   },
   "xP6BKs": {
     "message": "staker checklist"

@@ -40,7 +40,7 @@ const LanguageTag = styled.div`
 `;
 
 interface ImgSelectionBoxProps {
-  src: any;
+  src?: any;
   isActive: boolean;
   onClick: any;
   text: string;
@@ -60,9 +60,11 @@ export const ImageSelectionBox = ({
 }: ImgSelectionBoxProps) => {
   return (
     <SelectionBox onClick={onClick} isActive={isActive} style={style}>
-      <LogoBackground isActive={isActive} fullWidthImg={fullWidthImg}>
-        <img src={src} alt={text} />
-      </LogoBackground>
+      {src && (
+        <LogoBackground isActive={isActive} fullWidthImg={fullWidthImg}>
+          <img src={src} alt={text} />
+        </LogoBackground>
+      )}
       <SelectionText level={3} size="small" color="blueDark">
         {text}
       </SelectionText>
