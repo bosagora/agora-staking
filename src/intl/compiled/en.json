@@ -537,12 +537,6 @@
       "value": "Terms of Service"
     }
   ],
-  "36j2ls": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from the execution layer (formerly 'Eth1' chain), you'll need to run an execution client as well as your consensus client (formerly 'Eth2'). You can use a third-party service like Infura, but we recommend running your own client to keep the network as decentralized as possible."
-    }
-  ],
   "38VH2G": [
     {
       "type": 0,
@@ -621,12 +615,6 @@
     {
       "type": 0,
       "value": "Step 2: Generate deposit keys using the Agora Key Gen app"
-    }
-  ],
-  "3URRZK": [
-    {
-      "type": 0,
-      "value": "Geth on Goerli documentation"
     }
   ],
   "3tR/V9": [
@@ -909,12 +897,6 @@
       "value": "Agora Staking"
     }
   ],
-  "738tqz": [
-    {
-      "type": 0,
-      "value": "Prysm is written in Go and released under a GPL-3.0 license."
-    }
-  ],
   "74QdCu": [
     {
       "type": 0,
@@ -1029,6 +1011,12 @@
     {
       "type": 0,
       "value": "Every epoch, the network measures the actions of each validator and issues your rewards or penalties appropriately."
+    }
+  ],
+  "7xTA79": [
+    {
+      "type": 0,
+      "value": "Agora-cl is written in Go and released under a GPL-3.0 license."
     }
   ],
   "80eWKU": [
@@ -2127,12 +2115,6 @@
       "value": " outstanding deposits"
     }
   ],
-  "Il9tBQ": [
-    {
-      "type": 0,
-      "value": "Geth is written in Go, fully open source and licensed under the GNU LGPL v3."
-    }
-  ],
   "IugT5/": [
     {
       "type": 0,
@@ -2279,12 +2261,6 @@
     {
       "type": 0,
       "value": "."
-    }
-  ],
-  "K6+jQ3": [
-    {
-      "type": 0,
-      "value": "Geth installation documentation"
     }
   ],
   "KBSbmP": [
@@ -2519,6 +2495,12 @@
       "value": "Why do I need to run an execution client now?"
     }
   ],
+  "M3DAg1": [
+    {
+      "type": 0,
+      "value": "Agora-cl offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
+    }
+  ],
   "M3GwXS": [
     {
       "type": 0,
@@ -2681,12 +2663,6 @@
     {
       "type": 0,
       "value": "Download command line app"
-    }
-  ],
-  "NVljH4": [
-    {
-      "type": 0,
-      "value": "More on Prysmatic Labs"
     }
   ],
   "NYFKzu": [
@@ -3057,6 +3033,12 @@
       "value": "networkName"
     }
   ],
+  "Qjvd0m": [
+    {
+      "type": 0,
+      "value": "One of the original implementations of the Agora protocol."
+    }
+  ],
   "QlsDcr": [
     {
       "type": 0,
@@ -3413,12 +3395,6 @@
       "value": "German"
     }
   ],
-  "U0yY/A": [
-    {
-      "type": 0,
-      "value": "View extensive client comparison"
-    }
-  ],
   "UHbYCa": [
     {
       "type": 0,
@@ -3465,12 +3441,6 @@
     {
       "type": 1,
       "value": "strongText"
-    }
-  ],
-  "UygdAl": [
-    {
-      "type": 0,
-      "value": "One of the three original implementations of the Ethereum protocol."
     }
   ],
   "UykRIk": [
@@ -4063,12 +4033,6 @@
       "value": "Download python3 and follow the installation instructions."
     }
   ],
-  "a+xjjV": [
-    {
-      "type": 0,
-      "value": "Become a validator with Prysm"
-    }
-  ],
   "aDomwX": [
     {
       "type": 0,
@@ -4247,10 +4211,10 @@
       "value": "What is a validator client?"
     }
   ],
-  "cHUoV9": [
+  "cLPrEZ": [
     {
       "type": 0,
-      "value": "The Geth documentation explains how to download and install the client."
+      "value": "The Agora-cl documentation explains how to download and install the client."
     }
   ],
   "cRzxes": [
@@ -4299,12 +4263,6 @@
     {
       "type": 0,
       "value": "How much will I be penalized for acting maliciously?"
-    }
-  ],
-  "cnQKC2": [
-    {
-      "type": 0,
-      "value": "Currently Geth is used by >66% of the network."
     }
   ],
   "cpxfOR": [
@@ -4639,6 +4597,12 @@
       "value": "only stored on one validator machine"
     }
   ],
+  "fjTYbp": [
+    {
+      "type": 0,
+      "value": "Agora-cl installation documentation"
+    }
+  ],
   "fnMHGO": [
     {
       "type": 0,
@@ -4673,20 +4637,6 @@
     {
       "type": 0,
       "value": "You should see that you have one keystore per validator. This keystore contains your signing key, encrypted with your password. You can use your mnemonic to generate your withdrawal key when you wish to withdraw."
-    }
-  ],
-  "gN9D/h": [
-    {
-      "type": 0,
-      "value": "Use "
-    },
-    {
-      "type": 1,
-      "value": "goerli"
-    },
-    {
-      "type": 0,
-      "value": " to sync the Goerli testnet."
     }
   ],
   "gUgcnN": [
@@ -5079,12 +5029,6 @@
     {
       "type": 0,
       "value": "Make sure you do the following to get your execution client working properly."
-    }
-  ],
-  "jjLubH": [
-    {
-      "type": 0,
-      "value": "Prysm installation documentation"
     }
   ],
   "jlx7pU": [
@@ -5603,12 +5547,6 @@
       "value": "Consensus Layer Agora Node"
     }
   ],
-  "oF4os+": [
-    {
-      "type": 0,
-      "value": "Currently Prysm is used by >33% of the network."
-    }
-  ],
   "oLxfO1": [
     {
       "type": 0,
@@ -5663,6 +5601,12 @@
     {
       "type": 0,
       "value": "I've imported the dashboard config to my Grafana server and double checked that my node is alive."
+    }
+  ],
+  "ooZJCj": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the execution layer (BizNet chain), you'll need to run an execution client as well as your consensus client (Agora chain). We recommend running your own client to keep the network as decentralized as possible."
     }
   ],
   "orM+1T": [
@@ -5881,12 +5825,6 @@
     {
       "type": 0,
       "value": "Save the key files and get the validator file ready"
-    }
-  ],
-  "qvJ06y": [
-    {
-      "type": 0,
-      "value": "Prysm offers step-by-step guidelines to run their client after completing your deposit through the AgoraStaking."
     }
   ],
   "qwh6gM": [
@@ -6191,6 +6129,12 @@
     {
       "type": 0,
       "value": "Configure the fee recipient"
+    }
+  ],
+  "tqd7mr": [
+    {
+      "type": 0,
+      "value": "Agora-cl is written in Go, fully open source and licensed under the GNU LGPL v3."
     }
   ],
   "tsfX5f": [
@@ -6551,6 +6495,12 @@
     {
       "type": 0,
       "value": "I am an early adopter, and I accept that software and design bugs may result in me being slashed."
+    }
+  ],
+  "xNHl4F": [
+    {
+      "type": 0,
+      "value": "Become a validator with Agora-cl"
     }
   ],
   "xP6BKs": [

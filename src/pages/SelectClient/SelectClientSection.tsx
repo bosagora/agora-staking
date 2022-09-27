@@ -52,9 +52,8 @@ const SelectClientSection = ({
       <div style={{ paddingBottom: '1rem' }}>
         <FormattedMessage
           defaultMessage="To process incoming validator deposits from the execution layer
-          (formerly 'Eth1' chain), you'll need to run an execution client as well as your
-          consensus client (formerly 'Eth2'). You can use a third-party service
-          like Infura, but we recommend running your own client to
+          (BizNet chain), you'll need to run an execution client as well as your
+          consensus client (Agora chain). We recommend running your own client to
           keep the network as decentralized as possible."
         />
       </div>
@@ -78,14 +77,6 @@ const SelectClientSection = ({
           );
         })}
       </ClientOptionContainer>
-      {ethClientStep === 'execution' && (
-        <Link
-          to="https://docs.bosagora.org/en/validator-start/install-an-agora-node/agora-el"
-          primary
-        >
-          <FormattedMessage defaultMessage="View extensive client comparison" />
-        </Link>
-      )}
       <ClientDescriptionContainer>
         {clientDetails[currentClient]}
       </ClientDescriptionContainer>
@@ -102,9 +93,6 @@ const SelectClientSection = ({
           </li>
           <li>
             <FormattedMessage defaultMessage="All stakers must operate an execution client as well as a consensus client starting at the Merge. Make sure you're prepared." />{' '}
-            <Link primary inline to="/merge-readiness">
-              <FormattedMessage defaultMessage="Merge readiness checklist" />
-            </Link>
           </li>
         </ul>
       </Alert>

@@ -10,17 +10,13 @@ import { PageTemplate } from '../../../components/PageTemplate';
 import { Text } from '../../../components/Text';
 import { Link } from '../../../components/Link';
 import { ClientMergeNotification } from '../../../components/ClientMergeNotification';
-import { ClientDiversityWarning } from '../../../components/ClientDiversityWarning';
 import { PRYSM_INSTALLATION_URL } from '../../../utils/envVars';
 
 // eslint-disable-next-line no-unused-vars
 export const PrysmDetails = ({ shortened }: { shortened?: boolean }) => (
   <>
-    <ClientDiversityWarning>
-      <FormattedMessage defaultMessage="Currently Prysm is used by >33% of the network." />
-    </ClientDiversityWarning>
     <SectionTitle level={2} className="mb5">
-      Prysm
+      Agora-cl
     </SectionTitle>
     <Text className="mt10 mb20">
       <FormattedMessage
@@ -29,27 +25,24 @@ export const PrysmDetails = ({ shortened }: { shortened?: boolean }) => (
           the sole focus on the development of their client."
       />
     </Text>
-    <Link to="https://prysmaticlabs.com/" primary>
-      <FormattedMessage defaultMessage="More on Prysmatic Labs" />
-    </Link>
     <SectionTitle level={2} className="mb5">
       <FormattedMessage defaultMessage="Language information" />
     </SectionTitle>
     <Text className="mt10">
-      <FormattedMessage defaultMessage="Prysm is written in Go and released under a GPL-3.0 license." />
+      <FormattedMessage defaultMessage="Agora-cl is written in Go and released under a GPL-3.0 license." />
     </Text>
     <section>
       <SectionTitle level={2} className="mb5">
-        <FormattedMessage defaultMessage="Become a validator with Prysm" />
+        <FormattedMessage defaultMessage="Become a validator with Agora-cl" />
       </SectionTitle>
       <Text className="mt10 mb20">
         <FormattedMessage
-          defaultMessage="Prysm offers step-by-step guidelines to run their client after completing
+          defaultMessage="Agora-cl offers step-by-step guidelines to run their client after completing
             your deposit through the AgoraStaking."
         />
       </Text>
       <Link primary to={PRYSM_INSTALLATION_URL}>
-        <FormattedMessage defaultMessage="Prysm installation documentation" />
+        <FormattedMessage defaultMessage="Agora-cl installation documentation" />
       </Link>
     </section>
   </>
