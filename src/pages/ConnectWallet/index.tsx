@@ -14,7 +14,6 @@ import { formatEther } from '@ethersproject/units';
 import { NoEthereumProviderError } from '@web3-react/injected-connector';
 import {
   AllowedNetworks,
-  fortmatic,
   metamask,
   NetworkChainId,
   portis,
@@ -29,8 +28,6 @@ import { Link } from '../../components/Link';
 import { Text } from '../../components/Text';
 import { WalletButton } from './WalletButton';
 import metamaskLogo from '../../static/metamask.svg';
-import portisLogo from '../../static/portis.svg';
-import fortmaticLogo from '../../static/fortmatic.svg';
 import { Paper } from '../../components/Paper';
 import { Heading } from '../../components/Heading';
 import { Dot } from '../../components/Dot';
@@ -40,8 +37,6 @@ import {
   WorkflowStep,
 } from '../../store/actions/workflowActions';
 import {
-  PORTIS_DAPP_ID,
-  ENABLE_RPC_FEATURES,
   IS_MAINNET,
   PRICE_PER_VALIDATOR,
   TICKER_NAME,
@@ -270,7 +265,6 @@ const _ConnectWalletPage = ({
     if (!provider) return '';
     if (provider === metamask) return 'Metamask';
     if (provider === portis) return 'Portis';
-    if (provider === fortmatic) return 'Fortmatic';
     return '';
   };
 

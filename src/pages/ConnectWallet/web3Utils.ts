@@ -5,13 +5,10 @@ import {
 } from '@web3-react/injected-connector';
 import { PortisConnector } from '@web3-react/portis-connector';
 import { useWeb3React } from '@web3-react/core';
-import { FortmaticConnector } from './fortmaticConnector';
 import { web3ReactInterface } from './index';
 import {
-  FORTMATIC_KEY,
   IS_MAINNET,
   PORTIS_DAPP_ID,
-  INFURA_URL,
   EL_TESTNET_NAME,
 } from '../../utils/envVars';
 
@@ -68,11 +65,11 @@ export const portis: PortisConnector = new PortisConnector({
   networks: [],
 });
 
-export const fortmatic: FortmaticConnector = new FortmaticConnector({
-  apiKey: FORTMATIC_KEY as string,
-  chainId: TARGET_NETWORK_CHAIN_ID,
-  rpcUrl: INFURA_URL,
-});
+// export const fortmatic: FortmaticConnector = new FortmaticConnector({
+//   apiKey: FORTMATIC_KEY as string,
+//   chainId: TARGET_NETWORK_CHAIN_ID,
+//   rpcUrl: INFURA_URL,
+// });
 
 // sets up initial call to MM
 export function useMetamaskEagerConnect(): boolean {
