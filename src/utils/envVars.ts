@@ -6,13 +6,13 @@ export const EL_TESTNET_NAME            = process.env.REACT_APP_EL_TESTNET_NAME 
 export const PORTIS_DAPP_ID             = process.env.REACT_APP_PORTIS_DAPP_ID     || '';
 export const INFURA_PROJECT_ID          = process.env.REACT_APP_INFURA_PROJECT_ID  || '';
 export const ENABLE_RPC_FEATURES        = Boolean(INFURA_PROJECT_ID && INFURA_PROJECT_ID !== '');
-export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet" : EL_TESTNET_NAME.toLowerCase()}.infura.io/v3/${INFURA_PROJECT_ID}`;
+export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet.bosaogra.org" : "testnet.bosagora.org"}`;
 
 // public
 export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_AGORA_STAKING_NAME;
 export const TICKER_NAME                = IS_MAINNET ? 'BOA' : 'tBOA';
-export const ETHERSCAN_URL              = process.env.REACT_APP_ETHERSCAN_URL || 'https://scan.bosagora.org/txs';
-export const BEACONSCAN_URL             = IS_MAINNET ? 'https://beaconscan.com/validator' : `https://beaconscan.com/${NETWORK_NAME.toLowerCase()}/validator`;
+export const ETHERSCAN_URL              = IS_MAINNET ? 'https://boascan.io/txs' : 'https://testnet.boascan.io/txs';
+export const BEACONSCAN_URL             = IS_MAINNET ? 'https://agorascan.io/validator' : `https://testnet.agorascan.io/validator`;
 export const BEACONCHAIN_URL            = process.env.REACT_APP_BEACONCHAIN_URL || `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
 export const FORTMATIC_KEY              = process.env.REACT_APP_FORTMATIC_KEY       || 'pk_test_D113D979E0D3508F';
 export const CONTRACT_ADDRESS           = process.env.REACT_APP_CONTRACT_ADDRESS    || '0x00000000219ab540356cBB839Cbe05303d7705Fa';
@@ -21,9 +21,9 @@ export const LIGHTHOUSE_INSTALLATION_URL = process.env.REACT_APP_LIGHTHOUSE_INST
 export const NIMBUS_INSTALLATION_URL    = process.env.REACT_APP_NIMBUS_INSTALLATION_URL  || 'https://nimbus.guide/intro.html';
 export const PRYSM_INSTALLATION_URL     = process.env.REACT_APP_PRYSM_INSTALLATION_URL   || 'https://docs.bosagora.org/en/validator-start/install-an-agora-node/agora-cl';
 export const TEKU_INSTALLATION_URL      = process.env.REACT_APP_TEKU_INSTALLATION_URL    || 'https://docs.teku.pegasys.tech/en/latest/HowTo/Get-Started/Build-From-Source/';
-export const MAINNET_AGORA_STAKING_URL      = 'http://agora-staking.bosagora.org/';
-export const TESTNET_AGORA_STAKING_URL      = 'https://agora-staking.bosagora.info/';
-export const FAUCET_URL                 = process.env.REACT_APP_FAUCET_URL || 'https://faucet.goerli.mudit.blog';
+export const MAINNET_AGORA_STAKING_URL      = 'https://agora-staking.bosagora.org';
+export const TESTNET_AGORA_STAKING_URL      = 'https://testnet-agora-staking.bosagora.org';
+export const FAUCET_URL                 = process.env.REACT_APP_FAUCET_URL || 'https://faucet.bosagora.org';
 export const TUTORIAL_URL               = process.env.REACT_APP_TUTORIAL_URL || null;
 
 if(process.env.REACT_APP_ETH_REQUIREMENT && Number.isNaN(Number(process.env.REACT_APP_ETH_REQUIREMENT))) {
