@@ -34,8 +34,8 @@ export const ClientMergeNotification = (props: {
             defaultMessage="Merge Readiness: In addition to a consensus client, after the Merge node operators must also run an {alternateClient} to remain active."
             values={{
               alternateClient: (
-                <Link primary inline to="/checklist/#el-client">
-                  <FormattedMessage defaultMessage="execution client" />
+                <Link primary inline to="/checklist/#cl-client">
+                  <FormattedMessage defaultMessage="consensus client" />
                 </Link>
               ),
             }}
@@ -45,8 +45,8 @@ export const ClientMergeNotification = (props: {
             defaultMessage="Merge Readiness: In addition to an execution client, after the Merge node operators must also run an {alternateClient} to remain active."
             values={{
               alternateClient: (
-                <Link primary inline to="/checklist/#cl-client">
-                  <FormattedMessage defaultMessage="consensus client" />
+                <Link primary inline to="/checklist/#el-client">
+                  <FormattedMessage defaultMessage="execution client" />
                 </Link>
               ),
             }}
