@@ -1339,6 +1339,12 @@
       "value": "Check deposit contract address"
     }
   ],
+  "AkqXLB": [
+    {
+      "type": 0,
+      "value": "Documentation on running Agora-el"
+    }
+  ],
   "An37jY": [
     {
       "type": 0,
@@ -4211,12 +4217,6 @@
       "value": "What is a validator client?"
     }
   ],
-  "cLPrEZ": [
-    {
-      "type": 0,
-      "value": "The Agora-cl documentation explains how to download and install the client."
-    }
-  ],
   "cRzxes": [
     {
       "type": 0,
@@ -4853,6 +4853,12 @@
       "value": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators receive financial rewards."
     }
   ],
+  "htuNmo": [
+    {
+      "type": 0,
+      "value": "Agora-el installation documentation"
+    }
+  ],
   "huEFUF": [
     {
       "type": 0,
@@ -5029,12 +5035,6 @@
     {
       "type": 0,
       "value": "Make sure you do the following to get your execution client working properly."
-    }
-  ],
-  "jlx7pU": [
-    {
-      "type": 0,
-      "value": "Documentation on running Geth"
     }
   ],
   "jm79h1": [
@@ -5721,6 +5721,12 @@
       "value": "expected"
     }
   ],
+  "psHJYk": [
+    {
+      "type": 0,
+      "value": "Agora-el is written in Go, fully open source and licensed under the GNU LGPL v3."
+    }
+  ],
   "pyWt01": [
     {
       "type": 0,
@@ -6129,12 +6135,6 @@
     {
       "type": 0,
       "value": "Configure the fee recipient"
-    }
-  ],
-  "tqd7mr": [
-    {
-      "type": 0,
-      "value": "Agora-cl is written in Go, fully open source and licensed under the GNU LGPL v3."
     }
   ],
   "tsfX5f": [
@@ -6713,6 +6713,12 @@
     {
       "type": 0,
       "value": "Node security"
+    }
+  ],
+  "zjqF/I": [
+    {
+      "type": 0,
+      "value": "The Agora-el documentation explains how to download and install the client."
     }
   ]
 }

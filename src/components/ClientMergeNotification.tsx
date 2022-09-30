@@ -53,9 +53,9 @@ export const ClientMergeNotification = (props: {
           />
         )}
       </Text>
-      <Link primary inline to="/merge-readiness">
-        <FormattedMessage defaultMessage="Merge readiness checklist" />
-      </Link>
+      {/* <Link primary inline to="/merge-readiness"> */}
+      {/*  <FormattedMessage defaultMessage="Merge readiness checklist" /> */}
+      {/* </Link> */}
     </Alert>
   );
 };
