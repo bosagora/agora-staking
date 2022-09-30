@@ -1,8 +1,6 @@
 import React from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import prysmBg from '../../../static/prysmatic-bg.png';
 import {
-  Hero,
   SectionTitle,
   ValidatorClientPageStyles,
 } from '../ValidatorClientComponents';
@@ -21,7 +19,7 @@ export const PrysmDetails = ({ shortened }: { shortened?: boolean }) => (
     <Text className="mt10 mb20">
       <FormattedMessage
         defaultMessage="An implementation of the consensus protocol with a focus on usability,
-          security, and reliability. Prysm is developed by Prysmatic Labs, a company with
+          security, and reliability. Agora-cl is developed by Prysmatic Labs, a company with
           the sole focus on the development of their client."
       />
     </Text>
@@ -54,25 +52,12 @@ export const Prysm = () => {
     <PageTemplate
       title={formatMessage(
         { defaultMessage: 'Consensus Clients: {clientName}' },
-        { clientName: 'Prysm' }
+        { clientName: 'Agora-cl' }
       )}
     >
       <ValidatorClientPageStyles>
-        <Hero imgSrc={prysmBg} style={{ objectPosition: '0 -80px' }} />
-        <ClientMergeNotification client="Prysm" isConsensus />
+        <ClientMergeNotification client="Agora-cl" isConsensus />
         <PrysmDetails />
-        <section>
-          <SectionTitle level={2} className="mb5">
-            <FormattedMessage defaultMessage="Documentation" />
-          </SectionTitle>
-          <Link
-            primary
-            to="https://docs.prylabs.network/docs/getting-started/"
-            className="mt10"
-          >
-            <FormattedMessage defaultMessage="Prysm documentation" />
-          </Link>
-        </section>
       </ValidatorClientPageStyles>
     </PageTemplate>
   );
