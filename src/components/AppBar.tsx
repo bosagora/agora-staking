@@ -225,7 +225,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
               <Box pad="small">
                 {/* <DropdownLink to={routesEnum.besu}>Besu</DropdownLink> */}
                 {/* <DropdownLink to={routesEnum.erigon}>Erigon</DropdownLink> */}
-                <DropdownLink to={routesEnum.geth}>Geth</DropdownLink>
+                <DropdownLink to={routesEnum.geth}>Agora-el</DropdownLink>
                 {/* <DropdownLink to={routesEnum.nethermind}>
                   Nethermind
                 </DropdownLink> */}
@@ -238,7 +238,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   Lighthouse
                 </DropdownLink> */}
                 {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
-                <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
+                <DropdownLink to={routesEnum.prysm}>Agora-cl</DropdownLink>
                 {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
               </Box>
             </Box>

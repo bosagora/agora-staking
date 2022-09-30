@@ -520,6 +520,9 @@
   "AkVktj": {
     "message": "Check deposit contract address"
   },
+  "AkqXLB": {
+    "message": "Documentation on running Agora-el"
+  },
   "An37jY": {
     "message": "Specifically, when starting your lighthouse validator client, you can point it at the directory with your keystores and it will import your keystores and interactively ask for your password(s). If you do not supply a password, lighthouse will ask for it again every time it starts up."
   },
@@ -1640,9 +1643,6 @@
   "by+LIm": {
     "message": "What is a validator client?"
   },
-  "cLPrEZ": {
-    "message": "The Agora-cl documentation explains how to download and install the client."
-  },
   "cRzxes": {
     "message": "Current APR"
   },
@@ -1881,6 +1881,9 @@
   "hjrLbR": {
     "message": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators receive financial rewards."
   },
+  "htuNmo": {
+    "message": "Agora-el installation documentation"
+  },
   "huEFUF": {
     "description": "Singular form, for only one deposit",
     "message": "You have {remainingTxCount} outstanding deposit"
@@ -1950,9 +1953,6 @@
   },
   "jg9gEs": {
     "message": "Make sure you do the following to get your execution client working properly."
-  },
-  "jlx7pU": {
-    "message": "Documentation on running Geth"
   },
   "jm79h1": {
     "description": "Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once.",
@@ -2221,6 +2221,9 @@
     "description": "{expected} shows 'This is the expected scenario' and is bolded for emphasis",
     "message": "Being offline while a supermajority (2/3) of validators is still online leads to relatively small penalties as there are still enough validators online for the chain to finalize. {expected}"
   },
+  "psHJYk": {
+    "message": "Agora-el is written in Go, fully open source and licensed under the GNU LGPL v3."
+  },
   "pyWt01": {
     "message": "Deposit summary"
   },
@@ -2370,9 +2373,6 @@
   },
   "tp1IPS": {
     "message": "Configure the fee recipient"
-  },
-  "tqd7mr": {
-    "message": "Agora-cl is written in Go, fully open source and licensed under the GNU LGPL v3."
   },
   "tsfX5f": {
     "message": "Confirm deposit"
@@ -2609,5 +2609,8 @@
   },
   "zicXn7": {
     "message": "Node security"
+  },
+  "zjqF/I": {
+    "message": "The Agora-el documentation explains how to download and install the client."
   }
 }

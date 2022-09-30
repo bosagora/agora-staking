@@ -2,27 +2,14 @@ import React, { useState } from 'react';
 import { Dispatch } from 'redux';
 import { connect } from 'react-redux';
 import _shuffle from 'lodash/shuffle';
+import { useIntl } from 'react-intl';
 import { StoreState } from '../../store/reducers';
 import { WorkflowPageTemplate } from '../../components/WorkflowPage/WorkflowPageTemplate';
 import { routeToCorrectWorkflowStep } from '../../utils/RouteToCorrectWorkflowStep';
 import SelectClientSection from './SelectClientSection';
 import SelectClientButtons from './SelectClientButtons';
 import { PrysmDetails } from '../Clients/Consensus/Prysm';
-// import { LighthouseDetails } from '../Clients/Consensus/Lighthouse';
-// import { TekuDetails } from '../Clients/Consensus/Teku';
-// import { NimbusDetails } from '../Clients/Consensus/Nimbus';
 import { GethDetails } from '../Clients/Execution/Geth';
-// import { BesuDetails } from '../Clients/Execution/Besu';
-// import { NethermindDetails } from '../Clients/Execution/Nethermind';
-// import { ErigonDetails } from '../Clients/Execution/Erigon';
-import PrysmaticCircle from '../../static/prysmatic-labs-circle.png';
-// import LighthouseCircle from '../../static/lighthouse-circle.png';
-// import NimbusCircle from '../../static/nimbus-circle.png';
-// import TekuCircle from '../../static/pegasys-teku-circle.png';
-import GethCircle from '../../static/gethereum-mascot-circle.png';
-// import BesuCircle from '../../static/hyperledger-besu-circle.png';
-// import NethermindCircle from '../../static/nethermind-circle.png';
-// import ErigonCircle from '../../static/erigon-circle.png';
 import boaLogo from '../../static/BOA-logo.svg';
 
 import {
@@ -31,12 +18,11 @@ import {
   WorkflowStep,
 } from '../../store/actions/workflowActions';
 import {
+  ClientId,
   DispatchClientUpdate,
   updateClient,
-  ClientId,
 } from '../../store/actions/clientActions';
 import { clientState } from '../../store/reducers/clientReducer';
-import { useIntl } from 'react-intl';
 
 // Prop definitions
 interface OwnProps {}

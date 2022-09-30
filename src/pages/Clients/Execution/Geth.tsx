@@ -1,8 +1,6 @@
 import React from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import gethBg from '../../../static/geth-bg.png';
 import {
-  Hero,
   SectionTitle,
   ValidatorClientPageStyles,
 } from '../ValidatorClientComponents';
@@ -26,21 +24,21 @@ export const GethDetails = () => (
       <FormattedMessage defaultMessage="Language information" />
     </SectionTitle>
     <Text className="mt10">
-      <FormattedMessage defaultMessage="Agora-cl is written in Go, fully open source and licensed under the GNU LGPL v3." />
+      <FormattedMessage defaultMessage="Agora-el is written in Go, fully open source and licensed under the GNU LGPL v3." />
     </Text>
     <section>
       <SectionTitle level={2} className="mb5">
         <FormattedMessage defaultMessage="Installation" />
       </SectionTitle>
       <Text>
-        <FormattedMessage defaultMessage="The Agora-cl documentation explains how to download and install the client." />
+        <FormattedMessage defaultMessage="The Agora-el documentation explains how to download and install the client." />
       </Text>
       <Link
         primary
         to="https://docs.bosagora.org/en/validator-start/install-an-agora-node/agora-el"
         className="mt10"
       >
-        <FormattedMessage defaultMessage="Agora-cl installation documentation" />
+        <FormattedMessage defaultMessage="Agora-el installation documentation" />
       </Link>
     </section>
     <section>
@@ -77,19 +75,18 @@ export const Geth = () => {
     <PageTemplate
       title={formatMessage(
         { defaultMessage: 'Execution Clients: {clientName}' },
-        { clientName: 'Geth' }
+        { clientName: 'Agora-el' }
       )}
     >
       <ValidatorClientPageStyles>
-        <Hero imgSrc={gethBg} />
-        <ClientMergeNotification client="Geth" />
+        <ClientMergeNotification client="Agora-el" />
         <GethDetails />
         <section>
           <SectionTitle level={2} className="mb5">
             <FormattedMessage defaultMessage="Documentation" />
           </SectionTitle>
-          <Link primary to="https://geth.ethereum.org/docs/">
-            <FormattedMessage defaultMessage="Documentation on running Geth" />
+          <Link primary to="https://github.com/zeroone-boa/agora-el">
+            <FormattedMessage defaultMessage="Documentation on running Agora-el" />
           </Link>
         </section>
       </ValidatorClientPageStyles>
