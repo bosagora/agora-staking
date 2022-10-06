@@ -41,14 +41,14 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://docs.bosagora.org/en/agora/what-is-agora/agora-chain"
+          to="https://docs.bosagora.org/agora/what-is-agora/agora-chain"
           className="my10"
           primary
         >
           <FormattedMessage defaultMessage="More on the Agora Chain" />
         </Link>
         <Link
-          to="https://docs.bosagora.org/en/agora/what-is-agora/consensus-mechanisms-pos"
+          to="https://docs.bosagora.org/agora/what-is-agora/consensus-mechanisms-pos"
           className="my10"
           primary
         >
@@ -78,7 +78,7 @@ export const pageContent = {
           <FormattedMessage defaultMessage="Withdrawing your deposit will not be possible until the update planned for after the Merge." />
         </Text>
         <Link
-          to="https://docs.bosagora.org/en/updates/agora-merge-update"
+          to="https://docs.bosagora.org/updates/agora-merge-update"
           className="my10"
           primary
         >
@@ -108,7 +108,7 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://docs.bosagora.org/en/agora/what-is-agora/agora-staking-economics"
+          to="https://docs.bosagora.org/agora/what-is-agora/agora-staking-economics"
           className="my10"
           primary
           inline
@@ -197,7 +197,7 @@ export const pageContent = {
           <FormattedMessage defaultMessage="Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update." />
         </Text>
         <Link
-          to="https://docs.bosagora.org/en/updates/agora-merge-update"
+          to="https://docs.bosagora.org/updates/agora-merge-update"
           className="my10"
           primary
         >

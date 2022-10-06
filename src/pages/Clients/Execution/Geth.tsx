@@ -35,7 +35,7 @@ export const GethDetails = () => (
       </Text>
       <Link
         primary
-        to="https://docs.bosagora.org/en/validator-start/install-an-agora-node/agora-el"
+        to="https://docs.bosagora.org/validator-start/install-an-agora-node/agora-el"
         className="mt10"
       >
         <FormattedMessage defaultMessage="Agora-el installation documentation" />
@@ -62,7 +62,7 @@ export const GethDetails = () => (
           description="{http} shows '--http' terminal command"
         />
       </Text>
-      <Link primary to="https://docs.bosagora.org/en/agora-chain-info">
+      <Link primary to="https://docs.bosagora.org/agora-chain-info">
         <FormattedMessage defaultMessage="--http documentation" />
       </Link>
     </section>

@@ -175,7 +175,7 @@ export const FAQ = () => {
                     <Link
                       inline
                       primary
-                      to="https://docs.bosagora.org/en/updates/agora-post-merge-updates"
+                      to="https://docs.bosagora.org/updates/agora-post-merge-updates"
                     >
                       post merge
                     </Link>
@@ -277,7 +277,7 @@ export const FAQ = () => {
               <FormattedMessage defaultMessage="There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)." />
               <Link
                 className="mt20"
-                to="https://docs.bosagora.org/en/updates/agora-merge-update"
+                to="https://docs.bosagora.org/updates/agora-merge-update"
                 primary
               >
                 <FormattedMessage defaultMessage="More on the Merge" />

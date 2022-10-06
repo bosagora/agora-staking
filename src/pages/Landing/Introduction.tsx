@@ -88,13 +88,13 @@ export const Introduction = (): JSX.Element => {
             </Text>
             <Link
               className="mt20"
-              to="https://docs.bosagora.org/en/agora/what-is-agora/agora-chain/"
+              to="https://docs.bosagora.org/agora/what-is-agora/agora-chain/"
             >
               <FormattedMessage defaultMessage="More on the Agora Chain" />
             </Link>
             <Link
               className="mt20 mb40"
-              to="https://docs.bosagora.org/en/updates/agora-merge-update/"
+              to="https://docs.bosagora.org/updates/agora-merge-update/"
             >
               <FormattedMessage defaultMessage="More on the Merge" />
             </Link>
@@ -108,7 +108,7 @@ export const Introduction = (): JSX.Element => {
             </Text>
             <Link
               className="mt20 mb40"
-              to="https://docs.bosagora.org/en/agora/what-is-agora/consensus-mechanisms-pos/"
+              to="https://docs.bosagora.org/agora/what-is-agora/consensus-mechanisms-pos/"
             >
               <FormattedMessage defaultMessage="More on consensus mechanisms" />
             </Link>
