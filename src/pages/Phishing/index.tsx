@@ -69,7 +69,7 @@ export const Phishing = () => {
                   bosagoraorg: (
                     <Link
                       inline
-                      to="https://docs.bosagora.org/en/validator-start/becoming-a-validator/staking-deposit-contract/"
+                      to="https://docs.bosagora.org/validator-start/becoming-a-validator/staking-deposit-contract/"
                     >
                       docs.bosagora.org
                     </Link>

@@ -99,6 +99,7 @@ export const Link = (props: LinkProps) => {
   const isExternal = to && to.includes('http');
   // Check for ethereum.org root domain links
   const ETHEREUM_DOT_ORG = `https://ethereum.org`;
+  const BOSAGORA_DOC_ORG = `https://docs.bosagora.org`;
   const isEthereumDotOrg = to && to.includes(ETHEREUM_DOT_ORG);
   const isHash = isHashLink(to);
 
@@ -122,6 +123,14 @@ export const Link = (props: LinkProps) => {
     if (to === ETHEREUM_DOT_ORG) {
       // Path is to https://ethereum.org homepage; will append locale
       href = `${ETHEREUM_DOT_ORG}/${locale}`;
+    } else if (to.includes(BOSAGORA_DOC_ORG)) {
+      const docSplit = to.split('/');
+      const isLocale = supportedLanguages.includes(docSplit[3]);
+      href = isLocale
+        ? to
+        : `${BOSAGORA_DOC_ORG}/${
+            locale === 'ko' ? 'kr' : locale
+          }/${docSplit.slice(3).join('/')}`;
     } else if (isEthereumDotOrg) {
       // Grab everything after "https://ethereum.org/"
       const slug: string = to.substr(ETHEREUM_DOT_ORG.length + 1);
