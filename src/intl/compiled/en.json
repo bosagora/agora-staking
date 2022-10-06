@@ -29,12 +29,6 @@
       "value": "After the Merge, your validator will also be responsible for processing transactions, and thus be entitled to unburnt gas fees associated with those transactions in blocks your validator proposes. These fees are accounted for on the execution layer, not the consensus layer, and thus require a traditional BOA address to be provided to your client."
     }
   ],
-  "+ijXqp": [
-    {
-      "type": 0,
-      "value": "Become a validator and help secure the future of BOSAGORA"
-    }
-  ],
   "+mDtA4": [
     {
       "type": 0,
@@ -4209,6 +4203,12 @@
     {
       "type": 0,
       "value": "What is a validator client?"
+    }
+  ],
+  "cGSwc/": [
+    {
+      "type": 0,
+      "value": "Beyond the Platform, Making the better world Build, Vote, and Earn, all in one."
     }
   ],
   "cRzxes": [

@@ -183,7 +183,7 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Become a validator and help secure the future of BOSAGORA" />
+                      <FormattedMessage defaultMessage="Beyond the Platform, Making the better world Build, Vote, and Earn, all in one." />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>

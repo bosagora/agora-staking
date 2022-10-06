@@ -29,12 +29,6 @@
       "value": "병합 후 검증인은 거래 처리도 담당하므로 검증인이 제안하는 블록에서 해당 거래와 관련된 미연소 가스 수수료를 받을 자격이 있습니다. 이러한 수수료는 합의 레이어가 아닌 실행 레이어에서 계산되므로 기존 BOA 주소를 클라이언트에 제공해야 합니다."
     }
   ],
-  "+ijXqp": [
-    {
-      "type": 0,
-      "value": "검증인이 되어 BOSAGORA의 미래를 보장하십시오."
-    }
-  ],
   "+mDtA4": [
     {
       "type": 0,
@@ -4161,6 +4155,12 @@
     {
       "type": 0,
       "value": "유효성 검사기 클라이언트란 무엇입니까?"
+    }
+  ],
+  "cGSwc/": [
+    {
+      "type": 0,
+      "value": "Beyond the Platform, Making the better world Build, Vote, and Earn, all in one."
     }
   ],
   "cRzxes": [
