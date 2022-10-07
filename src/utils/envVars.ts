@@ -11,7 +11,7 @@ export const INFURA_URL                 = `https://${IS_MAINNET ? "mainnet.bosao
 // public
 export const NETWORK_NAME               = IS_MAINNET ? 'Mainnet' : TESTNET_AGORA_STAKING_NAME;
 export const TICKER_NAME                = IS_MAINNET ? 'BOA' : 'tBOA';
-export const ETHERSCAN_URL              = IS_MAINNET ? 'https://boascan.io/txs' : 'https://testnet.boascan.io/txs';
+export const ETHERSCAN_URL              = IS_MAINNET ? 'https://boascan.io' : 'https://testnet.boascan.io';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://agorascan.io/validator' : `https://testnet.agorascan.io/validator`;
 export const BEACONCHAIN_URL            = process.env.REACT_APP_BEACONCHAIN_URL || `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
 export const FORTMATIC_KEY              = process.env.REACT_APP_FORTMATIC_KEY       || 'pk_test_D113D979E0D3508F';
