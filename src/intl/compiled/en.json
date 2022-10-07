@@ -77,6 +77,12 @@
       "value": "Do this after TTD client releases"
     }
   ],
+  "/QOisp": [
+    {
+      "type": 0,
+      "value": "Beyond the Platform, Making the better world."
+    }
+  ],
   "/QPc9s": [
     {
       "type": 0,
@@ -291,12 +297,6 @@
     {
       "type": 0,
       "value": "Validators FAQ"
-    }
-  ],
-  "0uqjBl": [
-    {
-      "type": 0,
-      "value": "Earn continuous rewards for providing a public good to the community."
     }
   ],
   "122+yR": [
@@ -2843,6 +2843,12 @@
       "value": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
     }
   ],
+  "P0o91b": [
+    {
+      "type": 0,
+      "value": "Build, Vote, and Earn, all in one."
+    }
+  ],
   "P91KmA": [
     {
       "type": 0,
@@ -4203,12 +4209,6 @@
     {
       "type": 0,
       "value": "What is a validator client?"
-    }
-  ],
-  "cGSwc/": [
-    {
-      "type": 0,
-      "value": "Beyond the Platform, Making the better world Build, Vote, and Earn, all in one."
     }
   ],
   "cRzxes": [

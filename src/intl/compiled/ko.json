@@ -77,6 +77,12 @@
       "value": "TTD 클라이언트 릴리스 후에 이 작업을 수행합니다."
     }
   ],
+  "/QOisp": [
+    {
+      "type": 0,
+      "value": "Beyond the Platform, Making the better world."
+    }
+  ],
   "/QPc9s": [
     {
       "type": 0,
@@ -291,12 +297,6 @@
     {
       "type": 0,
       "value": "검증자 FAQ"
-    }
-  ],
-  "0uqjBl": [
-    {
-      "type": 0,
-      "value": "커뮤니티 공공의 이익에 기여하고 지속적인 보상을 획득하십시오."
     }
   ],
   "122+yR": [
@@ -2811,6 +2811,12 @@
       "value": "검증자는 자금을 스테이킹해야 하며, 건실하지 못하게 행동했을 때 페널티를 받습니다."
     }
   ],
+  "P0o91b": [
+    {
+      "type": 0,
+      "value": "Build, Vote, and Earn, all in one."
+    }
+  ],
   "P91KmA": [
     {
       "type": 0,
@@ -4155,12 +4161,6 @@
     {
       "type": 0,
       "value": "유효성 검사기 클라이언트란 무엇입니까?"
-    }
-  ],
-  "cGSwc/": [
-    {
-      "type": 0,
-      "value": "Beyond the Platform, Making the better world Build, Vote, and Earn, all in one."
     }
   ],
   "cRzxes": [
