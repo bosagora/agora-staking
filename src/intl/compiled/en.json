@@ -863,6 +863,12 @@
       "value": "#TestingTheMerge"
     }
   ],
+  "6mFA/6": [
+    {
+      "type": 0,
+      "value": "CheckList"
+    }
+  ],
   "6nh4de": [
     {
       "type": 0,
@@ -1955,6 +1961,16 @@
     {
       "type": 0,
       "value": "Early adoption risks"
+    }
+  ],
+  "Gt8IPi": [
+    {
+      "type": 0,
+      "value": "Agora Staking for "
+    },
+    {
+      "type": 1,
+      "value": "TESTNET_AGORA_STAKING_NAME"
     }
   ],
   "GuIwY6": [
@@ -3569,12 +3585,6 @@
       "value": "Stakers running their own execution layer is necessary for the decentralization of the network."
     }
   ],
-  "VzGJkB": [
-    {
-      "type": 0,
-      "value": "Staker checklist"
-    }
-  ],
   "W10U1b": [
     {
       "type": 0,
@@ -4445,20 +4455,6 @@
     {
       "type": 0,
       "value": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
-    }
-  ],
-  "eS/jfV": [
-    {
-      "type": 0,
-      "value": "AgoraStaking for "
-    },
-    {
-      "type": 1,
-      "value": "TESTNET_AGORA_STAKING_NAME"
-    },
-    {
-      "type": 0,
-      "value": " testnet"
     }
   ],
   "eUhTs+": [

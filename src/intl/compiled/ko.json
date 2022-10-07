@@ -867,6 +867,12 @@
       "value": "#TestingTheMerge"
     }
   ],
+  "6mFA/6": [
+    {
+      "type": 0,
+      "value": "체크리스트"
+    }
+  ],
   "6nh4de": [
     {
       "type": 0,
@@ -1927,6 +1933,16 @@
     {
       "type": 0,
       "value": "얼리어답터의 위험"
+    }
+  ],
+  "Gt8IPi": [
+    {
+      "type": 0,
+      "value": "Agora 스테이킹 "
+    },
+    {
+      "type": 1,
+      "value": "TESTNET_AGORA_STAKING_NAME"
     }
   ],
   "GuIwY6": [
@@ -3547,12 +3563,6 @@
       "value": "네트워크의 탈중앙화를 위해서는 자체 실행 계층을 실행하는 스테이커가 필요합니다."
     }
   ],
-  "VzGJkB": [
-    {
-      "type": 0,
-      "value": "스테이커 체크리스트"
-    }
-  ],
   "W10U1b": [
     {
       "type": 0,
@@ -4397,16 +4407,6 @@
     {
       "type": 0,
       "value": "여기에는 누가 스테이킹하고 누가 검증하는지, 얼마나 스테이킹되어 있는지, 누가 자금을 인출할 수 있는지가 지정되어 있습니다."
-    }
-  ],
-  "eS/jfV": [
-    {
-      "type": 1,
-      "value": "TESTNET_AGORA_STAKING_NAME"
-    },
-    {
-      "type": 0,
-      "value": " 테스트넷용 Agora 스테이킹"
     }
   ],
   "eUhTs+": [

@@ -335,6 +335,9 @@
   "6iVtAr": {
     "message": "#TestingTheMerge"
   },
+  "6mFA/6": {
+    "message": "CheckList"
+  },
   "6nh4de": {
     "message": "You're joining a network in its early stages. As with any new piece of software, there is the potential for software bugs. While unlikely, potential bugs may result in slashing."
   },
@@ -768,6 +771,9 @@
   },
   "Gsixxx": {
     "message": "Early adoption risks"
+  },
+  "Gt8IPi": {
+    "message": "Agora Staking for {TESTNET_AGORA_STAKING_NAME}"
   },
   "GuIwY6": {
     "message": "When should I top up my validator’s balance?"
@@ -1392,9 +1398,6 @@
   "Vp4z/b": {
     "message": "Stakers running their own execution layer is necessary for the decentralization of the network."
   },
-  "VzGJkB": {
-    "message": "Staker checklist"
-  },
   "W10U1b": {
     "message": "Teku is Apache 2 licensed and written in Java, a language notable for its maturity and ubiquity."
   },
@@ -1736,9 +1739,6 @@
   },
   "eOpZjd": {
     "message": "It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds."
-  },
-  "eS/jfV": {
-    "message": "AgoraStaking for {TESTNET_AGORA_STAKING_NAME} testnet"
   },
   "eUhTs+": {
     "message": "Arguably the most impactful factor on rewards earned for validating transactions is the total amount of stake in the network. In other words, the total amount of validators. Depending on this figure the max annual return rate for a validator."

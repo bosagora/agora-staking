@@ -341,7 +341,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                     <FormattedMessage defaultMessage="FAQ" />
                   </DropdownLink>
                   <DropdownLink to={routesEnum.checklistPage}>
-                    <FormattedMessage defaultMessage="Staker checklist" />
+                    <FormattedMessage defaultMessage="CheckList" />
                   </DropdownLink>
                   <DropdownLink to={routesEnum.languagesPage}>
                     <FormattedMessage defaultMessage="Languages" />
@@ -351,23 +351,13 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                       <FormattedMessage defaultMessage="Execution clients" />
                     </b>
                   </Text>
-                  <DropdownLink to={routesEnum.besu}>Besu</DropdownLink>
-                  <DropdownLink to={routesEnum.erigon}>Erigon</DropdownLink>
-                  <DropdownLink to={routesEnum.geth}>Geth</DropdownLink>
-                  <DropdownLink to={routesEnum.nethermind}>
-                    Nethermind
-                  </DropdownLink>
+                  <DropdownLink to={routesEnum.geth}>Agora-el</DropdownLink>
                   <Text className="my20">
                     <b>
                       <FormattedMessage defaultMessage="Consensus clients" />
                     </b>
                   </Text>
-                  {/* <DropdownLink to={routesEnum.lighthouse}>
-                    Lighthouse
-                  </DropdownLink> */}
-                  {/* <DropdownLink to={routesEnum.nimbus}>Nimbus</DropdownLink> */}
-                  <DropdownLink to={routesEnum.prysm}>Prysm</DropdownLink>
-                  {/* <DropdownLink to={routesEnum.teku}>Teku</DropdownLink> */}
+                  <DropdownLink to={routesEnum.prysm}>Agora-cl</DropdownLink>
                 </Box>
               </Card>
             }

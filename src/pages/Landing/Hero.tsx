@@ -166,7 +166,7 @@ export const Hero = () => {
                             <FormattedMessage defaultMessage="Agora Staking" />
                           ) : (
                             <FormattedMessage
-                              defaultMessage="AgoraStaking for {TESTNET_AGORA_STAKING_NAME} testnet"
+                              defaultMessage="Agora Staking for {TESTNET_AGORA_STAKING_NAME}"
                               values={{ TESTNET_AGORA_STAKING_NAME }}
                             />
                           )}
