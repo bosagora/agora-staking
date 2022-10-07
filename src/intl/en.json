@@ -38,6 +38,9 @@
   "/FpD8O": {
     "message": "Do this after TTD client releases"
   },
+  "/QOisp": {
+    "message": "Beyond the Platform, Making the better world."
+  },
   "/QPc9s": {
     "message": "You can signal your intent to stop validating by signing a voluntary exit message with your validator."
   },
@@ -116,9 +119,6 @@
   },
   "0oNdmk": {
     "message": "Validators FAQ"
-  },
-  "0uqjBl": {
-    "message": "Earn continuous rewards for providing a public good to the community."
   },
   "122+yR": {
     "message": "withdrawal key"
@@ -1120,6 +1120,9 @@
   "P+nziG": {
     "message": "As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly."
   },
+  "P0o91b": {
+    "message": "Build, Vote, and Earn, all in one."
+  },
   "P91KmA": {
     "message": "Become a validator {emoji}"
   },
@@ -1636,9 +1639,6 @@
   },
   "by+LIm": {
     "message": "What is a validator client?"
-  },
-  "cGSwc/": {
-    "message": "Beyond the Platform, Making the better world Build, Vote, and Earn, all in one."
   },
   "cRzxes": {
     "message": "Current APR"

@@ -183,12 +183,12 @@ export const Hero = () => {
                       color="brand"
                       className="my20"
                     >
-                      <FormattedMessage defaultMessage="Beyond the Platform, Making the better world Build, Vote, and Earn, all in one." />
+                      <FormattedMessage defaultMessage="Beyond the Platform, Making the better world." />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
                     <Text className="mt25">
-                      <FormattedMessage defaultMessage="Earn continuous rewards for providing a public good to the community." />
+                      <FormattedMessage defaultMessage="Build, Vote, and Earn, all in one." />
                     </Text>
                   </ScrollAnimation>
 
