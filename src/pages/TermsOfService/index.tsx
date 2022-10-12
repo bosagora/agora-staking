@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { AppBar } from '../../components/AppBar';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
-import { Link } from '../../components/Link';
 
 const TermsOfServiceStyles = styled.div`
   .tos-text {
@@ -60,7 +59,7 @@ export const TermsOfService = () => {
             color="grayDark"
             className="tos-text last-updated-text"
           >
-            Page last updated: November 3, 2020
+            Page last updated: Oct 25, 2022
           </Text>
           <Heading level={2}>Terms of Use</Heading>
           <Text className="section-title tos-text" weight={500}>
@@ -68,49 +67,21 @@ export const TermsOfService = () => {
           </Text>
           <Text className="tos-text">
             Acceptance of the Terms of Use These terms of use are entered into
-            by and between you and the Ethereum Foundation ("Foundation", "we"
+            by and between you and the BOSAGORA Foundation ("Foundation", "we"
             or "us"). The following terms and conditions, together with any
             documents they expressly incorporate by reference (collectively,
-            these "Terms of Use"), govern your access to and use of
-            ethereum.org, including any content, functionality and services
-            offered on or through ethereum.org, ethereum.foundation, devcon.org,
-            and blog.ethereum.org (together, the "Website").
+            these "Terms of Use"), govern your access to and use of bosagora.io,
+            including any content, functionality and services offered on or
+            through bosagora.org, docs.bosagora.org, and
+            agora-staking.bosagora.org (together, the "Website").
           </Text>
           <Text className="tos-text">
             Please read the Terms of Use carefully before you start to use the
             Websites. By using the Websites or by clicking to accept or agree to
             the Terms of Use when this option is made available to you, you
-            accept and agree to be bound and abide by these Terms of Use in
-            addition to
-            <ul>
-              <li>
-                our{' '}
-                <Link
-                  primary
-                  inline
-                  to="https://ethereum.org/en/privacy-policy/"
-                >
-                  Privacy Policy
-                </Link>
-                , incorporated herein by reference; and
-              </li>
-              <li>
-                our{' '}
-                <Link
-                  primary
-                  inline
-                  to="https://ethereum.org/en/cookie-policy/"
-                >
-                  Cookie Policy
-                </Link>
-                , incorporated herein by reference (note: no cookies are used on
-                launchpad.ethereum.org).
-              </li>
-            </ul>
-          </Text>
-          <Text className="tos-text">
-            If you do not to agree to these Terms of Use or the Privacy Policy,
-            you must not access or use the Websites.
+            accept and agree to be bound and abide by these Terms of Use in. If
+            you do not to agree to these Terms of Use or the Privacy Policy, you
+            must not access or use the Websites.
           </Text>
           <Text className="section-title tos-text" weight={500}>
             Who May Use the Websites
@@ -207,13 +178,13 @@ export const TermsOfService = () => {
             Trademarks
           </Text>
           <Text className="tos-text">
-            The Foundation name, the terms Ethereum Switzerland, Ethereum Asia,
-            the Foundation logo and all related names, logos, product and
-            service names, designs and slogans are trademarks of the Foundation
-            or its affiliates or licensors. You must not use such marks without
-            the prior written permission of the Foundation. All other names,
-            logos, product and service names, designs and slogans on this
-            Websites are the trademarks of their respective owners.
+            The Foundation name, the terms BOSAGORA Switzerland, the Foundation
+            logo and all related names, logos, product and service names,
+            designs and slogans are trademarks of the Foundation or its
+            affiliates or licensors. You must not use such marks without the
+            prior written permission of the Foundation. All other names, logos,
+            product and service names, designs and slogans on this Websites are
+            the trademarks of their respective owners.
           </Text>
           <Text className="section-title tos-text" weight={500}>
             Prohibited Uses
@@ -341,12 +312,10 @@ export const TermsOfService = () => {
           </Text>
 
           <Text className="tos-text">
-            All information we collect on this Websites is subject to our{' '}
-            <Link primary inline to="https://ethereum.org/en/privacy-policy/">
-              Privacy Policy
-            </Link>
-            . By using the Website, you consent to all actions taken by us with
-            respect to your information in compliance with the Privacy Policy.
+            All information we collect on this Websites is subject to our
+            Privacy Policy . By using the Website, you consent to all actions
+            taken by us with respect to your information in compliance with the
+            Privacy Policy.
           </Text>
 
           <Text className="section-title tos-text" weight={500}>
@@ -530,7 +499,7 @@ export const TermsOfService = () => {
           <Text className="tos-text">
             The Terms of Use, our Privacy Policy and terms of conditions for the
             registration of events constitute the sole and entire agreement
-            between you and the Ethereum Foundation with respect to the Websites
+            between you and the BOSAGORA Foundation with respect to the Websites
             and supersede all prior and contemporaneous understandings,
             agreements, representations and warranties, both written and oral,
             with respect to the Websites.
@@ -541,8 +510,7 @@ export const TermsOfService = () => {
           <Text className="tos-text">
             This Websites is operated by the Foundation. All other feedback,
             comments, requests for technical support and other communications
-            relating to the Websites should be directed to:
-            support@ethereum.org.
+            relating to the Websites should be directed to: support@bosagora.io.
           </Text>
         </TermsOfServiceStyles>
       </Container>
