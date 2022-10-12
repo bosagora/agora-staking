@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 // @ts-ignore
 import Animate from 'animate.css-react';
 import { FormattedMessage, useIntl } from 'react-intl';
-import LeslieTheRhinoPNG from '../../static/bosagora-alternative-blue-3.png';
+import LeslieTheRhinoPNG from '../../static/agora/layer-17-copy-5.webp';
 import { routesEnum } from '../../Routes';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
@@ -21,8 +21,7 @@ interface mobile {
 const RainbowBackground = styled.div`
   min-width: 100%;
   overflow: hidden;
-  background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+  background-color: ${p => p.theme.backgroundColors.sectionGray};
   min-height: ${(p: mobile) => p.isMobile && 'calc(100vh - 20px)'};
 `;
 const MainContainer = styled.div`
@@ -180,14 +179,13 @@ export const Hero = () => {
                     <Heading
                       level={m ? 1 : 2}
                       size={m ? 'medium' : 'large'}
-                      color="brand"
                       className="my20"
                     >
                       <FormattedMessage defaultMessage="Beyond the Platform, Making the better world." />
                     </Heading>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
-                    <Text className="mt25">
+                    <Text color="#0d276b" className="mt25">
                       <FormattedMessage defaultMessage="Build, Vote, and Earn, all in one." />
                     </Text>
                   </ScrollAnimation>

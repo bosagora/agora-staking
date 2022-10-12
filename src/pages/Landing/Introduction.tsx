@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { FormattedMessage } from 'react-intl';
-import boaLogo from '../../static/BOA-logo.svg';
+import boaLogo from '../../static/BOA-logo-dark.svg';
 import { Text } from '../../components/Text';
 import { Heading } from '../../components/Heading';
 import { Link } from '../../components/Link';
@@ -62,12 +62,12 @@ export const Introduction = (): JSX.Element => {
       <SubContainer className="py100 flex">
         <ScrollAnimation animateIn="fadeIn" animateOnce>
           <ImgContainer>
-            <img src={boaLogo} alt="" />
+            <img src={boaLogo} alt="" color="#0d276b" />
           </ImgContainer>
         </ScrollAnimation>
         <ContentContainer>
           <ScrollAnimation animateIn="fadeIn" animateOnce>
-            <Heading level={2} size="medium" color="blueDark" margin="none">
+            <Heading level={2} size="medium" margin="none">
               <FormattedMessage defaultMessage="Validators and AGORA" />
             </Heading>
           </ScrollAnimation>

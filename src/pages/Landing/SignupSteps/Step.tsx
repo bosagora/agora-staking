@@ -9,7 +9,7 @@ const Container = styled.div`
 `;
 
 const Emoji = styled.span`
-  font-size: 80px;
+  height: 100px;
 `;
 
 const EmojiBackground = styled.div`
@@ -17,8 +17,7 @@ const EmojiBackground = styled.div`
   display: flex;
   justify-content: flex-start;
   text-align: center;
-  padding: 32px 0px;
-  margin-bottom: 16px;
+  padding: 0px 0px;
 `;
 
 const Body = styled.div`
@@ -26,10 +25,11 @@ const Body = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 200px;
+  margin-right: 30px;
 `;
 
 interface Props {
-  emoji?: string;
+  emoji?: any;
   emojiAlt?: string;
   title: string;
   content: string;
@@ -47,9 +47,7 @@ export const Step = ({
     <Container>
       <EmojiBackground>
         <Emoji>
-          <span role="img" aria-label={emojiAlt}>
-            {emoji}
-          </span>
+          <img src={emoji} alt={emojiAlt} />
         </Emoji>
       </EmojiBackground>
       <Body>

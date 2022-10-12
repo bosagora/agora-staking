@@ -868,10 +868,6 @@
   "Ja5vXW": {
     "message": "Further reading"
   },
-  "JaJccz": {
-    "description": "{network} inserts the testnet name, only if on the testnet",
-    "message": "Agora Staking {network}"
-  },
   "JamLbI": {
     "message": "There was an error loading your validator information from agorascan.io"
   },
@@ -1840,6 +1836,10 @@
   },
   "h8MTUo": {
     "message": "Your stake"
+  },
+  "hEefkz": {
+    "description": "{network} inserts the testnet name, only if on the testnet",
+    "message": "{network}"
   },
   "hF3hlp": {
     "message": "The AGORA staking deposit contract requires a minimum of {minTopupValue} {TICKER_NAME} to be sent at one time to be accepted."
