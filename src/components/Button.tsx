@@ -27,14 +27,15 @@ const StyledButton = styled(GrommetButton)`
   width: ${calculateWidth};
   font-size: 18px;
   letter-spacing: 1.5px;
+  color: ${colors.blue.agoraBlue};
   background-color: ${p =>
     p.primary ? p.theme.red.darkest : p.theme.gray.light};
-  border: ${p => `1px solid ${p.theme.gray.medium}`};
+  border: ${p => `1px solid ${p.theme.blue.border}`};
   &:hover {
     border-radius: 4px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    color: ${colors.white};
-    background-color: ${colors.purple.darkest};
+    color: ${colors.blue.agoraBlue};
+    //background-color: ${colors.purple.darkest};
     transition: transform 0.1s;
     transform: scale(1.02);
   }
@@ -42,11 +43,12 @@ const StyledButton = styled(GrommetButton)`
   ${p =>
     // @ts-ignore
     p.rainbow &&
-    `background-color: ${p.theme.green.darkest};
-     color: ${p.theme.white};
-     border: 1px solid ${p.theme.green.darkest};
+    `background-color: ${p.theme.blue.subtext};
+     color: ${p.theme.lemon};
+     border: 1px solid ${p.theme.blue.subtext};
      &:hover {
-      background-color: ${p.theme.green.darkest};
+      background-color: ${p.theme.blue.subtext};
+      color: ${p.theme.lemon};
      }
    `}
 `;

@@ -9,6 +9,7 @@ import { Button } from '../../../components/Button';
 import { numberWithCommas } from '../../../utils/numberWithCommas';
 import { BEACONCHAIN_URL, TICKER_NAME } from '../../../utils/envVars';
 import calculateStakingRewards from '../../../utils/calculateStakingRewards';
+import { backgroundColors } from '../../../styles/styledComponentsTheme';
 
 //
 // Styled Components
@@ -29,19 +30,19 @@ const Content = styled.div`
   }
 `;
 
-const BoldGreen = styled.span`
-  color: ${(p: { theme: any; fontSize: number }) => p.theme.green.dark};
+const BoldBlue = styled.span`
+  color: ${(p: { theme: any; fontSize: number }) => p.theme.blue.agoraBlue};
   font-size: ${(p: { theme: any; fontSize: number }) => p.fontSize}px;
   font-weight: bold;
 `;
 
 const Card = styled.div`
   padding: 24px;
-  border: 1px solid ${p => p.theme.gray.dark};
-  border-radius: 4px;
+  //border: 1px solid ${p => p.theme.gray.dark};
+  //border-radius: 4px;
   width: 100%;
   margin: 16px;
-  background: white;
+  background: ${backgroundColors.sectionGray};
   @media only screen and (max-width: ${p => p.theme.screenSizes.medium}) {
     margin: 0px;
     margin-top: 16px;
@@ -108,46 +109,46 @@ export const NetworkStatus: React.FC<{
     <Container isMobile={m}>
       <ScrollAnimation delay={750} animateIn="fadeIn" animateOnce>
         <Content isMobile={m}>
-          <Heading level={2} size="medium" color="blueDark" className="mb40">
+          <Heading level={2} size="medium" className="mb40">
             <FormattedMessage defaultMessage="The Agora Chain" />
           </Heading>
           <CardContainer>
             <Card>
-              <Heading level={3} size="medium" color="blueDark" margin="none">
+              <Heading level={4} size="medium" margin="none">
                 <FormattedMessage
                   defaultMessage="Total {TICKER_NAME} staked"
                   values={{ TICKER_NAME }}
                 />
               </Heading>
               <Text size="x-large" className="mt20">
-                <BoldGreen className="mr10" fontSize={24}>
+                <BoldBlue className="mr10" fontSize={25}>
                   <LoadingHandler
                     value={`${numberWithCommas(amountEth)} ${TICKER_NAME}`}
                   />
-                </BoldGreen>
+                </BoldBlue>
               </Text>
             </Card>
             <Card>
-              <Heading level={3} size="medium" color="blueDark" margin="none">
+              <Heading level={4} size="medium" margin="none">
                 <FormattedMessage defaultMessage="Total validators" />
               </Heading>
               <Text size="x-large" className="mt20">
-                <BoldGreen className="mr10" fontSize={24}>
+                <BoldBlue className="mr10" fontSize={25}>
                   <LoadingHandler value={numberWithCommas(totalValidators)} />
-                </BoldGreen>
+                </BoldBlue>
               </Text>
             </Card>
             <Card>
-              <Heading level={3} size="medium" color="blueDark" margin="none">
+              <Heading level={4} size="medium" margin="none">
                 <FormattedMessage
                   defaultMessage="Current APR"
                   description="APR refers to Annual Percentage Rate"
                 />
               </Heading>
               <Text size="x-large" className="mt20">
-                <BoldGreen className="mr10" fontSize={24}>
+                <BoldBlue className="mr10" fontSize={25}>
                   {formattedAPR}%
-                </BoldGreen>
+                </BoldBlue>
               </Text>
             </Card>
           </CardContainer>
@@ -155,6 +156,7 @@ export const NetworkStatus: React.FC<{
             <Link isTextLink={false} to={BEACONCHAIN_URL}>
               <Button
                 fullWidth
+                rainbow
                 width={m ? undefined : 400}
                 label={formatMessage({ defaultMessage: 'More stats' })}
               />

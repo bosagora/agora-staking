@@ -2185,16 +2185,6 @@
       "value": "추가 읽기"
     }
   ],
-  "JaJccz": [
-    {
-      "type": 0,
-      "value": "Agora 스테이킹 "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    }
-  ],
   "JamLbI": [
     {
       "type": 0,
@@ -4681,6 +4671,12 @@
     {
       "type": 0,
       "value": "내 지분"
+    }
+  ],
+  "hEefkz": [
+    {
+      "type": 1,
+      "value": "network"
     }
   ],
   "hF3hlp": [

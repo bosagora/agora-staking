@@ -8,6 +8,12 @@ import { routesEnum } from '../../../Routes';
 import { Link } from '../../../components/Link';
 import { Step } from './Step';
 import { IS_MAINNET, TESTNET_AGORA_STAKING_URL } from '../../../utils/envVars';
+import StepIcon1 from '../../../static/agora/layer-21.webp';
+import StepIcon2 from '../../../static/agora/layer-22.webp';
+import StepIcon3 from '../../../static/agora/layer-23.webp';
+import StepIcon4 from '../../../static/agora/layer-24.webp';
+import StepIcon5 from '../../../static/agora/layer-27.webp';
+import StepIcon6 from '../../../static/agora/layer-26.webp';
 
 const Container = styled.div`
   box-sizing: border-box;
@@ -45,7 +51,7 @@ export const SignupSteps = (): JSX.Element => {
   return (
     <Container className="py100">
       <ScrollAnimation animateIn="fadeIn" animateOnce>
-        <Heading level={2} size="medium" color="blueDark" margin="none">
+        <Heading level={2} size="medium" margin="none">
           <FormattedMessage defaultMessage="Become a validator" />
         </Heading>
         <Subtitle>
@@ -58,7 +64,7 @@ export const SignupSteps = (): JSX.Element => {
       <StepsContainer>
         <ScrollAnimation animateIn="fadeInUp" animateOnce>
           <Step
-            emoji="📚"
+            emoji={StepIcon1}
             emojiAlt={formatMessage({ defaultMessage: 'books' })}
             title={formatMessage({
               defaultMessage: '1. Learn about your responsibilities',
@@ -75,7 +81,7 @@ export const SignupSteps = (): JSX.Element => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce delay={300}>
           <Step
-            emoji="🔧"
+            emoji={StepIcon2}
             emojiAlt={formatMessage({ defaultMessage: 'wrench' })}
             title={formatMessage({ defaultMessage: '2. Prep nodes' })}
             content={formatMessage({
@@ -90,7 +96,7 @@ export const SignupSteps = (): JSX.Element => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce delay={150}>
           <Step
-            emoji="🥋"
+            emoji={StepIcon3}
             emojiAlt={formatMessage({
               defaultMessage: 'martial arts uniform',
             })}
@@ -113,7 +119,7 @@ export const SignupSteps = (): JSX.Element => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce delay={300}>
           <Step
-            emoji="🎣"
+            emoji={StepIcon4}
             emojiAlt={formatMessage({
               defaultMessage: 'fishing rod',
             })}
@@ -130,7 +136,7 @@ export const SignupSteps = (): JSX.Element => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce delay={150}>
           <Step
-            emoji="💰"
+            emoji={StepIcon5}
             emojiAlt={formatMessage({ defaultMessage: 'money bag' })}
             title={formatMessage({ defaultMessage: '5. Time to deposit' })}
             content={formatMessage({
@@ -145,7 +151,7 @@ export const SignupSteps = (): JSX.Element => {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" animateOnce delay={300}>
           <Step
-            emoji="🕰"
+            emoji={StepIcon6}
             emojiAlt={formatMessage({ defaultMessage: 'clock' })}
             title={formatMessage({
               defaultMessage: '6. Wait to become active',

@@ -36,7 +36,7 @@ const StyledExternalLink = styled.a<
 >`
   ${styles};
   color: ${(props: any) =>
-    props.primary ? props.theme.blue.medium : 'inherit'};
+    props.primary ? props.theme.blue.medium : props.theme.blue.agoraBlue};
   display: ${(props: any) => (props.inline ? 'inline' : 'inherit')};
   &:after {
     display: ${(props: any) => (props.isTextLink ? `inline` : `none`)};
@@ -66,7 +66,7 @@ const StyledHashLink = styled(StyledExternalLink as any)<
 const StyledLink = styled(RouterLink)`
   ${styles};
   color: ${(props: any) =>
-    props.primary ? props.theme.blue.medium : 'inherit'};
+    props.primary ? props.theme.blue.agoraBlue : 'inherit'};
   display: ${(props: any) => (props.inline ? 'inline' : 'inherit')};
 `;
 

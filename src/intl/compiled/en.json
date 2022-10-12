@@ -2213,16 +2213,6 @@
       "value": "Further reading"
     }
   ],
-  "JaJccz": [
-    {
-      "type": 0,
-      "value": "Agora Staking "
-    },
-    {
-      "type": 1,
-      "value": "network"
-    }
-  ],
   "JamLbI": [
     {
       "type": 0,
@@ -4733,6 +4723,12 @@
     {
       "type": 0,
       "value": "Your stake"
+    }
+  ],
+  "hEefkz": [
+    {
+      "type": 1,
+      "value": "network"
     }
   ],
   "hF3hlp": [

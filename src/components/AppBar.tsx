@@ -6,7 +6,7 @@ import { Box, DropButton } from 'grommet';
 import { Menu, Language, FormDown } from 'grommet-icons';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
-import EthDiamond from '../static/bosagora-alternative-white-1.png';
+import EthDiamond from '../static/agora/mainlogo.svg';
 import { web3ReactInterface } from '../pages';
 import {
   AllowedNetworks,
@@ -34,27 +34,28 @@ const RainbowBackground = styled(Box)`
 `;
 
 const EthLogo = styled.img`
-  height: 40px;
+  height: 28px;
+  margin: 15px 0;
 `;
 
 const NetworkText = styled.div`
   padding: 5px 8px;
-  border: 1px solid;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: ${colors.white};
+  color: ${colors.lemon};
+  background-color: ${colors.blue.subtext};
   display: flex;
   justify-content: center;
   width: 100%;
-  border-radius: 4px;
+  border-radius: 2px;
   &:hover {
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: 0px 8px 17px rgba(0, 0, 0, 0.15);
-    background-color: ${colors.yellow.darkest};
+    background-color: ${colors.blue.subtext};
     transition: transform 0.1s;
     transform: scale(1.02);
-    color: ${colors.black};
+    color: ${colors.lemon};
   }
 `;
 
@@ -111,7 +112,7 @@ const NavLinksRight = styled.div`
 
 const BarLinkText = styled(Heading)`
   :not(.no-padding) {
-    padding: 0 12px;
+    padding: 0 12px 0 6px;
     white-space: nowrap;
   }
   display: flex;
@@ -185,7 +186,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 className="bar-link-text no-padding"
               >
                 <FormattedMessage
-                  defaultMessage="Agora Staking {network}"
+                  defaultMessage=" {network}"
                   values={{
                     network: IS_MAINNET ? '' : `(${NETWORK_NAME})`,
                   }}
@@ -289,8 +290,9 @@ const _AppBar = ({ location }: RouteComponentProps) => {
       <NavLinksRight>
         {!mobile && (
           <Link to={routesEnum.languagesPage} className="mx10 secondary-link">
+            <Language size="20px" color={colors.blue.agoraLight} />
             <BarLinkText
-              level={4}
+              level={5}
               margin="none"
               className="bar-link-text"
               active={pathname === routesEnum.languagesPage}
@@ -369,7 +371,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             label={
               <NetworkText>
                 {NETWORK_NAME}
-                <FormDown />
+                <FormDown color={colors.lemon} />
               </NetworkText>
             }
             dropAlign={{ top: 'bottom', right: 'right' }}

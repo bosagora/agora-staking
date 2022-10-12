@@ -47,6 +47,10 @@ const ButtonContainer = styled.div`
   justify-content: center;
 `;
 
+const LinkStyled = styled.div`
+  color: ${p => p.theme.blue.agoraLight};
+`;
+
 const ButtonLink = styled(Link)`
   width: fit-content;
   padding: 0;
@@ -70,21 +74,23 @@ export const Footer = () => {
     <RainbowBackground>
       <FooterStyles>
         <div className="col">
-          <Heading level={4} color={colors.blue.light}>
+          <Heading level={4} color={colors.white}>
             <FormattedMessage defaultMessage="Agora Staking" />
           </Heading>
-          <Link to={routesEnum.acknowledgementPage}>
-            <FormattedMessage defaultMessage="Deposit" />
-          </Link>
-          <Link to={routesEnum.checklistPage}>
-            <FormattedMessage defaultMessage="Checklist" />
-          </Link>
-          <Link to={routesEnum.FaqPage}>
-            <FormattedMessage defaultMessage="FAQ" />
-          </Link>
-          <Link to={routesEnum.termsOfServicePage}>
-            <FormattedMessage defaultMessage="Terms of Service" />
-          </Link>
+          <LinkStyled>
+            <Link to={routesEnum.acknowledgementPage}>
+              <FormattedMessage defaultMessage="Deposit" />
+            </Link>
+            <Link to={routesEnum.checklistPage}>
+              <FormattedMessage defaultMessage="Checklist" />
+            </Link>
+            <Link to={routesEnum.FaqPage}>
+              <FormattedMessage defaultMessage="FAQ" />
+            </Link>
+            <Link to={routesEnum.termsOfServicePage}>
+              <FormattedMessage defaultMessage="Terms of Service" />
+            </Link>
+          </LinkStyled>
         </div>
 
         {!despotWorkflowRoutes.includes(pathname as routesEnum) && (
@@ -94,7 +100,6 @@ export const Footer = () => {
               className="cta-button"
             >
               <Button
-                rainbow
                 fullWidth
                 width={400}
                 label={
@@ -104,7 +109,7 @@ export const Footer = () => {
                       emoji: (
                         <Rhino>
                           <span role="img" aria-label="rhino">
-                            🏛️
+                            ️
                           </span>
                         </Rhino>
                       ),
@@ -116,24 +121,26 @@ export const Footer = () => {
           </ButtonContainer>
         )}
         <div className="col extra-links">
-          <Heading level={4} color={colors.blue.light}>
+          <Heading level={4} color={colors.white}>
             <FormattedMessage defaultMessage="More on staking" />
           </Heading>
-          <Link to={routesEnum.phishingPage}>
-            <FormattedMessage defaultMessage="Avoid phishing" />
-          </Link>
-          <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_EN_2103_3.pdf">
-            <FormattedMessage defaultMessage="White Paper (EN)" />
-          </Link>
-          <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_CH_2103_3.pdf">
-            <FormattedMessage defaultMessage="White Paper (CH)" />
-          </Link>
-          <Link to="https://t.me/bosagora_eng">
-            <FormattedMessage defaultMessage="Community" />
-          </Link>
-          <Link to="https://medium.com/bosagora">
-            <FormattedMessage defaultMessage="Blog" />
-          </Link>
+          <LinkStyled>
+            <Link to={routesEnum.phishingPage}>
+              <FormattedMessage defaultMessage="Avoid phishing" />
+            </Link>
+            <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_EN_2103_3.pdf">
+              <FormattedMessage defaultMessage="White Paper (EN)" />
+            </Link>
+            <Link to="https://bosagora.io/wp-content/uploads/2022/05/BOSAGORA_Whitepaper_CH_2103_3.pdf">
+              <FormattedMessage defaultMessage="White Paper (CH)" />
+            </Link>
+            <Link to="https://t.me/bosagora_eng">
+              <FormattedMessage defaultMessage="Community" />
+            </Link>
+            <Link to="https://medium.com/bosagora">
+              <FormattedMessage defaultMessage="Blog" />
+            </Link>
+          </LinkStyled>
         </div>
       </FooterStyles>
     </RainbowBackground>

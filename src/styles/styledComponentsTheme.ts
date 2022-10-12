@@ -13,7 +13,11 @@ export const colors = {
     light: '#99b9d8',
     medium: '#6695c5',
     dark: '#3372b1',
-    darkest: '#004f9e',
+    darkest: '#275ada',
+    agoraBlue: '#275ada',
+    subtext: '#0d276b',
+    border: '#3367eb',
+    agoraLight: '#bacbff',
   },
   green: {
     lightest: '#d6f9eb',
@@ -44,6 +48,11 @@ export const colors = {
     dark: '#ffbc33',
     darkest: '#Ffab00',
   },
+  lemon: '#f1cc69',
+};
+
+export const backgroundColors = {
+  sectionGray: '#e8f2ff',
 };
 
 export const details = {
@@ -100,4 +109,5 @@ export const styledComponentsTheme = {
   rainbow,
   rainbowLight,
   rainbowLightColors,
+  backgroundColors,
 };
