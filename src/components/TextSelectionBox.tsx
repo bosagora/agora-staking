@@ -36,7 +36,7 @@ export const TextSelectionBox = ({
         ...style,
       }}
     >
-      <SelectionText level={5} size="small" color="blueDark">
+      <SelectionText level={5} size="small">
         {children}
       </SelectionText>
     </SelectionBox>

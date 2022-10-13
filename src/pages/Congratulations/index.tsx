@@ -276,13 +276,7 @@ const _CongratulationsPage = ({
       <AppBar />
       <Gutter>
         <Content>
-          <Heading
-            level={2}
-            size="medium"
-            className="mt30"
-            color="blueDark"
-            margin="none"
-          >
+          <Heading level={2} size="medium" className="mt30" margin="none">
             <FormattedMessage defaultMessage="Your stake has reached the deposit contract!" />
             <span
               role="img"
@@ -331,18 +325,12 @@ const _CongratulationsPage = ({
             )}
           </Alert>
           <div>
-            <Heading
-              level={3}
-              size="medium"
-              color="blueDark"
-              margin="none"
-              className="mt60"
-            >
+            <Heading level={3} size="medium" margin="none" className="mt60">
               <FormattedMessage defaultMessage="Overview" />
             </Heading>
             <CardContainer>
               <Card>
-                <Heading level={3} size="medium" color="blueDark" margin="none">
+                <Heading level={3} size="medium" margin="none">
                   <FormattedMessage defaultMessage="Your stake" />
                 </Heading>
                 <Text size="x-large" className="mt20">
@@ -352,7 +340,7 @@ const _CongratulationsPage = ({
                 </Text>
               </Card>
               <Card>
-                <Heading level={3} size="medium" color="blueDark" margin="none">
+                <Heading level={3} size="medium" margin="none">
                   <FormattedMessage defaultMessage="Your validators" />
                 </Heading>
                 <Text size="x-large" className="mt20">
@@ -387,7 +375,7 @@ const _CongratulationsPage = ({
                 )}
               </Card>
               <Card>
-                <Heading level={3} size="medium" color="blueDark" margin="none">
+                <Heading level={3} size="medium" margin="none">
                   <FormattedMessage defaultMessage="Current APR" />
                 </Heading>
                 <Text size="x-large" className="mt20">
@@ -400,12 +388,7 @@ const _CongratulationsPage = ({
                 <CardButton onClick={handleAllTransactionsClick}>
                   <Row>
                     <div>
-                      <Heading
-                        level={3}
-                        size="medium"
-                        color="blueDark"
-                        margin="none"
-                      >
+                      <Heading level={3} size="medium" margin="none">
                         <span
                           role="img"
                           aria-label={formatMessage({
@@ -439,12 +422,7 @@ const _CongratulationsPage = ({
                 <CardLink to={`${routesEnum.checklistPage}/#section-three`}>
                   <Row>
                     <div>
-                      <Heading
-                        level={3}
-                        size="medium"
-                        color="blueDark"
-                        margin="none"
-                      >
+                      <Heading level={3} size="medium" margin="none">
                         <span
                           role="img"
                           aria-label={formatMessage({

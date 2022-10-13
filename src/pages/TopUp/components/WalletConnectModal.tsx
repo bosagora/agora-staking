@@ -69,7 +69,7 @@ const WalletConnectModal: React.FC<{
     return (
       <Layer>
         <div className="p20 flex">
-          <Heading level={2} color="blueMedium" center className="mb20">
+          <Heading level={2} center className="mb20">
             <FormattedMessage defaultMessage="Wrong network" />
           </Heading>
           <Network
@@ -95,7 +95,7 @@ const WalletConnectModal: React.FC<{
       <CloseButton onClick={handleModalClose}>
         <Close src={closeGlyph} />
       </CloseButton>
-      <Heading level={2} color="blueMedium" style={{ margin: '20px auto' }}>
+      <Heading level={2} style={{ margin: '20px auto' }}>
         <FormattedMessage defaultMessage="Connect a wallet" />
       </Heading>
       <div style={{ margin: 'auto' }}>

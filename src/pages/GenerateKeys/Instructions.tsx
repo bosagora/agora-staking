@@ -24,7 +24,7 @@ export const Instructions = ({
   const { formatMessage } = useIntl();
   return (
     <Paper className="mt20" style={{ animation: 'fadeIn 1s' }}>
-      <Heading level={2} size="small" color="blueMedium">
+      <Heading level={2} size="small">
         <FormattedMessage defaultMessage="How do you want to generate your keys?" />
       </Heading>
       <div className="my20" style={{ display: 'flex' }}>

@@ -30,6 +30,7 @@ import {
 } from '../../utils/envVars';
 import instructions1 from '../../static/instructions_1.svg';
 import instructions2 from '../../static/instructions_2.svg';
+import { colors } from '../../styles/styledComponentsTheme';
 
 export enum operatingSystem {
   'MAC',
@@ -50,7 +51,7 @@ export enum keysTool {
 }
 
 const Highlight = styled.span`
-  background: ${p => p.theme.green.medium};
+  background: ${p => p.theme.yellow.highlight};
 `;
 
 const InstructionImgContainer = styled.div`
@@ -108,7 +109,7 @@ const _GenerateKeysPage = ({
       title={formatMessage({ defaultMessage: 'Generate key pairs' })}
     >
       <Paper>
-        <Heading level={2} size="small" color="blueDark">
+        <Heading level={2} size="small">
           <FormattedMessage defaultMessage="How many validators would you like to run?" />
         </Heading>
         <div className="flex mt20">
@@ -120,7 +121,7 @@ const _GenerateKeysPage = ({
           </div>
           <div className="ml50">
             <Text className="mb5">Cost</Text>
-            <Text>
+            <Text color={colors.blue.agoraBlue} size="xxlarge">
               {validatorCount === ''
                 ? validatorCount
                 : new BigNumber(validatorCount)
@@ -133,7 +134,7 @@ const _GenerateKeysPage = ({
         </div>
       </Paper>
       <Paper className="mt20">
-        <Heading level={2} size="small" color="blueMedium">
+        <Heading level={2} size="small">
           <FormattedMessage defaultMessage="What is your current operating system?" />
         </Heading>
         <Text className="mt20 mb40">
@@ -154,7 +155,7 @@ const _GenerateKeysPage = ({
       />
 
       <Paper className="mt20">
-        <Heading level={2} size="small" color="blueMedium">
+        <Heading level={2} size="small">
           <FormattedMessage defaultMessage="Save the key files and get the validator file ready" />
         </Heading>
         <Text className="mt20">
@@ -208,10 +209,12 @@ const _GenerateKeysPage = ({
           <img src={instructions2} alt="" />
         </InstructionImgContainer>
         <Alert variant="error">
-          <FormattedMessage
-            defaultMessage="Warning: Do not store keys on multiple (backup) validators at once"
-            description="Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once."
-          />
+          <Text color="#FF0000">
+            <FormattedMessage
+              defaultMessage="Warning: Do not store keys on multiple (backup) validators at once"
+              description="Warns users to not run backup validators that have a live copy of their signing keys. Keys should only be on one validator machine at once."
+            />
+          </Text>
         </Alert>
       </Paper>
       <Paper className="mt20">

@@ -45,7 +45,7 @@ const SelectClientSection = ({
   ethClientStep,
 }: Props): JSX.Element => (
   <Paper>
-    <Heading level={3} size="small" color="blueDark" className="mb20">
+    <Heading level={3} size="small" className="mb20">
       {title}
     </Heading>
     {ethClientStep === 'execution' && (

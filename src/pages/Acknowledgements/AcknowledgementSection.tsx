@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useIntl } from 'react-intl';
 import { AcknowledgementIdsEnum } from '../../store/reducers';
 import { Button } from '../../components/Button';
 import { Text } from '../../components/Text';
 import { Heading } from '../../components/Heading';
 import { Link } from '../../components/Link';
 import { routesEnum } from '../../Routes';
-import { useIntl } from 'react-intl';
 
 const Container = styled.div`
   width: 100%;
@@ -16,10 +16,11 @@ const Container = styled.div`
 `;
 
 const AcknowledgementText = styled(Text as any)`
-  background: #ffdeb32e;
-  border: 1px solid burlywood;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
   padding: 30px;
   border-radius: 4px;
+  color: #ff0000;
 `;
 
 export interface AcknowledgementSectionData {
@@ -107,7 +108,7 @@ export const AcknowledgementSection = ({
   return (
     <Container>
       <div>
-        <Heading level={2} size="medium" color="blueDark" className="mb50">
+        <Heading level={2} size="medium" className="mb50">
           {title}
         </Heading>
         {content}

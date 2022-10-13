@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import _every from 'lodash/every';
 import _pickBy from 'lodash/pickBy';
 import _values from 'lodash/values';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { WorkflowPageTemplate } from '../../components/WorkflowPage/WorkflowPageTemplate';
 import {
   AcknowledgementIdsEnum,
@@ -24,7 +25,7 @@ import {
   updateAcknowledgementState,
 } from '../../store/actions/acknowledgementActions';
 import { Paper } from '../../components/Paper';
-import { FormattedMessage, useIntl } from 'react-intl';
+import { colors } from '../../styles/styledComponentsTheme';
 
 interface OwnProps {}
 interface StateProps {
@@ -68,6 +69,7 @@ const _AcknowledgementPage = ({
   const Subtitle = styled.p`
     font-size: 20px;
     margin-bottom: 32px;
+    color: ${colors.blue.subtext};
   `;
 
   const handleSubmit = () => {

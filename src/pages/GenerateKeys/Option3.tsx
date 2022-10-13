@@ -197,10 +197,10 @@ export const Option3 = ({
 
   return (
     <div className="mt30">
-      <Heading level={2} size="small" color="blueMedium" className="mb20">
+      <Heading level={2} size="small" className="mb20">
         <FormattedMessage defaultMessage="Build deposit-cli from the Python source code" />
       </Heading>
-      <Heading level={4} size="small" color="blueMedium" className="mb10">
+      <Heading level={4} size="small" className="mb10">
         <FormattedMessage defaultMessage="Install python3.7+" />
       </Heading>
       <Text>{renderPythonInstructions()}</Text>
@@ -226,11 +226,11 @@ export const Option3 = ({
         </Text>
       </Alert>
 
-      <Heading level={4} size="small" color="blueMedium" className="mb10 mt20">
+      <Heading level={4} size="small" className="mb10 mt20">
         <FormattedMessage defaultMessage="Install pip3" />
       </Heading>
       {renderPipInstructions()}
-      <Heading level={4} size="small" color="blueMedium" className="mb10 my20">
+      <Heading level={4} size="small" className="mb10 my20">
         <FormattedMessage defaultMessage="Install virtualenv" />
       </Heading>
       <Text>
@@ -243,7 +243,7 @@ export const Option3 = ({
           <FormattedMessage defaultMessage="More on virtualenv" />
         </Link>
       </Text>
-      <Heading level={4} size="small" color="blueMedium" className="mb10 mt20">
+      <Heading level={4} size="small" className="mb10 mt20">
         <FormattedMessage defaultMessage="Install deposit-cli tool" />
       </Heading>
       <Text>
@@ -311,7 +311,7 @@ export const Option3 = ({
           <span style={{ color: colors.purple.dark }}>.txt</span>
         </pre>
       </Alert>
-      <Heading level={4} size="small" color="blueMedium" className="mb10">
+      <Heading level={4} size="small" className="mb10">
         <FormattedMessage defaultMessage="Generate deposit keys using the BOSAGORA Foundation deposit tool" />
       </Heading>
       <Alert className="my20" variant="info">

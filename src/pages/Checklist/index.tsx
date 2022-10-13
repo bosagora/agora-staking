@@ -29,6 +29,7 @@ import { routesEnum } from '../../Routes';
 import { Code } from '../../components/Code';
 import { Alert } from '../../components/Alert';
 import useIntlNetworkName from '../../hooks/useIntlNetworkName';
+import { colors } from '../../styles/styledComponentsTheme';
 
 const ChecklistPageStyles = styled.div`
   section {
@@ -50,6 +51,7 @@ const ChecklistPageStyles = styled.div`
   }
   .checkbox-label {
     margin-left: 0.5rem;
+    color: #516aac;
   }
   ul {
     padding-left: 0px;
@@ -132,12 +134,6 @@ const SectionHeader = styled.div`
   }
 `;
 
-const RainbowHeader = styled(SectionHeader as any)`
-  margin: 3rem 1rem 1rem;
-  background-image: ${p =>
-    `linear-gradient(to right, ${p.theme.rainbowLight})`};
-`;
-
 const CardContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
@@ -149,10 +145,10 @@ const CardContainer = styled.div`
 
 const Card = styled.div`
   padding: 24px;
-  border: 1px solid ${p => p.theme.gray.dark};
+  border: 1px solid ${p => p.theme.gray.agoraBorder};
   border-radius: 4px;
   width: 100%;
-  background: white;
+  background: ${p => p.theme.backgroundColors.sectionGray};
   display: flex;
   align-items: center;
   width: 100%;
@@ -171,7 +167,7 @@ const Card = styled.div`
 `;
 
 const BoldGreen = styled.span`
-  color: ${(p: { theme: any; fontSize: number }) => p.theme.green.dark};
+  color: ${(p: { theme: any; fontSize: number }) => p.theme.blue.darkest};
   font-size: ${(p: { theme: any; fontSize: number }) => p.fontSize}px;
   font-weight: bold;
 `;
@@ -434,10 +430,10 @@ export const Checklist = () => {
           </Text>
         </SectionHeader>
         <Alert variant="warning" className="my40 mx15">
-          <Heading level={4}>
+          <Heading level={4} color={colors.red.pure}>
             <FormattedMessage defaultMessage="Recommendation disclaimer" />
           </Heading>
-          <Text className="mt20">
+          <Text className="mt20" color={colors.red.pure}>
             <FormattedMessage
               defaultMessage="Hardware suggestions are an ever-evolving target. Current
                     minimum requirements are likely to increase by an order of magnitude after the merge and
@@ -757,11 +753,11 @@ export const Checklist = () => {
             </li>
           </ul>
         </section>
-        <Alert variant="error" className="my40 mx15">
-          <Heading level={4}>
+        <Alert variant="warning" className="my40 mx15">
+          <Heading level={4} color={colors.red.pure}>
             <FormattedMessage defaultMessage="Testnet practice" />
           </Heading>
-          <Text className="mt20">
+          <Text className="mt20" color={colors.red.pure}>
             <FormattedMessage defaultMessage="We strongly recommended you complete these steps on the current testnet before Mainnet." />
             {'  '}
             <Link inline primary to={TESTNET_AGORA_STAKING_URL}>
@@ -828,11 +824,11 @@ export const Checklist = () => {
               ))}
           </ClientContainer>
           {tutorialLinkBox()}
-          <Alert variant="error" className="my40 mx15">
-            <Heading level={4}>
+          <Alert variant="warning" className="my40 mx15">
+            <Heading level={4} color={colors.red.pure}>
               <FormattedMessage defaultMessage="Warning!" />
             </Heading>
-            <Text className="mt20">
+            <Text className="mt20" color={colors.red.pure}>
               <FormattedMessage
                 defaultMessage="It is high risk to run your validator in multiple places. It will lead to a slashable event and ejection from the network. {learnMore}"
                 values={{
@@ -961,7 +957,9 @@ export const Checklist = () => {
             </Text>
           </Heading>
           <Alert variant="info" className="mt20">
-            <FormattedMessage defaultMessage="These steps are optional but are recommended to optimize your node." />
+            <Text color={colors.blue.subtext} weight={500}>
+              <FormattedMessage defaultMessage="These steps are optional but are recommended to optimize your node." />
+            </Text>
           </Alert>
         </SectionHeader>
         <section>
@@ -1128,7 +1126,7 @@ export const Checklist = () => {
             }
           />
         </section>
-        <RainbowHeader>
+        <Alert variant="empty">
           <FormattedMessage
             defaultMessage="If you have questions, BOSagora community is a good place to get help!
                 You can find support on {community}."
@@ -1141,7 +1139,7 @@ export const Checklist = () => {
             }}
             description="{variables} social media platform links to community (do not translate names)"
           />
-        </RainbowHeader>
+        </Alert>
       </ChecklistPageStyles>
     </PageTemplate>
   );

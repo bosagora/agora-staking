@@ -14,6 +14,7 @@ import { connect } from 'react-redux';
 import { AbstractConnector } from '@web3-react/abstract-connector';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
+import { FormattedMessage, useIntl } from 'react-intl';
 import { Paper } from '../../../components/Paper';
 import { Text } from '../../../components/Text';
 import { Heading } from '../../../components/Heading';
@@ -27,7 +28,6 @@ import {
   DispatchTransactionStatusUpdateType,
   updateTransactionStatus,
 } from '../../../store/actions/depositFileActions';
-import { FormattedMessage, useIntl } from 'react-intl';
 
 const CustomTableRow = styled(p => <TableRow {...p} />)`
   background-color: ${(p: any) => {
@@ -77,7 +77,7 @@ const _KeyList = ({ depositKeys, dispatchTransactionStatusUpdate }: Props) => {
   const { formatMessage } = useIntl();
   return (
     <CustomPaper className="mt20">
-      <Heading level={3} size="small" color="blueMedium" className="mb20">
+      <Heading level={3} size="small" className="mb20">
         <FormattedMessage defaultMessage="Key list" />
       </Heading>
       <Box pad="x-small">

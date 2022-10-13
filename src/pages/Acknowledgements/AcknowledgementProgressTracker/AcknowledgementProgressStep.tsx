@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import _keys from 'lodash/keys';
 import _every from 'lodash/every';
-import { colors } from '../../../styles/styledComponentsTheme';
 import { Animated } from 'react-animated-css';
+import { colors } from '../../../styles/styledComponentsTheme';
 import {
   AcknowledgementIdsEnum,
   AcknowledgementStateInterface,
@@ -109,8 +109,8 @@ export const AcknowledgementProgressStep = ({
           >
             <circle
               className="path circle"
-              fill={isActive ? colors.green.dark : colors.green.medium}
-              stroke={isActive ? colors.green.dark : colors.green.medium}
+              fill={isActive ? colors.blue.medium : colors.blue.agoraBlue}
+              stroke={isActive ? colors.blue.medium : colors.blue.agoraBlue}
               strokeWidth="6"
               strokeLinecap="round"
               strokeMiterlimit="10"
@@ -120,7 +120,7 @@ export const AcknowledgementProgressStep = ({
             />
             <polyline
               className="path check"
-              fill={isActive ? colors.green.dark : colors.green.medium}
+              fill={isActive ? colors.blue.medium : colors.blue.agoraBlue}
               stroke="#fff"
               strokeWidth="6"
               strokeLinecap="round"

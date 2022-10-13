@@ -1,11 +1,15 @@
 export const colors = {
   transparent: 'transparent',
   white: '#ffffff',
+  normalFont: '#666666',
   gray: {
     lightest: '#fdfcfe',
     light: '#F0F4F8',
     medium: '#B6B6B6',
     dark: '#4A4A4A',
+    agoraGray: '#777777',
+    agoraBorder: '#b5cff1',
+    agoraDark: '#313131',
   },
   black: '#000000',
   blue: {
@@ -18,6 +22,7 @@ export const colors = {
     subtext: '#0d276b',
     border: '#3367eb',
     agoraLight: '#bacbff',
+    checkBox: '#516aac',
   },
   green: {
     lightest: '#d6f9eb',
@@ -27,6 +32,7 @@ export const colors = {
     darkest: '#32e39d',
   },
   red: {
+    pure: '#ff0000',
     lightest: '#fbdfe0',
     light: '#f7c0c0',
     medium: '#f3a0a1',
@@ -47,12 +53,16 @@ export const colors = {
     medium: '#ffcd66',
     dark: '#ffbc33',
     darkest: '#Ffab00',
+    agoraYellow: '#fffbe5',
+    agoraLight: '#fcdfa2',
+    highlight: '#fff606',
   },
   lemon: '#f1cc69',
 };
 
 export const backgroundColors = {
   sectionGray: '#e8f2ff',
+  sectionLightGray: '#f5f4f6',
 };
 
 export const details = {
