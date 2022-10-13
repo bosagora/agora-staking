@@ -85,7 +85,7 @@ export const Geth = () => {
           <SectionTitle level={2} className="mb5">
             <FormattedMessage defaultMessage="Documentation" />
           </SectionTitle>
-          <Link primary to="https://github.com/zeroone-boa/agora-el">
+          <Link primary to="https://github.com/bosagora/agora-el">
             <FormattedMessage defaultMessage="Documentation on running Agora-el" />
           </Link>
         </section>

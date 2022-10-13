@@ -699,7 +699,7 @@ export const FAQ = () => {
                     <Link
                       primary
                       inline
-                      to="https://github.com/zeroone-boa/consensus-specs/blob/dev/specs/phase0/validator.md#withdrawal-credentials"
+                      to="https://github.com/bosagora/consensus-specs/blob/dev/specs/phase0/validator.md#withdrawal-credentials"
                     >
                       <FormattedMessage defaultMessage="Withdrawal Credentials" />
                     </Link>

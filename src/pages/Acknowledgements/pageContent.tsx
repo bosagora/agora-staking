@@ -132,7 +132,7 @@ export const pageContent = {
           />
         </Text>
         <Link
-          to="https://github.com/zeroone-boa/consensus-specs"
+          to="https://github.com/bosagora/consensus-specs"
           className="my10"
           primary
         >

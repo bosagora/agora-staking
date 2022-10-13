@@ -215,7 +215,7 @@ const _TopUpPage: React.FC<Props> = () => {
                     <Link
                       inline
                       primary
-                      to="https://github.com/zeroone-boa/agora-staking/issues"
+                      to="https://github.com/bosagora/agora-staking/issues"
                     >
                       GitHub
                     </Link>

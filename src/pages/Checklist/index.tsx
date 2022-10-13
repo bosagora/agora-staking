@@ -453,12 +453,12 @@ export const Checklist = () => {
                   {consensusClient}."
                   values={{
                     executionClient: (
-                      <Link to="https://github.com/zeroone-boa/agora-el" inline>
+                      <Link to="https://github.com/bosagora/agora-el" inline>
                         <FormattedMessage defaultMessage="execution client" />
                       </Link>
                     ),
                     consensusClient: (
-                      <Link to="https://github.com/zeroone-boa/agora-cl" inline>
+                      <Link to="https://github.com/bosagora/agora-cl" inline>
                         <FormattedMessage defaultMessage="consensus client" />
                       </Link>
                     ),
