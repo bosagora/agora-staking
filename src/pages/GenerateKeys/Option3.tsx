@@ -270,7 +270,7 @@ export const Option3 = ({
               gitClone: (
                 <Code>
                   git clone -b master --single-branch
-                  https://github.com/zeroone-cli/staking-deposit-cli.git
+                  https://github.com/bosagora/agora-deposit-cli.git
                 </Code>
               ),
               agora: <Code>agora</Code>,
