@@ -19,9 +19,8 @@ const Gutter = styled.div`
   justify-content: center;
 `;
 
-const RainbowBackground = styled.div`
-  background-image: ${p =>
-    `radial-gradient(circle at 100% -80%, ${p.theme.rainbowLight})`};
+const Background = styled.div`
+  background-color: ${p => p.theme.backgroundColors.sectionLightGray};
   min-height: 100vh;
 `;
 
@@ -40,7 +39,7 @@ const _PageTemplate = ({
   header = title,
 }: Props): JSX.Element => {
   return (
-    <RainbowBackground>
+    <Background>
       <Helmet>
         <title>{title}</title>
         <meta property="og:title" content={title} />
@@ -52,13 +51,13 @@ const _PageTemplate = ({
       <AppBar />
       <Gutter>
         <Content>
-          <Heading level={2} size="medium" color="blueDark" className="mb40">
+          <Heading level={2} size="medium" className="mb40">
             {header}
           </Heading>
           {children}
         </Content>
       </Gutter>
-    </RainbowBackground>
+    </Background>
   );
 };
 

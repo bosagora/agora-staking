@@ -7,6 +7,7 @@ import { PageTemplate } from '../../components/PageTemplate';
 import { Heading } from '../../components/Heading';
 import { Text } from '../../components/Text';
 import { PRICE_PER_VALIDATOR } from '../../utils/envVars';
+import { colors } from '../../styles/styledComponentsTheme';
 
 const FAQStyles = styled.div`
   section {
@@ -47,7 +48,7 @@ export const FAQ = () => {
           </Anchor>
 
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What exactly is a validator?" />
             </Heading>
             <Text className="mt10">
@@ -64,7 +65,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What is a validator client?" />
             </Heading>
             <Text className="mt10">
@@ -81,7 +82,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What is a node operator?" />
             </Heading>
             <Text className="mt10">
@@ -98,7 +99,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How much BOA do I need to stake to become a validator?" />
             </Heading>
             <Text className="mt10">
@@ -116,7 +117,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage
                 defaultMessage="Is there any advantage to having more than {pricePerValidator} BOA at stake?"
                 values={{
@@ -142,7 +143,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage
                 defaultMessage="Why the {pricePerValidator} BOA maximum?"
                 values={{
@@ -185,7 +186,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What is the deposit contract?" />
             </Heading>
             <Text className="mt10">
@@ -202,7 +203,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Why do I need to have funds at stake?" />
             </Heading>
             <Text className="mt10">
@@ -219,7 +220,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Can I stop running my validator for a few days and then start it back up again?" />
             </Heading>
             <Text className="mt10">
@@ -232,7 +233,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="When should I top up my validator’s balance?" />
             </Heading>
             <Text className="mt10">
@@ -255,7 +256,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage
                 defaultMessage="When can I withdraw my funds, and what’s the difference
                   between exiting and withdrawing?"
@@ -292,7 +293,7 @@ export const FAQ = () => {
             </SectionTitle>
           </Anchor>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What clients do I need to run?" />
             </Heading>
             <Text className="mt10">
@@ -308,7 +309,7 @@ export const FAQ = () => {
             </Link> */}
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Why do I need to run an execution client now?" />
             </Heading>
             <Text className="mt10">
@@ -333,7 +334,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How are validators incentivized to stay active and honest?" />
             </Heading>
             <Text className="mt10">
@@ -380,7 +381,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How are rewards/penalties issued?" />
             </Heading>
             <Text className="mt10">
@@ -408,7 +409,7 @@ export const FAQ = () => {
             </Text> */}
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How often are rewards/penalties issued?" />
             </Heading>
             <Text className="mt10">
@@ -439,7 +440,7 @@ export const FAQ = () => {
             </BlockQuote>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How large are the rewards/penalties?" />
             </Heading>
             <Text className="mt10">
@@ -497,7 +498,7 @@ export const FAQ = () => {
             </BlockQuote>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Why do rewards depend on the total number of validators in the network?" />
             </Heading>
             <Text className="mt10">
@@ -533,7 +534,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How badly will I be penalized for being offline?" />
             </Heading>
             <Text className="mt10">
@@ -608,7 +609,7 @@ export const FAQ = () => {
             </BlockQuote>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How great does my uptime need to be for my validator to be net profitable?" />
             </Heading>
             <Text className="mt10">
@@ -626,7 +627,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="How much will I be penalized for acting maliciously?" />
             </Heading>
             <Text className="mt10">
@@ -660,7 +661,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What exactly is slashing?" />
             </Heading>
             <Text className="mt10">
@@ -685,7 +686,7 @@ export const FAQ = () => {
             </SectionTitle>
           </Anchor>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What are withdrawal credentials?" />
             </Heading>
             <Text className="mt10">
@@ -759,7 +760,7 @@ export const FAQ = () => {
               </li>
             </ol>
             <section>
-              <Heading level={4}>
+              <Heading level={4} color={colors.gray.agoraDark}>
                 <FormattedMessage defaultMessage="Can I change the withdrawal credentials of my validator after the first deposit?" />
               </Heading>
               <Text className="mt10">
@@ -775,7 +776,7 @@ export const FAQ = () => {
             </SectionTitle>
           </Anchor>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What happens if I lose my signing key?" />
             </Heading>
             <Text className="mt10">
@@ -835,7 +836,7 @@ export const FAQ = () => {
             </BlockQuote>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What happens if I use BLS withdrawal and I lose my withdrawal key?" />
             </Heading>
             <Text className="mt10">
@@ -853,7 +854,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="What happens if my withdrawal key is stolen?" />
             </Heading>
             <Text className="mt10">
@@ -877,7 +878,7 @@ export const FAQ = () => {
             </Text>
           </section>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Why two keys instead of one?" />
             </Heading>
             <Text className="mt10">
@@ -897,7 +898,7 @@ export const FAQ = () => {
             </SectionTitle>
           </Anchor>
           <section>
-            <Heading level={4}>
+            <Heading level={4} color={colors.gray.agoraDark}>
               <FormattedMessage defaultMessage="Where can I find troubleshooting support?" />
             </Heading>
             <Text className="mt10">

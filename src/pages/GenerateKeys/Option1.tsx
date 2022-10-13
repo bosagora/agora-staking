@@ -39,7 +39,7 @@ export const Option1 = ({
 
   return (
     <div className="mt30">
-      <Heading level={2} size="small" color="blueMedium" className="mb20">
+      <Heading level={2} size="small" className="mb20">
         <FormattedMessage defaultMessage="Download command line app" />
       </Heading>
       <Text weight={500}>

@@ -1,18 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 import { RouteComponentProps, withRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { useIntl } from 'react-intl';
 import { Heading } from '../Heading';
 import { WorkflowProgressBar } from './WorkflowProgressBar';
 import { AppBar } from '../AppBar';
 import { DesktopOnlyModal } from '../DesktopOnlyModal';
-import {
-  rainbowBGColors,
-  rainbowLightColors,
-} from '../../styles/styledComponentsTheme';
+import { backgroundColors } from '../../styles/styledComponentsTheme';
 import { routesEnum } from '../../Routes';
 import { WorkflowStep } from '../../store/actions/workflowActions';
-import { Helmet } from 'react-helmet';
-import { useIntl } from 'react-intl';
 
 const Content = styled.div`
   width: 100%;
@@ -27,10 +24,7 @@ const Gutter = styled.div`
   justify-content: center;
 `;
 const Background = styled.div`
-  background-image: ${(p: { workflowStep: WorkflowStep }) =>
-    `linear-gradient(to bottom right, ${rainbowLightColors[p.workflowStep]}, ${
-      rainbowBGColors[p.workflowStep]
-    });`};
+  background-color: ${backgroundColors.sectionLightGray};
   min-height: 100vh;
 `;
 
@@ -72,7 +66,7 @@ const _WorkflowPageTemplate = ({
   const calculatedWorkflowStep: WorkflowStep = mapPathnameToWorkflowStep(path);
 
   return (
-    <Background workflowStep={calculatedWorkflowStep}>
+    <Background>
       <Helmet>
         <title>{title}</title>
         <meta property="og:title" content={title} />
@@ -85,7 +79,7 @@ const _WorkflowPageTemplate = ({
       <WorkflowProgressBar workflow={calculatedWorkflowStep} />
       <Gutter>
         <Content>
-          <Heading level={2} size="medium" color="blueDark" className="mb20">
+          <Heading level={2} size="medium" className="mb20">
             {title}
           </Heading>
           {children}

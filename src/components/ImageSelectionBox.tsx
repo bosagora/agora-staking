@@ -33,10 +33,11 @@ const SelectionText = styled(Heading)`
 `;
 
 const LanguageTag = styled.div`
-  background: ${p => p.theme.blue.light};
+  background: ${p => p.theme.blue.agoraBlue};
   padding: 8px;
   font-size: 14px;
   text-align: center;
+  color: ${p => p.theme.white};
 `;
 
 interface ImgSelectionBoxProps {
@@ -65,7 +66,7 @@ export const ImageSelectionBox = ({
           <img src={src} alt={text} />
         </LogoBackground>
       )}
-      <SelectionText level={3} size="small" color="blueDark">
+      <SelectionText level={3} size="small">
         {text}
       </SelectionText>
       {language && <LanguageTag>{language}</LanguageTag>}

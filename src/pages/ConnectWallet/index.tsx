@@ -333,7 +333,7 @@ const _ConnectWalletPage = ({
           >
             <Paper pad="medium">
               <WalletInfoContainer>
-                <Heading level={3} size="small" color="blueDark">
+                <Heading level={3} size="small">
                   {getWalletName(walletProvider)}
                 </Heading>
                 {account && (
@@ -349,12 +349,7 @@ const _ConnectWalletPage = ({
                     success={networkAllowed}
                     error={!networkAllowed}
                   />
-                  <Heading
-                    level={3}
-                    size="small"
-                    color="blueDark"
-                    className="mt0"
-                  >
+                  <Heading level={3} size="small" className="mt0">
                     <FormattedMessage defaultMessage="Network" />
                   </Heading>
                 </Row>
@@ -378,7 +373,7 @@ const _ConnectWalletPage = ({
                         success={!lowBalance}
                         error={lowBalance}
                       />
-                      <Heading level={3} size="small" color="blueDark">
+                      <Heading level={3} size="small">
                         <FormattedMessage defaultMessage="Balance" />
                       </Heading>
                     </Row>

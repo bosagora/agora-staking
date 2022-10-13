@@ -317,7 +317,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                   {walletConnected && (
                     <Box className="flex flex-row mb20">
                       <Dot success={networkAllowed} error={!networkAllowed} />
-                      <Text size="small" className="ml10" color="blueDark">
+                      <Text size="small" className="ml10">
                         {trimString(account as string, 10)}
                       </Text>
                     </Box>
@@ -427,7 +427,7 @@ const _AppBar = ({ location }: RouteComponentProps) => {
                 }
               />
             )}
-            <Text size="small" className="ml10" color="blueDark">
+            <Text size="small" className="ml10">
               {trimString(account as string, 10)}
             </Text>
           </Box>

@@ -271,30 +271,30 @@ const TopupPage: React.FC<Props> = ({ validator }) => {
       )}
 
       <Paper className="mt30">
-        <Heading level={3} color="blueDark">
+        <Heading level={3}>
           <FormattedMessage defaultMessage="Top-up details" />
         </Heading>
         <TopUpDetailsContainer className="my30">
           <div className="details-item">
-            <Text weight={600} color="blueDark">
+            <Text weight={600}>
               <FormattedMessage defaultMessage="Public key" />
             </Text>
             <Text>{shortenAddress(validator.pubkey, 6)}</Text>
           </div>
           <div className="details-item">
-            <Text weight={600} color="blueDark">
+            <Text weight={600}>
               <FormattedMessage defaultMessage="Current balance" />
             </Text>
             <Text>{`${balance.toFixed(8)} ${TICKER_NAME}`}</Text>
           </div>
           <div className="details-item">
-            <Text weight={600} color="blueDark">
+            <Text weight={600}>
               <FormattedMessage defaultMessage="Balance after topping up" />
             </Text>
             <Text>{`${balanceAfterTopup.toFixed(8)} ${TICKER_NAME}`}</Text>
           </div>
         </TopUpDetailsContainer>
-        <Heading level={3} color="blueDark">
+        <Heading level={3}>
           <FormattedMessage defaultMessage="Risks and acknowledgements:" />
         </Heading>
         <div className="mt20">

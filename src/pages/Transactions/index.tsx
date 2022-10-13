@@ -147,7 +147,7 @@ const _TransactionsPage = ({
       title={formatMessage({ defaultMessage: 'Transactions' })}
     >
       <Paper className="mt20">
-        <Heading level={3} size="small" color="blueMedium">
+        <Heading level={3} size="small">
           {depositKeys.length === 1 ? (
             <FormattedMessage defaultMessage="Confirm deposit" />
           ) : (

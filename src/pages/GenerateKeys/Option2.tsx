@@ -25,7 +25,7 @@ export const Option2 = ({ os }: { os: string }) => {
 
   return (
     <div className="mt30">
-      <Heading level={2} size="small" color="blueMedium" className="mb20">
+      <Heading level={2} size="small" className="mb20">
         <FormattedMessage defaultMessage="Download Agora Key Gen app" />
       </Heading>
       <Text weight={500}>
@@ -45,10 +45,10 @@ export const Option2 = ({ os }: { os: string }) => {
 
       <Alert variant="warning" className="my40">
         <div className="flex">
-          <AlertIcon />
+          <AlertIcon color="#FF0000" />
           <Text
             weight={500}
-            color="yellowDarkest"
+            color="#ff0000"
             className="my10"
             style={{ wordBreak: 'break-word' }}
           >
@@ -104,7 +104,7 @@ export const Option2 = ({ os }: { os: string }) => {
           </>
         )}
         <Alert variant="error" className="my10">
-          <Text>
+          <Text color="#ff0000">
             <FormattedMessage
               defaultMessage="Please make sure you select {NETWORK_NAME} when prompted for a network, otherwise the deposit will be invalid."
               values={{ NETWORK_NAME }}
