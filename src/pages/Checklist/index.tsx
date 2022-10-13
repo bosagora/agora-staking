@@ -888,7 +888,7 @@ export const Checklist = () => {
               </Text>
               <CodeSnippet>
                 <code>
-                  {`curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"web3_clientVersion","params":[],"id":67}' http://<YourServerLocation>:8545`}
+                  {`curl -H "Content-Type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_chainId","params":[],"id":1}' http://<YourServerLocation>:8545`}
                 </code>
               </CodeSnippet>
             </li>
