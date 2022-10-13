@@ -33,7 +33,7 @@ export const Option2 = ({ os }: { os: string }) => {
       </Text>
       <Link
         isTextLink={false}
-        to="https://github.com/zeroone-boa/agora-key-gen/releases"
+        to="https://github.com/bosagora/agora-key-gen/releases"
         className="my40"
       >
         <Button
@@ -58,7 +58,7 @@ export const Option2 = ({ os }: { os: string }) => {
               values={{
                 url: (
                   <strong>
-                    https://github.com/zeroone-boa/agora-key-gen/releases
+                    https://github.com/bosagora/agora-key-gen/releases
                   </strong>
                 ),
               }}

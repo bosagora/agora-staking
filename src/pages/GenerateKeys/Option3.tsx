@@ -252,7 +252,7 @@ export const Option3 = ({
           inline
           primary
           isTextLink={false}
-          to="https://github.com/zeroone-boa/staking-deposit-cli/archive/agora.zip"
+          to="https://github.com/bosagora/agora-deposit-cli/archive/agora.zip"
         >
           <Button
             className="my20"
