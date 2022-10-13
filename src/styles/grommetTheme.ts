@@ -55,14 +55,13 @@ export const grommetTheme = {
   },
   checkBox: {
     border: {
-      color: 'gray',
+      color: '#275ada',
       radius: '2px',
     },
     check: {
       extend: ({ checked }: { checked: boolean }) =>
-        `background-color: white; border: 2px solid ${
-          checked ? 'black' : 'gray'
-        }`,
+        `background-color: white; 
+         border: 2px solid ${checked ? '#275ada' : '#275ada'}`,
     },
     color: {
       light: 'neutral-3',
@@ -71,17 +70,17 @@ export const grommetTheme = {
     gap: 'xsmall',
     hover: {
       border: {
-        color: 'black',
+        color: '#275ada',
       },
     },
     icon: {
       size: '18px',
-      extend: 'stroke: black;',
+      extend: 'stroke: #275ada;',
     },
     size: '18px',
     // label color
     extend: `
-      color: #9C9C9C;
+      color: #275ada;
     `,
   },
 };
