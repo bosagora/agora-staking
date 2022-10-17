@@ -104,9 +104,6 @@
     ]
   },
   "scripts": {
-    "start": "rescripts start",
-    "start:agora": "env-cmd -f .env.agora rescripts start",
-    "start:localtestnet": "env-cmd -f .env.agora.localtestnet rescripts start",
     "start:devnet": "env-cmd -f .env.devnet rescripts start",
     "start:mainnet": "env-cmd -f .env.mainnet rescripts start",
     "start:testnet": "env-cmd -f .env.testnet rescripts start",
