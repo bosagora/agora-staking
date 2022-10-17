@@ -180,7 +180,7 @@ const _SummaryPage = ({
         <Row>
           <Link
             isTextLink={false}
-            to="https://docs.bosagora.org/en/validator-start/becoming-a-validator/staking-deposit-contract"
+            to="https://docs.bosagora.org/validator-start/becoming-a-validator/staking-deposit-contract"
             primary
           >
             <Button
