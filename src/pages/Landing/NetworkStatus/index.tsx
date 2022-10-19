@@ -91,7 +91,7 @@ export const NetworkStatus: React.FC<{
     totalAtStake: amountEth,
     epochNum: epochNum,
   });
-  const formattedAPR = (Math.round(currentAPR * 1000) / 10).toLocaleString();
+  const formattedAPR = currentAPR ? Math.round(currentAPR * 1000) / 10 : 0;
 
   const LoadingHandler: React.FC<{
     value?: string;
@@ -123,7 +123,9 @@ export const NetworkStatus: React.FC<{
               <Text size="x-large" className="mt20">
                 <BoldBlue className="mr10" fontSize={25}>
                   <LoadingHandler
-                    value={`${numberWithCommas(amountEth)} ${TICKER_NAME}`}
+                    value={`${
+                      amountEth ? numberWithCommas(amountEth) : 0
+                    } ${TICKER_NAME}`}
                   />
                 </BoldBlue>
               </Text>
