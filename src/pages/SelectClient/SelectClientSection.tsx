@@ -51,10 +51,10 @@ const SelectClientSection = ({
     {ethClientStep === 'execution' && (
       <div style={{ paddingBottom: '1rem' }}>
         <FormattedMessage
-          defaultMessage="To process incoming validator deposits from the execution layer
-          (BizNet chain), you'll need to run an execution client as well as your
-          consensus client (Agora chain). We recommend running your own client to
-          keep the network as decentralized as possible."
+          defaultMessage="To process incoming validator deposits from the execution layer,
+           you'll need to run an execution client (Agora-el) as well as your consensus
+            client (Agora-cl). We recommend running your own client to keep the network
+            as decentralized as possible."
         />
       </div>
     )}

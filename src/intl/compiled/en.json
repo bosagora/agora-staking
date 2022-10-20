@@ -1321,12 +1321,6 @@
       "value": "Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client."
     }
   ],
-  "AfTSSO": [
-    {
-      "type": 0,
-      "value": "Validating in AGORA is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
-    }
-  ],
   "Affixg": [
     {
       "type": 0,
@@ -2463,6 +2457,12 @@
       "value": " BOA per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of BOA that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
     }
   ],
+  "Lt2n4A": [
+    {
+      "type": 0,
+      "value": "To process incoming validator deposits from the execution layer, you'll need to run an execution client (Agora-el) as well as your consensus client (Agora-cl). We recommend running your own client to keep the network as decentralized as possible."
+    }
+  ],
   "Ltd/hJ": [
     {
       "type": 1,
@@ -3045,12 +3045,6 @@
       "value": "networkName"
     }
   ],
-  "Qjvd0m": [
-    {
-      "type": 0,
-      "value": "One of the original implementations of the Agora protocol."
-    }
-  ],
   "QlsDcr": [
     {
       "type": 0,
@@ -3573,6 +3567,12 @@
     {
       "type": 0,
       "value": "I am certain that the validator I am topping up is my validator."
+    }
+  ],
+  "Vop9lB": [
+    {
+      "type": 0,
+      "value": "The implementation of the Agora protocol."
     }
   ],
   "Vp4z/b": [
@@ -5587,12 +5587,6 @@
     {
       "type": 0,
       "value": "I've imported the dashboard config to my Grafana server and double checked that my node is alive."
-    }
-  ],
-  "ooZJCj": [
-    {
-      "type": 0,
-      "value": "To process incoming validator deposits from the execution layer (BizNet chain), you'll need to run an execution client as well as your consensus client (Agora chain). We recommend running your own client to keep the network as decentralized as possible."
     }
   ],
   "orM+1T": [

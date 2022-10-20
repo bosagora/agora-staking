@@ -18,7 +18,7 @@ export const GethDetails = () => (
       Agora-el
     </SectionTitle>
     <Text className="mt10">
-      <FormattedMessage defaultMessage="One of the original implementations of the Agora protocol." />
+      <FormattedMessage defaultMessage="The implementation of the Agora protocol." />
     </Text>
     <SectionTitle level={2} className="mb5">
       <FormattedMessage defaultMessage="Language information" />
