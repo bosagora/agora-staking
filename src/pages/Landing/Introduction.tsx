@@ -93,19 +93,11 @@ export const Introduction = (): JSX.Element => {
               <FormattedMessage defaultMessage="More on the Agora Chain" />
             </Link>
             <Link
-              className="mt20 mb40"
+              className="mt20 "
               to="https://docs.bosagora.org/updates/agora-merge-update/"
             >
               <FormattedMessage defaultMessage="More on the Merge" />
             </Link>
-            <Text className="mt20">
-              <FormattedMessage
-                defaultMessage="Validating in AGORA is not the same as mining. The outcomes are
-                  similar: the work you do will extend and secure the chain. But the
-                  process is completely different because they use different
-                  consensus mechanisms."
-              />
-            </Text>
             <Link
               className="mt20 mb40"
               to="https://docs.bosagora.org/agora/what-is-agora/consensus-mechanisms-pos/"

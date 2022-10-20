@@ -511,9 +511,6 @@
   "Aem9lr": {
     "message": "Post-merge, an AGORA node will be comprised of both an execution client, and a consensus client."
   },
-  "AfTSSO": {
-    "message": "Validating in AGORA is not the same as mining. The outcomes are similar: the work you do will extend and secure the chain. But the process is completely different because they use different consensus mechanisms."
-  },
   "Affixg": {
     "message": "The deposit"
   },
@@ -973,6 +970,9 @@
   "Lo9pOI": {
     "message": "Limiting the maximum stake to {pricePerValidator} BOA per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of BOA that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks."
   },
+  "Lt2n4A": {
+    "message": "To process incoming validator deposits from the execution layer, you'll need to run an execution client (Agora-el) as well as your consensus client (Agora-cl). We recommend running your own client to keep the network as decentralized as possible."
+  },
   "Ltd/hJ": {
     "description": "{directoriesPattern} refers to a computer command which will find {keyDirectory} and\n                {passwordDirectory} - both folders within a computer.",
     "message": "{directoriesPattern} will find {keyDirectory}, and expect to find {passwordDirectory}."
@@ -1195,9 +1195,6 @@
   "QeE86m": {
     "message": "Check this document to learn how to run a node on {networkName}"
   },
-  "Qjvd0m": {
-    "message": "One of the original implementations of the Agora protocol."
-  },
   "QlsDcr": {
     "message": "Action"
   },
@@ -1393,6 +1390,9 @@
   },
   "VctWDX": {
     "message": "I am certain that the validator I am topping up is my validator."
+  },
+  "Vop9lB": {
+    "message": "The implementation of the Agora protocol."
   },
   "Vp4z/b": {
     "message": "Stakers running their own execution layer is necessary for the decentralization of the network."
@@ -2163,9 +2163,6 @@
   },
   "on8WXn": {
     "message": "I've imported the dashboard config to my Grafana server and double checked that my node is alive."
-  },
-  "ooZJCj": {
-    "message": "To process incoming validator deposits from the execution layer (BizNet chain), you'll need to run an execution client as well as your consensus client (Agora chain). We recommend running your own client to keep the network as decentralized as possible."
   },
   "orM+1T": {
     "message": "Teku will also load validators from keystores (and passwords) from the paths found in the validator keys environment variable."
