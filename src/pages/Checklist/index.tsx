@@ -979,7 +979,7 @@ export const Checklist = () => {
                   <Link
                     primary
                     inline
-                    to="https://docs.prylabs.network/docs/prysm-usage/monitoring/grafana-dashboard/"
+                    to="https://agora-cl-docs.bosagora.org/docs/agora-cl-usage/monitoring/grafana-dashboard/"
                   >
                     agora-cl
                   </Link>
