@@ -99,12 +99,12 @@ const StyledLeslieImgNode = styled.img`
   transform-origin: 0% 0%;
   @media screen and (min-width: 800px) {
     transform: translate3d(0, 0, 0);
-    margin: 0 -3rem 0 3rem;
+    margin: 0 4rem 0 3rem;
     max-width: 100%;
     max-height: 510px;
   }
   @media screen and (max-width: 800px) {
-    max-width: 220px;
+    max-width: 250px;
     margin: 30px auto;
     display: block;
   }
@@ -124,6 +124,10 @@ const ButtonContainer = styled.div`
   @media (max-width: 400px) {
     width: 100%;
   }
+`;
+
+const HeaderTitle = styled(Heading)`
+  max-width: 670px;
 `;
 
 //
@@ -176,13 +180,13 @@ export const Hero = () => {
                 )}
                 <InfoContainer>
                   <ScrollAnimation animateIn="fadeIn" delay={150} animateOnce>
-                    <Heading
+                    <HeaderTitle
                       level={m ? 1 : 2}
                       size={m ? 'medium' : 'large'}
                       className="my20"
                     >
                       <FormattedMessage defaultMessage="Beyond the Platform, Making the better world." />
-                    </Heading>
+                    </HeaderTitle>
                   </ScrollAnimation>
                   <ScrollAnimation animateIn="fadeInUp" delay={750} animateOnce>
                     <Text color="#0d276b" className="mt25">
