@@ -136,11 +136,7 @@ const HeaderTitle = styled(Heading)`
 const LeslieImage: React.FC<{ style?: React.CSSProperties }> = ({ style }) => (
   <div>
     <ScrollAnimation animateIn="fadeIn" delay={750} animateOnce>
-      <StyledLeslieImgNode
-        src={LeslieTheRhinoPNG}
-        alt="Leslie the Rhino - Ethereum staking mascot"
-        {...{ style }}
-      />
+      <StyledLeslieImgNode src={LeslieTheRhinoPNG} {...{ style }} />
     </ScrollAnimation>
   </div>
 );
