@@ -108,9 +108,7 @@ export const Footer = () => {
                     values={{
                       emoji: (
                         <Rhino>
-                          <span role="img" aria-label="rhino">
-                            ️
-                          </span>
+                          <span role="img">️</span>
                         </Rhino>
                       ),
                     }}
