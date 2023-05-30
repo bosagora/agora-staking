@@ -13,6 +13,7 @@
     "@types/react-animate-on-scroll": "^2.1.2",
     "@types/react-copy-to-clipboard": "^4.3.0",
     "@types/react-helmet": "^6.1.0",
+    "@types/react-router-hash-link": "^2.4.6",
     "@types/react-scroll": "^1.5.4",
     "@types/react-tooltip": "^3.11.0",
     "@web3-react/abstract-connector": "latest",
