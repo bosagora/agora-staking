@@ -20,6 +20,7 @@ import {
   TermsOfService,
   Languages,
   TopUpPage,
+  Withdrawals,
   MergeReadiness,
 } from './pages';
 import ScrollToTop from './utils/ScrollToTop';
@@ -63,6 +64,7 @@ export enum routesEnum {
   landingPage = '/',
   notFoundPage = '/*',
   languagesPage = '/languages',
+  withdrawals = '/withdrawals',
   mergeReadiness = '/merge-readiness',
 }
 const routes: RouteType[] = [
@@ -177,6 +179,7 @@ const routes: RouteType[] = [
     exact: true,
     component: MergeReadiness,
   },
+  { path: routesEnum.withdrawals, exact: true, component: Withdrawals },
   { path: routesEnum.landingPage, exact: true, component: LandingPage },
   // NOTE: this wildcard route must be the last index of the routes array
   { path: routesEnum.notFoundPage, component: NotFoundPage },

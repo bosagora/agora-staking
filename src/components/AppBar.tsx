@@ -265,6 +265,16 @@ const _AppBar = ({ location }: RouteComponentProps) => {
             <FormattedMessage defaultMessage="FAQ" />
           </BarLinkText>
         </Link>
+        <Link to={routesEnum.withdrawals} className="mx10 secondary-link">
+          <BarLinkText
+            level={4}
+            margin="none"
+            className="bar-link-text"
+            active={pathname === routesEnum.withdrawals}
+          >
+            <FormattedMessage defaultMessage="Withdrawals" />
+          </BarLinkText>
+        </Link>
         {/* TODO : Hide the merge menu so we can see it when we need it. */}
         {/*<Link to={routesEnum.topUpPage} className="mx10 secondary-link">
           <BarLinkText
