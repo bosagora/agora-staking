@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect, useCallback } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { useWeb3React } from '@web3-react/core';
 import { Web3Provider } from '@ethersproject/providers';
@@ -19,8 +19,8 @@ import Spinner from '../../components/Spinner';
 import { PageTemplate } from '../../components/PageTemplate';
 import {
   BEACONCHAIN_URL,
-  PRICE_PER_VALIDATOR,
   EJECTION_PRICE,
+  PRICE_PER_VALIDATOR,
   TICKER_NAME,
 } from '../../utils/envVars';
 import { AllowedNetworks, NetworkChainId } from '../ConnectWallet/web3Utils';
