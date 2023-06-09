@@ -78,45 +78,9 @@ const SubSectionTitle = styled(SectionTitle)`
   border-bottom: 0;
 `;
 
-const TableContainer = styled.div`
-  width: fit-content;
-  margin-inline: 0;
-  @media (max-width: ${p => p.theme.screenSizes.medium}) {
-    margin-inline: auto;
-  }
-  table {
-    margin: 1rem auto;
-    * {
-      color: ${(p: any) => p.theme.blue.dark};
-      text-align: center;
-    }
-    th,
-    td {
-      padding: 0.75rem;
-      vertical-align: top;
-      border-top: 1px solid #dee2e6;
-    }
-
-    thead th {
-      vertical-align: bottom;
-    }
-
-    tbody + tbody {
-      border-top: 2px solid #dee2e6;
-    }
-  }
-`;
-
 export const Withdrawals = () => {
-  const { locale, formatMessage } = useIntl();
+  const { formatMessage } = useIntl();
 
-  const withdrawalRateData = [
-    { num: 400000, days: 3.5 },
-    { num: 500000, days: 4.3 },
-    { num: 600000, days: 5.2 },
-    { num: 700000, days: 6.1 },
-    { num: 800000, days: 7.0 },
-  ];
   return (
     <PageTemplate
       title={formatMessage({ defaultMessage: 'Staking withdrawals' })}
@@ -129,22 +93,10 @@ export const Withdrawals = () => {
         <section>
           <Text>
             <FormattedMessage
-              defaultMessage="As of the Shanghai/Capella upgrade withdrawals have been enabled on
-              the Beacon Chain, with the inclusion of {eip}. This Ethereum Improvement Proposal
-              enables rewards to be automatically withdrawn to the execution layer, and also
-              provides a way for exited validators to unlock their entire balance—no gas
-              required."
-              values={{
-                eip: (
-                  <Link
-                    primary
-                    inline
-                    to="https://eips.ethereum.org/EIPS/eip-4895"
-                  >
-                    <FormattedMessage defaultMessage="EIP-4895" />
-                  </Link>
-                ),
-              }}
+              defaultMessage="As of the Withdrawals update have been enabled on the Agora Network.
+              Agora Improvement enables rewards to be automatically withdrawn to the execution layer,
+              and also provides a way for exited validators to unlock their entire
+              balance—no gas required."
             />
           </Text>
 
@@ -156,9 +108,9 @@ export const Withdrawals = () => {
             </Anchor>
             <Text className="mb10">
               <FormattedMessage
-                defaultMessage="For your validator to be capable of withdrawals of any
-                kind, a withdrawal address must be provided and registered to your account on the
-                Beacon Chain. This should be an address you control, and cannot be changed once set."
+                defaultMessage="For your validator to be capable of withdrawals of any kind,
+                 a withdrawal address must be provided and registered to your account on the Agora Network.
+                 This should be an address you control, and cannot be changed once set."
               />
             </Text>
 
@@ -233,29 +185,19 @@ export const Withdrawals = () => {
               </Heading>
               <ul>
                 <li>
-                  <strong>Staking Deposit CLI</strong> -{' '}
-                  <Link inline primary to="/btec/">
-                    <FormattedMessage defaultMessage="Launchpad walkthrough tutorial" />
-                  </Link>
-                </li>
-                <li>
-                  <strong>ethdo</strong> -{' '}
-                  <Link
-                    inline
-                    primary
-                    to="https://github.com/wealdtech/ethdo/blob/master/docs/changingwithdrawalcredentials.md"
-                  >
+                  <strong>Agora chain CLI</strong> -{' '}
+                  <Link inline primary to="https://docs.bosagora.org">
                     <FormattedMessage defaultMessage="Changing withdrawal credentials" />
                   </Link>
                 </li>
               </ul>
               <Text className="my20">
-                <FormattedMessage defaultMessage="These tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Shanghai/Capella upgrade." />
+                <FormattedMessage defaultMessage="It tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Withdrawals update." />
               </Text>
               <Alert variant="error">
                 <Text>
                   <FormattedMessage
-                    defaultMessage="This requires use of your mnemonic seed phrase, and should be performed on an {offline} air-gapped machine."
+                    defaultMessage="This requires use of your mnemonic seed phrase, When entering the mnemonic, it should be done on the offline air-gaped machine."
                     values={{
                       offline: (
                         <strong>
@@ -285,7 +227,7 @@ export const Withdrawals = () => {
                 <Text className="mb10">
                   <FormattedMessage
                     defaultMessage="As noted above, this step is completed by signing a message known as {message}.
-                    These are accepted into blocks as of the first slot after the Shanghai/Capella
+                    These are accepted into blocks as of the first slot after the Withdrawals update
                     upgrade."
                     values={{ message: <Code>BLSToExecutionChange</Code> }}
                   />
@@ -294,7 +236,7 @@ export const Withdrawals = () => {
                   <FormattedMessage
                     defaultMessage="These messages are limited to 16 per block ({message}), so if more than 16
                     requests are being made at one time, a queue will be formed and these will be processed in
-                    subsequent blocks. This means that immediately following the Shanghai/Capella upgrade, users
+                    subsequent blocks. This means that immediately following the Withdrawals update, users
                     submitting this message may see delays up to an estimated 2-3 days before this request
                     is processed."
                     values={{
@@ -326,9 +268,9 @@ export const Withdrawals = () => {
             <Text className="mb10">
               <FormattedMessage
                 defaultMessage="An {excessBalanceWithdrawal} is processed when an active validator has a maxed out
-                effective balance of 32, and has a total balance over 32. A single validator cannot
-                get rewards on excess balance over 32 ETH, and thus these accounts will have
-                any extra balance automatically withdrawn to their Ethereum address."
+                effective balance of 40000, and has a total balance over 40000. A single validator cannot
+                get rewards on excess balance over 40000 BOA, and thus these accounts will have
+                any extra balance automatically withdrawn to their BOA address."
                 values={{
                   excessBalanceWithdrawal: (
                     <strong>
@@ -339,14 +281,14 @@ export const Withdrawals = () => {
               />
             </Text>
             <Text className="mb10">
-              <FormattedMessage defaultMessage="These are also referred to as “partial withdrawals” or “reward payments” as the remaining 32 ETH stays locked and staked." />
+              <FormattedMessage defaultMessage="These are also referred to as “partial withdrawals” or “reward payments” as the remaining 40000 BOA stays locked and staked." />
             </Text>
             <Alert variant="warning" className="mt30">
               <span role="img" aria-label="note">
                 📝
               </span>{' '}
               <Text className="inline">
-                <FormattedMessage defaultMessage="It is not possible to manually request specific amounts of ETH to be withdrawn" />
+                <FormattedMessage defaultMessage="It is not possible to manually request specific amounts of BOA to be withdrawn" />
               </Text>
             </Alert>
           </section>
@@ -394,118 +336,15 @@ export const Withdrawals = () => {
               </Text>
               <Text className="mb10">
                 <FormattedMessage
-                  defaultMessage="Those looking to exit their validator from staking and withdrawal their ETH should
+                  defaultMessage="Those looking to exit their validator from staking and withdrawal their BOA should
                   check out the guide below that matches your setup:"
                 />
               </Text>
-              <Text className="mb10">
-                <strong>
-                  <FormattedMessage defaultMessage="Consensus clients:" />
-                </strong>
-              </Text>
               <ul>
                 <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://lighthouse-book.sigmaprime.io/voluntary-exit.html"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {client} validator"
-                      values={{ client: 'Lighthouse' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://chainsafe.github.io/lodestar/reference/cli/#validator-voluntary-exit"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {client} validator"
-                      values={{ client: 'Lodestar' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://nimbus.guide/voluntary-exit.html"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {client} validator"
-                      values={{ client: 'Nimbus' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://docs.prylabs.network/docs/wallet/exiting-a-validator"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {client} validator"
-                      values={{ client: 'Prysm' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://docs.teku.consensys.net/Reference/CLI/Subcommands/Voluntary-Exit"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {client} validator"
-                      values={{ client: 'Teku' }}
-                    />
-                  </Link>
-                </li>
-              </ul>
-              <Text className="mb10">
-                <strong>
-                  <FormattedMessage defaultMessage="Alternative node tooling:" />
-                </strong>
-              </Text>
-              <ul>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://forum.dappnode.io/t/how-to-exit-an-eth2-validator/786"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {software} validator"
-                      values={{ software: 'DAppNode' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://eth-docker.net/Support/Exit/"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {software} validator"
-                      values={{ software: 'eth-docker' }}
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    primary
-                    inline
-                    to="https://docs.rocketpool.net/guides/node/cli-intro.html#minipool-commands"
-                  >
-                    <FormattedMessage
-                      defaultMessage="Exiting a {software} minipool"
-                      values={{ software: 'Rocket Pool' }}
-                      description="A minipool is a Rocket Pool-specific term for a validator that shares stake with others"
-                    />
+                  <strong>Agora chain CLI</strong> -{' '}
+                  <Link inline primary to="https://docs.bosagora.org">
+                    <FormattedMessage defaultMessage="Exit from staking" />
                   </Link>
                 </li>
               </ul>
@@ -547,7 +386,7 @@ export const Withdrawals = () => {
               </Text>
             </Alert>
             <Text className="mb10">
-              <FormattedMessage defaultMessage="Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake ETH, a new validator must be activated." />
+              <FormattedMessage defaultMessage="Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake BOA, a new validator must be activated." />
             </Text>
           </section>
         </section>
@@ -567,7 +406,7 @@ export const Withdrawals = () => {
             </Anchor>
             <Text className="mb10">
               <FormattedMessage
-                defaultMessage="Ethereum users are used to transactions being executed in a manual way—if
+                defaultMessage="BOSagora users are used to transactions being executed in a manual way—if
                 you want to transfer funds, you have to sign a transaction and pay the gas."
               />
             </Text>
@@ -612,7 +451,7 @@ export const Withdrawals = () => {
             <Text className="mb10">
               <FormattedMessage
                 defaultMessage="On a never-ending loop, every single validator account is continuously evaluated for
-                eligible ETH withdrawals (of which there are two types, more on this below). Validators are processed
+                eligible BOA withdrawals (of which there are two types, more on this below). Validators are processed
                 in order by index number, originally starting at 0, with each subsequent proposer picking up where the last one left off."
               />
             </Text>
@@ -669,7 +508,7 @@ export const Withdrawals = () => {
               <FormattedMessage
                 defaultMessage="Similarly, there is also an {exitQueue}, which limits how quickly validators can
                 {leave} the network. This is for security reasons. Given each validator is limited to a max effective
-                balance of 32 ETH, this prevents large portions of the ETH from potentially being used in an attack
+                balance of 40000 BOA, this prevents large portions of the BOA from potentially being used in an attack
                 and then quickly exiting from the network all at once."
                 values={{
                   exitQueue: (
@@ -689,12 +528,6 @@ export const Withdrawals = () => {
               <FormattedMessage
                 defaultMessage="The number of validators that can be activated or exited in a given epoch (6.4 minutes)
                 is determined by how many active validators are currently on the network."
-              />
-            </Text>
-            <Text className="mb10">
-              <FormattedMessage
-                defaultMessage="Four (4) validator exits are allowed per epoch, plus one (1) more for every 65,536 total active validators
-                over 327,680. As of February 2023 this limit is seven (7), and will increase to eight (8) if/when the validator count reaches 524,288."
               />
             </Text>
             <Alert variant="warning" className="mt30 mb10">
@@ -855,7 +688,7 @@ export const Withdrawals = () => {
             <Text className="mb10">
               <FormattedMessage
                 defaultMessage="A decision tree is followed to determine what type of withdrawal will be initiated.
-                If the validator being checked has ETH that is eligible to be withdrawn, it is added to the withdrawal
+                If the validator being checked has BOA that is eligible to be withdrawn, it is added to the withdrawal
                 queue. If there isn’t, the account is skipped."
               />
             </Text>
@@ -892,7 +725,7 @@ export const Withdrawals = () => {
                 </ul>
               </li>
               <li>
-                <FormattedMessage defaultMessage="Is the effective balance maxed out at 32?" />
+                <FormattedMessage defaultMessage="Is the effective balance maxed out at 40000?" />
                 <ul>
                   <li>
                     <FormattedMessage
@@ -916,8 +749,7 @@ export const Withdrawals = () => {
               <FormattedMessage
                 defaultMessage="The block producer then checks the next validator in line, and once again
                 determines if a withdrawal needs to be processed or not. This process is repeated until either
-                16 eligible withdrawals have been found, or until 16,384 validators have been checked, whichever
-                comes first. At that point, the withdrawal queue is sent to the execution layer to be included at
+                16 eligible withdrawals have been found. At that point, the withdrawal queue is sent to the execution layer to be included at
                 the end of the next block."
               />
             </Text>
@@ -969,7 +801,7 @@ export const Withdrawals = () => {
                   <FormattedMessage defaultMessage="Accounts that have fully withdrawn and have a zero balance will be skipped" />
                 </li>
                 <li>
-                  <FormattedMessage defaultMessage="Active accounts with an effective balance or total balance less than 32 will be skipped" />
+                  <FormattedMessage defaultMessage="Active accounts with an effective balance or total balance less than 40000 will be skipped" />
                 </li>
               </ul>
             </li>
@@ -980,98 +812,6 @@ export const Withdrawals = () => {
               <FormattedMessage defaultMessage="Consensus layer slot timing: 12 seconds (no plans to change)" />
             </li>
           </ol>
-          <Text className="mt20">
-            <FormattedMessage
-              defaultMessage="This can be summarized to estimate the upper limit of how long a complete sweep
-            takes depending on how many withdrawals need processing:"
-            />
-          </Text>
-          <TableContainer>
-            <table>
-              <thead>
-                <tr>
-                  <th>
-                    <FormattedMessage defaultMessage="Number of withdrawals" />
-                  </th>
-                  <th>
-                    <FormattedMessage defaultMessage="Time to complete" />
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                {withdrawalRateData.map(({ num, days }) => (
-                  <tr>
-                    <td>{Intl.NumberFormat(locale).format(num)}</td>
-                    <td>
-                      {Intl.NumberFormat(locale).format(days)}{' '}
-                      <FormattedMessage defaultMessage="days" />
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </TableContainer>
-        </section>
-
-        <section>
-          <Anchor to="#further-reading" id="further-reading">
-            <SectionTitle level={2} className="mb10">
-              <FormattedMessage defaultMessage="Further reading" />
-            </SectionTitle>
-          </Anchor>
-
-          <ul>
-            <li>
-              <Link
-                primary
-                inline
-                to="https://github.com/ethereum/consensus-specs/blob/dev/specs/capella/"
-              >
-                <FormattedMessage defaultMessage="Capella - Formal specification" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                primary
-                inline
-                to="https://notes.ethereum.org/@launchpad/withdrawals-guide"
-              >
-                <FormattedMessage defaultMessage="How to trigger withdrawals, credential change" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                primary
-                inline
-                to="https://notes.ethereum.org/@launchpad/zhejiang"
-              >
-                <FormattedMessage defaultMessage="How to join the public withdrawals testnet" />
-              </Link>
-            </li>
-            <li>
-              <Link primary inline to="https://github.com/ethereum/pm/issues">
-                <FormattedMessage defaultMessage="Community calls - announced in the PM repo" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                primary
-                inline
-                to="https://ethstaker.gitbook.io/ethstaker-knowledge-base/"
-              >
-                <FormattedMessage defaultMessage="EthStaker Knowledge Base" />
-              </Link>
-            </li>
-            <li>
-              <Link
-                primary
-                inline
-                to="https://github.com/benjaminchodroff/ConsensusLayerWithdrawalProtection"
-              >
-                <FormattedMessage defaultMessage="Consensus Layer Withdrawal Protection" />
-              </Link>
-            </li>
-          </ul>
         </section>
       </ComponentStyles>
     </PageTemplate>

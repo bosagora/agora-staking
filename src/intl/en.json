@@ -35,11 +35,11 @@
   "/E/Zm8": {
     "message": "Configure the Java Web"
   },
+  "/FGBoc": {
+    "message": "This requires use of your mnemonic seed phrase, When entering the mnemonic, it should be done on the offline air-gaped machine."
+  },
   "/FpD8O": {
     "message": "Do this after TTD client releases"
-  },
-  "/JiR8D": {
-    "message": "On a never-ending loop, every single validator account is continuously evaluated for eligible ETH withdrawals (of which there are two types, more on this below). Validators are processed in order by index number, originally starting at 0, with each subsequent proposer picking up where the last one left off."
   },
   "/OAba6": {
     "message": "Note the “activation” and “exit” queues are independent and do not compete. Each are limited on a per-epoch basis."
@@ -108,9 +108,6 @@
   "0GpntE": {
     "message": "After the update, your 20000 BOA can then be withdrawn – with your withdrawal key – after a delay of around a day."
   },
-  "0MIRQ5": {
-    "message": "Is the effective balance maxed out at 32?"
-  },
   "0Pficg": {
     "message": "Note: the Agora Chain may take several minutes to verify your deposit"
   },
@@ -137,9 +134,6 @@
   },
   "0oNdmk": {
     "message": "Validators FAQ"
-  },
-  "0sMzHb": {
-    "message": "As noted above, this step is completed by signing a message known as {message}. These are accepted into blocks as of the first slot after the Shanghai/Capella upgrade."
   },
   "0wEZ8X": {
     "message": "Verify on {NETWORK_NAME}"
@@ -371,12 +365,6 @@
   "5dG331": {
     "message": "Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at {pricePerValidator}. It is possible to drop below this with poor node performance, but it is not possible to raise above it."
   },
-  "5hW6Gf": {
-    "message": "Consensus Layer Withdrawal Protection"
-  },
-  "5v36Is": {
-    "message": "Exiting a {client} validator"
-  },
   "63gLLu": {
     "message": "average"
   },
@@ -471,9 +459,6 @@
   },
   "7xTA79": {
     "message": "Agora-cl is written in Go and released under a GPL-3.0 license."
-  },
-  "8/nhr4": {
-    "message": "For your validator to be capable of withdrawals of any kind, a withdrawal address must be provided and registered to your account on the Beacon Chain. This should be an address you control, and cannot be changed once set."
   },
   "80eWKU": {
     "message": "True balance"
@@ -634,9 +619,6 @@
   "AyaNND": {
     "message": "TestingTheMerge"
   },
-  "B0BAqm": {
-    "message": "An {excessBalanceWithdrawal} is processed when an active validator has a maxed out effective balance of 32, and has a total balance over 32. A single validator cannot get rewards on excess balance over 32 ETH, and thus these accounts will have any extra balance automatically withdrawn to their Ethereum address."
-  },
   "B2yI5P": {
     "message": "Lighthouse has dedicated tooling to make the transfer from the AgoraStaking as easy as possible."
   },
@@ -653,17 +635,11 @@
   "BHR1uy": {
     "message": "Erigon is written in Go and licensed under the GNU LGPLv3."
   },
-  "BKDxOx": {
-    "message": "Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake ETH, a new validator must be activated."
-  },
   "BPpnlJ": {
     "message": "Download MetaMask"
   },
   "BXoiVG": {
     "message": "Additional reminders"
-  },
-  "Bc20la": {
-    "message": "days"
   },
   "BcUgLk": {
     "message": "Suggested Fee Recipient"
@@ -682,9 +658,6 @@
   },
   "Bp0clV": {
     "message": "Validator index:"
-  },
-  "Bp9Dxf": {
-    "message": "How to trigger withdrawals, credential change"
   },
   "C3jBPI": {
     "message": "Execution Client"
@@ -744,8 +717,8 @@
   "DKSrR+": {
     "message": "I understand that if I act contrary to the specification, I am liable to be slashed."
   },
-  "DLWOxX": {
-    "message": "Similarly, there is also an {exitQueue}, which limits how quickly validators can {leave} the network. This is for security reasons. Given each validator is limited to a max effective balance of 32 ETH, this prevents large portions of the ETH from potentially being used in an attack and then quickly exiting from the network all at once."
+  "DOfdhd": {
+    "message": "BOSagora users are used to transactions being executed in a manual way—if you want to transfer funds, you have to sign a transaction and pay the gas."
   },
   "DUnyVI": {
     "message": "Ideally your internet connection should be reliable and as close to 24/7 as possible without interruption."
@@ -771,9 +744,6 @@
   },
   "E1Q9gA": {
     "message": "Moreover, you can set your Validator Client and Agora-cl node on separate machines and IPs so that even if your agora node is vulnerable, your keystore is stored on a different machine."
-  },
-  "E4rtgi": {
-    "message": "Consensus clients:"
   },
   "E8t6ru": {
     "message": "To become a validator you'll need to know about managing keys and protecting a mnemonic. If you are not yet familiar with keys and mnemomics, please do not proceed. Note that during this process you will not derive the keys needed to withdraw later, so store your mnemonic safely in order to be able to withdraw later."
@@ -876,9 +846,6 @@
   },
   "GOc7cL": {
     "message": "How badly will I be penalized for being offline?"
-  },
-  "GTkW7D": {
-    "message": "It is not possible to manually request specific amounts of ETH to be withdrawn"
   },
   "GU3/cm": {
     "message": "Agora-cl is a consensus client implementation of the AGORA protocol with a focus on usability, security, and reliability."
@@ -999,6 +966,9 @@
   "IwrKbS": {
     "description": "{impact} shows 'impact of effective balance' and links to article on 'Effective Balance'",
     "message": "It depends. In addition to the {impact} there are two important scenarios to be aware of:"
+  },
+  "IzxJHB": {
+    "message": "Agora Deposit CLI"
   },
   "J5Lzz1": {
     "message": "Chinese (traditional)"
@@ -1190,14 +1160,8 @@
   "MZvoWG": {
     "message": "The upgrades"
   },
-  "MaZo9k": {
-    "message": "Wagyu Key Gen GUI"
-  },
   "Mb3npQ": {
     "message": "Using the terminal"
-  },
-  "MbLMTq": {
-    "message": "This can be summarized to estimate the upper limit of how long a complete sweep takes depending on how many withdrawals need processing:"
   },
   "Mc8nNE": {
     "message": "Transaction failed"
@@ -1338,11 +1302,11 @@
   "P9mVZK": {
     "message": "Your network has changed"
   },
-  "PHZO0L": {
-    "message": "Launchpad walkthrough tutorial"
-  },
   "PQgBnI": {
     "message": "This epoch is determined by the first available epoch that isn't already maxed out with other validators exiting (rate limit depends on total validators on the network), and must be at least four (4) epochs after the exit was initiated."
+  },
+  "PQzdUP": {
+    "message": "A decision tree is followed to determine what type of withdrawal will be initiated. If the validator being checked has BOA that is eligible to be withdrawn, it is added to the withdrawal queue. If there isn’t, the account is skipped."
   },
   "PfoT0C": {
     "message": "This checklist will help you understand the role of a validator and prepare you for the role."
@@ -1441,11 +1405,11 @@
   "RE2MaJ": {
     "message": "Consensus clients"
   },
+  "RNky8I": {
+    "message": "It tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Withdrawals update."
+  },
   "ROHpFF": {
     "message": "1. Learn about your responsibilities"
-  },
-  "ROwygg": {
-    "message": "EIP-4895"
   },
   "RVyb7r": {
     "message": "Can I stop running my validator for a few days and then start it back up again?"
@@ -1470,9 +1434,6 @@
   },
   "Ryptmy": {
     "message": "Verify it with the following command to check if it returns the client version correctly:"
-  },
-  "S+FY5u": {
-    "message": "This requires use of your mnemonic seed phrase, and should be performed on an {offline} air-gapped machine."
   },
   "S943uU": {
     "message": "Double check the URL"
@@ -1539,6 +1500,9 @@
   "Szwbym": {
     "message": "wrench"
   },
+  "T13XOJ": {
+    "message": "As of the Withdrawals update have been enabled on the Agora Network. Agora Improvement enables rewards to be automatically withdrawn to the execution layer, and also provides a way for exited validators to unlock their entire balance—no gas required."
+  },
   "T2O2Gr": {
     "message": "initial and maximum"
   },
@@ -1563,6 +1527,9 @@
   "TfNuWP": {
     "message": "virtualenv would help you to create an isolated Python environment for deposit-cli tool."
   },
+  "Tloufp": {
+    "message": "Those looking to exit their validator from staking and withdrawal their BOA should check out the guide below that matches your setup:"
+  },
   "ToUcj8": {
     "message": "Merge Readiness: In addition to an execution client, after the Merge node operators must also run an {alternateClient} to remain active."
   },
@@ -1572,8 +1539,8 @@
   "U/NPbq": {
     "message": "German"
   },
-  "U6jzBs": {
-    "message": "How to join the public withdrawals testnet"
+  "U0QXlZ": {
+    "message": "As noted above, this step is completed by signing a message known as {message}. These are accepted into blocks as of the first slot after the Withdrawals update upgrade."
   },
   "UHbYCa": {
     "message": "Your validator has its own balance – with the initial balance outlined in the deposit contract. Your rewards and penalties are reflected in your validator's balance over time."
@@ -1628,6 +1595,9 @@
   "VPpHAq": {
     "message": "I understand that I {cannotTransfer} my stake for a while, and I {cannotWithdraw} until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
   },
+  "VSe752": {
+    "message": "An {excessBalanceWithdrawal} is processed when an active validator has a maxed out effective balance of 40000, and has a total balance over 40000. A single validator cannot get rewards on excess balance over 40000 BOA, and thus these accounts will have any extra balance automatically withdrawn to their BOA address."
+  },
   "VUuZsb": {
     "message": "martial arts uniform"
   },
@@ -1639,9 +1609,6 @@
   },
   "Vp4z/b": {
     "message": "Stakers running their own execution layer is necessary for the decentralization of the network."
-  },
-  "VwWGD9": {
-    "message": "These messages are limited to 16 per block ({message}), so if more than 16 requests are being made at one time, a queue will be formed and these will be processed in subsequent blocks. This means that immediately following the Shanghai/Capella upgrade, users submitting this message may see delays up to an estimated 2-3 days before this request is processed."
   },
   "W10U1b": {
     "message": "Teku is Apache 2 licensed and written in Java, a language notable for its maturity and ubiquity."
@@ -1703,6 +1670,9 @@
   "XBEBYR": {
     "message": "More on installing pip"
   },
+  "XIQ0qi": {
+    "message": "If you’re preparing to make a deposit to activate a new validator, you can (and should) provide a withdrawal address with your initial deposit. This is done at time of key generation, and is then included in your {depositData} file which is submitted with your 40000 BOA deposit transaction."
+  },
   "XRxD8r": {
     "description": "Link to documentation about execution client Besu, specifically for Goerli testnet",
     "message": "Besu on Goerli documentation"
@@ -1720,9 +1690,6 @@
   },
   "XmddSV": {
     "message": "Build from source"
-  },
-  "XsZtDM": {
-    "message": "Capella - Formal specification"
   },
   "Y07Hwy": {
     "message": "Connect {wallet} to {executionLayerName}"
@@ -1753,9 +1720,6 @@
   },
   "YIjr32": {
     "message": "For those who want more control and less hand-holding"
-  },
-  "YJI2xv": {
-    "message": "A decision tree is followed to determine what type of withdrawal will be initiated. If the validator being checked has ETH that is eligible to be withdrawn, it is added to the withdrawal queue. If there isn’t, the account is skipped."
   },
   "YP03/j": {
     "message": "Afterwards, validators are still encouraged to join (the more validators the more decentralized the network), but it’s not absolutely essential that they do so (so the interest rate can fall)."
@@ -1828,15 +1792,14 @@
   "ZPRDyW": {
     "message": "Again, it depends. Behaving maliciously – for example attesting to invalid or contradicting blocks, will lead to your stake being slashed."
   },
-  "ZQo9kO": {
-    "description": "A minipool is a Rocket Pool-specific term for a validator that shares stake with others",
-    "message": "Exiting a {software} minipool"
-  },
   "ZTo0Fl": {
     "message": "Why is there a wait?"
   },
   "ZdT9Bs": {
     "message": "Your validator will also receive unburnt gas fees when proposing blocks. Validators are chosen randomly by the protocol to propose blocks, and only one validator can propose a block for each 12-second slot. There are 7200 slots each day, so each validator has 7200 chances-per-day to propose a block. If there are 360,000 validators, each validator will {average} a block proposal every 50 days."
+  },
+  "Zq8OcA": {
+    "message": "Is the effective balance maxed out at 40000?"
   },
   "ZsXdlw": {
     "message": "Erigon installation documentation"
@@ -1847,23 +1810,14 @@
   "ZzTcj5": {
     "message": "Download python3 and follow the installation instructions."
   },
-  "a+Xw/D": {
-    "message": "These are also referred to as “partial withdrawals” or “reward payments” as the remaining 32 ETH stays locked and staked."
-  },
   "a/140i": {
     "message": "Exit queue and activation queue"
-  },
-  "a9ats7": {
-    "message": "If you’re preparing to make a deposit to activate a new validator, you can (and should) provide a withdrawal address with your initial deposit. This is done at time of key generation, and is then included in your {depositData} file which is submitted with your 32 ETH deposit transaction."
   },
   "aDomwX": {
     "message": "If you try to cheat the system, or act contrary to the specification, you will be liable to incur a penalty, known as slashing. Running your validator keys simultaneously on two or more machines will result in slashing."
   },
   "aEBE6s": {
     "message": "2. Prep nodes"
-  },
-  "aEpxVo": {
-    "message": "Active accounts with an effective balance or total balance less than 32 will be skipped"
   },
   "aGg8f+": {
     "message": "To become a validator on the Agora Chain, you need to deposit {PRICE_PER_VALIDATOR} {TICKER_NAME} per validator that you wish to run."
@@ -2037,6 +1991,9 @@
   "eKEL/g": {
     "message": "Pending"
   },
+  "eM593L": {
+    "message": "Agora Key Gen GUI"
+  },
   "eOVXJz": {
     "message": "Submit a transaction to finish your deposit."
   },
@@ -2079,6 +2036,9 @@
   },
   "fDY/uQ": {
     "message": "Teku - The Merge"
+  },
+  "fLeOZb": {
+    "message": "On a never-ending loop, every single validator account is continuously evaluated for eligible BOA withdrawals (of which there are two types, more on this below). Validators are processed in order by index number, originally starting at 0, with each subsequent proposer picking up where the last one left off."
   },
   "fQ5yno": {
     "message": "Arabic"
@@ -2252,6 +2212,9 @@
   "im7uMt": {
     "message": "Consensus Layer Validator Client (VC)"
   },
+  "io35su": {
+    "message": "Exit from staking"
+  },
   "ioj2Sj": {
     "message": "I've imported my keystore(s) into my validator client."
   },
@@ -2270,11 +2233,11 @@
   "iykiWw": {
     "message": "Once the transition to proof-of-stake is complete via the Merge, validators will be responsible for processing transactions and signing off on their validity. This data will {not} be available from popular third-party sources after the Merge and will result in your validator being offline."
   },
+  "iziGmW": {
+    "message": "Active accounts with an effective balance or total balance less than 40000 will be skipped"
+  },
   "j8GPOH": {
     "message": "Formerly known as Artemis, Teku is a consensus client built to meet institutional needs and security requirements. PegaSys is an arm of ConsenSys, dedicated to building enterprise-ready clients and tools for interacting with the core Ethereum platform."
-  },
-  "jGVfQG": {
-    "message": "Four (4) validator exits are allowed per epoch, plus one (1) more for every 65,536 total active validators over 327,680. As of February 2023 this limit is seven (7), and will increase to eight (8) if/when the validator count reaches 524,288."
   },
   "jQTc9t": {
     "message": "Visit here to get the latest information on how to get involved with {testingTheMerge} on other public testnets as details unfold."
@@ -2328,12 +2291,6 @@
   },
   "kQTAe+": {
     "message": "Does the URL match what you’ve seen on other websites?"
-  },
-  "kRQqpE": {
-    "message": "Time to complete"
-  },
-  "kSt9db": {
-    "message": "As of the Shanghai/Capella upgrade withdrawals have been enabled on the Beacon Chain, with the inclusion of {eip}. This Ethereum Improvement Proposal enables rewards to be automatically withdrawn to the execution layer, and also provides a way for exited validators to unlock their entire balance—no gas required."
   },
   "kTt/ND": {
     "message": "Russian"
@@ -2425,6 +2382,9 @@
   "lrdlY6": {
     "message": "File uploaded"
   },
+  "m+6CHW": {
+    "message": "These are also referred to as “partial withdrawals” or “reward payments” as the remaining 40000 BOA stays locked and staked."
+  },
   "mA/8Vc": {
     "message": "The AGORA consensus-layer specification"
   },
@@ -2445,9 +2405,6 @@
   },
   "mcyp2f": {
     "message": "More on frequency of payouts below."
-  },
-  "mdmA4f": {
-    "message": "Number of withdrawals"
   },
   "mhyltV": {
     "message": "I've set my graffiti flag."
@@ -2522,9 +2479,6 @@
   "oAH54o": {
     "message": "Consensus Layer Agora Node"
   },
-  "oF6xvJ": {
-    "message": "EthStaker Knowledge Base"
-  },
   "oLxfO1": {
     "message": "Now that the keys are imported, all that is left to do (assuming your beacon node is already running) is to run the validator client."
   },
@@ -2571,9 +2525,6 @@
     "description": "{goerli} shows '--network=goerli' terminal command",
     "message": "Use {goerli} to sync the Goerli testnet."
   },
-  "p+kDTB": {
-    "message": "Ethereum users are used to transactions being executed in a manual way—if you want to transfer funds, you have to sign a transaction and pay the gas."
-  },
   "p0b6zX": {
     "message": "More on Status"
   },
@@ -2593,17 +2544,14 @@
   "pXyH++": {
     "message": "The Besu documentation explains how to download and install the client."
   },
-  "pb2jYe": {
-    "message": "These tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Shanghai/Capella upgrade."
+  "pZ5VaW": {
+    "message": "The block producer then checks the next validator in line, and once again determines if a withdrawal needs to be processed or not. This process is repeated until either 16 eligible withdrawals have been found. At that point, the withdrawal queue is sent to the execution layer to be included at the end of the next block."
   },
   "pfJX2D": {
     "message": "More on phishing"
   },
   "phW8Eh": {
     "message": "How much BOA do I need to stake to become a validator?"
-  },
-  "plXBe0": {
-    "message": "Alternative node tooling:"
   },
   "pnxB8A": {
     "message": "Nimbus looks for keystores in your validators folder."
@@ -2657,14 +2605,8 @@
   "qgqVCE": {
     "message": "reconnect your wallet"
   },
-  "qkEXNd": {
-    "message": "Staking Deposit CLI"
-  },
   "qkhah0": {
     "message": "Save the key files and get the validator file ready"
-  },
-  "qlwUud": {
-    "message": "Exiting a {software} validator"
   },
   "qwh6gM": {
     "message": "I understand the early adopter and slashing risks."
@@ -2716,8 +2658,14 @@
   "rs4eqr": {
     "message": "You may need to top up your validator's balance for two important reasons. If your validator's effective balance is below {PRICE_PER_VALIDATOR} {TICKER_NAME} you won't be earning your full staker rewards. And if it drops as low as {EJECTION_PRICE} {TICKER_NAME} the system will eject your validator."
   },
+  "rvEw8X": {
+    "message": "For your validator to be capable of withdrawals of any kind, a withdrawal address must be provided and registered to your account on the Agora Network. This should be an address you control, and cannot be changed once set."
+  },
   "rxttyC": {
     "message": "Your mnemonic is the backup for your signing keys and will be the ONLY way to withdraw your {TICKER_NAME} when the time comes and no one can help you recover your mnemonic if you lose it."
+  },
+  "ryhHN4": {
+    "message": "It is not possible to manually request specific amounts of BOA to be withdrawn"
   },
   "s6gImC": {
     "message": "Teku can also be configured via a YAML file which is passed in via a few different ways."
@@ -2727,9 +2675,6 @@
   },
   "sMHQRT": {
     "message": "A consensus client with a heavy focus on speed and security. Built by Sigma Prime, an information security and software engineering firm who have funded Lighthouse along with the Ethereum Foundation, Consensys, and private individuals."
-  },
-  "sToVAS": {
-    "message": "The block producer then checks the next validator in line, and once again determines if a withdrawal needs to be processed or not. This process is repeated until either 16 eligible withdrawals have been found, or until 16,384 validators have been checked, whichever comes first. At that point, the withdrawal queue is sent to the execution layer to be included at the end of the next block."
   },
   "sXV95+": {
     "message": "CPU and RAM"
@@ -2896,8 +2841,17 @@
   "vzJ0Od": {
     "message": "Your wallet is on the wrong AGORA network. To continue, connect to {executionLayerName}."
   },
+  "w0RGXG": {
+    "message": "These messages are limited to 16 per block ({message}), so if more than 16 requests are being made at one time, a queue will be formed and these will be processed in subsequent blocks. This means that immediately following the Withdrawals update, users submitting this message may see delays up to an estimated 2-3 days before this request is processed."
+  },
   "w6qYSU": {
     "message": "Run the following command to launch the app"
+  },
+  "w9Obl9": {
+    "message": "Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake BOA, a new validator must be activated."
+  },
+  "wEY5vW": {
+    "message": "Similarly, there is also an {exitQueue}, which limits how quickly validators can {leave} the network. This is for security reasons. Given each validator is limited to a max effective balance of 40000 BOA, this prevents large portions of the BOA from potentially being used in an attack and then quickly exiting from the network all at once."
   },
   "wHvmSN": {
     "message": "both"
@@ -2985,9 +2939,6 @@
   "xbet2w": {
     "message": "Install python3.7+"
   },
-  "xh7oVn": {
-    "message": "Those looking to exit their validator from staking and withdrawal their ETH should check out the guide below that matches your setup:"
-  },
   "xlgruU": {
     "message": "You'll need to run an execution client (Agora-el) as well as a consensus client (Agora-cl) to become a validator. Take a look at the checklist to prepare yourself and your equipment."
   },
@@ -3066,8 +3017,5 @@
   },
   "znyxZv": {
     "message": "~27 hours"
-  },
-  "zrb2Xo": {
-    "message": "Community calls - announced in the PM repo"
   }
 }

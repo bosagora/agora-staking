@@ -7,6 +7,7 @@ import styled from 'styled-components';
 import { Heading } from './Heading';
 import { Text } from './Text';
 import { Code } from './Code';
+import { colors } from '../styles/styledComponentsTheme';
 import { WithdrawalCredentials } from './WithdrawalCredentials';
 
 const HashCode = styled(Code)`
@@ -16,7 +17,10 @@ const HashCode = styled(Code)`
 const StyledTabs = styled(Tabs)`
   margin-top: 30px;
   button:focus {
-    outline: 2px solid ${p => p.theme.red.light};
+    outline: 2px solid ${p => p.theme.blue.light};
+  }
+  button > div:hover {
+    opacity: 0.8;
   }
   div {
     border: 0px;
@@ -36,7 +40,8 @@ const StyledTabs = styled(Tabs)`
     border-radius: 4px 4px 0 0;
   }
   button[aria-expanded='true'] {
-    background-image: ${p => `linear-gradient(to right, ${p.theme.rainbow})`};
+    background-color: ${colors.blue.darkest};
+    color: ${colors.white};
     * {
       font-weight: 600 !important;
     }
@@ -75,11 +80,11 @@ export const WithdrawalsTabComparison: FC<IProps> = () => {
                 values={{
                   stakingDepositCli: (
                     <strong>
-                      <FormattedMessage defaultMessage="Staking Deposit CLI" />
+                      <FormattedMessage defaultMessage="Agora Deposit CLI" />
                     </strong>
                   ),
                   eth1WithdrawalAddress: (
-                    <HashCode>--eth1_withdrawal_address</HashCode>
+                    <HashCode>--withdrawal_address</HashCode>
                   ),
                 }}
               />
@@ -90,7 +95,7 @@ export const WithdrawalsTabComparison: FC<IProps> = () => {
                 values={{
                   wagyuKeyGenGui: (
                     <strong>
-                      <FormattedMessage defaultMessage="Wagyu Key Gen GUI" />
+                      <FormattedMessage defaultMessage="Agora Key Gen GUI" />
                     </strong>
                   ),
                 }}
@@ -118,7 +123,7 @@ export const WithdrawalsTabComparison: FC<IProps> = () => {
               defaultMessage="If you’re preparing to make a deposit to activate a new
               validator, you can (and should) provide a withdrawal address with your initial deposit. This is
               done at time of key generation, and is then included in your {depositData} file
-              which is submitted with your 32 ETH deposit transaction."
+              which is submitted with your 40000 BOA deposit transaction."
               values={{
                 depositData: <Code>{'deposit_data-<timestamp>.json'}</Code>,
               }}
@@ -135,10 +140,10 @@ export const WithdrawalsTabComparison: FC<IProps> = () => {
                 values={{
                   stakingDepositCli: (
                     <strong>
-                      <FormattedMessage defaultMessage="Staking Deposit CLI" />
+                      <FormattedMessage defaultMessage="Agora Deposit CLI" />
                     </strong>
                   ),
-                  eth1WithdrawalAddress: <Code>--eth1_withdrawal_address</Code>,
+                  eth1WithdrawalAddress: <Code>--withdrawal_address</Code>,
                 }}
               />
             </li>
@@ -148,7 +153,7 @@ export const WithdrawalsTabComparison: FC<IProps> = () => {
                 values={{
                   wagyuKeyGenGui: (
                     <strong>
-                      <FormattedMessage defaultMessage="Wagyu Key Gen GUI" />
+                      <FormattedMessage defaultMessage="Agora Key Gen GUI" />
                     </strong>
                   ),
                 }}
