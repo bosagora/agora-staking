@@ -71,10 +71,22 @@
       "value": "Java 웹 구성"
     }
   ],
+  "/FGBoc": [
+    {
+      "type": 0,
+      "value": "This requires use of your mnemonic seed phrase, When entering the mnemonic, it should be done on the offline air-gaped machine."
+    }
+  ],
   "/FpD8O": [
     {
       "type": 0,
       "value": "TTD 클라이언트 릴리스 후에 이 작업을 수행합니다."
+    }
+  ],
+  "/OAba6": [
+    {
+      "type": 0,
+      "value": "Note the “activation” and “exit” queues are independent and do not compete. Each are limited on a per-epoch basis."
     }
   ],
   "/QOisp": [
@@ -131,6 +143,12 @@
     {
       "type": 0,
       "value": "을(를) 전송하게끔 유도할 수 있습니다. 트랜잭션을 전송하려는 주소가 올바른 주소인지 반드시 확인하십시오."
+    }
+  ],
+  "/e+qAC": [
+    {
+      "type": 0,
+      "value": "withdrawable epoch"
     }
   ],
   "/jJLYy": [
@@ -231,6 +249,12 @@
       "value": "섹션 3 - 예치 후"
     }
   ],
+  "09ZPhN": [
+    {
+      "type": 0,
+      "value": "Withdrawal credentials:"
+    }
+  ],
   "0FTs1T": [
     {
       "type": 0,
@@ -259,6 +283,12 @@
     {
       "type": 0,
       "value": "테스트넷 연습"
+    }
+  ],
+  "0U17DC": [
+    {
+      "type": 0,
+      "value": "withdrawal credentials"
     }
   ],
   "0c06tl": [
@@ -297,6 +327,16 @@
     {
       "type": 0,
       "value": "검증자 FAQ"
+    }
+  ],
+  "0wEZ8X": [
+    {
+      "type": 0,
+      "value": "Verify on "
+    },
+    {
+      "type": 1,
+      "value": "NETWORK_NAME"
     }
   ],
   "122+yR": [
@@ -401,7 +441,7 @@
       "value": "Nethermind 실행에 대한 문서"
     }
   ],
-  "1ingnQ": [
+  "1wSJQU": [
     {
       "type": 0,
       "value": "이더리움 스테이킹 경제에 대한 자세한 정보"
@@ -423,6 +463,10 @@
   ],
   "23k+Gv": [
     {
+      "type": 0,
+      "value": "Does the site asking you for your "
+    },
+    {
       "type": 1,
       "value": "ethAmount"
     },
@@ -435,6 +479,14 @@
     {
       "type": 0,
       "value": "경로 구분자는 운영체제 종속적이며, Windows에서는 "
+    },
+    {
+      "type": 1,
+      "value": "semicolon"
+    },
+    {
+      "type": 0,
+      "value": " in Windows rather than "
     },
     {
       "type": 1,
@@ -485,16 +537,44 @@
       "value": "clientName"
     }
   ],
+  "2RXbJd": [
+    {
+      "type": 0,
+      "value": "What factors affect the frequency of payouts?"
+    }
+  ],
+  "2XWJdH": [
+    {
+      "type": 0,
+      "value": "If so, move to next question"
+    }
+  ],
   "2a1GTh": [
     {
       "type": 0,
       "value": "언제든 인출 키에서 서명 키를 재계산할 수 있습니다."
     }
   ],
+  "2ebz/N": [
+    {
+      "type": 0,
+      "value": "excess balance withdrawal"
+    }
+  ],
   "2iH8Zc": [
     {
       "type": 0,
       "value": "Nimbus 키 관리 개발문서"
+    }
+  ],
+  "2rFwzp": [
+    {
+      "type": 1,
+      "value": "wagyuKeyGenGui"
+    },
+    {
+      "type": 0,
+      "value": ": if you provided a withdrawal address when generating your keys, you're good to go (found under “advanced mode”)"
     }
   ],
   "2s0gAx": [
@@ -552,7 +632,7 @@
     },
     {
       "type": 1,
-      "value": "eth"
+      "value": "boa"
     },
     {
       "type": 0,
@@ -655,6 +735,28 @@
       "value": "mainnet"
     }
   ],
+  "40/5Sf": [
+    {
+      "type": 0,
+      "value": "Note that your "
+    },
+    {
+      "type": 1,
+      "value": "withdrawalCredentials"
+    },
+    {
+      "type": 0,
+      "value": " are not the same as your "
+    },
+    {
+      "type": 1,
+      "value": "feeRecipient"
+    },
+    {
+      "type": 0,
+      "value": ", which receives transaction fees from proposed blocks. These can both be set to the same address, but must each be set separately."
+    }
+  ],
   "44jNmM": [
     {
       "type": 0,
@@ -713,10 +815,22 @@
       "value": "스마트 컨트랙트 검증을 받으셨습니까?"
     }
   ],
+  "4kNER3": [
+    {
+      "type": 0,
+      "value": "Any exit, voluntary or not, must be processed through the exit queue. This is not instantaneous, and depends on how many other accounts are exiting at the same time."
+    }
+  ],
   "4l6vz1": [
     {
       "type": 0,
       "value": "복사"
+    }
+  ],
+  "4uFys5": [
+    {
+      "type": 0,
+      "value": "Accounts that have been slashed, or have insufficient balance, will be forced to exit according to the network rules. This is automatic and cannot be stopped once initiated."
     }
   ],
   "4wGlGH": [
@@ -735,6 +849,34 @@
     {
       "type": 0,
       "value": "White Paper (CH)"
+    }
+  ],
+  "57MWKW": [
+    {
+      "type": 0,
+      "value": "Withdrawals as an operation, not a new transaction type"
+    }
+  ],
+  "57h5ur": [
+    {
+      "type": 0,
+      "value": "Then up to "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": " for the next validator sweep to execute the full withdrawal (assumes "
+    },
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": " withdrawal credentials)"
     }
   ],
   "58PXVy": [
@@ -821,6 +963,12 @@
     {
       "type": 0,
       "value": "평균"
+    }
+  ],
+  "6NndcB": [
+    {
+      "type": 0,
+      "value": "leave"
     }
   ],
   "6O7cDy": [
@@ -947,10 +1095,26 @@
       "value": " 를 실행해야 합니다."
     }
   ],
+  "7GLK15": [
+    {
+      "type": 0,
+      "value": "Depending which method you use to generate your keys:"
+    }
+  ],
   "7Iz3JI": [
     {
       "type": 0,
       "value": "컨센서스 클라이언트"
+    }
+  ],
+  "7Nwe5A": [
+    {
+      "type": 1,
+      "value": "exitEpochLabel"
+    },
+    {
+      "type": 0,
+      "value": " - epoch at which your validator is no longer active, no longer earning rewards, and is no longer subject to slashing rules."
     }
   ],
   "7Rw2uA": [
@@ -975,6 +1139,12 @@
     {
       "type": 0,
       "value": "슬래싱이 발생했습니까?"
+    }
+  ],
+  "7kWKe0": [
+    {
+      "type": 0,
+      "value": "The withdrawal queue is automatically filled and processed by block proposers, who automatically check for any available payouts via a sweeping mechanism."
     }
   ],
   "7n4y3s": [
@@ -1087,6 +1257,64 @@
       "value": "슬래싱"
     }
   ],
+  "8echXf": [
+    {
+      "type": 0,
+      "value": "Do not turn your validator off until this epoch is reached."
+    }
+  ],
+  "8fXTDo": [
+    {
+      "type": 0,
+      "value": "Fortunately, this is only a one-time message that needs to be processed, and validators who provided withdrawal credentials at time of deposit are exempt from this step. Once completed, your validator is permanently enabled for withdrawals, and will be eligible for payouts during the next sweep."
+    }
+  ],
+  "8k1RjX": [
+    {
+      "type": 1,
+      "value": "NETWORK_NAME"
+    },
+    {
+      "type": 0,
+      "value": " testnet"
+    }
+  ],
+  "8kLV25": [
+    {
+      "type": 0,
+      "value": "Has a withdrawal address been provided?"
+    }
+  ],
+  "8mybVV": [
+    {
+      "type": 1,
+      "value": "type0"
+    },
+    {
+      "type": 0,
+      "value": " = \"Type 0\" = BLS keys = Old withdrawal credentials: "
+    },
+    {
+      "type": 1,
+      "value": "withdrawalsDisabled"
+    }
+  ],
+  "8rxaqc": [
+    {
+      "type": 1,
+      "value": "withdrawableEpochLabel"
+    },
+    {
+      "type": 0,
+      "value": " - epoch at which your validator funds are eligible for a full withdrawal during the next validator sweep."
+    }
+  ],
+  "8uq59n": [
+    {
+      "type": 0,
+      "value": "Signal your intent to exit staking by signing and broadcasting a voluntary exit message to the network using your validator keys and validator client"
+    }
+  ],
   "8wd0q5": [
     {
       "type": 0,
@@ -1173,6 +1401,12 @@
     {
       "type": 0,
       "value": "옵션 및 서브커맨드 개발문서 읽기"
+    }
+  ],
+  "9r6K1F": [
+    {
+      "type": 0,
+      "value": "Not eligible for withdrawals"
     }
   ],
   "9r8j5+": [
@@ -1427,6 +1661,12 @@
       "value": "소개"
     }
   ],
+  "Bp0clV": [
+    {
+      "type": 0,
+      "value": "Validator index:"
+    }
+  ],
   "C3jBPI": [
     {
       "type": 0,
@@ -1507,6 +1747,12 @@
       "value": "방화벽 셋업을 마쳤습니다."
     }
   ],
+  "Cgrsge": [
+    {
+      "type": 0,
+      "value": "Current validators"
+    }
+  ],
   "CwO94c": [
     {
       "type": 0,
@@ -1585,6 +1831,12 @@
     {
       "type": 0,
       "value": "사양에 위배되는 행위를 하면 슬래싱에 대한 전적인 책임을 진다는 사실을 이해합니다."
+    }
+  ],
+  "DOfdhd": [
+    {
+      "type": 0,
+      "value": "BOSagora users are used to transactions being executed in a manual way—if you want to transfer funds, you have to sign a transaction and pay the gas."
     }
   ],
   "DUnyVI": [
@@ -1701,6 +1953,12 @@
     {
       "type": 0,
       "value": "테스트 네트워크입니다 ⚠️"
+    }
+  ],
+  "Ej2jo1": [
+    {
+      "type": 0,
+      "value": "Withdrawal address:"
     }
   ],
   "EkWLTJ": [
@@ -1839,6 +2097,12 @@
       "value": "검증자"
     }
   ],
+  "G0ZD5H": [
+    {
+      "type": 0,
+      "value": "To make an account eligible for a full withdrawal, the validator account must first be exited. Validator accounts can be exited from staking in two main ways: voluntarily or forcefully."
+    }
+  ],
   "G0aacl": [
     {
       "type": 0,
@@ -1909,6 +2173,12 @@
     {
       "type": 0,
       "value": "2단계: BOSAGORA 재단 입금 도구를 사용하여 입금 키 생성"
+    }
+  ],
+  "Ge62/G": [
+    {
+      "type": 0,
+      "value": "Excess balance withdrawals (partial withdrawals)"
     }
   ],
   "GelBd9": [
@@ -2033,6 +2303,12 @@
       "value": "네트워크"
     }
   ],
+  "I3hwdP": [
+    {
+      "type": 0,
+      "value": "Changing withdrawal credentials"
+    }
+  ],
   "I5ZPR9": [
     {
       "type": 0,
@@ -2049,6 +2325,12 @@
     {
       "type": 0,
       "value": "Erigon(종전의 'TurboGeth')은 성능 최적화가 가능하도록 구축된 이더리움 클라이언트입니다."
+    }
+  ],
+  "ID3Pgm": [
+    {
+      "type": 0,
+      "value": "Maximum number of withdrawals that can be processed in a single block"
     }
   ],
   "IJw06E": [
@@ -2069,6 +2351,18 @@
     {
       "type": 0,
       "value": " BOA 이상을 스테이킹해도 아무런 이점이 없습니다."
+    }
+  ],
+  "IWlazt": [
+    {
+      "type": 0,
+      "value": "full withdrawal"
+    }
+  ],
+  "IYvwsI": [
+    {
+      "type": 0,
+      "value": "Tools available for generating key change message"
     }
   ],
   "IZFEUg": [
@@ -2097,6 +2391,18 @@
       "value": "개 있음"
     }
   ],
+  "IhHhea": [
+    {
+      "type": 0,
+      "value": "Enter your validator index here to check if you're account is ready for withdrawals or not:"
+    }
+  ],
+  "InUvmv": [
+    {
+      "type": 0,
+      "value": "Beacon chain push withdrawals as operations"
+    }
+  ],
   "IugT5/": [
     {
       "type": 0,
@@ -2115,6 +2421,12 @@
     {
       "type": 0,
       "value": "에 더해 알아두어야 할 중요한 시나리오가 두 가지 있습니다."
+    }
+  ],
+  "IzxJHB": [
+    {
+      "type": 0,
+      "value": "Agora Deposit CLI"
     }
   ],
   "J5Lzz1": [
@@ -2235,6 +2547,18 @@
       "value": " 에서 지원을 요청하십시오."
     }
   ],
+  "K3uH1C": [
+    {
+      "type": 0,
+      "value": "offline"
+    }
+  ],
+  "K4TRB7": [
+    {
+      "type": 0,
+      "value": "The number of validators that can be activated or exited in a given epoch (6.4 minutes) is determined by how many active validators are currently on the network."
+    }
+  ],
   "KBSbmP": [
     {
       "type": 1,
@@ -2289,6 +2613,12 @@
     {
       "type": 0,
       "value": "시간이 지남에 따라 합의 프로세스에 참여하지 않은 것에 대한 처벌을 받으므로 잔액이 감소합니다. 잔액이 20000 BOA에 도달하면 자동으로 검증인 풀에서 퇴장됩니다."
+    }
+  ],
+  "KQrlTP": [
+    {
+      "type": 0,
+      "value": "join"
     }
   ],
   "KbtByh": [
@@ -2481,10 +2811,22 @@
       "value": "검증자가 온라인이고 최신 상태일 때만 보상을 온전히 받게 됩니다. 이는 귀하의 책임입니다. 검증자가 오프라인이 되면 페널티를 받습니다. 오프라인으로 인한 페널티는 참여 활성으로 인한 보상과 대체적으로 동일합니다."
     }
   ],
+  "M6nefR": [
+    {
+      "type": 0,
+      "value": "Rate-limits set on withdrawal queue (could change through testing before Shanghai)"
+    }
+  ],
   "MCDuJG": [
     {
       "type": 0,
       "value": "잔액이 20000 BOA 에 가까우면 반드시 충전해야 합니다. 이는 검증자 세트에서 쫓겨나지 않도록 하기 위한 것입니다."
+    }
+  ],
+  "MCmGYv": [
+    {
+      "type": 0,
+      "value": "Copied ✓"
     }
   ],
   "MGBKAP": [
@@ -2567,6 +2909,20 @@
       "value": "탑업 상세정보"
     }
   ],
+  "Mne5iM": [
+    {
+      "type": 0,
+      "value": "If so, stop. "
+    },
+    {
+      "type": 1,
+      "value": "fullWithdrawal"
+    },
+    {
+      "type": 0,
+      "value": " processed for any remaining balance"
+    }
+  ],
   "MoIew2": [
     {
       "type": 0,
@@ -2591,6 +2947,18 @@
     {
       "type": 0,
       "value": "은(는) 유효한 deposit_data JSON 파일이 아닙니다. 다시 시도하십시오."
+    }
+  ],
+  "N6QzJ5": [
+    {
+      "type": 0,
+      "value": "a few more days"
+    }
+  ],
+  "NDrMCw": [
+    {
+      "type": 0,
+      "value": "Total number of validator accounts that have eligible withdrawals (variable)"
     }
   ],
   "NEmnAV": [
@@ -2633,10 +3001,42 @@
       "value": "루트 계정을 확보했습니다."
     }
   ],
+  "NSl1Q5": [
+    {
+      "type": 1,
+      "value": "stakingDepositCli"
+    },
+    {
+      "type": 0,
+      "value": ": This is done by using the "
+    },
+    {
+      "type": 1,
+      "value": "eth1WithdrawalAddress"
+    },
+    {
+      "type": 0,
+      "value": " flag when generating your keys with the Staking Deposit CLI."
+    }
+  ],
   "NTWnJC": [
     {
       "type": 0,
       "value": "명령줄 앱 다운로드"
+    }
+  ],
+  "NUCB4G": [
+    {
+      "type": 0,
+      "value": "This "
+    },
+    {
+      "type": 1,
+      "value": "network"
+    },
+    {
+      "type": 0,
+      "value": " validator needs to be configured for withdrawals. Take note of your withdrawal credentials as you'll need this to update your keys."
     }
   ],
   "NYFKzu": [
@@ -2675,6 +3075,42 @@
     {
       "type": 0,
       "value": "AGORA 업그레이드 자세히 알아보기."
+    }
+  ],
+  "NiWtxk": [
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": " = \"Type 1\" = Execution keys = New withdrawal credentials: "
+    },
+    {
+      "type": 1,
+      "value": "withdrawalsEnabled"
+    }
+  ],
+  "NkFxlX": [
+    {
+      "type": 0,
+      "value": "At least "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": " (four epochs) from the current epoch before reaching the exit epoch (with no others in the queue, "
+    },
+    {
+      "type": 1,
+      "value": "highlyVariable"
+    },
+    {
+      "type": 0,
+      "value": ")"
     }
   ],
   "NwzcYT": [
@@ -2723,6 +3159,12 @@
       "value": "샤딩"
     }
   ],
+  "O4kYrf": [
+    {
+      "type": 0,
+      "value": "Total number of validator accounts (index count, every validator account ever registered, up-only over time)"
+    }
+  ],
   "OIvXIO": [
     {
       "type": 0,
@@ -2747,6 +3189,42 @@
     {
       "type": 0,
       "value": "Nethermind 개발문서에는 클라이언트 다운로드 및 설치 방법이 설명되어 있습니다."
+    }
+  ],
+  "ORVjVH": [
+    {
+      "type": 0,
+      "value": "Then another "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": " (256 epochs) before those funds are flagged as withdrawable"
+    }
+  ],
+  "OSEFbC": [
+    {
+      "type": 0,
+      "value": "Immediately upon broadcasting a signed voluntary exit message, the "
+    },
+    {
+      "type": 1,
+      "value": "exitEpoch"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "withdrawableEpoch"
+    },
+    {
+      "type": 0,
+      "value": " values are calculated based off the current epoch number. These values determine exactly when the validator will no longer be required to be online performing validation, and when the validator is eligible for a full withdrawal respectively."
     }
   ],
   "OXo7cj": [
@@ -2841,6 +3319,18 @@
     {
       "type": 0,
       "value": "네트워크가 변경되었습니다."
+    }
+  ],
+  "PQgBnI": [
+    {
+      "type": 0,
+      "value": "This epoch is determined by the first available epoch that isn't already maxed out with other validators exiting (rate limit depends on total validators on the network), and must be at least four (4) epochs after the exit was initiated."
+    }
+  ],
+  "PQzdUP": [
+    {
+      "type": 0,
+      "value": "A decision tree is followed to determine what type of withdrawal will be initiated. If the validator being checked has BOA that is eligible to be withdrawn, it is added to the withdrawal queue. If there isn’t, the account is skipped."
     }
   ],
   "PfoT0C": [
@@ -3001,6 +3491,20 @@
       "value": " 홈페이지"
     }
   ],
+  "QcnkjI": [
+    {
+      "type": 0,
+      "value": "If your validator account still has BLS withdrawal credentials ("
+    },
+    {
+      "type": 1,
+      "value": "type0"
+    },
+    {
+      "type": 0,
+      "value": "), a one-time message must be broadcast signaling which execution layer account should be used for all withdrawals."
+    }
+  ],
   "QdcDzb": [
     {
       "type": 0,
@@ -3057,6 +3561,24 @@
       "value": "boldWarning"
     }
   ],
+  "R6z/mc": [
+    {
+      "type": 1,
+      "value": "stakingDepositCli"
+    },
+    {
+      "type": 0,
+      "value": ": if you used the "
+    },
+    {
+      "type": 1,
+      "value": "eth1WithdrawalAddress"
+    },
+    {
+      "type": 0,
+      "value": " flag when generating your keys, you're good to go"
+    }
+  ],
   "R7JSpN": [
     {
       "type": 0,
@@ -3085,6 +3607,12 @@
     {
       "type": 0,
       "value": "합의 클라이언트"
+    }
+  ],
+  "RNky8I": [
+    {
+      "type": 0,
+      "value": "It tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Withdrawals update."
     }
   ],
   "ROHpFF": [
@@ -3197,6 +3725,20 @@
       "value": "지나치게 복잡한 셋업은 피하고 적절한 타협점을 찾으세요. 짧은 시간 오프라인이 되면 작은 부작위 페널티를 받게 되지만 온라인에 다시 연결된 후 오프라인이었던 시간만큼 지나면 쉽게 회복됩니다. 백업 전원을 복잡하게 구성하면 셋업 비용이 증가하며 백업 검증자를 이중으로 설정하면 슬래싱이 발생할 수 있습니다."
     }
   ],
+  "SVUntz": [
+    {
+      "type": 0,
+      "value": "Note that once a user has "
+    },
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": " withdrawal credentials and has broadcast a voluntary exit, there is no further action required until the processing is complete."
+    }
+  ],
   "SaR1pU": [
     {
       "type": 0,
@@ -3297,6 +3839,12 @@
       "value": "렌치"
     }
   ],
+  "T13XOJ": [
+    {
+      "type": 0,
+      "value": "As of the Withdrawals update have been enabled on the Agora Network. Agora Improvement enables rewards to be automatically withdrawn to the execution layer, and also provides a way for exited validators to unlock their entire balance—no gas required."
+    }
+  ],
   "T2O2Gr": [
     {
       "type": 0,
@@ -3353,6 +3901,12 @@
       "value": "virtualenv를 이용하면 deposit-cli 도구용 격리 Python 환경을 생성할 수 있습니다."
     }
   ],
+  "Tloufp": [
+    {
+      "type": 0,
+      "value": "Those looking to exit their validator from staking and withdrawal their BOA should check out the guide below that matches your setup:"
+    }
+  ],
   "ToUcj8": [
     {
       "type": 0,
@@ -3379,6 +3933,20 @@
       "value": "독일어"
     }
   ],
+  "U0QXlZ": [
+    {
+      "type": 0,
+      "value": "As noted above, this step is completed by signing a message known as "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ". These are accepted into blocks as of the first slot after the Withdrawals update upgrade."
+    }
+  ],
   "UHbYCa": [
     {
       "type": 0,
@@ -3393,6 +3961,24 @@
     {
       "type": 0,
       "value": "에서 자세한 내용을 확인하십시오."
+    }
+  ],
+  "UYRyWv": [
+    {
+      "type": 0,
+      "value": "Mechanics of withdrawals: How they work"
+    }
+  ],
+  "UYoRgC": [
+    {
+      "type": 0,
+      "value": "Depending how you set up your initial deposit, your account may or may not be ready for withdrawals already:"
+    }
+  ],
+  "UZkvC5": [
+    {
+      "type": 0,
+      "value": "Up until this epoch (while \"in the queue\") your validator is expected to be online and is held to the same slashing rules as always."
     }
   ],
   "UeIdTL": [
@@ -3535,6 +4121,20 @@
       "value": "을 이해합니다. 내가 종료하면 꽤 오랜 기간 재합류할 수 없음을 이해합니다. 이를 장기적으로 약속합니다."
     }
   ],
+  "VSe752": [
+    {
+      "type": 0,
+      "value": "An "
+    },
+    {
+      "type": 1,
+      "value": "excessBalanceWithdrawal"
+    },
+    {
+      "type": 0,
+      "value": " is processed when an active validator has a maxed out effective balance of 40000, and has a total balance over 40000. A single validator cannot get rewards on excess balance over 40000 BOA, and thus these accounts will have any extra balance automatically withdrawn to their BOA address."
+    }
+  ],
   "VUuZsb": [
     {
       "type": 0,
@@ -3563,6 +4163,12 @@
     {
       "type": 0,
       "value": "Teku는 Apache 2 라이선스가 허여되었고 완성도와 보편성이 뛰어난 Java로 작성되었습니다."
+    }
+  ],
+  "W1mus6": [
+    {
+      "type": 0,
+      "value": "Once a signed voluntary exit message is broadcast, it takes:"
     }
   ],
   "W1nRMy": [
@@ -3687,10 +4293,30 @@
       "value": " testnet"
     }
   ],
+  "X72hpo": [
+    {
+      "type": 0,
+      "value": "This validator is ready to start receiving rewards to the withdrawal address below. No further action is needed."
+    }
+  ],
   "XBEBYR": [
     {
       "type": 0,
       "value": "pip 설치에 대한 자세한 정보"
+    }
+  ],
+  "XIQ0qi": [
+    {
+      "type": 0,
+      "value": "If you’re preparing to make a deposit to activate a new validator, you can (and should) provide a withdrawal address with your initial deposit. This is done at time of key generation, and is then included in your "
+    },
+    {
+      "type": 1,
+      "value": "depositData"
+    },
+    {
+      "type": 0,
+      "value": " file which is submitted with your 40000 BOA deposit transaction."
     }
   ],
   "XRxD8r": [
@@ -3735,10 +4361,34 @@
       "value": "를 사용하여 합의 노드를 JSON RPC 엔드포인트에 연결하십시오. 그러면 기본 8545 포트에서 JSON RPC 서비스가 활성화됩니다."
     }
   ],
+  "XcItS7": [
+    {
+      "type": 0,
+      "value": "~25 minutes"
+    }
+  ],
   "XmddSV": [
     {
       "type": 0,
       "value": "소스로부터 빌드"
+    }
+  ],
+  "Y07Hwy": [
+    {
+      "type": 0,
+      "value": "Connect "
+    },
+    {
+      "type": 1,
+      "value": "wallet"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "type": 1,
+      "value": "executionLayerName"
     }
   ],
   "Y24kZE": [
@@ -3865,10 +4515,44 @@
       "value": "입니다."
     }
   ],
+  "YXrp+b": [
+    {
+      "type": 1,
+      "value": "wagyuKeyGenGui"
+    },
+    {
+      "type": 0,
+      "value": ": This software is being updated to require users to provide a withdrawal address during key generation. In the meantime, you may have to check “Advanced” during setup to enter a withdrawal address."
+    }
+  ],
+  "YZtVDX": [
+    {
+      "type": 0,
+      "value": "Oops! Double check validator index number and try again."
+    }
+  ],
   "Yd6MEN": [
     {
       "type": 0,
       "value": "실행 클라이언트"
+    }
+  ],
+  "YeJh+/": [
+    {
+      "type": 0,
+      "value": "By completing step one, you’ll enable withdrawals from your validator account. This will automatically trigger excess balance payments (partial withdrawals) to be processed, but this does not automatically unlock the rest of your funds, or trigger an exit from the network."
+    }
+  ],
+  "Yg8vug": [
+    {
+      "type": 0,
+      "value": "Make sure you’ve updated your withdrawal credentials with an execution withdrawal address"
+    }
+  ],
+  "Yganfl": [
+    {
+      "type": 0,
+      "value": "Type the following lines into the terminal window:"
     }
   ],
   "YkznEp": [
@@ -3975,6 +4659,12 @@
       "value": " 합니다."
     }
   ],
+  "Zq8OcA": [
+    {
+      "type": 0,
+      "value": "Is the effective balance maxed out at 40000?"
+    }
+  ],
   "ZsXdlw": [
     {
       "type": 0,
@@ -3991,6 +4681,12 @@
     {
       "type": 0,
       "value": "python3을 다운로드하고 설치 지침을 따르십시오."
+    }
+  ],
+  "a/140i": [
+    {
+      "type": 0,
+      "value": "Exit queue and activation queue"
     }
   ],
   "aDomwX": [
@@ -4025,6 +4721,12 @@
     {
       "type": 0,
       "value": "을(를) 예치해야 합니다."
+    }
+  ],
+  "aR50Oc": [
+    {
+      "type": 0,
+      "value": "To exit staking and fully withdrawal your entire remaining balance, you must do two things:"
     }
   ],
   "aXT3iO": [
@@ -4087,6 +4789,12 @@
       "value": "하지만 종료하고 나면 단시일 내에는 되돌릴 수 없습니다."
     }
   ],
+  "b5LQY1": [
+    {
+      "type": 0,
+      "value": "Note the “withdrawal” and “BLS-to-execution” queues are independent and do not compete. Each are limited on a per-block basis."
+    }
+  ],
   "bB1mmI": [
     {
       "type": 0,
@@ -4131,12 +4839,22 @@
   ],
   "be6WvD": [
     {
+      "type": 0,
+      "value": "A "
+    },
+    {
       "type": 1,
       "value": "nodeOperator"
     },
     {
       "type": 0,
       "value": " 는 필요에 따라 하드웨어를 유지하면서 클라이언트 소프트웨어가 적절하게 실행되고 있는지 확인하는 사람입니다."
+    }
+  ],
+  "bembWf": [
+    {
+      "type": 0,
+      "value": "Withdrawals not enabled"
     }
   ],
   "bgyJfz": [
@@ -4149,6 +4867,12 @@
     {
       "type": 0,
       "value": "Lighthouse는 Rust로 개발되었고, Apache 2.0 라이선스에 따라 제공됩니다."
+    }
+  ],
+  "bugMfW": [
+    {
+      "type": 0,
+      "value": "If not, move to next question"
     }
   ],
   "bxU6sX": [
@@ -4191,6 +4915,18 @@
     {
       "type": 0,
       "value": "온라인"
+    }
+  ],
+  "cdkI09": [
+    {
+      "type": 0,
+      "value": "How each validator is evaluated for withdrawals"
+    }
+  ],
+  "chsS1X": [
+    {
+      "type": 0,
+      "value": "If not, stop. No withdrawal will be processed and account skipped"
     }
   ],
   "chw27s": [
@@ -4265,6 +5001,12 @@
     {
       "type": 0,
       "value": "예치금"
+    }
+  ],
+  "dLE9FH": [
+    {
+      "type": 0,
+      "value": "If not, no withdrawal will be processed and account skipped"
     }
   ],
   "dM/KIM": [
@@ -4387,6 +5129,12 @@
       "value": "대기 중"
     }
   ],
+  "eM593L": [
+    {
+      "type": 0,
+      "value": "Agora Key Gen GUI"
+    }
+  ],
   "eOVXJz": [
     {
       "type": 0,
@@ -4397,6 +5145,12 @@
     {
       "type": 0,
       "value": "여기에는 누가 스테이킹하고 누가 검증하는지, 얼마나 스테이킹되어 있는지, 누가 자금을 인출할 수 있는지가 지정되어 있습니다."
+    }
+  ],
+  "eTenzU": [
+    {
+      "type": 0,
+      "value": "activation queue"
     }
   ],
   "eUhTs+": [
@@ -4505,6 +5259,12 @@
       "value": "Teku - 병합"
     }
   ],
+  "fLeOZb": [
+    {
+      "type": 0,
+      "value": "On a never-ending loop, every single validator account is continuously evaluated for eligible BOA withdrawals (of which there are two types, more on this below). Validators are processed in order by index number, originally starting at 0, with each subsequent proposer picking up where the last one left off."
+    }
+  ],
   "fQ5yno": [
     {
       "type": 0,
@@ -4515,6 +5275,18 @@
     {
       "type": 0,
       "value": "셋업 중"
+    }
+  ],
+  "fRCqob": [
+    {
+      "type": 0,
+      "value": "Accounts that have fully withdrawn and have a zero balance will be skipped"
+    }
+  ],
+  "fSi2R/": [
+    {
+      "type": 0,
+      "value": "Information for validator operators regarding staking withdrawals."
     }
   ],
   "fZwn+P": [
@@ -4553,6 +5325,12 @@
       "value": "실행 클라이언트 동기화는 최악의 경우 며칠이 소요될 수 있습니다."
     }
   ],
+  "fzrOtJ": [
+    {
+      "type": 0,
+      "value": "Consensus layer slot timing: 12 seconds (no plans to change)"
+    }
+  ],
   "g0zIUd": [
     {
       "type": 0,
@@ -4563,6 +5341,18 @@
     {
       "type": 0,
       "value": "virtualenv에 대한 자세한 정보"
+    }
+  ],
+  "gFj3By": [
+    {
+      "type": 0,
+      "value": "highly variable"
+    }
+  ],
+  "gHJegi": [
+    {
+      "type": 0,
+      "value": "Validators still need to complete their validation duties until they are exited"
     }
   ],
   "gIauNz": [
@@ -4581,6 +5371,12 @@
     {
       "type": 0,
       "value": "비밀 폴더에 있는 보조 비밀번호를 사용합니다."
+    }
+  ],
+  "gWC0Rt": [
+    {
+      "type": 0,
+      "value": "Like a clock hand, this process progresses in one direction, and when the last validator is reached, the sweep starts over again from the beginning. At each validator along the way, the account is evaluated for potential withdrawals."
     }
   ],
   "gjBiyj": [
@@ -4661,6 +5457,12 @@
       "value": "시계"
     }
   ],
+  "gzXQDW": [
+    {
+      "type": 0,
+      "value": "Withdrawable epoch"
+    }
+  ],
   "h/n5+N": [
     {
       "type": 0,
@@ -4671,6 +5473,12 @@
     {
       "type": 0,
       "value": "내 지분"
+    }
+  ],
+  "hCwX6+": [
+    {
+      "type": 0,
+      "value": "BLS To Execution Change (BTEC) queue"
     }
   ],
   "hEefkz": [
@@ -4841,6 +5649,12 @@
       "value": "클라이언트"
     }
   ],
+  "iK1COM": [
+    {
+      "type": 0,
+      "value": "Accounts without updated withdrawal credentials will be skipped"
+    }
+  ],
   "iMvXLd": [
     {
       "type": 0,
@@ -4871,10 +5685,22 @@
       "value": "합의 계층 검증자 클라이언트(VC)"
     }
   ],
+  "io35su": [
+    {
+      "type": 0,
+      "value": "Exit from staking"
+    }
+  ],
   "ioj2Sj": [
     {
       "type": 0,
       "value": "내 키스토어를 내 검증자 클라이언트로 가져오기 완료했습니다."
+    }
+  ],
+  "iouULJ": [
+    {
+      "type": 0,
+      "value": "Number of empty slots (missed block opportunities, variable, typically minimal)"
     }
   ],
   "irRdC0": [
@@ -4915,6 +5741,12 @@
     {
       "type": 0,
       "value": "결과적으로 검증자가 오프라인 상태가 됩니다."
+    }
+  ],
+  "iziGmW": [
+    {
+      "type": 0,
+      "value": "Active accounts with an effective balance or total balance less than 40000 will be skipped"
     }
   ],
   "j8GPOH": [
@@ -5012,7 +5844,27 @@
     },
     {
       "type": 0,
-      "value": " 수도꼭지가 남용되어 제한적이지만 EthStaker 에서 최선을 다해 도와드리겠습니다."
+      "value": " 수도꼭지가 남용되어 제한적이지만 BOAStaker 에서 최선을 다해 도와드리겠습니다."
+    }
+  ],
+  "k/4DOL": [
+    {
+      "type": 0,
+      "value": "Full withdrawal"
+    }
+  ],
+  "k8bkck": [
+    {
+      "type": 0,
+      "value": "EIP-4895, titled "
+    },
+    {
+      "type": 1,
+      "value": "eip4895"
+    },
+    {
+      "type": 0,
+      "value": ", implements a design that simplified this whole process for stakers."
     }
   ],
   "kFS5Sd": [
@@ -5117,6 +5969,12 @@
       "value": "을(를) 전송하려는 예치금 컨트랙트가 올바른 것임을 확인했고 이를 실행하려 합니다."
     }
   ],
+  "l4sDVJ": [
+    {
+      "type": 0,
+      "value": "exit queue"
+    }
+  ],
   "l5XCJW": [
     {
       "type": 0,
@@ -5133,6 +5991,20 @@
     {
       "type": 0,
       "value": "우선, 리포지토리 디렉터리 아래에 venv virtualenv를 생성합니다."
+    }
+  ],
+  "l926sJ": [
+    {
+      "type": 0,
+      "value": "If so, "
+    },
+    {
+      "type": 1,
+      "value": "excessBalanceWithdrawal"
+    },
+    {
+      "type": 0,
+      "value": " processed"
     }
   ],
   "lD66ab": [
@@ -5287,6 +6159,12 @@
       "value": "파일 업로드됨"
     }
   ],
+  "m+6CHW": [
+    {
+      "type": 0,
+      "value": "These are also referred to as “partial withdrawals” or “reward payments” as the remaining 40000 BOA stays locked and staked."
+    }
+  ],
   "mA/8Vc": [
     {
       "type": 0,
@@ -5323,6 +6201,12 @@
       "value": "수도꼭지를 포함하여 네트워크를 시작하는 데 필요한 모든 것"
     }
   ],
+  "mcyp2f": [
+    {
+      "type": 0,
+      "value": "More on frequency of payouts below."
+    }
+  ],
   "mhyltV": [
     {
       "type": 0,
@@ -5341,10 +6225,34 @@
       "value": "위험 및 인지:"
     }
   ],
+  "muV9Fg": [
+    {
+      "type": 0,
+      "value": "New validators (not yet deposited)"
+    }
+  ],
   "n1UDeZ": [
     {
       "type": 0,
       "value": "Agora-cl 구성"
+    }
+  ],
+  "n2Dn3F": [
+    {
+      "type": 0,
+      "value": "Withdrawal queue"
+    }
+  ],
+  "n4o1vR": [
+    {
+      "type": 0,
+      "value": "How to exit from staking (full withdrawals)"
+    }
+  ],
+  "n5PQND": [
+    {
+      "type": 0,
+      "value": "Exit epoch"
     }
   ],
   "nHCqbh": [
@@ -5401,6 +6309,12 @@
       "value": "을(를) 전송해도 내 유효 검증자 잔고에 합산되지 않으며 이를 인출할 수 없게 됩니다."
     }
   ],
+  "naHAvS": [
+    {
+      "type": 0,
+      "value": "Enabling withdrawals"
+    }
+  ],
   "ncpL2s": [
     {
       "type": 0,
@@ -5447,7 +6361,7 @@
       "value": " 에서 노드를 실행하는 방법"
     }
   ],
-  "o9QvTP": [
+  "o9rUg+": [
     {
       "type": 0,
       "value": "시작하기 전에"
@@ -5589,10 +6503,22 @@
       "value": "데스크톱 환경에서 앱을 두 번 클릭하여 시작하십시오."
     }
   ],
+  "pWuGLy": [
+    {
+      "type": 0,
+      "value": "When a validator is scheduled to propose the next block, it performs a sweep of validator accounts looking for eligible withdrawals. During the sweep, the validator will check a max of 16,384 accounts, attempting to find 16 available withdrawals to be processed in the next block."
+    }
+  ],
   "pXyH++": [
     {
       "type": 0,
       "value": "Besu 개발문서에는 클라이언트 다운로드 및 설치 방법이 설명되어 있습니다."
+    }
+  ],
+  "pZ5VaW": [
+    {
+      "type": 0,
+      "value": "The block producer then checks the next validator in line, and once again determines if a withdrawal needs to be processed or not. This process is repeated until either 16 eligible withdrawals have been found. At that point, the withdrawal queue is sent to the execution layer to be included at the end of the next block."
     }
   ],
   "pfJX2D": [
@@ -5669,6 +6595,12 @@
     {
       "type": 0,
       "value": "을(를) 넘는 초과 잔고는 아고라 체인에서 유효 잔고로 집계되지 않습니다. 아고라 체인과 메인넷이 병합될 때까지 이를 인출할 수 없습니다."
+    }
+  ],
+  "qBorVY": [
+    {
+      "type": 0,
+      "value": "Exit epoch and withdrawable epoch"
     }
   ],
   "qDvaNm": [
@@ -5751,6 +6683,20 @@
     {
       "type": 0,
       "value": "JWT"
+    }
+  ],
+  "r/G+qN": [
+    {
+      "type": 0,
+      "value": "A "
+    },
+    {
+      "type": 1,
+      "value": "fullWithdrawal"
+    },
+    {
+      "type": 0,
+      "value": " is processed for any inactivated validators that are no longer considered to be staking, that have fully exited from their validation responsibilities. Thus for a validator to fully withdraw its balance, it must first complete the process of exiting."
     }
   ],
   "r2j8jL": [
@@ -5883,6 +6829,12 @@
       "value": " 미만으로 떨어지면 시스템이 검증자를 퇴출합니다."
     }
   ],
+  "rvEw8X": [
+    {
+      "type": 0,
+      "value": "For your validator to be capable of withdrawals of any kind, a withdrawal address must be provided and registered to your account on the Agora Network. This should be an address you control, and cannot be changed once set."
+    }
+  ],
   "rxttyC": [
     {
       "type": 0,
@@ -5895,6 +6847,12 @@
     {
       "type": 0,
       "value": "을(를) 인출할 수 있는 유일한 수단입니다. 이를 잃어버리면 니모닉을 복구하는 데 도움을 줄 사람이 아무도 없습니다."
+    }
+  ],
+  "ryhHN4": [
+    {
+      "type": 0,
+      "value": "It is not possible to manually request specific amounts of BOA to be withdrawn"
     }
   ],
   "s6gImC": [
@@ -5919,6 +6877,12 @@
     {
       "type": 0,
       "value": "CPU 및 RAM"
+    }
+  ],
+  "sZK38z": [
+    {
+      "type": 0,
+      "value": "Instead of a new transaction type being used for stakers to manually request withdrawals, accounts are automatically checked for eligible excess balance every few days. All validators are checked on an endless loop, and any available rewards or exited funds are automatically “pushed” into a provided withdrawal account."
     }
   ],
   "saDFoR": [
@@ -5967,6 +6931,12 @@
       "value": "이 질문에 대한 대답은 당신이 마음대로 사용할 수 있는 BOA의 양에 달려 있습니다."
     }
   ],
+  "smd9Oc": [
+    {
+      "type": 0,
+      "value": "Validator index"
+    }
+  ],
   "snDnHn": [
     {
       "type": 0,
@@ -6009,6 +6979,12 @@
       "value": "deposit_data.json은 검증자를 추가로 셋업하려는 귀하의 의도만 나타냅니다. 예치금은 아직 미결 상태입니다. 이미 예치를 완료했다면 중복 예치금을 방지하기 위해 한 시간 정도 기다렸다가 다시 시도해 주십시오."
     }
   ],
+  "tWoq1e": [
+    {
+      "type": 0,
+      "value": "Maximum number of accounts that can be checked in a block. Stops when 16 withdrawals are found. If 16 eligible rewards are not found in the first 16,384 accounts checked, the withdrawal queue for that block will be submitted as is, and the following proposer will pick up where this left off."
+    }
+  ],
   "teyxVk": [
     {
       "type": 0,
@@ -6027,6 +7003,12 @@
     {
       "type": 0,
       "value": " 파일로 트랜잭션을 다시 제출해 보십시오. 여기에는 중복 예치금을 플래깅할 수 있는 온체인 데이터 소스 시간이 제공됩니다."
+    }
+  ],
+  "tjEnDp": [
+    {
+      "type": 0,
+      "value": "How long the cycle takes to check every account depends on:"
     }
   ],
   "tkFTZw": [
@@ -6099,6 +7081,34 @@
       "value": "업타임"
     }
   ],
+  "uAXXOX": [
+    {
+      "type": 0,
+      "value": "This timing of this last step is variable depending on validator index, current sweep position, and number of validators."
+    }
+  ],
+  "uDMtC8": [
+    {
+      "type": 0,
+      "value": "As anyone who has already gone through the process of activating a validator knows, this process is not automatic, especially if there are a lot of other users trying to join at the same time. This is because the consensus layer uses an "
+    },
+    {
+      "type": 1,
+      "value": "activationQueue"
+    },
+    {
+      "type": 0,
+      "value": " to limit how quickly new validator accounts can "
+    },
+    {
+      "type": 1,
+      "value": "join"
+    },
+    {
+      "type": 0,
+      "value": " the network."
+    }
+  ],
   "uJzGSb": [
     {
       "type": 0,
@@ -6129,6 +7139,12 @@
     {
       "type": 0,
       "value": "Agora-el은 Go로 작성된 AGORA 프로토콜의 실행 클라이언트입니다."
+    }
+  ],
+  "uUkmGX": [
+    {
+      "type": 0,
+      "value": "exit epoch"
     }
   ],
   "uUy3NQ": [
@@ -6186,7 +7202,7 @@
   "uoKhQB": [
     {
       "type": 0,
-      "value": " ETH를 스테이킹해야 합니다. 이는 초기 잔고를 형성합니다."
+      "value": " BOA를 스테이킹해야 합니다. 이는 초기 잔고를 형성합니다."
     }
   ],
   "vBJ79e": [
@@ -6273,6 +7289,12 @@
       "value": "서명 키를 사용하면 절도범보다 먼저 검증자를 신속하게 종료하고 인출 키를 사용하여 자금을 이체할 수 있습니다."
     }
   ],
+  "vz8WK7": [
+    {
+      "type": 0,
+      "value": "This occurs 256 epochs after the exit epoch, which takes ~27.3 hours."
+    }
+  ],
   "vzJ0Od": [
     {
       "type": 0,
@@ -6287,10 +7309,52 @@
       "value": "에 연결하십시오."
     }
   ],
+  "w0RGXG": [
+    {
+      "type": 0,
+      "value": "These messages are limited to 16 per block ("
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": "), so if more than 16 requests are being made at one time, a queue will be formed and these will be processed in subsequent blocks. This means that immediately following the Withdrawals update, users submitting this message may see delays up to an estimated 2-3 days before this request is processed."
+    }
+  ],
   "w6qYSU": [
     {
       "type": 0,
       "value": "다음 명령을 실행하여 앱을 실행하십시오."
+    }
+  ],
+  "w9Obl9": [
+    {
+      "type": 0,
+      "value": "Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake BOA, a new validator must be activated."
+    }
+  ],
+  "wEY5vW": [
+    {
+      "type": 0,
+      "value": "Similarly, there is also an "
+    },
+    {
+      "type": 1,
+      "value": "exitQueue"
+    },
+    {
+      "type": 0,
+      "value": ", which limits how quickly validators can "
+    },
+    {
+      "type": 1,
+      "value": "leave"
+    },
+    {
+      "type": 0,
+      "value": " the network. This is for security reasons. Given each validator is limited to a max effective balance of 40000 BOA, this prevents large portions of the BOA from potentially being used in an attack and then quickly exiting from the network all at once."
     }
   ],
   "wHvmSN": [
@@ -6324,7 +7388,7 @@
   "waI5ap": [
     {
       "type": 0,
-      "value": "Prysm은 사용성, 보안 및 안정성에 중점을 둔 AGORA 프로토콜의 합의 클라이언트 구현입니다."
+      "value": "Agora-cl은 사용성, 보안 및 안정성에 중점을 둔 AGORA 프로토콜의 합의 클라이언트 구현입니다."
     }
   ],
   "wawegX": [
@@ -6369,6 +7433,28 @@
       "value": "PoS는 현재 아고라의 보안을 책임지는 PoW(작업 증명)보다 더욱 안전하고 탈중앙화되었으며 다양한 환경에 편리하게 사용 가능한 합의 메커니즘입니다. 체인 구축에 기여한 검증자에게는 보상을, 공격자는 예치금 슬래싱으로 페널티를 부여하여 건실한 행동에 인센티브를 줍니다. 이 업그레이드는 이미 아고라 체인의 형태로 활용되고 있습니다."
     }
   ],
+  "wpM7Y5": [
+    {
+      "type": 0,
+      "value": "One of the queues worth noting is a queue that limits how many BLS ("
+    },
+    {
+      "type": 1,
+      "value": "type0"
+    },
+    {
+      "type": 0,
+      "value": ") withdrawal addresses can be updated to an execution address ("
+    },
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": ") during a given block."
+    }
+  ],
   "wqUcy/": [
     {
       "type": 0,
@@ -6405,10 +7491,22 @@
       "value": "메인넷 이전에 현재 테스트넷에서 이 단계를 완료하는 것이 좋습니다."
     }
   ],
+  "xGQ38+": [
+    {
+      "type": 0,
+      "value": "Has the validator completed the exiting process?"
+    }
+  ],
   "xH5GKj": [
     {
       "type": 0,
       "value": "나는 얼리어답터이며, 소프트웨어 및 설계 버그로 인해 슬래싱이 발생할 수 있다는 사실에 동의합니다."
+    }
+  ],
+  "xMOzv2": [
+    {
+      "type": 0,
+      "value": "Anyone wishing to conclude their staking obligations can sign a “voluntary exit” message which is then broadcast to the Beacon Chain to start the process. This is a manual step."
     }
   ],
   "xNHl4F": [
@@ -6513,6 +7611,18 @@
     {
       "type": 0,
       "value": "메가 병합 리소스 목록"
+    }
+  ],
+  "xyfoga": [
+    {
+      "type": 0,
+      "value": "Staking withdrawals"
+    }
+  ],
+  "xzjRos": [
+    {
+      "type": 0,
+      "value": "How to update validator keys"
     }
   ],
   "y44jV2": [
@@ -6625,6 +7735,12 @@
     {
       "type": 0,
       "value": "Agora-el 개발문서에는 클라이언트 다운로드 및 설치 방법이 설명되어 있습니다."
+    }
+  ],
+  "znyxZv": [
+    {
+      "type": 0,
+      "value": "~27 시간"
     }
   ]
 }
