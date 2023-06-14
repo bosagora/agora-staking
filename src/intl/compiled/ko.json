@@ -74,7 +74,7 @@
   "/FGBoc": [
     {
       "type": 0,
-      "value": "This requires use of your mnemonic seed phrase, When entering the mnemonic, it should be done on the offline air-gaped machine."
+      "value": "니모닉을 입력할 때는 오프라인 에어 갭 머신에서 니모닉 시드 문구를 사용해야 합니다."
     }
   ],
   "/FpD8O": [
@@ -86,7 +86,7 @@
   "/OAba6": [
     {
       "type": 0,
-      "value": "Note the “activation” and “exit” queues are independent and do not compete. Each are limited on a per-epoch basis."
+      "value": "'활성화' 대기열과 '종료' 대기열은 독립적이며 서로 경쟁하지 않습니다. 각각 에포크별로 제한됩니다."
     }
   ],
   "/QOisp": [
@@ -148,7 +148,7 @@
   "/e+qAC": [
     {
       "type": 0,
-      "value": "withdrawable epoch"
+      "value": "출금 가능한 에포크"
     }
   ],
   "/jJLYy": [
@@ -252,7 +252,7 @@
   "09ZPhN": [
     {
       "type": 0,
-      "value": "Withdrawal credentials:"
+      "value": "인출 자격증명:"
     }
   ],
   "0FTs1T": [
@@ -288,7 +288,7 @@
   "0U17DC": [
     {
       "type": 0,
-      "value": "withdrawal credentials"
+      "value": "인출 자격 증명"
     }
   ],
   "0c06tl": [
@@ -331,12 +331,12 @@
   ],
   "0wEZ8X": [
     {
-      "type": 0,
-      "value": "Verify on "
-    },
-    {
       "type": 1,
       "value": "NETWORK_NAME"
+    },
+    {
+      "type": 0,
+      "value": "에서 검증"
     }
   ],
   "122+yR": [
@@ -540,13 +540,13 @@
   "2RXbJd": [
     {
       "type": 0,
-      "value": "What factors affect the frequency of payouts?"
+      "value": "지급 빈도에 영향을 미치는 요인은 무엇인가요?"
     }
   ],
   "2XWJdH": [
     {
       "type": 0,
-      "value": "If so, move to next question"
+      "value": "그렇다면 다음 질문으로 이동하세요."
     }
   ],
   "2a1GTh": [
@@ -574,7 +574,7 @@
     },
     {
       "type": 0,
-      "value": ": if you provided a withdrawal address when generating your keys, you're good to go (found under “advanced mode”)"
+      "value": ": 키를 생성할 때 출금 주소를 제공했다면 바로 사용할 수 있습니다(고급 모드 에서 찾을 수 있음)."
     }
   ],
   "2s0gAx": [
@@ -607,6 +607,12 @@
     {
       "type": 0,
       "value": "deposit-cli 도구 설치"
+    }
+  ],
+  "39ZKg5": [
+    {
+      "type": 0,
+      "value": "인출"
     }
   ],
   "3CRtg8": [
@@ -738,7 +744,7 @@
   "40/5Sf": [
     {
       "type": 0,
-      "value": "Note that your "
+      "value": "참고로, "
     },
     {
       "type": 1,
@@ -746,7 +752,7 @@
     },
     {
       "type": 0,
-      "value": " are not the same as your "
+      "value": "이(가) 제안된 블록으로부터 거래 수수료를 수신하는 "
     },
     {
       "type": 1,
@@ -754,7 +760,7 @@
     },
     {
       "type": 0,
-      "value": ", which receives transaction fees from proposed blocks. These can both be set to the same address, but must each be set separately."
+      "value": "와 동일하지 않습니다. 이는 동일한 주소로 설정될 수 있지만 각각 별도로 설정해야 합니다."
     }
   ],
   "44jNmM": [
@@ -818,7 +824,7 @@
   "4kNER3": [
     {
       "type": 0,
-      "value": "Any exit, voluntary or not, must be processed through the exit queue. This is not instantaneous, and depends on how many other accounts are exiting at the same time."
+      "value": "자발적이든 아니든 모든 종료는 종료 대기열을 통해 처리되어야 합니다. 이는 즉각적인 처리가 아니며 동시에 종료하는 다른 계정의 수에 따라 달라집니다."
     }
   ],
   "4l6vz1": [
@@ -830,7 +836,7 @@
   "4uFys5": [
     {
       "type": 0,
-      "value": "Accounts that have been slashed, or have insufficient balance, will be forced to exit according to the network rules. This is automatic and cannot be stopped once initiated."
+      "value": "삭감되었거나 잔액이 부족한 계정은 네트워크 규칙에 따라 강제로 종료됩니다. 이는 자동으로 진행되며 일단 시작되면 중지할 수 없습니다."
     }
   ],
   "4wGlGH": [
@@ -854,13 +860,13 @@
   "57MWKW": [
     {
       "type": 0,
-      "value": "Withdrawals as an operation, not a new transaction type"
+      "value": "새로운 거래 유형이 아닌 작업으로서의 인출"
     }
   ],
   "57h5ur": [
     {
       "type": 0,
-      "value": "Then up to "
+      "value": "그 후 다음 검증자가 전체 인출을 실행하기 위해 스윕할 수 있는 최대 "
     },
     {
       "type": 1,
@@ -868,7 +874,7 @@
     },
     {
       "type": 0,
-      "value": " for the next validator sweep to execute the full withdrawal (assumes "
+      "value": "("
     },
     {
       "type": 1,
@@ -876,7 +882,7 @@
     },
     {
       "type": 0,
-      "value": " withdrawal credentials)"
+      "value": " 인출 자격 증명 가정)"
     }
   ],
   "58PXVy": [
@@ -1114,7 +1120,7 @@
     },
     {
       "type": 0,
-      "value": " - epoch at which your validator is no longer active, no longer earning rewards, and is no longer subject to slashing rules."
+      "value": " - 유효성 검증자가 더 이상 활성화되지 않고, 더 이상 보상을 받지 않으며, 더 이상 슬래싱 규칙의 적용을 받지 않는 시점이 됩니다."
     }
   ],
   "7Rw2uA": [
@@ -1144,7 +1150,7 @@
   "7kWKe0": [
     {
       "type": 0,
-      "value": "The withdrawal queue is automatically filled and processed by block proposers, who automatically check for any available payouts via a sweeping mechanism."
+      "value": "인출 대기열은 블록 제안자가 자동으로 채우고 처리하며, 제안자는 스위핑 메커니즘을 통해 사용 가능한 지급금이 있는지 자동으로 확인합니다."
     }
   ],
   "7n4y3s": [
@@ -1260,13 +1266,13 @@
   "8echXf": [
     {
       "type": 0,
-      "value": "Do not turn your validator off until this epoch is reached."
+      "value": "이 시점에 도달할 때까지 유효성 검증자를 끄지 마세요."
     }
   ],
   "8fXTDo": [
     {
       "type": 0,
-      "value": "Fortunately, this is only a one-time message that needs to be processed, and validators who provided withdrawal credentials at time of deposit are exempt from this step. Once completed, your validator is permanently enabled for withdrawals, and will be eligible for payouts during the next sweep."
+      "value": "다행히도 이 메시지는 한 번만 처리하면 되고, 입금할 때 출금 자격 증명을 제공한 검증자는 이 단계가 면제됩니다. 이 단계가 완료되면 검증자는 영구적으로 출금할 수 있게 되며, 다음 스윕 시 지급받을 수 있습니다."
     }
   ],
   "8k1RjX": [
@@ -1282,7 +1288,7 @@
   "8kLV25": [
     {
       "type": 0,
-      "value": "Has a withdrawal address been provided?"
+      "value": "출금 주소가 제공되었나요?"
     }
   ],
   "8mybVV": [
@@ -1292,7 +1298,7 @@
     },
     {
       "type": 0,
-      "value": " = \"Type 0\" = BLS keys = Old withdrawal credentials: "
+      "value": " = \"Type 0\" = BLS keys = 이전 출금 자격증명: "
     },
     {
       "type": 1,
@@ -1306,13 +1312,13 @@
     },
     {
       "type": 0,
-      "value": " - epoch at which your validator funds are eligible for a full withdrawal during the next validator sweep."
+      "value": " - 다음 검증지 스윕 동안 검증자 자금이 전액 인출될 수 있는 시점입니다."
     }
   ],
   "8uq59n": [
     {
       "type": 0,
-      "value": "Signal your intent to exit staking by signing and broadcasting a voluntary exit message to the network using your validator keys and validator client"
+      "value": "검증자 키 와 검증자 클라이언트(Agora Chain CLI)를 사용하여 자발적 종료 메시지에 서명하고 네트워크에 브로드캐스트하여 스테이킹을 종료하겠다는 의사를 알립니다."
     }
   ],
   "8wd0q5": [
@@ -1406,7 +1412,7 @@
   "9r6K1F": [
     {
       "type": 0,
-      "value": "Not eligible for withdrawals"
+      "value": "출금불가"
     }
   ],
   "9r8j5+": [
@@ -1750,7 +1756,7 @@
   "Cgrsge": [
     {
       "type": 0,
-      "value": "Current validators"
+      "value": "현재 유효성 검증자"
     }
   ],
   "CwO94c": [
@@ -1836,7 +1842,7 @@
   "DOfdhd": [
     {
       "type": 0,
-      "value": "BOSagora users are used to transactions being executed in a manual way—if you want to transfer funds, you have to sign a transaction and pay the gas."
+      "value": "BOSagora 사용자들은 송금을 하려면 거래에 서명하고 가스비를 지불해야 하는 수동 방식의 거래에 익숙해져 있습니다."
     }
   ],
   "DUnyVI": [
@@ -2100,7 +2106,7 @@
   "G0ZD5H": [
     {
       "type": 0,
-      "value": "To make an account eligible for a full withdrawal, the validator account must first be exited. Validator accounts can be exited from staking in two main ways: voluntarily or forcefully."
+      "value": "계정을 전액 인출 할 수 있게 하려면 먼저 검증자 계정을 종료해야 합니다. 검증자 계정에서 스테이킹을 종료하는 방법은 크게 두 가지로, 자발적 또는 강제 종료가 가능합니다."
     }
   ],
   "G0aacl": [
@@ -2178,7 +2184,7 @@
   "Ge62/G": [
     {
       "type": 0,
-      "value": "Excess balance withdrawals (partial withdrawals)"
+      "value": "초과 잔액 인출(부분 인출)"
     }
   ],
   "GelBd9": [
@@ -2271,6 +2277,28 @@
       "value": "슬래싱에는 두 가지 목적이 있습니다. (1) 네트워크를 공격할 엄두도 내지 못할 정도로 비싸게 만들며, (2) 검증자가 의무를 실제로 수행하는지 확인하여 태만을 방지하는 것입니다. 확실히 와해적인 방식으로 행동하여 슬래싱되면 스테이킹한 지분이 파괴됩니다."
     }
   ],
+  "HemvTL": [
+    {
+      "type": 0,
+      "value": "주목할 만한 대기열 중 하나는 주어진 블록 동안 실행 주소("
+    },
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": ")로 업데이트할 수 있는 BLS("
+    },
+    {
+      "type": 1,
+      "value": "type0"
+    },
+    {
+      "type": 0,
+      "value": ") 출금 주소의 수를 제한하는 대기열입니다."
+    }
+  ],
   "Hmxd5S": [
     {
       "type": 0,
@@ -2306,7 +2334,7 @@
   "I3hwdP": [
     {
       "type": 0,
-      "value": "Changing withdrawal credentials"
+      "value": "출금 자격증명 변경"
     }
   ],
   "I5ZPR9": [
@@ -2330,7 +2358,7 @@
   "ID3Pgm": [
     {
       "type": 0,
-      "value": "Maximum number of withdrawals that can be processed in a single block"
+      "value": "단일 블록에서 처리할 수 있는 최대 출금 횟수"
     }
   ],
   "IJw06E": [
@@ -2356,13 +2384,13 @@
   "IWlazt": [
     {
       "type": 0,
-      "value": "full withdrawal"
+      "value": "전체 출금"
     }
   ],
   "IYvwsI": [
     {
       "type": 0,
-      "value": "Tools available for generating key change message"
+      "value": "키 변경 메시지 생성에 사용할 수 있는 도구"
     }
   ],
   "IZFEUg": [
@@ -2394,13 +2422,13 @@
   "IhHhea": [
     {
       "type": 0,
-      "value": "Enter your validator index here to check if you're account is ready for withdrawals or not:"
+      "value": "여기에 유효성 검증자 인덱스를 입력하여 계정이 출금할 준비가 되었는지 확인하세요."
     }
   ],
   "InUvmv": [
     {
       "type": 0,
-      "value": "Beacon chain push withdrawals as operations"
+      "value": "푸시 인출을 작업으로 추가"
     }
   ],
   "IugT5/": [
@@ -2556,7 +2584,7 @@
   "K4TRB7": [
     {
       "type": 0,
-      "value": "The number of validators that can be activated or exited in a given epoch (6.4 minutes) is determined by how many active validators are currently on the network."
+      "value": "하나의 에포크(6분24초)동안에 활성화하거나 종료할 수 있는 유효성 검사기 수는 현재 네트워크에 있는 활성 유효성 검사기 수에 따라 결정됩니다."
     }
   ],
   "KBSbmP": [
@@ -2618,7 +2646,7 @@
   "KQrlTP": [
     {
       "type": 0,
-      "value": "join"
+      "value": "참여"
     }
   ],
   "KbtByh": [
@@ -2814,7 +2842,7 @@
   "M6nefR": [
     {
       "type": 0,
-      "value": "Rate-limits set on withdrawal queue (could change through testing before Shanghai)"
+      "value": "출금 대기열에 설정된 비율 제한"
     }
   ],
   "MCDuJG": [
@@ -2912,7 +2940,7 @@
   "Mne5iM": [
     {
       "type": 0,
-      "value": "If so, stop. "
+      "value": "그러한 경우 중지하십시오. 나머지 잔액에 대해 "
     },
     {
       "type": 1,
@@ -2920,7 +2948,7 @@
     },
     {
       "type": 0,
-      "value": " processed for any remaining balance"
+      "value": "이(가) 처리됩니다."
     }
   ],
   "MoIew2": [
@@ -2958,7 +2986,7 @@
   "NDrMCw": [
     {
       "type": 0,
-      "value": "Total number of validator accounts that have eligible withdrawals (variable)"
+      "value": "적합한 출금이 가능한 유효성 검사자 계정의 총 개수(변수)"
     }
   ],
   "NEmnAV": [
@@ -3084,7 +3112,7 @@
     },
     {
       "type": 0,
-      "value": " = \"Type 1\" = Execution keys = New withdrawal credentials: "
+      "value": " = \"Type 1\" = 실행 키 = 새로운 출금자격증명 "
     },
     {
       "type": 1,
@@ -3094,7 +3122,7 @@
   "NkFxlX": [
     {
       "type": 0,
-      "value": "At least "
+      "value": "종료 에포크에 도달하기 전에 현재 에포크에서 최소 "
     },
     {
       "type": 1,
@@ -3102,7 +3130,7 @@
     },
     {
       "type": 0,
-      "value": " (four epochs) from the current epoch before reaching the exit epoch (with no others in the queue, "
+      "value": "(4 에포크)(대기열에 다른 항목 없음, "
     },
     {
       "type": 1,
@@ -3162,7 +3190,7 @@
   "O4kYrf": [
     {
       "type": 0,
-      "value": "Total number of validator accounts (index count, every validator account ever registered, up-only over time)"
+      "value": "총 유효성 검증자 계정 수(인덱스 수, 지금까지 등록된 모든 유효성 검증자 계정, 시간이 지남에 따라 증가)"
     }
   ],
   "OIvXIO": [
@@ -3197,18 +3225,22 @@
       "value": "Then another "
     },
     {
+      "type": 0,
+      "value": "그 후 해당 자금이 출금 가능한 것으로 표시되기 전의 다른 "
+    },
+    {
       "type": 1,
       "value": "time"
     },
     {
       "type": 0,
-      "value": " (256 epochs) before those funds are flagged as withdrawable"
+      "value": "(256 에포크)"
     }
   ],
   "OSEFbC": [
     {
       "type": 0,
-      "value": "Immediately upon broadcasting a signed voluntary exit message, the "
+      "value": "서명된 자발적 종료 메시지를 브로드캐스팅하는 즉시 "
     },
     {
       "type": 1,
@@ -3216,7 +3248,7 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": " 및 "
     },
     {
       "type": 1,
@@ -3224,7 +3256,7 @@
     },
     {
       "type": 0,
-      "value": " values are calculated based off the current epoch number. These values determine exactly when the validator will no longer be required to be online performing validation, and when the validator is eligible for a full withdrawal respectively."
+      "value": " 값은 현재 에포크 수를 기반으로 계산됩니다. 이 값은 검증자가 더 이상 온라인에서 유효성 검사를 수행하지 않아도 되는 시기와 검증자가 전체 인출에 적합한 시기를 정확히 결정합니다."
     }
   ],
   "OXo7cj": [
@@ -3324,13 +3356,13 @@
   "PQgBnI": [
     {
       "type": 0,
-      "value": "This epoch is determined by the first available epoch that isn't already maxed out with other validators exiting (rate limit depends on total validators on the network), and must be at least four (4) epochs after the exit was initiated."
+      "value": "이 에포크는 다른 유효성 검증자가 종료되어 아직 최대치에 도달하지 않은 첫 번째 사용 가능한 에포크에 의해 결정되며(속도 제한은 네트워크의 총 유효성 검증자에 따라 다름), 종료가 시작된 후 최소 4 에포크가 지나야 합니다."
     }
   ],
   "PQzdUP": [
     {
       "type": 0,
-      "value": "A decision tree is followed to determine what type of withdrawal will be initiated. If the validator being checked has BOA that is eligible to be withdrawn, it is added to the withdrawal queue. If there isn’t, the account is skipped."
+      "value": "의사 결정 트리를 따라 어떤 유형의 인출이 시작될지 결정합니다. 확인 중인 유효성 검증자에 인출할 수 있는 BOA가 있으면 인출 대기열에 추가됩니다. 그렇지 않은 경우 해당 계정은 건너뛰게 됩니다."
     }
   ],
   "PfoT0C": [
@@ -3494,7 +3526,7 @@
   "QcnkjI": [
     {
       "type": 0,
-      "value": "If your validator account still has BLS withdrawal credentials ("
+      "value": "유효성 검사기 계정에 여전히 BLS 출금 자격증명 ("
     },
     {
       "type": 1,
@@ -3502,7 +3534,7 @@
     },
     {
       "type": 0,
-      "value": "), a one-time message must be broadcast signaling which execution layer account should be used for all withdrawals."
+      "value": ")이 있는 경우, 모든 출금에 어떤 실행 계층 계정을 사용해야 하는지 알리는 일회성 메시지를 브로드캐스트해야 합니다."
     }
   ],
   "QdcDzb": [
@@ -3568,7 +3600,7 @@
     },
     {
       "type": 0,
-      "value": ": if you used the "
+      "value": ": 키를 생성할 때 "
     },
     {
       "type": 1,
@@ -3576,7 +3608,7 @@
     },
     {
       "type": 0,
-      "value": " flag when generating your keys, you're good to go"
+      "value": " 플래그를 설정하면 키를 생성할 수 있습니다."
     }
   ],
   "R7JSpN": [
@@ -3612,7 +3644,7 @@
   "RNky8I": [
     {
       "type": 0,
-      "value": "It tools will assist you in generating the necessary keys and message to sign. Signed messages can be broadcast for inclusion into blocks starting with the Withdrawals update."
+      "value": "이 도구는 서명에 필요한 키와 메시지를 생성하는 데 도움을 줍니다. 서명된 메시지는 인출 업데이트부터 블록에 포함되도록 브로드캐스트할 수 있습니다."
     }
   ],
   "ROHpFF": [
@@ -3728,7 +3760,7 @@
   "SVUntz": [
     {
       "type": 0,
-      "value": "Note that once a user has "
+      "value": "참고로 사용자가 "
     },
     {
       "type": 1,
@@ -3736,7 +3768,7 @@
     },
     {
       "type": 0,
-      "value": " withdrawal credentials and has broadcast a voluntary exit, there is no further action required until the processing is complete."
+      "value": " 출금 자격 증명을 갖고 있으며 자발적인 탈퇴를 알리면 처리가 완료될 때까지 추가 조치는 필요하지 않습니다."
     }
   ],
   "SaR1pU": [
@@ -3827,6 +3859,12 @@
       "value": "을(를) 사용하여 python3를 설치할 수 있습니다."
     }
   ],
+  "Su0UFr": [
+    {
+      "type": 0,
+      "value": "대기열 종료 요약"
+    }
+  ],
   "Svnahr": [
     {
       "type": 0,
@@ -3842,7 +3880,7 @@
   "T13XOJ": [
     {
       "type": 0,
-      "value": "As of the Withdrawals update have been enabled on the Agora Network. Agora Improvement enables rewards to be automatically withdrawn to the execution layer, and also provides a way for exited validators to unlock their entire balance—no gas required."
+      "value": "아고라 네트워크에서 인출 업데이트가 활성화되었습니다. 아고라 업그레이드를 통해 보상이 자동으로 실행 레이어로 인출될 수 있으며, 퇴장한 검증자가 가스 없이 전체 잔액을 잠금 해제할 수 있는 방법도 제공됩니다."
     }
   ],
   "T2O2Gr": [
@@ -3904,7 +3942,7 @@
   "Tloufp": [
     {
       "type": 0,
-      "value": "Those looking to exit their validator from staking and withdrawal their BOA should check out the guide below that matches your setup:"
+      "value": "검증자를 스테이킹에서 종료하고 BOA를 인출 하고자 하는 경우, 아래 가이드를 참고하여 설정에 맞는 가이드를 확인하시기 바랍니다."
     }
   ],
   "ToUcj8": [
@@ -3936,7 +3974,7 @@
   "U0QXlZ": [
     {
       "type": 0,
-      "value": "As noted above, this step is completed by signing a message known as "
+      "value": "위에서 언급했듯이 이 단계는 "
     },
     {
       "type": 1,
@@ -3944,7 +3982,7 @@
     },
     {
       "type": 0,
-      "value": ". These are accepted into blocks as of the first slot after the Withdrawals update upgrade."
+      "value": " 라는 메시지에 서명하는 것으로 완료됩니다. 이는 출금 업데이트 업그레이드 후 첫 번째 슬롯부터 블록으로 승인됩니다."
     }
   ],
   "UHbYCa": [
@@ -3966,19 +4004,19 @@
   "UYRyWv": [
     {
       "type": 0,
-      "value": "Mechanics of withdrawals: How they work"
+      "value": "인출 메커니즘: 작동 방식"
     }
   ],
   "UYoRgC": [
     {
       "type": 0,
-      "value": "Depending how you set up your initial deposit, your account may or may not be ready for withdrawals already:"
+      "value": "초기 입금을 어떻게 설정했는지에 따라 계정이 이미 인출할 준비가 되어 있을 수 도 있고 아닐 수 도 있습니다."
     }
   ],
   "UZkvC5": [
     {
       "type": 0,
-      "value": "Up until this epoch (while \"in the queue\") your validator is expected to be online and is held to the same slashing rules as always."
+      "value": "이 시점까지('대기열에 있는 동안') 유효성 검증자는 온라인 상태일 것으로 예상되며, 평소와 동일한 슬래싱 규칙이 적용됩니다. 이 에포크에 도달할 때까지 유효성 검증자를 끄지 마세요."
     }
   ],
   "UeIdTL": [
@@ -4124,15 +4162,7 @@
   "VSe752": [
     {
       "type": 0,
-      "value": "An "
-    },
-    {
-      "type": 1,
-      "value": "excessBalanceWithdrawal"
-    },
-    {
-      "type": 0,
-      "value": " is processed when an active validator has a maxed out effective balance of 40000, and has a total balance over 40000. A single validator cannot get rewards on excess balance over 40000 BOA, and thus these accounts will have any extra balance automatically withdrawn to their BOA address."
+      "value": "초과 잔액 인출은 활성 검증자의 유효 잔액이 최대 40000 BOA 이고 총 잔액이 40000 BOA 를 초과할 때 처리됩니다. 한 명의 검증인이 40000 BOA 를 초과하는 초과 잔액에 대해 보상을 받을 수 없으므로, 해당 계정의 초과 잔액은 자동으로 BOA 주소로 인출됩니다."
     }
   ],
   "VUuZsb": [
@@ -4168,7 +4198,7 @@
   "W1mus6": [
     {
       "type": 0,
-      "value": "Once a signed voluntary exit message is broadcast, it takes:"
+      "value": "서명된 자발적 퇴장 메시지가 브로드캐스트되면 다음 작업이 수행됩니다."
     }
   ],
   "W1nRMy": [
@@ -4488,7 +4518,7 @@
     },
     {
       "type": 0,
-      "value": "개의 검증자 각각에 대한 키스토어를 저장해야 합니다. 이는 안전하게, 가급적 오프라인으로 보관하세요. 검증자 키스토어는 선택된 디렉터리에서 찾을 수 있습니다.\n"
+      "value": "개의 검증자 각각에 대한 키스토어를 저장해야 합니다. 이는 안전하게, 가급적 오프라인으로 보관하세요. 검증자 키스토어는 선택된 디렉터리에서 찾을 수 있습니다."
     }
   ],
   "YTNPFn": [
@@ -4540,13 +4570,13 @@
   "YeJh+/": [
     {
       "type": 0,
-      "value": "By completing step one, you’ll enable withdrawals from your validator account. This will automatically trigger excess balance payments (partial withdrawals) to be processed, but this does not automatically unlock the rest of your funds, or trigger an exit from the network."
+      "value": "1단계를 완료하면 검증인 계정에서 인출을 활성화할 수 있습니다. 이렇게 하면 초과 잔액 결제(부분 인출)가 자동으로 처리되지만, 나머지 자금이 자동으로 잠금 해제되거나 네트워크에서 종료되는 것은 아닙니다."
     }
   ],
   "Yg8vug": [
     {
       "type": 0,
-      "value": "Make sure you’ve updated your withdrawal credentials with an execution withdrawal address"
+      "value": "실행 출금 주소로 출금 자격 증명을 업데이트했는지 확인하세요."
     }
   ],
   "Yganfl": [
@@ -4662,7 +4692,7 @@
   "Zq8OcA": [
     {
       "type": 0,
-      "value": "Is the effective balance maxed out at 40000?"
+      "value": "유효 잔액이 최대 40000으로 제한되어 있나요?"
     }
   ],
   "ZsXdlw": [
@@ -4686,7 +4716,7 @@
   "a/140i": [
     {
       "type": 0,
-      "value": "Exit queue and activation queue"
+      "value": "대기열 종료 및 활성화 대기열"
     }
   ],
   "aDomwX": [
@@ -4726,7 +4756,7 @@
   "aR50Oc": [
     {
       "type": 0,
-      "value": "To exit staking and fully withdrawal your entire remaining balance, you must do two things:"
+      "value": "스테이킹을 종료하고 남은 잔액 전체를 완전히 인출 하려면 다음 두 가지를 수행해야 합니다."
     }
   ],
   "aXT3iO": [
@@ -4792,7 +4822,7 @@
   "b5LQY1": [
     {
       "type": 0,
-      "value": "Note the “withdrawal” and “BLS-to-execution” queues are independent and do not compete. Each are limited on a per-block basis."
+      "value": "\"출금\" 대기열과 \"BLS-실행\" 대기열은 독립적이며 경쟁하지 않습니다. 각각 블록 단위로 제한됩니다."
     }
   ],
   "bB1mmI": [
@@ -4872,7 +4902,7 @@
   "bugMfW": [
     {
       "type": 0,
-      "value": "If not, move to next question"
+      "value": "그렇지 않으면 다음 질문으로 이동"
     }
   ],
   "bxU6sX": [
@@ -4885,6 +4915,12 @@
     {
       "type": 0,
       "value": "검증자 클라이언트란 무엇입니까?"
+    }
+  ],
+  "cJ9MRI": [
+    {
+      "type": 0,
+      "value": "한 번에 16건 이상의 요청이 발생하면 대기열이 형성되고 이후 블록에서 처리됩니다. 완료되면 검증인은 영구적으로 출금할 수 있게 되며, 다음 정리시 지급받을 수 있습니다."
     }
   ],
   "cRzxes": [
@@ -4920,13 +4956,13 @@
   "cdkI09": [
     {
       "type": 0,
-      "value": "How each validator is evaluated for withdrawals"
+      "value": "출금에 대한 각 검증자의 평가 방법"
     }
   ],
   "chsS1X": [
     {
       "type": 0,
-      "value": "If not, stop. No withdrawal will be processed and account skipped"
+      "value": "그렇지 않다면 중단하세요. 인출이 처리되지 않고 계정이 건너뛰어집니다."
     }
   ],
   "chw27s": [
@@ -5006,7 +5042,7 @@
   "dLE9FH": [
     {
       "type": 0,
-      "value": "If not, no withdrawal will be processed and account skipped"
+      "value": "그렇지 않은 경우 출금이 처리되지 않고 계정이 건너뛰게 됩니다."
     }
   ],
   "dM/KIM": [
@@ -5150,7 +5186,7 @@
   "eTenzU": [
     {
       "type": 0,
-      "value": "activation queue"
+      "value": "활성화 대기열"
     }
   ],
   "eUhTs+": [
@@ -5262,7 +5298,7 @@
   "fLeOZb": [
     {
       "type": 0,
-      "value": "On a never-ending loop, every single validator account is continuously evaluated for eligible BOA withdrawals (of which there are two types, more on this below). Validators are processed in order by index number, originally starting at 0, with each subsequent proposer picking up where the last one left off."
+      "value": "모든 검증자 계정은 끝없는 반복을 통해 적격 BOA 인출이 가능한지 지속적으로 평가됩니다(이 중 두 가지 유형이 있으며, 자세한 내용은 아래에서 확인하실 수 있습니다). 검증자는 인덱스 번호 순서대로 처리되며, 원래는 0부터 시작하여 각 후속 제안자는 마지막 제안자가 중단한 부분부터 시작합니다."
     }
   ],
   "fQ5yno": [
@@ -5280,7 +5316,7 @@
   "fRCqob": [
     {
       "type": 0,
-      "value": "Accounts that have fully withdrawn and have a zero balance will be skipped"
+      "value": "완전히 출금되어 잔액이 0원인 계정은 건너뛰게 됩니다."
     }
   ],
   "fSi2R/": [
@@ -5328,7 +5364,7 @@
   "fzrOtJ": [
     {
       "type": 0,
-      "value": "Consensus layer slot timing: 12 seconds (no plans to change)"
+      "value": "합의 레이어 슬롯 타이밍: 12초"
     }
   ],
   "g0zIUd": [
@@ -5352,7 +5388,7 @@
   "gHJegi": [
     {
       "type": 0,
-      "value": "Validators still need to complete their validation duties until they are exited"
+      "value": "유효성 검증자는 종료될 때까지 유효성 검사 업무를 완료해야 합니다."
     }
   ],
   "gIauNz": [
@@ -5376,7 +5412,7 @@
   "gWC0Rt": [
     {
       "type": 0,
-      "value": "Like a clock hand, this process progresses in one direction, and when the last validator is reached, the sweep starts over again from the beginning. At each validator along the way, the account is evaluated for potential withdrawals."
+      "value": "시계 바늘처럼 이 프로세스는 한 방향으로 진행되며, 마지막 검증자에 도달하면 처음부터 다시 스윕이 시작됩니다. 이 과정에서 각 유효성 검증자에서 계정의 잠재적 인출 여부를 평가합니다."
     }
   ],
   "gjBiyj": [
@@ -5460,7 +5496,7 @@
   "gzXQDW": [
     {
       "type": 0,
-      "value": "Withdrawable epoch"
+      "value": "인출 가능한 에포크"
     }
   ],
   "h/n5+N": [
@@ -5478,7 +5514,7 @@
   "hCwX6+": [
     {
       "type": 0,
-      "value": "BLS To Execution Change (BTEC) queue"
+      "value": "BLS에서 실행 변경(BTEC) 대기열"
     }
   ],
   "hEefkz": [
@@ -5652,7 +5688,7 @@
   "iK1COM": [
     {
       "type": 0,
-      "value": "Accounts without updated withdrawal credentials will be skipped"
+      "value": "출금 자격 증명을 업데이트하지 않은 계정은 건너뛰게 됩니다."
     }
   ],
   "iMvXLd": [
@@ -5688,7 +5724,7 @@
   "io35su": [
     {
       "type": 0,
-      "value": "Exit from staking"
+      "value": "스테이킹 종료"
     }
   ],
   "ioj2Sj": [
@@ -5700,7 +5736,7 @@
   "iouULJ": [
     {
       "type": 0,
-      "value": "Number of empty slots (missed block opportunities, variable, typically minimal)"
+      "value": "빈 슬롯 수(누락된 블록 기회, 변수, 일반적으로 최소)"
     }
   ],
   "irRdC0": [
@@ -5746,7 +5782,7 @@
   "iziGmW": [
     {
       "type": 0,
-      "value": "Active accounts with an effective balance or total balance less than 40000 will be skipped"
+      "value": "유효 잔액 또는 총 잔액이 40000 미만인 활성 계정은 건너뛰게 됩니다."
     }
   ],
   "j8GPOH": [
@@ -5850,21 +5886,17 @@
   "k/4DOL": [
     {
       "type": 0,
-      "value": "Full withdrawal"
+      "value": "전체 출금"
     }
   ],
   "k8bkck": [
-    {
-      "type": 0,
-      "value": "EIP-4895, titled "
-    },
     {
       "type": 1,
       "value": "eip4895"
     },
     {
       "type": 0,
-      "value": ", implements a design that simplified this whole process for stakers."
+      "value": "라고 하는 EIP-4895는 스테이커를 위해 이 전체 프로세스를 단순화하는 설계를 구현합니다."
     }
   ],
   "kFS5Sd": [
@@ -5972,7 +6004,7 @@
   "l4sDVJ": [
     {
       "type": 0,
-      "value": "exit queue"
+      "value": "대기열 종료"
     }
   ],
   "l5XCJW": [
@@ -5996,15 +6028,15 @@
   "l926sJ": [
     {
       "type": 0,
-      "value": "If so, "
-    },
-    {
-      "type": 1,
-      "value": "excessBalanceWithdrawal"
+      "value": "그렇다면"
     },
     {
       "type": 0,
-      "value": " processed"
+      "value": " 초과 잔액 인출"
+    },
+    {
+      "type": 0,
+      "value": "이 처리 됩니다."
     }
   ],
   "lD66ab": [
@@ -6162,7 +6194,7 @@
   "m+6CHW": [
     {
       "type": 0,
-      "value": "These are also referred to as “partial withdrawals” or “reward payments” as the remaining 40000 BOA stays locked and staked."
+      "value": "나머지 40000 BOA는 잠긴 채로 스테이킹되어 있으므로 이를 \"부분 인출\" 또는 \"보상 지급\"이라고도 합니다."
     }
   ],
   "mA/8Vc": [
@@ -6204,7 +6236,7 @@
   "mcyp2f": [
     {
       "type": 0,
-      "value": "More on frequency of payouts below."
+      "value": "아래에서 지급 빈도에 대해 자세히 알아보세요."
     }
   ],
   "mhyltV": [
@@ -6228,7 +6260,7 @@
   "muV9Fg": [
     {
       "type": 0,
-      "value": "New validators (not yet deposited)"
+      "value": "신규 검증자(아직 입금전)"
     }
   ],
   "n1UDeZ": [
@@ -6240,19 +6272,19 @@
   "n2Dn3F": [
     {
       "type": 0,
-      "value": "Withdrawal queue"
+      "value": "인출 대기열"
     }
   ],
   "n4o1vR": [
     {
       "type": 0,
-      "value": "How to exit from staking (full withdrawals)"
+      "value": "스테이킹에서 탈퇴하는 방법(전체 인출)"
     }
   ],
   "n5PQND": [
     {
       "type": 0,
-      "value": "Exit epoch"
+      "value": "에포크 종료"
     }
   ],
   "nHCqbh": [
@@ -6312,7 +6344,7 @@
   "naHAvS": [
     {
       "type": 0,
-      "value": "Enabling withdrawals"
+      "value": "인출 활성화"
     }
   ],
   "ncpL2s": [
@@ -6361,10 +6393,16 @@
       "value": " 에서 노드를 실행하는 방법"
     }
   ],
-  "o9rUg+": [
+  "o9QvTP": [
     {
       "type": 0,
       "value": "시작하기 전에"
+    }
+  ],
+  "o9rUg+": [
+    {
+      "type": 0,
+      "value": "출금 활성화됨"
     }
   ],
   "oAH54o": [
@@ -6506,7 +6544,7 @@
   "pWuGLy": [
     {
       "type": 0,
-      "value": "When a validator is scheduled to propose the next block, it performs a sweep of validator accounts looking for eligible withdrawals. During the sweep, the validator will check a max of 16,384 accounts, attempting to find 16 available withdrawals to be processed in the next block."
+      "value": "검증자가 다음 블록을 제안할 예정일 때, 검증자는 적격 출금을 찾기 위해 검증자 계정 스윕을 수행합니다. 스윕하는 동안 검증자는 최대 16,384개의 계정을 확인하여 다음 블록에서 처리할 수 있는 16개의 출금을 찾으려고 시도합니다."
     }
   ],
   "pXyH++": [
@@ -6518,7 +6556,7 @@
   "pZ5VaW": [
     {
       "type": 0,
-      "value": "The block producer then checks the next validator in line, and once again determines if a withdrawal needs to be processed or not. This process is repeated until either 16 eligible withdrawals have been found. At that point, the withdrawal queue is sent to the execution layer to be included at the end of the next block."
+      "value": "그런 다음 블록 생성자는 다음 검증자를 확인하고 출금 처리 여부를 다시 한 번 결정합니다. 이 과정은 16개의 적격 출금이 발견될 때까지 반복됩니다. 이 시점에서 출금 대기열은 다음 블록의 끝에 포함되도록 실행 레이어로 전송됩니다."
     }
   ],
   "pfJX2D": [
@@ -6600,7 +6638,7 @@
   "qBorVY": [
     {
       "type": 0,
-      "value": "Exit epoch and withdrawable epoch"
+      "value": "종료 및 출금이 가능한 에포크"
     }
   ],
   "qDvaNm": [
@@ -6688,15 +6726,7 @@
   "r/G+qN": [
     {
       "type": 0,
-      "value": "A "
-    },
-    {
-      "type": 1,
-      "value": "fullWithdrawal"
-    },
-    {
-      "type": 0,
-      "value": " is processed for any inactivated validators that are no longer considered to be staking, that have fully exited from their validation responsibilities. Thus for a validator to fully withdraw its balance, it must first complete the process of exiting."
+      "value": "더 이상 스테이킹으로 간주되지 않고 검증 책임에서 완전히 종료된 비활성화된 검증자에 대해 전체 출금이 처리됩니다. 따라서 검증자의 잔액을 완전히 출금하려면 먼저 종료 절차를 완료해야 합니다."
     }
   ],
   "r2j8jL": [
@@ -6832,7 +6862,7 @@
   "rvEw8X": [
     {
       "type": 0,
-      "value": "For your validator to be capable of withdrawals of any kind, a withdrawal address must be provided and registered to your account on the Agora Network. This should be an address you control, and cannot be changed once set."
+      "value": "유효성 검증자가 모든 종류의 출금이 가능하려면 출금 주소가 제공되고 아고라 네트워크의 계정에 등록되어야 합니다. 이 주소는 회원님이 직접 관리하는 주소여야 하며, 한번 설정하면 변경할 수 없습니다."
     }
   ],
   "rxttyC": [
@@ -6852,7 +6882,7 @@
   "ryhHN4": [
     {
       "type": 0,
-      "value": "It is not possible to manually request specific amounts of BOA to be withdrawn"
+      "value": "특정 금액을 수동으로 인출하도록 요청할 수 없습니다."
     }
   ],
   "s6gImC": [
@@ -6882,7 +6912,7 @@
   "sZK38z": [
     {
       "type": 0,
-      "value": "Instead of a new transaction type being used for stakers to manually request withdrawals, accounts are automatically checked for eligible excess balance every few days. All validators are checked on an endless loop, and any available rewards or exited funds are automatically “pushed” into a provided withdrawal account."
+      "value": "스테이커가 수동으로 인출을 요청하기 위해 새로운 거래 유형을 사용하는 대신, 며칠마다 계정에 적격 초과 잔액이 있는지 자동으로 확인합니다. 모든 검증자는 무한 반복으로 확인되며, 사용 가능한 보상이나 인출된 자금은 자동으로 지정된 출금 계정으로 \"푸시\"됩니다."
     }
   ],
   "saDFoR": [
@@ -6934,7 +6964,7 @@
   "smd9Oc": [
     {
       "type": 0,
-      "value": "Validator index"
+      "value": "검증자 인덱스"
     }
   ],
   "snDnHn": [
@@ -6982,7 +7012,7 @@
   "tWoq1e": [
     {
       "type": 0,
-      "value": "Maximum number of accounts that can be checked in a block. Stops when 16 withdrawals are found. If 16 eligible rewards are not found in the first 16,384 accounts checked, the withdrawal queue for that block will be submitted as is, and the following proposer will pick up where this left off."
+      "value": "한 블록에서 확인할 수 있는 최대 계좌 수입니다. 16개의 인출이 발견되면 중지됩니다. 처음 확인된 16,384개의 계정에서 16개의 적격 보상을 찾지 못하면 해당 블록의 출금 대기열은 그대로 제출되며, 다음 제안자가 이 블록의 중단된 부분을 이어받게 됩니다."
     }
   ],
   "teyxVk": [
@@ -7008,7 +7038,7 @@
   "tjEnDp": [
     {
       "type": 0,
-      "value": "How long the cycle takes to check every account depends on:"
+      "value": "모든 계정을 확인하는 데 걸리는 주기는 다음에 따라 달라집니다:"
     }
   ],
   "tkFTZw": [
@@ -7084,13 +7114,13 @@
   "uAXXOX": [
     {
       "type": 0,
-      "value": "This timing of this last step is variable depending on validator index, current sweep position, and number of validators."
+      "value": "이 마지막 단계의 타이밍은 유효성 검증자 인덱스, 현재 스윕 위치, 유효성 검증자 수에 따라 달라집니다."
     }
   ],
   "uDMtC8": [
     {
       "type": 0,
-      "value": "As anyone who has already gone through the process of activating a validator knows, this process is not automatic, especially if there are a lot of other users trying to join at the same time. This is because the consensus layer uses an "
+      "value": "검증자를 활성화하는 과정을 이미 거쳐본 사람이라면 누구나 알다시피, 이 과정은 자동이 아닙니다. 특히 동시에 많은 다른 사용자가 가입을 시도하는 경우에 더욱 그렇습니다. 이는 합의 계층이 "
     },
     {
       "type": 1,
@@ -7098,7 +7128,7 @@
     },
     {
       "type": 0,
-      "value": " to limit how quickly new validator accounts can "
+      "value": "을(를) 사용하여 새 검증자 계정이 네트워크에 "
     },
     {
       "type": 1,
@@ -7106,7 +7136,7 @@
     },
     {
       "type": 0,
-      "value": " the network."
+      "value": "할 수 있는 속도를 제한하기 때문입니다."
     }
   ],
   "uJzGSb": [
@@ -7144,7 +7174,7 @@
   "uUkmGX": [
     {
       "type": 0,
-      "value": "exit epoch"
+      "value": "에포크 종료"
     }
   ],
   "uUy3NQ": [
@@ -7190,7 +7220,7 @@
     },
     {
       "type": 0,
-      "value": " 디렉터리에서 찾을 수 있습니다.\n"
+      "value": " 디렉터리에서 찾을 수 있습니다."
     }
   ],
   "ukfwum": [
@@ -7292,7 +7322,7 @@
   "vz8WK7": [
     {
       "type": 0,
-      "value": "This occurs 256 epochs after the exit epoch, which takes ~27.3 hours."
+      "value": "이는 종료 에포크 이후 256 에포크 후에 발생하며, 약27시간18분 정도 소요됩니다."
     }
   ],
   "vzJ0Od": [
@@ -7312,7 +7342,7 @@
   "w0RGXG": [
     {
       "type": 0,
-      "value": "These messages are limited to 16 per block ("
+      "value": "이러한 메시지는 ("
     },
     {
       "type": 1,
@@ -7320,7 +7350,7 @@
     },
     {
       "type": 0,
-      "value": "), so if more than 16 requests are being made at one time, a queue will be formed and these will be processed in subsequent blocks. This means that immediately following the Withdrawals update, users submitting this message may see delays up to an estimated 2-3 days before this request is processed."
+      "value": ") 이므로 한 번에 16개 이상의 요청이 접수되면 대기열이 형성되고 이후 블록에서 처리됩니다. 즉, 출금 업데이트 직후 이 메시지를 제출하는 사용자는 요청이 처리되기까지 최대 2~3일 정도 지연될 수 있습니다."
     }
   ],
   "w6qYSU": [
@@ -7332,29 +7362,25 @@
   "w9Obl9": [
     {
       "type": 0,
-      "value": "Once a validator has exited and its full balance has been withdrawn, any additional funds deposited to that validator will automatically be transferred to the withdrawal address during the next validator sweep. To re-stake BOA, a new validator must be activated."
+      "value": "한번 유효성 검증자가 종료되고 전체 잔액이 출금되고 나면, 해당 검증자에  추가 자금을 예치하더라도 다음  스윕시 출금 주소로 자동 이체됩니다. BOA를 다시 스테이킹하려면 새로운 검증자를 활성화해야 합니다."
     }
   ],
   "wEY5vW": [
     {
       "type": 0,
-      "value": "Similarly, there is also an "
-    },
-    {
-      "type": 1,
-      "value": "exitQueue"
+      "value": "마찬가지로 검증자가 네트워크를 "
     },
     {
       "type": 0,
-      "value": ", which limits how quickly validators can "
+      "value": "나갈 수 있는 속도를 제한하는 "
     },
     {
       "type": 1,
-      "value": "leave"
+      "value": "대기열 종료"
     },
     {
       "type": 0,
-      "value": " the network. This is for security reasons. Given each validator is limited to a max effective balance of 40000 BOA, this prevents large portions of the BOA from potentially being used in an attack and then quickly exiting from the network all at once."
+      "value": "도 제공합니다. 이는 보안상 제공됩니다. 각 검증자의 최대 유효 잔액은 40000 BOA로 제한되므로 BOA의 상당 부분이 잠재적인 공격에 사용된 후 네트워크에서 한 번에 빨리 빠져나가지 못하게 방지할 수 있습니다."
     }
   ],
   "wHvmSN": [
@@ -7436,15 +7462,7 @@
   "wpM7Y5": [
     {
       "type": 0,
-      "value": "One of the queues worth noting is a queue that limits how many BLS ("
-    },
-    {
-      "type": 1,
-      "value": "type0"
-    },
-    {
-      "type": 0,
-      "value": ") withdrawal addresses can be updated to an execution address ("
+      "value": "주목할 만한 대기열 중 하나는 주어진 블록 동안 실행 주소("
     },
     {
       "type": 1,
@@ -7452,7 +7470,15 @@
     },
     {
       "type": 0,
-      "value": ") during a given block."
+      "value": ")로 업데이트할 수 있는 BLS("
+    },
+    {
+      "type": 1,
+      "value": "type0"
+    },
+    {
+      "type": 0,
+      "value": ") 출금 주소의 수를 제한하는 대기열입니다."
     }
   ],
   "wqUcy/": [
@@ -7494,7 +7520,7 @@
   "xGQ38+": [
     {
       "type": 0,
-      "value": "Has the validator completed the exiting process?"
+      "value": "유효성 검사자가 종료 프로세스를 완료했습니까?"
     }
   ],
   "xH5GKj": [
@@ -7506,7 +7532,7 @@
   "xMOzv2": [
     {
       "type": 0,
-      "value": "Anyone wishing to conclude their staking obligations can sign a “voluntary exit” message which is then broadcast to the Beacon Chain to start the process. This is a manual step."
+      "value": "스테이킹 의무를 종료하고자 하는 사람은 \"자발적 종료\" 메시지에 서명할 수 있으며, 이 메세지는 자발적 종료 프로세스를 시작하기 위해 Agora 네트워크로 브로드캐스트됩니다. 이것은 수동 작업 입니다."
     }
   ],
   "xNHl4F": [
@@ -7616,13 +7642,13 @@
   "xyfoga": [
     {
       "type": 0,
-      "value": "Staking withdrawals"
+      "value": "스테이킹 인출"
     }
   ],
   "xzjRos": [
     {
       "type": 0,
-      "value": "How to update validator keys"
+      "value": "유효성 검사기의 키를 업데이트하는 방법"
     }
   ],
   "y44jV2": [
