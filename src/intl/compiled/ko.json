@@ -7376,7 +7376,7 @@
     },
     {
       "type": 1,
-      "value": "대기열 종료"
+      "value": "exitQueue"
     },
     {
       "type": 0,
