@@ -505,6 +505,20 @@
       "value": "입니다."
     }
   ],
+  "2A6Wjz": [
+    {
+      "type": 0,
+      "value": "이 플래그를 제공하면 출금 자격 증명에 "
+    },
+    {
+      "type": 1,
+      "value": "type1"
+    },
+    {
+      "type": 0,
+      "value": " 접두사와 출금 주소를 입력하면 계정이 출금할 준비가 되었음을 알 수 있습니다."
+    }
+  ],
   "2CYEJa": [
     {
       "type": 0,
@@ -760,7 +774,7 @@
     },
     {
       "type": 0,
-      "value": "와 동일하지 않습니다. 이는 동일한 주소로 설정될 수 있지만 각각 별도로 설정해야 합니다."
+      "value": "과 동일하지 않습니다. 이는 동일한 주소로 설정될 수 있지만 각각 별도로 설정해야 합니다."
     }
   ],
   "44jNmM": [
@@ -1104,7 +1118,7 @@
   "7GLK15": [
     {
       "type": 0,
-      "value": "Depending which method you use to generate your keys:"
+      "value": "키를 생성하는 데 사용하는 방법에 따라 다릅니다::"
     }
   ],
   "7Iz3JI": [
@@ -3036,7 +3050,7 @@
     },
     {
       "type": 0,
-      "value": ": This is done by using the "
+      "value": ": 이 작업은 "
     },
     {
       "type": 1,
@@ -3044,7 +3058,7 @@
     },
     {
       "type": 0,
-      "value": " flag when generating your keys with the Staking Deposit CLI."
+      "value": " 플래그를 사용하여 키를 생성할 수 있습니다."
     }
   ],
   "NTWnJC": [
@@ -4338,7 +4352,7 @@
   "XIQ0qi": [
     {
       "type": 0,
-      "value": "If you’re preparing to make a deposit to activate a new validator, you can (and should) provide a withdrawal address with your initial deposit. This is done at time of key generation, and is then included in your "
+      "value": "새 유효성 검사기를 활성화하기 위해 입금을 준비하는 경우, 초기 입금과 함께 출금 주소를 제공할 수 있으며, 제공해야 합니다. 이 작업은 키 생성 시 수행되며, 이 작업은 여러분의"
     },
     {
       "type": 1,
@@ -4346,7 +4360,7 @@
     },
     {
       "type": 0,
-      "value": " file which is submitted with your 40000 BOA deposit transaction."
+      "value": " 파일은 40000 BOA 입금 거래와 함께 제출됩니다."
     }
   ],
   "XRxD8r": [
@@ -4552,7 +4566,7 @@
     },
     {
       "type": 0,
-      "value": ": This software is being updated to require users to provide a withdrawal address during key generation. In the meantime, you may have to check “Advanced” during setup to enter a withdrawal address."
+      "value": ": 키를 생성할 때 출금 주소를 제공하면 바로 사용할 수 있습니다."
     }
   ],
   "YZtVDX": [
@@ -6862,7 +6876,7 @@
   "rvEw8X": [
     {
       "type": 0,
-      "value": "유효성 검증자가 모든 종류의 출금이 가능하려면 출금 주소가 제공되고 아고라 네트워크의 계정에 등록되어야 합니다. 이 주소는 회원님이 직접 관리하는 주소여야 하며, 한번 설정하면 변경할 수 없습니다."
+      "value": "유효성 검증자가 모든 종류의 출금이 가능하려면 출금 주소가 제공되고 아고라 네트워크의 계정에 등록되어야 합니다. 이 주소는 사용자가 직접 관리하는 주소여야 하며, 한번 설정하면 변경할 수 없습니다."
     }
   ],
   "rxttyC": [

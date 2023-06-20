@@ -79,8 +79,7 @@ const SubSectionTitle = styled(SectionTitle)`
 `;
 
 export const Withdrawals = () => {
-  const { formatMessage } = useIntl();
-
+  const { formatMessage, locale } = useIntl();
   return (
     <PageTemplate
       title={formatMessage({ defaultMessage: 'Staking withdrawals' })}
@@ -186,7 +185,15 @@ export const Withdrawals = () => {
               <ul>
                 <li>
                   <strong>Agora chain CLI</strong> -{' '}
-                  <Link inline primary to="https://docs.bosagora.org">
+                  <Link
+                    inline
+                    primary
+                    to={
+                      locale === 'ko'
+                        ? 'https://github.com/bosagora/agora-chain/blob/v0.x.x/README-kr.md#%EA%B2%80%EC%A6%9D%EC%9E%90%EC%9D%98-%EB%A6%AC%EC%9B%8C%EB%93%9C%EC%99%80-%EC%98%88%EC%B9%98%EA%B8%88%EC%9D%84-%EC%9D%B8%EC%B6%9C-%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%B0%8F-%EB%A7%A5-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9A%A9'
+                        : 'https://github.com/bosagora/agora-chain/blob/v0.x.x/README-en.md#validator-withdrawals-for-linux-or-macos'
+                    }
+                  >
                     <FormattedMessage defaultMessage="Changing withdrawal credentials" />
                   </Link>
                 </li>
@@ -343,7 +350,15 @@ export const Withdrawals = () => {
               <ul>
                 <li>
                   <strong>Agora chain CLI</strong> -{' '}
-                  <Link inline primary to="https://docs.bosagora.org">
+                  <Link
+                    inline
+                    primary
+                    to={
+                      locale === 'ko'
+                        ? 'https://github.com/bosagora/agora-chain/blob/v0.x.x/README-kr.md#%EA%B2%80%EC%A6%9D%EC%9E%90%EC%9D%98-%EC%97%AD%ED%99%9C-%EC%88%98%ED%96%89%EC%9D%84-%EC%A2%85%EB%A3%8C-%EB%A6%AC%EB%88%85%EC%8A%A4-%EB%B0%8F-%EB%A7%A5-%EC%82%AC%EC%9A%A9%EC%9E%90%EC%9A%A9'
+                        : 'https://github.com/bosagora/agora-chain/blob/v0.x.x/README-en.md#validator-exit-for-linux-or-macos'
+                    }
+                  >
                     <FormattedMessage defaultMessage="Exit from staking" />
                   </Link>
                 </li>
