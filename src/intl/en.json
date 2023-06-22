@@ -2789,9 +2789,6 @@
   "ubKWX8": {
     "message": "Generate key pairs"
   },
-  "uh4rL0": {
-    "message": "Withdrawing your deposit will not be possible until the update planned for after the Merge."
-  },
   "uhapiE": {
     "message": "Ensure your bandwidth can't be throttled and isn't capped so your node stays in sync and will be ready to validate when called."
   },
