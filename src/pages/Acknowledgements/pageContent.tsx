@@ -74,16 +74,6 @@ export const pageContent = {
         <Text size="medium" className="my20">
           <FormattedMessage defaultMessage="This is a non-reversible transaction." />
         </Text>
-        <Text size="medium" className="my20">
-          <FormattedMessage defaultMessage="Withdrawing your deposit will not be possible until the update planned for after the Merge." />
-        </Text>
-        <Link
-          to="https://docs.bosagora.org/updates/agora-merge-update"
-          className="my10"
-          primary
-        >
-          <FormattedMessage defaultMessage="More on the merge" />
-        </Link>
       </>
     ),
     acknowledgementText: (
