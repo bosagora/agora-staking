@@ -177,50 +177,6 @@ export const pageContent = {
       />
     ),
   },
-  [AcknowledgementIdsEnum.commitment]: {
-    title: (
-      <FormattedMessage defaultMessage="Validating is a long-term commitment" />
-    ),
-    content: (
-      <>
-        <Text size="medium" className="my10">
-          <FormattedMessage defaultMessage="Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update." />
-        </Text>
-        <Link
-          to="https://docs.bosagora.org/updates/agora-merge-update"
-          className="my10"
-          primary
-        >
-          <FormattedMessage defaultMessage="More on the merge" />
-        </Link>
-        <Text size="medium" className="my10">
-          <FormattedMessage
-            defaultMessage="With transfers disabled for now, you won't be able to voluntarily exit
-            and then restart later. This means you need to be in it for the long haul."
-          />
-        </Text>
-      </>
-    ),
-    acknowledgementText: (
-      <FormattedMessage
-        defaultMessage="I understand that I {cannotTransfer} my stake for a while, and I
-          {cannotWithdraw} until the merge. I understand that if I exit, I will not be able
-          to rejoin until much later. This is a long term commitment."
-        values={{
-          cannotTransfer: (
-            <BoldCaps>
-              <FormattedMessage defaultMessage="cannot transfer" />
-            </BoldCaps>
-          ),
-          cannotWithdraw: (
-            <BoldCaps>
-              <FormattedMessage defaultMessage="cannot withdraw" />
-            </BoldCaps>
-          ),
-        }}
-      />
-    ),
-  },
   [AcknowledgementIdsEnum.earlyAdoptionRisks]: {
     title: <FormattedMessage defaultMessage="Early adopter risks" />,
     content: (
