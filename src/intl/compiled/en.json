@@ -929,12 +929,6 @@
       "value": "learnMore"
     }
   ],
-  "5CBhpq": [
-    {
-      "type": 0,
-      "value": "Commitment"
-    }
-  ],
   "5H/J84": [
     {
       "type": 0,
@@ -1667,12 +1661,6 @@
     {
       "type": 0,
       "value": "Suggested Fee Recipient"
-    }
-  ],
-  "Bf2QKg": [
-    {
-      "type": 0,
-      "value": "Validating is a long-term commitment"
     }
   ],
   "Bj5yI5": [
@@ -2437,12 +2425,6 @@
     {
       "type": 0,
       "value": "Beacon chain push withdrawals as operations"
-    }
-  ],
-  "IugT5/": [
-    {
-      "type": 0,
-      "value": "cannot transfer"
     }
   ],
   "IwrKbS": [
@@ -4135,28 +4117,6 @@
       "value": "."
     }
   ],
-  "VPpHAq": [
-    {
-      "type": 0,
-      "value": "I understand that I "
-    },
-    {
-      "type": 1,
-      "value": "cannotTransfer"
-    },
-    {
-      "type": 0,
-      "value": " my stake for a while, and I "
-    },
-    {
-      "type": 1,
-      "value": "cannotWithdraw"
-    },
-    {
-      "type": 0,
-      "value": " until the merge. I understand that if I exit, I will not be able to rejoin until much later. This is a long term commitment."
-    }
-  ],
   "VSe752": [
     {
       "type": 0,
@@ -5193,12 +5153,6 @@
       "value": "To maximize security and efficiency of your node, use dedicated hardware to run your clients. This reduces risk of malware exposure and minimizes competition for computing resources, ensuring your node handles the network load and its validator responsibilities at all times."
     }
   ],
-  "elCkOU": [
-    {
-      "type": 0,
-      "value": "More on the merge"
-    }
-  ],
   "eq0/34": [
     {
       "type": 0,
@@ -5357,12 +5311,6 @@
     {
       "type": 0,
       "value": "Consensus layer slot timing: 12 seconds (no plans to change)"
-    }
-  ],
-  "g0zIUd": [
-    {
-      "type": 0,
-      "value": "cannot withdraw"
     }
   ],
   "g37XKP": [
@@ -5695,12 +5643,6 @@
     {
       "type": 0,
       "value": "Running the validator client"
-    }
-  ],
-  "iPRnRG": [
-    {
-      "type": 0,
-      "value": "With transfers disabled for now, you won't be able to voluntarily exit and then restart later. This means you need to be in it for the long haul."
     }
   ],
   "iZuIgB": [
@@ -6997,12 +6939,6 @@
     {
       "type": 0,
       "value": "Validator index"
-    }
-  ],
-  "snDnHn": [
-    {
-      "type": 0,
-      "value": "Transfers between validators and withdrawals aren't possible yet. Withdrawal functionality is currently a top priority, and is planned to be rolled out in the next network upgrade, known as the update."
     }
   ],
   "soCLV+": [

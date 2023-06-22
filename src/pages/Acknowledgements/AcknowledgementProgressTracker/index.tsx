@@ -49,9 +49,6 @@ export const _AcknowledgementProgressTracker = ({
     [AcknowledgementIdsEnum.keyManagement]: formatMessage({
       defaultMessage: 'Key management',
     }),
-    [AcknowledgementIdsEnum.commitment]: formatMessage({
-      defaultMessage: 'Commitment',
-    }),
     [AcknowledgementIdsEnum.earlyAdoptionRisks]: formatMessage({
       defaultMessage: 'Early adoption risks',
     }),
