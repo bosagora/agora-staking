@@ -5667,12 +5667,6 @@
       "value": "Number of empty slots (missed block opportunities, variable, typically minimal)"
     }
   ],
-  "irRdC0": [
-    {
-      "type": 0,
-      "value": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude after the merge and introduction of shard chains. Do your own research before depositing funds."
-    }
-  ],
   "isGKnz": [
     {
       "type": 0,
@@ -6851,6 +6845,12 @@
     {
       "type": 0,
       "value": "Teku can also be configured via a YAML file which is passed in via a few different ways."
+    }
+  ],
+  "sBThBH": [
+    {
+      "type": 0,
+      "value": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude. Do your own research before depositing funds."
     }
   ],
   "sG1jz9": [

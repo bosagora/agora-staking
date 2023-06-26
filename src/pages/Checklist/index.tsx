@@ -434,11 +434,7 @@ export const Checklist = () => {
             <FormattedMessage defaultMessage="Recommendation disclaimer" />
           </Heading>
           <Text className="mt20" color={colors.red.pure}>
-            <FormattedMessage
-              defaultMessage="Hardware suggestions are an ever-evolving target. Current
-                    minimum requirements are likely to increase by an order of magnitude after the merge and
-                    introduction of shard chains. Do your own research before depositing funds."
-            />
+            <FormattedMessage defaultMessage="Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude. Do your own research before depositing funds." />
           </Text>
         </Alert>
         <section>

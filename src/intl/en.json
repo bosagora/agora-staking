@@ -2197,9 +2197,6 @@
   "iouULJ": {
     "message": "Number of empty slots (missed block opportunities, variable, typically minimal)"
   },
-  "irRdC0": {
-    "message": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude after the merge and introduction of shard chains. Do your own research before depositing funds."
-  },
   "isGKnz": {
     "message": "Documentation"
   },
@@ -2648,6 +2645,9 @@
   },
   "s6gImC": {
     "message": "Teku can also be configured via a YAML file which is passed in via a few different ways."
+  },
+  "sBThBH": {
+    "message": "Hardware suggestions are an ever-evolving target. Current minimum requirements are likely to increase by an order of magnitude. Do your own research before depositing funds."
   },
   "sG1jz9": {
     "message": "Why a sliding scale? While we won’t get into the gory details here, the basic intution is that there needs to be a minimum number of validators (and hence a minimum amount of BOA staked) for the network to function properly. So, to incentivize more validators to join, it’s important that the interest rate remains high until this minimum number is reached."
