@@ -95,12 +95,6 @@
       "value": "Beyond the Platform, Making the better world."
     }
   ],
-  "/QPc9s": [
-    {
-      "type": 0,
-      "value": "You can signal your intent to stop validating by signing a voluntary exit message with your validator."
-    }
-  ],
   "/SbhtD": [
     {
       "type": 0,
@@ -337,12 +331,6 @@
     {
       "type": 1,
       "value": "NETWORK_NAME"
-    }
-  ],
-  "122+yR": [
-    {
-      "type": 0,
-      "value": "withdrawal key"
     }
   ],
   "14vTrX": [
@@ -1415,6 +1403,12 @@
       "value": "deposit"
     }
   ],
+  "9oWUO0": [
+    {
+      "type": 0,
+      "value": "This will start the process of ending your commitments on the network. An “exit epoch” will be calculated based on how many other validators are exiting at the same time. When this epoch is reached, your validator account will no longer be eligible for rewards, and will no longer be at risk of losing funds from being offline."
+    }
+  ],
   "9qMyhY": [
     {
       "type": 0,
@@ -2269,6 +2263,12 @@
       "value": "More on the Agora Chain"
     }
   ],
+  "HGbWwj": [
+    {
+      "type": 0,
+      "value": "If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired Ethereum withdrawal address. This address can only be provided once, and cannot be changed again."
+    }
+  ],
   "HMgrdg": [
     {
       "type": 0,
@@ -2319,6 +2319,12 @@
     {
       "type": 0,
       "value": "Support"
+    }
+  ],
+  "HzHGA4": [
+    {
+      "type": 0,
+      "value": "A “withdrawable epoch” will also be calculated, which is 256 epochs after the calculated exit epoch (~27.3 hours later). When this epoch is reached, your validator will be eligible for a full withdrawal of all remaining funds. This full withdraw of funds requires that a withdrawal address be set, and will be automatically transferred in the next validator sweep."
     }
   ],
   "I3JhPS": [
@@ -2463,12 +2469,6 @@
     {
       "type": 0,
       "value": "In other words, to keep you honest, your actions need to have financial consequences."
-    }
-  ],
-  "JApiO1": [
-    {
-      "type": 0,
-      "value": "This is a new change and becomes a requirement at time of the Merge, so be sure you're running both before the upgrade."
     }
   ],
   "JD5p14": [
@@ -2949,16 +2949,6 @@
     {
       "type": 0,
       "value": "Step-by-step guide for how to spin up a node and validator on merge testnets"
-    }
-  ],
-  "MwQZW9": [
-    {
-      "type": 1,
-      "value": "withdrawalCredentials"
-    },
-    {
-      "type": 0,
-      "value": " is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and BOA address withdrawal."
     }
   ],
   "N0rwnt": [
@@ -3563,24 +3553,6 @@
     {
       "type": 0,
       "value": " deposit that was accepted but is being validated on chain. It will be available here when beaconcha.in has confirmed 2048 blocks."
-    }
-  ],
-  "Qxb/P6": [
-    {
-      "type": 0,
-      "value": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade, you can set "
-    },
-    {
-      "type": 1,
-      "value": "ethAddressWithdraw"
-    },
-    {
-      "type": 0,
-      "value": " when running deposit-cli. "
-    },
-    {
-      "type": 1,
-      "value": "boldWarning"
     }
   ],
   "R6z/mc": [
@@ -4777,12 +4749,6 @@
       "value": "Agora Staking Home"
     }
   ],
-  "b4csjU": [
-    {
-      "type": 0,
-      "value": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-    }
-  ],
   "b5LQY1": [
     {
       "type": 0,
@@ -5283,6 +5249,20 @@
       "value": "only stored on one validator machine"
     }
   ],
+  "ffbj96": [
+    {
+      "type": 0,
+      "value": "Do not deposit more than "
+    },
+    {
+      "type": 1,
+      "value": "pricePerValidator"
+    },
+    {
+      "type": 0,
+      "value": " BOA for a single validator. This is not added to the reward."
+    }
+  ],
   "fjTYbp": [
     {
       "type": 0,
@@ -5575,6 +5555,12 @@
       "value": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators receive financial rewards."
     }
   ],
+  "hrJ1oM": [
+    {
+      "type": 0,
+      "value": "You can signal your intent to stop validating by signing a voluntary exit message with your validator at any time."
+    }
+  ],
   "htuNmo": [
     {
       "type": 0,
@@ -5725,6 +5711,12 @@
     {
       "type": 0,
       "value": "Active accounts with an effective balance or total balance less than 40000 will be skipped"
+    }
+  ],
+  "j5U635": [
+    {
+      "type": 0,
+      "value": "BLS withdrawal: By default, the Agora deposit CLI would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format. This format is not compatible with Agora Chain withdrawals and must be updated to BOA address credentials to enable withdrawals."
     }
   ],
   "j8GPOH": [
@@ -5935,6 +5927,12 @@
       "value": "Exited"
     }
   ],
+  "kxAojD": [
+    {
+      "type": 0,
+      "value": "This became a requirement at time of The withdrawals upgrade, so be sure you're running both before staking."
+    }
+  ],
   "l/uCcX": [
     {
       "type": 0,
@@ -6093,28 +6091,6 @@
     {
       "type": 0,
       "value": " directory."
-    }
-  ],
-  "ljWKM1": [
-    {
-      "type": 0,
-      "value": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the "
-    },
-    {
-      "type": 1,
-      "value": "boldWithdrawalKey"
-    },
-    {
-      "type": 0,
-      "value": " derived via mnemonics in "
-    },
-    {
-      "type": 1,
-      "value": "eip2334"
-    },
-    {
-      "type": 0,
-      "value": " format."
     }
   ],
   "ll/zMW": [
@@ -6367,6 +6343,24 @@
     {
       "type": 0,
       "value": "Consensus Layer Agora Node"
+    }
+  ],
+  "oCEG05": [
+    {
+      "type": 0,
+      "value": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the withdrawals upgrade, you can set "
+    },
+    {
+      "type": 1,
+      "value": "ethAddressWithdraw"
+    },
+    {
+      "type": 0,
+      "value": " when running deposit-cli. "
+    },
+    {
+      "type": 1,
+      "value": "boldWarning"
     }
   ],
   "oLxfO1": [
@@ -6789,12 +6783,6 @@
       "value": "."
     }
   ],
-  "rnDgcN": [
-    {
-      "type": 0,
-      "value": "No, you cannot change your withdrawal credentials in top-ups."
-    }
-  ],
   "rs4eqr": [
     {
       "type": 0,
@@ -7201,28 +7189,6 @@
       "value": "Withdrawal credentials"
     }
   ],
-  "vCuVyl": [
-    {
-      "type": 0,
-      "value": "Do not deposit more than "
-    },
-    {
-      "type": 1,
-      "value": "pricePerValidator"
-    },
-    {
-      "type": 0,
-      "value": " BOA for a single validator. It will not add to your rewards and will be locked until the planned "
-    },
-    {
-      "type": 1,
-      "value": "postMerge"
-    },
-    {
-      "type": 0,
-      "value": " update."
-    }
-  ],
   "vEJDo8": [
     {
       "type": 0,
@@ -7503,12 +7469,6 @@
       "value": "staker checklist"
     }
   ],
-  "xQFECD": [
-    {
-      "type": 0,
-      "value": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)."
-    }
-  ],
   "xQrU13": [
     {
       "type": 0,
@@ -7713,6 +7673,16 @@
     {
       "type": 0,
       "value": "More on Lighthouse and Sigma Prime"
+    }
+  ],
+  "zZbcvY": [
+    {
+      "type": 1,
+      "value": "withdrawalCredentials"
+    },
+    {
+      "type": 0,
+      "value": " is a 32-byte field associated with every validator, initially set during deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawal credentials: BLS credentials (Type 0, or 0x00) and execution (BOA address) credentials (Type 1, or 0x01)."
     }
   ],
   "zicXn7": [
