@@ -47,9 +47,6 @@
   "/QOisp": {
     "message": "Beyond the Platform, Making the better world."
   },
-  "/QPc9s": {
-    "message": "You can signal your intent to stop validating by signing a voluntary exit message with your validator."
-  },
   "/SbhtD": {
     "message": "You can also use {homebrew} to install pip3. For the most-up-to-date instructions on installing pip3, and for a direct download link, reference the {docs}"
   },
@@ -137,9 +134,6 @@
   },
   "0wEZ8X": {
     "message": "Verify on {NETWORK_NAME}"
-  },
-  "122+yR": {
-    "message": "withdrawal key"
   },
   "14vTrX": {
     "message": "While validating on the testnet, perform these simulations to learn more about your node, and better prepare yourself for Mainnet:"
@@ -543,6 +537,9 @@
   "9mLaI9": {
     "message": "deposit"
   },
+  "9oWUO0": {
+    "message": "This will start the process of ending your commitments on the network. An “exit epoch” will be calculated based on how many other validators are exiting at the same time. When this epoch is reached, your validator account will no longer be eligible for rewards, and will no longer be at risk of losing funds from being offline."
+  },
   "9qMyhY": {
     "message": "Read options and subcommands documentation"
   },
@@ -889,6 +886,9 @@
   "H6w+Vp": {
     "message": "More on the Agora Chain"
   },
+  "HGbWwj": {
+    "message": "If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired Ethereum withdrawal address. This address can only be provided once, and cannot be changed again."
+  },
   "HMgrdg": {
     "message": "Configure your execution client"
   },
@@ -907,6 +907,9 @@
   },
   "HqRNN8": {
     "message": "Support"
+  },
+  "HzHGA4": {
+    "message": "A “withdrawable epoch” will also be calculated, which is 256 epochs after the calculated exit epoch (~27.3 hours later). When this epoch is reached, your validator will be eligible for a full withdrawal of all remaining funds. This full withdraw of funds requires that a withdrawal address be set, and will be automatically transferred in the next validator sweep."
   },
   "I3JhPS": {
     "message": "Network"
@@ -969,9 +972,6 @@
   },
   "JAiV0o": {
     "message": "In other words, to keep you honest, your actions need to have financial consequences."
-  },
-  "JApiO1": {
-    "message": "This is a new change and becomes a requirement at time of the Merge, so be sure you're running both before the upgrade."
   },
   "JD5p14": {
     "message": "We strongly recommend you go through the entire process on a testnet first to get comfortable before risking real BOA."
@@ -1165,9 +1165,6 @@
   },
   "MoIew2": {
     "message": "Step-by-step guide for how to spin up a node and validator on merge testnets"
-  },
-  "MwQZW9": {
-    "message": "{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawals: BLS withdrawal and BOA address withdrawal."
   },
   "N0rwnt": {
     "message": "{depositFileName} isn't a valid deposit_data JSON file. Try again."
@@ -1374,9 +1371,6 @@
   },
   "Qs/oj3": {
     "message": "You may have an {TICKER_NAME} deposit that was accepted but is being validated on chain. It will be available here when beaconcha.in has confirmed 2048 blocks."
-  },
-  "Qxb/P6": {
-    "message": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "R6z/mc": {
     "message": "{stakingDepositCli}: if you used the {eth1WithdrawalAddress} flag when generating your keys, you're good to go"
@@ -1834,9 +1828,6 @@
   "b3Z2pH": {
     "message": "Agora Staking Home"
   },
-  "b4csjU": {
-    "message": "However, bear in mind that for the foreseeable future, once you’ve exited, there’s no going back."
-  },
   "b5LQY1": {
     "message": "Note the “withdrawal” and “BLS-to-execution” queues are independent and do not compete. Each are limited on a per-block basis."
   },
@@ -2043,6 +2034,9 @@
   "fbiteI": {
     "message": "only stored on one validator machine"
   },
+  "ffbj96": {
+    "message": "Do not deposit more than {pricePerValidator} BOA for a single validator. This is not added to the reward."
+  },
   "fjTYbp": {
     "message": "Agora-cl installation documentation"
   },
@@ -2154,6 +2148,9 @@
   "hjrLbR": {
     "message": "For this, we need active participants - known as validators - to propose, verify, and vouch for the validity of blocks. In exchange, honest validators receive financial rewards."
   },
+  "hrJ1oM": {
+    "message": "You can signal your intent to stop validating by signing a voluntary exit message with your validator at any time."
+  },
   "htuNmo": {
     "message": "Agora-el installation documentation"
   },
@@ -2214,6 +2211,9 @@
   },
   "iziGmW": {
     "message": "Active accounts with an effective balance or total balance less than 40000 will be skipped"
+  },
+  "j5U635": {
+    "message": "BLS withdrawal: By default, the Agora deposit CLI would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format. This format is not compatible with Agora Chain withdrawals and must be updated to BOA address credentials to enable withdrawals."
   },
   "j8GPOH": {
     "message": "Formerly known as Artemis, Teku is a consensus client built to meet institutional needs and security requirements. PegaSys is an arm of ConsenSys, dedicated to building enterprise-ready clients and tools for interacting with the core Ethereum platform."
@@ -2295,6 +2295,9 @@
   "kv1nqx": {
     "message": "Exited"
   },
+  "kxAojD": {
+    "message": "This became a requirement at time of The withdrawals upgrade, so be sure you're running both before staking."
+  },
   "l/uCcX": {
     "message": "You're on the testnet"
   },
@@ -2345,9 +2348,6 @@
   },
   "lVdzDK": {
     "message": "Upload the deposit data file you just generated. The {json} is located in your {validatorKeys} directory."
-  },
-  "ljWKM1": {
-    "message": "BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
   },
   "ll/zMW": {
     "message": "This is a non-reversible transaction."
@@ -2457,6 +2457,9 @@
   },
   "oAH54o": {
     "message": "Consensus Layer Agora Node"
+  },
+  "oCEG05": {
+    "message": "BOA address withdrawal: If you want to withdraw to your Mainnet wallet address (formerly 'BOA' address) after the withdrawals upgrade, you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
   },
   "oLxfO1": {
     "message": "Now that the keys are imported, all that is left to do (assuming your beacon node is already running) is to run the validator client."
@@ -2631,9 +2634,6 @@
     "description": "{strongText} is a warning, bolded for emphasis",
     "message": "The minimum amount that can be slashed is 625 BOA, but {strongText}."
   },
-  "rnDgcN": {
-    "message": "No, you cannot change your withdrawal credentials in top-ups."
-  },
   "rs4eqr": {
     "message": "You may need to top up your validator's balance for two important reasons. If your validator's effective balance is below {PRICE_PER_VALIDATOR} {TICKER_NAME} you won't be earning your full staker rewards. And if it drops as low as {EJECTION_PRICE} {TICKER_NAME} the system will eject your validator."
   },
@@ -2783,9 +2783,6 @@
   "vCHTnu": {
     "message": "Withdrawal credentials"
   },
-  "vCuVyl": {
-    "message": "Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {postMerge} update."
-  },
   "vEJDo8": {
     "message": "Protect your funds using monitoring software, and learn how to handle different real world scenarios."
   },
@@ -2896,9 +2893,6 @@
   "xP6BKs": {
     "message": "staker checklist"
   },
-  "xQFECD": {
-    "message": "There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)."
-  },
   "xQrU13": {
     "message": "Please review the staking checklist prior to proceeding. Use this as a guide to check off tasks as you complete validator setup."
   },
@@ -2981,6 +2975,9 @@
   },
   "zAVb0/": {
     "message": "More on Lighthouse and Sigma Prime"
+  },
+  "zZbcvY": {
+    "message": "{withdrawalCredentials} is a 32-byte field associated with every validator, initially set during deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawal credentials: BLS credentials (Type 0, or 0x00) and execution (BOA address) credentials (Type 1, or 0x01)."
   },
   "zicXn7": {
     "message": "Node security"

@@ -169,7 +169,7 @@ export const FAQ = () => {
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="Do not deposit more than {pricePerValidator} BOA for a single validator. It will not add to your rewards and will be locked until the planned {postMerge} update."
+                defaultMessage="Do not deposit more than {pricePerValidator} BOA for a single validator. This is not added to the reward."
                 values={{
                   pricePerValidator: PRICE_PER_VALIDATOR,
                   postMerge: (
@@ -263,26 +263,16 @@ export const FAQ = () => {
               />
             </Heading>
             <Text className="mt10">
-              <FormattedMessage
-                defaultMessage="You can signal your intent to stop validating by signing a
-                  voluntary exit message with your validator."
-              />
+              <FormattedMessage defaultMessage="You can signal your intent to stop validating by signing a voluntary exit message with your validator at any time." />
+            </Text>
+            <Text className="mt10">
+              <FormattedMessage defaultMessage="This will start the process of ending your commitments on the network. An “exit epoch” will be calculated based on how many other validators are exiting at the same time. When this epoch is reached, your validator account will no longer be eligible for rewards, and will no longer be at risk of losing funds from being offline." />
             </Text>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="However, bear in mind that for the foreseeable future, once
-                  you’ve exited, there’s no going back."
+                defaultMessage="A “withdrawable epoch” will also be calculated, which is 256 epochs after the calculated exit epoch (~27.3 hours later). When this epoch is reached, your validator will be eligible for a full withdrawal of all remaining funds.
+This full withdraw of funds requires that a withdrawal address be set, and will be automatically transferred in the next validator sweep."
               />
-            </Text>
-            <Text className="mt10">
-              <FormattedMessage defaultMessage="There’s no way for you to re-activate your validator, and you won’t be able to transfer or withdraw your funds until the update planned to follow the Merge (which means your funds will remain inaccessible until then)." />
-              <Link
-                className="mt20"
-                to="https://docs.bosagora.org/updates/agora-merge-update"
-                primary
-              >
-                <FormattedMessage defaultMessage="More on the Merge" />
-              </Link>
             </Text>
           </section>
         </section>
@@ -301,7 +291,7 @@ export const FAQ = () => {
             </Text>
             <BlockQuote>
               <Text className="mt20 mb20">
-                <FormattedMessage defaultMessage="This is a new change and becomes a requirement at time of the Merge, so be sure you're running both before the upgrade." />
+                <FormattedMessage defaultMessage="This became a requirement at time of The withdrawals upgrade, so be sure you're running both before staking." />
               </Text>
             </BlockQuote>
             {/* <Link primary to="/merge-readiness">
@@ -691,9 +681,7 @@ export const FAQ = () => {
             </Heading>
             <Text className="mt10">
               <FormattedMessage
-                defaultMessage="{withdrawalCredentials} is a 32-byte field in the deposit, for verifying the
-                  destination of valid withdrawals. Currently, there are two types of
-                  withdrawals: BLS withdrawal and BOA address withdrawal."
+                defaultMessage="{withdrawalCredentials} is a 32-byte field associated with every validator, initially set during deposit, for verifying the destination of valid withdrawals. Currently, there are two types of withdrawal credentials: BLS credentials (Type 0, or 0x00) and execution (BOA address) credentials (Type 1, or 0x01)."
                 values={{
                   withdrawalCredentials: (
                     <Link
@@ -710,40 +698,20 @@ export const FAQ = () => {
             <ol>
               <li>
                 <Text className="mt10">
-                  <FormattedMessage
-                    defaultMessage="BLS withdrawal: By default, deposit-cli would generate withdrawal credentials with the {boldWithdrawalKey} derived via mnemonics in {eip2334} format."
-                    values={{
-                      boldWithdrawalKey: (
-                        <strong>
-                          {formatMessage({
-                            defaultMessage: 'withdrawal key',
-                          })}
-                        </strong>
-                      ),
-                      eip2334: (
-                        <Link
-                          primary
-                          inline
-                          to="https://eips.ethereum.org/EIPS/eip-2334"
-                        >
-                          EIP2334
-                        </Link>
-                      ),
-                    }}
-                  />
+                  <FormattedMessage defaultMessage="BLS withdrawal: By default, the Agora deposit CLI would generate withdrawal credentials with the withdrawal key derived via mnemonics in EIP2334 format. This format is not compatible with Agora Chain withdrawals and must be updated to BOA address credentials to enable withdrawals." />
                 </Text>
               </li>
               <li>
                 <Text className="mt10">
                   <FormattedMessage
                     defaultMessage="BOA address withdrawal: If you want to withdraw to your Mainnet
-                    wallet address (formerly 'BOA' address) after the post-merge cleanup upgrade,
+                    wallet address (formerly 'BOA' address) after the withdrawals upgrade,
                     you can set {ethAddressWithdraw} when running deposit-cli. {boldWarning}"
                     values={{
                       ethAddressWithdraw: (
                         <code>
                           {' '}
-                          {`--eth1_withdrawal_address <YOUR BOA ADDRESS>`}{' '}
+                          {`--withdrawal_address <YOUR BOA ADDRESS>`}{' '}
                         </code>
                       ),
                       boldWarning: (
@@ -764,7 +732,7 @@ export const FAQ = () => {
                 <FormattedMessage defaultMessage="Can I change the withdrawal credentials of my validator after the first deposit?" />
               </Heading>
               <Text className="mt10">
-                <FormattedMessage defaultMessage="No, you cannot change your withdrawal credentials in top-ups." />
+                <FormattedMessage defaultMessage="If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired Ethereum withdrawal address. This address can only be provided once, and cannot be changed again." />
               </Text>
             </section>
           </section>
