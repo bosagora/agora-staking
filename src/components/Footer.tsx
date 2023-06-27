@@ -87,6 +87,9 @@ export const Footer = () => {
             <Link to={routesEnum.FaqPage}>
               <FormattedMessage defaultMessage="FAQ" />
             </Link>
+            <Link to={routesEnum.withdrawals}>
+              <FormattedMessage defaultMessage="withdrawals" />
+            </Link>
             <Link to={routesEnum.termsOfServicePage}>
               <FormattedMessage defaultMessage="Terms of Service" />
             </Link>
