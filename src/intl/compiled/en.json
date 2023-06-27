@@ -2263,12 +2263,6 @@
       "value": "More on the Agora Chain"
     }
   ],
-  "HGbWwj": [
-    {
-      "type": 0,
-      "value": "If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired Ethereum withdrawal address. This address can only be provided once, and cannot be changed again."
-    }
-  ],
   "HMgrdg": [
     {
       "type": 0,
@@ -6553,6 +6547,12 @@
     {
       "type": 0,
       "value": "Deposit summary"
+    }
+  ],
+  "q/uowB": [
+    {
+      "type": 0,
+      "value": "If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired BOA withdrawal address. This address can only be provided once, and cannot be changed again."
     }
   ],
   "q2PJEK": [

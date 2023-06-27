@@ -732,7 +732,7 @@ This full withdraw of funds requires that a withdrawal address be set, and will 
                 <FormattedMessage defaultMessage="Can I change the withdrawal credentials of my validator after the first deposit?" />
               </Heading>
               <Text className="mt10">
-                <FormattedMessage defaultMessage="If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired Ethereum withdrawal address. This address can only be provided once, and cannot be changed again." />
+                <FormattedMessage defaultMessage="If the “BOA withdrawal address” was not provided on initial deposit, you can submit a once-only BLS To Execution Change message signed with your BLS withdrawal keys to specific your desired BOA withdrawal address. This address can only be provided once, and cannot be changed again." />
               </Text>
             </section>
           </section>
