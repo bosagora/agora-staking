@@ -14,6 +14,7 @@ export const TICKER_NAME                = IS_MAINNET ? 'BOA' : 'tBOA';
 export const ETHERSCAN_URL              = IS_MAINNET ? 'https://boascan.io' : 'https://testnet.boascan.io';
 export const BEACONSCAN_URL             = IS_MAINNET ? 'https://agorascan.io/validator' : `https://testnet.agorascan.io/validator`;
 export const BEACONCHAIN_URL            = process.env.REACT_APP_BEACONCHAIN_URL || `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
+export const AGORA_CL_URL             = process.env.REACT_APP_AGORA_CL_URL || `https://${NETWORK_NAME.toLowerCase()}.beaconcha.in`;
 export const FORTMATIC_KEY              = process.env.REACT_APP_FORTMATIC_KEY       || 'pk_test_D113D979E0D3508F';
 export const CONTRACT_ADDRESS           = process.env.REACT_APP_CONTRACT_ADDRESS    || '0x00000000219ab540356cBB839Cbe05303d7705Fa';
 export const MIN_DEPOSIT_CLI_VERSION    = process.env.REACT_APP_MIN_DEPOSIT_CLI_VERSION  || '1.0.0';

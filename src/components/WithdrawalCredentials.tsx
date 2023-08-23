@@ -8,7 +8,7 @@ import { Alert } from './Alert';
 import { Button } from './Button';
 import { Spinner } from './Spinner';
 // Constants
-import { BEACONCHAIN_URL, IS_MAINNET, NETWORK_NAME } from '../utils/envVars';
+import { AGORA_CL_URL, IS_MAINNET, NETWORK_NAME } from '../utils/envVars';
 import { screenSizes } from '../styles/styledComponentsTheme';
 
 const Container = styled.div`
@@ -284,13 +284,13 @@ export const WithdrawalCredentials: FC<IProps> = () => {
   const checkWithdrawalCredentials = async () => {
     setHasError(false);
     setIsLoading(true);
-    const endpoint = `${BEACONCHAIN_URL}/api/v1/validator/${inputValue}`;
+    const endpoint = `${AGORA_CL_URL}/eth/v1/beacon/states/head/validators/${inputValue}`;
     try {
       const response = await fetch(endpoint);
       const { data } = await response.json();
       const withdrawalCredentials = data.length
-        ? data[0].withdrawalcredentials
-        : data.withdrawalcredentials;
+        ? data[0].validator.withdrawal_credentials
+        : data.validator.withdrawal_credentials;
       setValidator({
         validatorIndex: parseInt(inputValue, 10),
         withdrawalCredentials,
